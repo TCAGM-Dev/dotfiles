@@ -1,0 +1,13 @@
+hyprland
+hyprpaper
+waybar
+kitty
+thunar
+rofi
+htop
+wiremix
+hyprpicker
+wl-clipboard
+zsh
+dunst
+grim

@@ -1,0 +1,39 @@
+* {
+    background-color: transparent;
+    text-color: white;
+    font: "Adwaita Mono 11";
+}
+
+window {
+    border: 1;
+    border-color: white;
+    border-radius: 5px;
+    background-color: rgba(29, 29, 29, 0.8);
+    width: 600px;
+}
+
+inputbar {
+    padding: 5px;
+    background-color: rgb(29, 29, 29);
+}
+prompt {
+    enabled: false;
+}
+entry {
+    placeholder: "Type to filter";
+}
+
+listview {
+    border: 1 0 0 0;
+    border-color: white;
+}
+
+element selected {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+element {
+    padding: 5px;
+}
+element-icon {
+    margin: 0 3px 0 0;
+}

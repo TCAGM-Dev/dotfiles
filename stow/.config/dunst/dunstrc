@@ -1,0 +1,9 @@
+[global]
+    font = "Adwaita Mono 11"
+    corner_radius = 5
+    frame_width = 1
+
+[change-appearance]
+    background = "#1D1D1D7F"
+    foreground = "#FFFFFF"
+    frame_color = "#FFFFFF"

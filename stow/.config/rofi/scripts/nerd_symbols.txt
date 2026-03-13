@@ -1,0 +1,10726 @@
+# Scraped on 13-03-2026 from https://nerdfonts.com/cheat-sheet using following script in the console
+# console.log(Array.from(document.querySelectorAll("#glyphCheatSheet .column")).map(el => `${String.fromCodePoint(parseInt(el.querySelector(".codepoint").textContent.replaceAll("-", ""), 16))},${el.querySelector(".class-name").textContent.toLowerCase().replaceAll(/\w+-/g, "").replaceAll(/[^a-z0-9]/g, " ").replaceAll(/\s+/g, " ").replaceAll(/^\s/g, "").replaceAll(/\s$/g, "")}`).join("\n"));
+# Manually adjusted up to line 309: "muted"
+
+󰑹,sd card
+󰦙,qi
+󱟅,ph
+󰥳,om
+󰪳,et
+󰁥,at
+,vk
+,tv television
+,ra
+,qq
+,om
+,js javascript
+,ge galactic empire
+,fa flag
+,at
+,r
+,r
+,d
+󰗀,xml html
+󰖈,wan
+󰖂,vpn
+󰕼,vlc
+󰨛,vhs tape
+󰔙,tie
+󰜡,svg scalable vector graphics
+󰣀,ssh secure shell
+󱑵,rug
+󰏒,owl
+󱄺,ocr optical character recognition
+󱋩,oci
+󰙼,oar
+󰛸,nut
+󰛷,npm node package manager
+󱄅,nix
+󰣳,nas network attached storage
+󰌅,keg
+󰮡,gog galaxy
+󰊢,git
+󰈒,fax
+󰚄,dna
+󰄛,cat
+󰂦,bio
+󰭟,bat
+󰸏,aws amazon web services
+󰵇,atm
+,pi
+,wix
+,vnv
+,usd united states dollar
+,usb
+,ups
+,tty
+,try turkish lira
+,tag
+,spa
+,s15 shower bathtub
+,rub russian ruble
+,rmb renminbi china
+,rev
+,php
+,paw
+,osi
+,ns8
+,npm node package manager
+,mix
+,mdb
+,krw
+,key
+,jpy japanese yen
+,inr
+,ils
+,gem diamond
+,gbp united kingdom great britain pound
+,fly hot air balloon
+,fax
+,fan
+,eur euro
+,egg
+,dog
+,dna
+,dhl
+,dev
+,cut scissors
+,cow
+,cog
+,cny chinese yuan
+,cat
+,cab
+,bug
+,btc bitcoin
+,aws amazon web services
+,adn
+,xd
+,v8 javascript engine
+,qt
+,k6
+,ie internet explorer
+,go golang
+,vr virtual reality
+,go golang
+,db database
+,cu cuda
+⚡,zap lightning bolt
+,tag
+,sun
+,rss feed
+,pin
+,log
+,scale balance
+,cpu
+,bug
+󰫫,zend
+󱔖,yurt
+󱅼,yoga
+󰟿,xmpp
+󰯞,waze
+󰼮,wave
+󰖃,walk
+󱢖,tire
+󰔈,tent
+󰓿,taxi
+󰴺,tank
+󰝢,taco
+󰓣,swim
+󰩱,smog
+󰭉,silo
+󰟬,sass scss
+󰟫,ring
+󰟪,rice
+󰑇,read
+󱕄,rake
+󱐂,pump
+󱓃,polo
+󰐟,poll bar graph
+󰚺,plex
+󱄆,nuxt
+󰟢,null
+󰚤,nuke
+󰷟,nail
+󰍻,more
+󰷚,mine
+󰺻,mail
+󱡃,mace
+󰍆,lumx
+󱅽,leek
+󰌔,kodi
+󰌃,jira
+󰲑,ipod
+󰠩,hulu
+󰋟,hops
+󰫁,hail
+󱉏,gold ingots
+󰈯,film
+󰚴,emby
+󰇥,duck
+󰩁,dlna
+󰣖,cogs
+󰘚,chip
+󰶳,bolt
+󱗆,bird
+󰂡,beta
+󱆃,bash
+󰭞,barn
+󰣇,arch linux
+,w3c
+,hat
+,gut
+,gps
+,dna
+,bed
+,yelp
+,yarn
+,xbox
+,wind
+,wifi
+,waze
+,vine
+,vial
+,usps
+,undo
+,uber
+,tree
+,tint drop
+,taxi
+,tape
+,tags
+,suse
+,smog
+,sith
+,shop
+,ship
+,save
+,sass scss
+,road
+,ring
+,poop
+,plug
+,neos
+,modx
+,mask
+,male
+,lyft
+,leaf
+,jira
+,java
+,imdb
+,home
+,hips
+,gulp
+,grav
+,gift
+,gear
+,frog
+,fish
+,film
+,rss feed
+,etsy
+,ello
+,edit
+,edge microsoft edge
+,ebay
+,dove
+,digg
+,deaf
+,cube
+,crow
+,copy
+,cogs
+,city
+,bong
+,bone
+,bomb
+,lightning bolt zap
+,bold
+,blog
+,bity
+,shower bathtub
+,bank
+,atom
+,ankh
+,zig
+,yii
+,xml
+,vim
+,uml
+,tex
+,ssh secure shell
+,sdl
+,ros
+,php
+,ory
+,npm node package manager
+,nim
+,lua
+,k3s
+,gnu
+,gcc
+,elm
+,bun
+,aws amazon web services
+,awk
+,apl
+,tag
+,rss feed
+,pin
+,scale balance
+,key
+,bug
+,add
+,zip
+,zig
+,yml exclemation mark
+,xml
+,xls excel
+,wgt
+,wat
+,vue
+,tex
+,svg scalable vector graphics
+,sbt
+,pug
+,php
+,pdf
+,nim
+,mdo
+,lua
+,hex
+,go2
+,elm
+,ejs
+,csv spreadsheet
+,css hashtag pound number sign
+,cpp c++ c plus plus
+,bsl
+,asm assembly
+,away
+,sync
+,stop
+,ruby gem diamond
+,rows
+,read envelope open
+,plug
+,play circle
+,note
+,muted
+,moon
+,mail
+,lock
+,info
+,hash
+,goal
+,gift
+,gear
+,dash
+,copy
+,book
+,bold
+,apps
+󰗁,yeast
+󰭏,yahoo
+󰡄,vuejs
+󰕷,vimeo
+󰚯,unity
+󱘆,torch
+󱁤,tools
+󰓞,stove
+󰓓,steam
+󱡅,spear
+󰹥,spade
+󰚍,solid
+󱔎,snake
+󱙷,snail
+󱖥,slide
+󰒱,slack
+󱓹,shore
+󰳆,sheep
+󰶙,rugby
+󰹠,rivet
+󰑑,regex
+󰜈,react
+󰐷,radar
+󰴩,quora
+󰐰,pulse
+󰐉,pizza
+󰢄,peace
+󱅠,pasta
+󰏚,panda
+󰏎,opera
+󰏉,omega
+󱈛,offer
+󰝴,ninja
+󰽜,merge
+󱂄,lungs
+󰍅,loupe
+󰍄,looks
+󰍂,login
+󰼃,lasso
+󱜿,koala
+󰋃,group
+󱔐,grass
+󰵼,grain
+󰊬,gnome
+󰊫,gmail
+󰊛,gavel
+󱃮,gamma
+󰵲,flare
+󰈓,ferry
+󰬰,ember
+󰇢,drone
+󰺞,dolly
+󰚳,dolby
+󰇂,delta
+󱥵,crowd
+󰡢,crane
+󱋧,bulma
+󰶴,bugle
+󰃢,broom
+󰧑,brain
+󰂒,beach
+󰨥,babel
+󰢛,anvil
+󰀥,album
+,qt
+,i3
+,xbox
+,wind
+,tree
+,soup
+,sofa
+,soda
+,ring
+,pear
+,meat
+,lung
+,lips
+,java
+,isle
+,imdb
+,grav
+,ello
+,drop
+,dice
+,comb
+,chip
+,bathtub
+,atom
+,zhihu
+,yoast
+,yahoo
+,xmark
+,whmcs
+,weibo
+,vuejs
+,viber
+,vials
+,uikit
+,typo3
+,tooth
+,tasks
+,swift
+,store
+,stamp
+,spoon
+,socks
+,slash
+,slack
+,skype
+,shirt
+,route
+,robot
+,rebel
+,react
+,radio
+,quora
+,print
+,pills
+,peace
+,paste
+,pager
+,page4
+,otter
+,orcid
+,opera
+,music
+,medrt
+,medal
+,magic
+,lungs
+,linux
+,legal
+,kaaba
+,joint
+,joget
+,inbox
+,igloo
+,icons
+,html5
+,houzz
+,hooli
+,hippo
+,hamsa
+,grunt
+,group
+,globe
+,glass
+,gifts
+,ghost
+,gears
+,gavel
+,flask
+,flash
+,figma
+,fedex
+,ember
+,eject
+,dolly
+,cubes
+,crown
+,cross
+,couch
+,coins
+,close
+,clone
+,child
+,chair
+,brush
+,brain
+,blind
+,bahai
+,bacon
+,award
+,apper
+,500px
+,zend
+,yarn
+,yaml
+,wasm
+,vite
+,vala
+,unix
+,trpc
+,spss
+,sema
+,sass
+,rxjs
+,rust
+,rect
+,qwik
+,pypi
+,pnpm
+,perl
+,p5js
+,okta
+,norg
+,ngrx
+,nano
+,modx
+,mobx
+,maya
+,llvm
+,less
+,ktor
+,k3os
+,jule
+,json
+,jira
+,jest
+,jeet
+,java
+,hugo
+,helm
+,haxe
+,gulp
+,grpc
+,gimp
+,ecto
+,dart
+,d3js
+,bash
+,atom
+,akka
+,c
+,wand
+,send
+,ruby
+,redo
+,plug
+,note
+,mute
+,move
+,menu
+,json
+,info
+,home
+,gift
+,gear
+,game
+,edit
+,dash
+,copy
+,code
+,chip
+,book
+,bold
+,yarn
+,word
+,wasm
+,vala
+,twig
+,todo
+,text
+,slim
+,sass
+,rust
+,ruby
+,plan
+,perl
+,pddl
+,lock
+,less
+,json
+,java
+,jade
+,info
+,html
+,home
+,haxe
+,haml
+,gulp
+,font
+,dart
+,cjsx
+,branch
+,video
+,trash
+,tools
+,table
+,stack
+,reply
+,quote
+,pulse
+,paste
+,meter
+,inbox
+,image
+,hubot
+,graph
+,globe
+,flame
+,cache
+󰵁,zigbee
+󰘑,wechat
+󱉈,webrtc
+󰘏,violin
+󰚰,update
+󰦱,unreal
+󰕈,ubuntu
+󰕃,twitch
+󰳗,turtle
+󱜛,turkey
+󰔲,trello
+󰦫,toilet
+󱔁,symbol
+󰓤,switch
+󰞆,summit
+󱣀,sickle
+󱖤,seesaw
+󰘈,rowing
+󱌧,rodent
+󱁘,robber
+󰑠,ribbon
+󰑙,replay
+󱄛,redhat
+󰑍,reddit
+󰘅,qqchat
+󱦤,pliers
+󰢊,piston
+󰜃,pistol
+󰨈,pirate
+󰜂,pillar
+󰭃,origin
+󰏍,openid
+󰎙,nodejs
+󰦌,muffin
+󱠧,mosque
+󰘩,meteor
+󰍛,memory
+󰘨,matrix
+󰍓,margin
+󰮪,mapbox
+󱤞,liquor
+󰌧,launch
+󰘧,lambda
+󱖢,ladder
+󱃽,khanda
+󰠬,karate
+󰡽,jquery
+󰷕,jabber
+󱁏,island
+󰋺,import
+󰵿,hiking
+󰋈,hanger
+󰮠,gitlab
+󰊤,github
+󰣨,gentoo
+󰹃,gatsby
+󱢗,forest
+󰣛,fedora
+󰱺,eslint
+󰇤,drupal
+󰟂,donkey
+󰩂,doctor
+󰡨,docker
+󰇒,disqus
+󰣚,debian
+󰭿,coffin
+󰠖,clover
+󰅏,clippy
+󰅄,church
+󱄚,centos
+󰄚,castle
+󰄏,carrot
+󰗢,candle
+󰜺,cancel
+󰶵,cactus
+󰃨,cached
+󰳳,bullet
+󰕸,buffet
+󰘘,bridge
+󰀱,anchor
+󰯩,airbag
+󰀚,adjust
+󱛠,abacus
+,tux
+,tor
+,osi
+,osh
+,mpv
+,jwm
+,gtk
+,dwm
+,virus
+,tooth
+,tools
+,tacos
+,sushi
+,storm
+,slash
+,shirt
+,ruler
+,pulse
+,plant
+,pizza
+,peach
+,mysql
+,liver
+,glass
+,dress
+,donut
+,disco
+,crown
+,comet
+,coins
+,cloud
+,carot
+,bread
+,brain
+,bones
+,yammer
+,wrench
+,weixin
+,weebly
+,wechat
+,wallet
+,vihara
+,vaadin
+,upload
+,unlink
+,ubuntu
+,twitch
+,trophy
+,trello
+,supple
+,subway
+,strava
+,spider
+,sleigh
+,sketch
+,signal
+,shower
+,sheqel
+,shapes
+,server
+,sellsy
+,scribd
+,school
+,schlix
+,safari
+,rouble
+,rocket
+,ribbon
+,replyd
+,renren
+,redhat
+,readme
+,random
+,qrcode
+,python
+,pushed
+,paypal
+,pallet
+,palfed
+,openid
+,nimblr
+,neuter
+,mosque
+,monero
+,mizuni
+,mitten
+,meteor
+,memory
+,meetup
+,medkit
+,medium
+,maxcdn
+,marker
+,magnet
+,linode
+,korvue
+,khanda
+,keycdn
+,kaggle
+,joomla
+,italic
+,indent
+,images
+,hotjar
+,hotdog
+,header
+,hammer
+,guitar
+,gofore
+,gittip
+,gitter
+,gitlab
+,flickr
+,female
+,fedora
+,expand
+,erlang
+,eraser
+,equals
+,envira
+,empire
+,dyalog
+,drupal
+,dragon
+,docker
+,dochub
+,divide
+,dedent
+,crutch
+,cpanel
+,contao
+,coffee
+,church
+,chrome
+,cheese
+,centos
+,carrot
+,burger
+,buffer
+,aviato
+,anchor
+,amilia
+,alipay
+,airbnb
+,adjust
+,xcode
+,vyper
+,vuejs
+,vertx
+,vault
+,uwsgi
+,typo3
+,tauri
+,swift
+,stata
+,spack
+,slack
+,scala
+,rspec
+,rider
+,renpy
+,redux
+,redis
+,realm
+,react
+,reach
+,rails
+,putty
+,opera
+,ocaml
+,oauth
+,numpy
+,nuget
+,nomad
+,nixos
+,nginx
+,neo4j
+,mysql
+,msdos
+,mocha
+,maven
+,lumen
+,linux
+,latex
+,keras
+,karma
+,junit
+,julia
+,ionic
+,ifttt
+,html5
+,grunt
+,godot
+,flask
+,figma
+,envoy
+,ember
+,emacs
+,dlang
+,cmake
+,clion
+,canva
+,cairo
+,bulma
+,bower
+,beats
+,babel
+,azure
+,axios
+,astro
+,apple
+,go
+,watch
+,trash
+,tools
+,table
+,snake
+,reply
+,regex
+,quote
+,pulse
+,piano
+,music
+,merge
+,inbox
+,hubot
+,globe
+,flame
+,files
+,blank
+,na
+,video
+,swift
+,shell
+,scala
+,react
+,rails
+,odata
+,ocaml
+,maven
+,karma
+,julia
+,jinja
+,ionic
+,image
+,grunt
+,godot
+,error
+,clock
+,bower
+,bicep
+,bazel
+,babel
+,audio
+,apple
+,upload
+,unread
+,unmute
+,unlock
+,unlink
+,unfold
+,trophy
+,smiley
+,server
+,search
+,rocket
+,report
+,people
+,pencil
+,number
+,mirror
+,italic
+,filter
+,commit
+,beaker
+󰡅,xamarin
+󰜫,webpack
+󰘯,webhook
+󰹭,vuetify
+󰻐,unicode
+󰕐,ungroup
+󰕉,umbraco
+󰯚,ubisoft
+󰕄,twitter
+󱪂,turbine
+󱪁,tsunami
+󱂖,trumpet
+󱊸,toslink
+󰔍,theater
+󰓸,tangram
+󰫦,symfony
+󱝆,surfing
+󱂓,stomach
+󰴹,stamper
+󰓇,spotify
+󰒷,snowman
+󱕅,shimmer
+󰻋,segment
+󰮿,pumpkin
+󱕢,pretzel
+󰐢,popcorn
+󰐡,polymer
+󰦔,podcast
+󰢷,pickaxe
+󰻀,penguin
+󰢂,patreon
+󰏣,parking
+󰏛,pandora
+󰗌,opacity
+󰷠,ocarina
+󱅾,noodles
+󰝆,netflix
+󱘊,manjaro
+󰝲,loading
+󰿃,license
+󱫰,lecturn
+󰫐,laravel
+󰠭,ladybug
+󱍛,klingon
+󰶇,kabaddi
+󰌂,jeepney
+󰴗,hubspot
+󰋚,history
+󰗷,highway
+󰡷,graphql
+󰚆,gondola
+󰊪,glasses
+󰣠,freebsd
+󰊍,forward
+󰈹,firefox
+󰠟,finance
+󱓁,fencing
+󰛓,feather
+󰈏,factory
+󱃠,epsilon
+󰇣,dropbox
+󱢴,dolphin
+󰙯,discord
+󰘜,dialpad
+󰾰,devices
+󰇆,details
+󰡣,curling
+󰥚,cupcake
+󰵭,cricket
+󰆙,counter
+󰥘,cordova
+󱨸,compost
+󰙀,collage
+󰅵,codepen
+󰱏,charity
+󰞭,caravan
+󰧐,braille
+󰃓,bowling
+󰗜,boombox
+󰠓,bitcoin
+󰧋,betamax
+󰶯,bandage
+󰨦,balloon
+󱠗,balcony
+󱄙,antenna
+󱂚,ansible
+󰚲,angular
+󱉘,allergy
+󰡋,airport
+,xorg
+,xfce
+,void
+,sway
+,mate
+,lxqt
+,lxle
+,lxde
+,leap
+,gimp
+,aosc
+,wallet
+,uterus
+,toilet
+,python
+,poison
+,planet
+,orange
+,layers
+,hotdog
+,halter
+,guitar
+,galery
+,galaxy
+,floppy
+,feedly
+,chilli
+,cherry
+,cheese
+,bigger
+,banana
+,wpressr
+,wpforms
+,windows
+,warning
+,volcano
+,viacoin
+,untappd
+,umbraco
+,tractor
+,tornado
+,toolbox
+,themeco
+,tablets
+,syringe
+,symfony
+,support
+,spotify
+,splotch
+,spinner
+,speakap
+,snowman
+,smoking
+,sliders
+,sitemap
+,sistrix
+,signing
+,shuffle
+,rockrms
+,retweet
+,reorder
+,refresh
+,recycle
+,receipt
+,ravelry
+,rainbow
+,podcast
+,percent
+,patreon
+,palette
+,outdent
+,navicon
+,napster
+,message
+,mercury
+,menorah
+,medapps
+,magento
+,leanpub
+,laravel
+,keybase
+,jenkins
+,ioxhost
+,icicles
+,hubspot
+,history
+,headset
+,heading
+,hashtag
+,gopuram
+,glasses
+,gamepad
+,fulcrum
+,freebsd
+,firefox
+,eercast
+,dungeon
+,dropbox
+,disease
+,discord
+,desktop
+,deskpro
+,cutlery
+,columns
+,codepen
+,caravan
+,braille
+,bitcoin
+,bicycle
+,shower bathtub
+,barcode
+,bandage
+,avianex
+,audible
+,archway
+,archive
+,angular
+,android
+,algolia
+,vscode
+,vitest
+,vitess
+,vitejs
+,vercel
+,ubuntu
+,trello
+,travis
+,tomcat
+,swiper
+,svelte
+,stylus
+,sqlite
+,spyder
+,spring
+,splunk
+,sketch
+,sentry
+,sanity
+,safari
+,rollup
+,replit
+,redhat
+,quasar
+,qodana
+,python
+,pytest
+,pulumi
+,pulsar
+,prolog
+,prisma
+,poetry
+,podman
+,plotly
+,pandas
+,packer
+,oracle
+,opengl
+,opencv
+,opencl
+,openal
+,nuxtjs
+,notion
+,nimble
+,nextjs
+,nestjs
+,neovim
+,moodle
+,meteor
+,matlab
+,lodash
+,kotlin
+,knexjs
+,kibana
+,kaggle
+,jquery
+,heroku
+,hadoop
+,groovy
+,grails
+,gradle
+,google
+,goland
+,gitter
+,gitpod
+,gitlab
+,gentoo
+,gazebo
+,gatsby
+,fsharp
+,fedora
+,eslint
+,erlang
+,elixir
+,drupal
+,dotnet
+,docker
+,django
+,denojs
+,debian
+,csharp
+,corejs
+,contao
+,consul
+,codeac
+,chrome
+,ceylon
+,centos
+,carbon
+,blazor
+,bamboo
+,argocd
+,apache
+,vim
+,elm
+,css
+,cpp
+,asm
+,ada
+,window
+,unmute
+,unlock
+,unfold
+,target
+,smiley
+,shield
+,rocket
+,report
+,remove
+,output
+,mirror
+,magnet
+,jersey
+,italic
+,issues
+,insert
+,indent
+,export
+,coffee
+,clippy
+,hot
+,fog
+,svelte
+,stylus
+,spring
+,smarty
+,search
+,rollup
+,python
+,puppet
+,prolog
+,prisma
+,liquid
+,kotlin
+,heroku
+,grails
+,gradle
+,gitlab
+,github
+,folder
+,eslint
+,docker
+,config
+,coffee
+,readonly
+,hostname
+,webhook
+,sliders
+,mention
+,history
+,heading
+,grabber
+,diamond
+,columns
+,browser
+,blocked
+,archive
+󱗺,windsock
+󰖣,whatsapp
+󱑽,waveform
+󱗥,unicycle
+󰯙,triforce
+󰴻,tortoise
+󱏿,tailwind
+󱇖,strategy
+󰓚,stocking
+󰫡,squeegee
+󱟛,soundbar
+󰒶,snapchat
+󰐛,sledding
+󱍿,shuriken
+󰒜,shredder
+󰳅,seatbelt
+󰯀,rollupjs
+󰢌,reminder
+󰿘,protocol
+󰐞,polaroid
+󰐝,pokeball
+󱀅,overscan
+󰼋,necklace
+󱗞,mustache
+󰨆,minidisc
+󰫑,mastodon
+󰩡,litecoin
+󱎵,lipstick
+󰌻,linkedin
+󱑶,lingerie
+󰡾,lifebuoy
+󰽗,latitude
+󰑆,lastpass
+󰢯,kayaking
+󱕘,kangaroo
+󰌄,jsfiddle
+󱋨,iobroker
+󰛤,infinity
+󰋛,hololens
+󰽓,handball
+󰟉,forklift
+󰖾,firewire
+󰥧,firebase
+󰈄,evernote
+󰡪,ethereum
+󰟆,elephant
+󰇦,dumbbell
+󱄦,diabetes
+󰙴,creation
+󱤹,copyleft
+󰧔,cassette
+󰻝,campfire
+󰸔,biathlon
+󰼾,baguette
+,zorin
+,typst
+,tails
+,solus
+,river
+,riscv
+,qtile
+,puppy
+,oshwa
+,nixos
+,locos
+,krita
+,kicad
+,gnome
+,gitea
+,bspwm
+,artix
+,apple
+,line
+,walking
+,stomach
+,snowing
+,smaller
+,restore
+,raining
+,popcorn
+,hexagon
+,cicling
+,benzene
+,whatsapp
+,utensils
+,ussunnah
+,unsorted
+,terminal
+,telegram
+,snowplow
+,skyatlas
+,shopware
+,sellcast
+,seedling
+,scissors
+,restroom
+,passport
+,opencart
+,mountain
+,monument
+,mixcloud
+,minimize
+,mendeley
+,megaport
+,meanpath
+,maximize
+,mastodon
+,markdown
+,language
+,jsfiddle
+,invision
+,intersex
+,intercom
+,infinity
+,industry
+,hornbill
+,hanukiah
+,gripfire
+,gratipay
+,forumbee
+,football
+,exchange
+,evernote
+,ethernet
+,ethereum
+,dumbbell
+,dribbble
+,download
+,diaspora
+,democrat
+,deafness
+,database
+,dashcube
+,compress
+,codiepie
+,capsules
+,cannabis
+,bullseye
+,bullhorn
+,bandcamp
+,asterisk
+,adversal
+,accusoft
+,xamarin
+,windows
+,webpack
+,weblate
+,webflow
+,vuetify
+,vsphere
+,vagrant
+,twitter
+,threejs
+,swagger
+,sublime
+,solidjs
+,rstudio
+,rocksdb
+,rancher
+,railway
+,quarkus
+,pytorch
+,pycharm
+,postman
+,postcss
+,polygon
+,phoenix
+,phalcon
+,pfsense
+,openapi
+,ohmyzsh
+,nodemon
+,netlify
+,mozilla
+,mongodb
+,mithril
+,minitab
+,mariadb
+,magento
+,laravel
+,labview
+,kdeneon
+,jupyter
+,jenkins
+,jasmine
+,haskell
+,hardhat
+,graphql
+,grafana
+,gitbook
+,gatling
+,fortran
+,flutter
+,firefox
+,faunadb
+,fastify
+,fastapi
+,express
+,eclipse
+,dropbox
+,devicon
+,dbeaver
+,crystal
+,couchdb
+,codepen
+,codecov
+,clarity
+,cakephp
+,blender
+,behance
+,arduino
+,ansible
+,angular
+,android
+,algolia
+,aarch64
+,toml
+,ruby
+,home
+,warning
+,twitter
+,sparkle
+,refresh
+,project
+,preview
+,package
+,newline
+,mention
+,loading
+,library
+,inspect
+,history
+,gripper
+,grabber
+,exclude
+,discard
+,copilot
+,combine
+,browser
+,archive
+,account
+,smog
+,hail
+,fire
+,dust
+,webpack
+,sublime
+,project
+,license
+,jenkins
+,ignored
+,haskell
+,graphql
+,firefox
+,favicon
+,default
+,clojure
+,argdown
+,workflow
+,versions
+,verified
+,thumbsup
+,terminal
+,tasklist
+,squirrel
+,question
+,markdown
+,location
+,infinity
+,ellipsis
+,download
+,database
+,checkbox
+,calendar
+󰖴,wordpress
+󰖬,wikipedia
+󰘒,watermark
+󱡉,waterfall
+󰾁,warehouse
+󰸉,wallpaper
+󰕽,voicemail
+󰩸,trademark
+󰔠,timetable
+󰔚,timelapse
+󱁢,terraform
+󰭎,telescope
+󱕬,submarine
+󰍙,stackpath
+󱌇,snowboard
+󰘉,saxophone
+󱖈,reiterate
+󱕓,pitchfork
+󰐇,pinterest
+󱙧,pentagram
+󰏂,nutrition
+󱢓,multicast
+󰍳,minecraft
+󰽚,longitude
+󰋾,instagram
+󱡌,induction
+󰩘,horseshoe
+󱄾,handcuffs
+󰮣,halloween
+󰵻,goodreads
+󱀥,excavator
+󱡷,diversify
+󰇃,deskphone
+󰥙,cryengine
+󰗦,copyright
+󰪝,checkbook
+󱓀,carabiner
+󰄊,candycane
+󰬢,bulldozer
+󰛆,bootstrap
+󱃏,boomerang
+󱉟,bookshelf
+󰂨,bitbucket
+󰂧,biohazard
+󱀐,billboard
+󱓢,beekeeper
+󰡑,badminton
+󰠄,atlassian
+󰁤,assistant
+󰚿,angularjs
+󰪍,ampersand
+󰀯,ambulance
+󰗗,altimeter
+,xmonad
+,snappy
+,reprap
+,redhat
+,parrot
+,nobara
+,neovim
+,mageia
+,gentoo
+,garuda
+,fosdem
+,ferris
+,fdroid
+,docker
+,devuan
+,deepin
+,debian
+,coreos
+,centos
+,budgie
+,alpine
+,umbrella
+,popsicle
+,nintendo
+,mustache
+,mushroom
+,molecule
+,minimize
+,medicine
+,maximize
+,lollipop
+,lipstick
+,infinity
+,bacteria
+,warehouse
+,voicemail
+,underline
+,trademark
+,thumbtack
+,themeisle
+,teamspeak
+,synagogue
+,subscript
+,stopwatch
+,stackpath
+,signature
+,resolving
+,radiation
+,quinscape
+,periscope
+,paragraph
+,paperclip
+,pagelines
+,microsoft
+,microchip
+,mailchimp
+,instagram
+,hurricane
+,heartbeat
+,gitkraken
+,flipboard
+,elementor
+,discourse
+,deploydog
+,delicious
+,dashboard
+,copyright
+,bootstrap
+,biohazard
+,bimobject
+,atlassian
+,angellist
+,ambulance
+,yunohost
+,webstorm
+,towergit
+,terminal
+,supabase
+,solidity
+,socketio
+,shotgrid
+,shopware
+,selenium
+,scalingo
+,rubymine
+,rabbitmq
+,pyscript
+,phpstorm
+,opensuse
+,networkx
+,mongoose
+,markdown
+,logstash
+,livewire
+,linkedin
+,knockout
+,jamstack
+,intellij
+,insomnia
+,inkscape
+,influxdb
+,homebrew
+,firebase
+,facebook
+,eleventy
+,electron
+,dynamodb
+,doctrine
+,datagrip
+,database
+,cucumber
+,cosmosdb
+,composer
+,circleci
+,backbone
+,appwrite
+,anaconda
+,alpinejs
+,adonisjs
+,msdos
+,emacs
+,chuck
+,bazel
+,astro
+,versions
+,tasklist
+,squirrel
+,question
+,paintcan
+,octoface
+,markdown
+,location
+,feedback
+,ellipsis
+,database
+,calendar
+,bookmark
+,windy
+,train
+,stars
+,smoke
+,sleet
+,flood
+,alien
+,tsconfig
+,settings
+,rescript
+,reasonml
+,pipeline
+,nunjucks
+,notebook
+,mustache
+,markdown
+,makefile
+,hacklang
+,firebase
+,ethereum
+,stopwatch
+,paperclip
+,milestone
+,megaphone
+,hourglass
+,duplicate
+,container
+,checklist
+,broadcast
+,briefcase
+󰦴,volleyball
+󰼭,typewriter
+󰦮,tournament
+󰔀,teamviewer
+󰓠,sunglasses
+󰓆,spellcheck
+󰓀,soundcloud
+󰛝,snowmobile
+󱓂,skateboard
+󰢎,salesforce
+󰑞,responsive
+󰐴,quadcopter
+󰨊,powershell
+󰙔,microscope
+󱅻,meditation
+󱃾,kubernetes
+󱌀,kettlebell
+󰻾,identifier
+󰫂,helicopter
+󱩁,gymnastics
+󰀭,greenhouse
+󰇇,deviantart
+󱘖,connection
+󱞓,chandelier
+󰂥,binoculars
+󰁭,backburger
+󰭛,artstation
+󰳨,ammunition
+,wayland
+,vanilla
+,sabayon
+,qubesos
+,openbsd
+,mxlinux
+,manjaro
+,illumos
+,freecad
+,freebsd
+,forgejo
+,fluxbox
+,flathub
+,crystal
+,awesome
+,arduino
+,telescope
+,mountains
+,injection
+,hamburger
+,footprint
+,cockroach
+,butterfly
+,biohazard
+,wpexplorer
+,wpbeginner
+,volleyball
+,university
+,television
+,tachometer
+,swatchbook
+,staylinked
+,sourcetree
+,soundcloud
+,slideshare
+,salesforce
+,rocketchat
+,resistance
+,republican
+,registered
+,paintbrush
+,motorcycle
+,microscope
+,helicopter
+,hackerrank
+,genderless
+,foursquare
+,firstdraft
+,eyedropper
+,earlybirds
+,deviantart
+,cuttlefish
+,crosshairs
+,confluence
+,cloudsmith
+,cloudscale
+,chromecast
+,centercode
+,campground
+,calculator
+,buysellads
+,blackberry
+,binoculars
+,basketball
+,automobile
+,asymmetrik
+,artstation
+,wordpress
+,windows11
+,terraform
+,streamlit
+,storybook
+,sonarqube
+,sequelize
+,requirejs
+,puppeteer
+,portainer
+,photoshop
+,openstack
+,moleculer
+,liquibase
+,jiraalign
+,jetbrains
+,hibernate
+,harvester
+,filezilla
+,embeddedc
+,discordjs
+,dataspell
+,cypressio
+,cplusplus
+,couchbase
+,cassandra
+,capacitor
+,bootstrap
+,bitbucket
+,ballerina
+,archlinux
+,antdesign
+,angularjs
+,scheme
+,puppet
+,neovim
+,kotlin
+,fennel
+,elixir
+,telescope
+,reactions
+,milestone
+,megaphone
+,dashboard
+,checklist
+,broadcast
+,briefcase
+,sunset
+,meteor
+,aliens
+,terraform
+,stylelint
+,photoshop
+,unverified
+,typography
+,thumbsdown
+,paintbrush
+,iterations
+,dependabot
+,codespaces
+󰓙,stethoscope
+󱩲,snowshoeing
+󰑶,screwdriver
+󰶔,racquetball
+󱝅,paragliding
+󰢁,onepassword
+󱝄,kitesurfing
+󰝅,kickstarter
+󱊧,hexadecimal
+󱃘,consolidate
+,vscodium
+,trisquel
+,parabola
+,opensuse
+,openscad
+,mandriva
+,kdenlive
+,inkscape
+,hyprland
+,codeberg
+,cinnamon
+,biglinux
+,archlabs
+,microscope
+,uniregistry
+,tripadvisor
+,superscript
+,superpowers
+,stroopwafel
+,stethoscope
+,squarespace
+,simplybuilt
+,searchengin
+,reacteurope
+,playstation
+,phabricator
+,nutritionix
+,mandalorian
+,institution
+,highlighter
+,fingerprint
+,certificate
+,yugabytedb
+,typescript
+,threedsmax
+,tensorflow
+,subversion
+,sqlalchemy
+,sourcetree
+,salesforce
+,rockylinux
+,purescript
+,protractor
+,prometheus
+,processing
+,powershell
+,postgresql
+,playwright
+,objectivec
+,nodewebkit
+,nhibernate
+,meteorfull
+,matplotlib
+,materialui
+,kubernetes
+,karatelabs
+,handlebars
+,framework7
+,foundation
+,feathersjs
+,dropwizard
+,dotnetcore
+,djangorest
+,confluence
+,cloudflare
+,backbonejs
+,windows
+,orgmode
+,default
+,crystal
+,whitespace
+,unverified
+,references
+,extensions
+,volcano
+,tsunami
+,tornado
+,sunrise
+,showers
+,moonset
+,degrees
+,celsius
+,typescript
+,salesforce
+,purescript
+,powershell
+,platformio
+,livescript
+,javascript
+,happenings
+,coldfusion
+󰑜,reproduction
+󰜆,prescription
+󰢀,nativescript
+󰥋,dharmachakra
+,xerolinux
+,wikimedia
+,octoprint
+,hyperbola
+,endeavour
+,arcolinux
+,archlinux
+,archcraft
+,almalinux
+,radioactive
+,playstation
+,fingerprint
+,studiovinari
+,shirtsinbulk
+,servicestack
+,researchgate
+,expeditedssl
+,dharmachakra
+,cloudversify
+,autoprefixer
+,woocommerce
+,visualbasic
+,traefikmesh
+,tortoisegit
+,titaniumsdk
+,tailwindcss
+,scikitlearn
+,readthedocs
+,reactrouter
+,premierepro
+,illustrator
+,googlecloud
+,dreamweaver
+,codeigniter
+,azuredevops
+,apachespark
+,apachekafka
+,prettier
+,firebase
+,electron
+,umbrella
+,sprinkle
+,raindrop
+,moonrise
+,humidity
+,illustrator
+,organization
+󰔁,skateboarding
+󰏅,odnoklassniki
+󰵵,forwardburger
+,tumbleweed
+,elementary
+,line
+,spermatozoon
+,refrigerator
+,freecodecamp
+,strikethrough
+,draft2digital
+,angrycreative
+,visualstudio
+,unrealengine
+,traefikproxy
+,sqldeveloper
+,photonengine
+,framermotion
+,digitalocean
+,coffeescript
+,browserstack
+,appcelerator
+,aftereffects
+,vitruvian
+,organization
+,sandstorm
+,raindrops
+,lightning
+,barometer
+,editorconfig
+,strikethrough
+,thunderbird
+,prusaslicer
+,libreoffice
+,freedesktop
+,connectdevelop
+,affiliatetheme
+,vuestorefront
+,thealgorithms
+,stackoverflow
+,opentelemetry
+,jaegertracing
+,githubactions
+,elasticsearch
+,clojurescript
+,apacheairflow
+,androidstudio
+,purescript
+,fahrenheit
+,earthquake
+,postmarketos
+,reactbootstrap
+,materializecss
+,jetpackcompose
+,yc
+,gg
+,c
+,enlightenment
+,buromobelexperte
+,reactnavigation
+,angularmaterial
+,thunderstorm
+,githubcodespaces
+,azuresqldatabase
+,libreofficemath
+,libreofficedraw
+,libreofficecalc
+,libreofficebase
+,cloudflareworkers
+,amazonwebservices
+,microsoftsqlserver
+,libreofficewriter
+,libreofficeimpress
+,unifiedmodelinglanguage
+,c
+󱃄,ufo
+󰶞,tea
+󰳑,spa
+󰜎,run
+󱨏,raw
+󰵽,hdr
+󰇖,dns
+󰆚,cow
+󰾡,bee
+󰣈,axe
+󱂛,api
+,yen
+,won
+,sun
+,rss feed
+,poo
+,bus
+,bed
+,ban
+,tab
+,key
+,eye
+,dot
+󰖶,wrap
+󰨟,vote
+󰕌,undo
+󰔱,tree
+󰔭,tram
+󰑺,seal
+󰑯,sale
+󰴮,sack
+󰑡,road
+󰑎,redo
+󰘆,pool
+󰐂,pill
+󰢇,pier
+󰣱,midi
+󰷗,leak
+󰚵,lamp
+󱦅,kite
+󱍒,hvac
+󰛢,hook
+󰟊,fuel
+󰈺,fish
+󰽉,draw
+󱈹,desk
+󰞸,corn
+󱥌,cone
+󰞮,cctv
+󰂹,bone
+󰚑,bomb
+󰂣,bike
+󰂘,beer
+󰝨,atom
+󰀻,apps
+,xing
+,send
+,node
+,moon
+,lock
+,link
+,line
+,jedi
+,info
+,font
+,fill
+,euro
+,drum
+,css3
+,crop
+,beer
+,baby
+,mic
+,map
+,eye
+,npm
+,star
+,skip
+,plus
+,link
+,home
+󰣃,tooth
+󰜥,tilde
+󰓥,sword
+󱥝,stool
+󰙥,spray
+󰒲,sleep
+󰒯,skype
+󰴵,skate
+󰒠,sigma
+󱥘,scent
+󰼜,purse
+󰙽,piano
+󰀘,orbit
+󱙯,mower
+󰦇,medal
+󰌽,linux
+󱕶,lamps
+󰧻,knife
+󰹅,grill
+󱁉,graph
+󱞚,fence
+󰇼,equal
+󰇪,eject
+󱆉,cigar
+󰢚,alien
+,ruby
+,water
+,vcard
+,users
+,train
+,teeth
+,skull
+,rupee
+,ruble
+,reply
+,photo
+,lemon
+,image
+,hotel
+,horse
+,glide
+,chain
+,broom
+,css3
+,sync
+,play
+,pass
+,mail
+,lock
+,link
+,cake
+,share
+♥,heart
+,cloud
+,clock
+,alert
+󰖠,webcam
+󰟼,vanish
+󱦡,vacuum
+󱠽,tunnel
+󰶠,tennis
+󰹦,sprout
+󱥔,sphere
+󰒸,soccer
+󰦠,shower
+󰜐,shovel
+󱄎,shaker
+󰑴,school
+󰑪,routes
+󰩨,resize
+󰑓,reload
+󰳀,radius
+󰎑,needle
+󰎎,nature
+󰍇,magnet
+󰍃,logout
+󰟗,locker
+󰉉,floppy
+󰈇,export
+󰇾,eraser
+󱦋,cradle
+󱊹,cheese
+󱐕,bucket
+󰁴,barrel
+󰁳,barley
+,equal
+,yandex
+,viadeo
+,tumblr
+,toilet
+,ticket
+,stripe
+,shield
+,shekel
+,scroll
+,repeat
+,remove
+,lastfm
+,itunes
+,futbol
+,filter
+,dollar
+,cookie
+,camera
+,amazon
+,unity
+,ghost
+,heart
+,error
+,close
+,check
+,azure
+,square
+,circle
+󰜬,widgets
+󰦶,whistle
+󱪃,volcano
+󰕦,vibrate
+󱗂,unicorn
+󰢒,tractor
+󰦬,toolbox
+󰔌,texture
+󰿹,stadium
+󰒪,sitemap
+󱖽,scooter
+󰚫,scanner
+󰢺,sausage
+󱪹,rolodex
+󰦛,restore
+󰑌,recycle
+󱥒,pyramid
+󰚧,publish
+󰏃,octagon
+󱟔,menorah
+󰺠,ellipse
+󰽊,dresser
+󰇞,drawing
+󱠘,shower bathtub man
+,twitter
+,feather
+,droplet
+,diamond
+,compass
+,blogger
+,blender
+,behance
+,nodejs
+,jekyll
+,remote
+,pinned
+,person
+,filter
+,beaker
+,elixir
+,comment
+󰾐,wardrobe
+󰫧,variable
+󰟸,trackpad
+󰓔,steering
+󰒃,security
+󱖻,rickshaw
+󰭄,resistor
+󰫕,pinwheel
+󰜁,pentagon
+󰟣,passport
+󰏏,ornament
+󰛹,octagram
+󰫉,hexagram
+󰊕,function
+󰻳,fishbowl
+󰸰,firework
+󰥣,exponent
+󱋦,doorbell
+󰇔,division
+󰝬,decagram
+󱥎,cylinder
+󱡆,curtains
+󰽆,cupboard
+󰛋,contacts
+󰞦,cannabis
+󰗝,bullseye
+󰻕,bacteria
+󰛄,asterisk
+,umbrella
+,landmark
+,keyboard
+,dumpster
+,bookmark
+,baseball
+,symfony
+,clojure
+,replace
+,x
+󰏿,pi
+,th
+,snow
+,crystal
+,codescan
+󰳕,turnstile
+󰗊,translate
+󰨖,subtitles
+󰓈,spotlight
+󰹞,rectangle
+󰲴,parachute
+󰍼,motorbike
+󰲙,microwave
+󰟚,metronome
+󱩈,landslide
+󰼁,jellyfish
+󱈘,handshake
+󰸮,fireplace
+󰺢,equalizer
+󰃼,camcorder
+󱖉,butterfly
+󱜠,broadcast
+󰭡,billiards
+󰁪,autorenew
+󰀰,amplifier
+,ubuntu
+,fedora
+,telegram
+,wordpress
+,snowflake
+,satellite
+,newspaper
+,lightbulb
+,goodreads
+,fonticons
+,briefcase
+,bluetooth
+,bitbucket
+,krakenjs
+,verified
+,thumbsup
+,settings
+,notebook
+,checkbox
+,honeycomb
+,telescope
+󱪇,wheelchair
+󰤕,transition
+󰔮,transcribe
+󰎓,thermostat
+󰟇,storefront
+󱉾,scoreboard
+󱥐,octahedron
+󰽝,middleware
+󰧿,lighthouse
+󰊓,fullscreen
+󰉄,flashlight
+󰇐,directions
+󱠜,countertop
+󱟒,candelabra
+󰀜,hot air balloon
+,kubuntu
+,wheelchair
+,headphones
+,commenting
+,chalkboard
+,lightbulb
+󰴬,rollerblade
+󰈷,fingerprint
+󰈅,exclamation
+󰄤,certificate
+,transgender
+,stumbleupon
+,screwdriver
+,kickstarter
+,thumbsdown
+󱌄,ski
+󰑫,rss feed
+󰐁,pig
+,git
+,box
+,refresh
+,horizon
+󰐨,presentation
+,slackware
+,linuxmint
+,odnoklassniki
+,hurricane
+,accessibility
+󰎂,multiplication
+󱤪,advertisements
+󰓛,stop
+󰩪,safe
+󱀈,post
+󱠤,iron
+󰋁,grid
+󰠣,golf
+󰗮,disc
+󰅆,city
+,stop
+,play
+,less
+,bars
+,git
+,fold
+,bell
+󰫩,wiper
+󱁦,valve
+󰑭,ruler
+󰐣,pound
+,vimeo
+,video
+,venus
+,steam
+,plane
+,pause
+,clock
+,apple
+,ruby
+,save
+,fold
+󰫪,z wave
+,x ray
+,r project
+,i cursor
+,h square
+󰩟,ip
+,check
+󰖷,wrench
+󰓾,target
+󰚬,subway
+󱇪,spider
+󰤇,rabbit
+󱇽,mirror
+󰙒,marker
+󰌢,laptop
+,kde
+⏻,power
+,unlock
+,tablet
+,search
+,rotate
+,reddit
+,pencil
+,laptop
+,github
+,cloud
+,person
+󱁣,toaster
+󰒝,shuffle
+󰜉,restart
+󰑐,refresh
+󰌱,library
+󰋎,headset
+󰮊,diamond
+󰨾,contain
+󰳫,blender
+󰁱,barcode
+󰀲,android
+,youtube
+,forward
+,github
+,server
+,search
+,record
+,layers
+,package
+,copilot
+󰐸,radiator
+󰮬,molecule
+󰋊,harddisk
+󰥫,fountain
+󰉝,football
+󰈀,ethernet
+󰱣,diameter
+󰆕,contrast
+,suitcase
+,snapchat
+,question
+,linkedin
+,hospital
+,comments
+,building
+,backward
+,compass
+󰕓,usb
+󰐃,pin
+󰏩,paw
+󰏇,oil
+󰩃,dog
+󰃤,bug
+󰃔,box
+,eye
+󱇔,rv truck
+󱂹,iv bag
+󰿀,id card
+󰁫,av timer
+󰇉,ab testing
+,vr cardboard
+,sd card
+,ok sign
+,rain
+󱁟,sprinkler
+󰑰,satellite
+,pinterest
+󱄩,toothbrush
+󰎐,navigation
+󰪬,dishwasher
+󰃬,calculator
+󰠆,basketball
+,cloudy
+󰓅,speedometer
+,exclamation
+,javascript
+󰘮,tune
+󰓦,sync
+󰒹,sofa
+󰲅,fuse
+󰃩,cake
+󰊎,bowl
+󰂵,blur
+,plus
+,grip
+,flag
+,fire
+,thermometer
+,prescription
+,f sharp
+,no entry
+,id badge
+󰚀,yin yang
+󰠼,tow truck
+󰹡,saw blade
+󰮯,pac man
+󰮭,one up
+󰎔,new box
+󰠨,hot tub
+󰮤,hat fedora
+󰪮,dot net
+󰟁,dip switch
+󰵮,dev to
+,id card
+,yin yang
+,van shuttle
+,sim card
+,red river
+,pie chart
+,old republic
+,oil can
+,not equal
+,meh o
+,low vision
+,kit medical
+,jet fighter
+,ice cream
+,hdd o
+,get pocket
+,gas pump
+,bag shopping
+,asl interpreting
+,no newline
+,code
+󰞍,waves
+󱎶,virus
+󱢺,shark
+󱂆,moped
+󱖿,horse
+󰊠,ghost
+󰊚,gauge
+󰆥,crown
+󰥓,cross
+󱥰,candy
+󰃣,brush
+,ruler
+,minus
+,house
+,heart
+,hands
+,gauge
+,bell
+,thermometer
+,line number
+󱡵,town hall
+󰐔,sony playstation
+󰥛,sine wave
+󰫟,sina weibo
+󰠳,ship wheel
+󱏘,scan helper
+󱁕,palm tree
+󰗍,near me
+󰨅,mini sd
+󱖫,list status
+󰘤,line scan
+󰙏,lead pencil
+󰟕,lava lamp
+󱋿,jump rope
+󰹖,hoop house
+󰥯,hard hat
+󰽒,foot print
+󰀺,font awesome
+󰛔,find replace
+󰱧,dump truck
+󱐞,dome light
+󱂞,coat rack
+󰭼,chef hat
+󰪛,caps lock
+,sun cloud
+,ice cream
+,cup coffe
+,wave square
+,shoe prints
+,sack dollar
+,note sticky
+,lira sign
+,kiwi bird
+,itch io
+,draw polygon
+,cash register
+,cake candles
+,area chart
+,pie chart
+󰓶,tablet
+󰓍,stairs
+󰑣,rocket
+󰑖,repeat
+󰴥,podium
+󰿼,peanut
+󱖂,lotion
+󰣪,hammer
+󰇺,engine
+󰇗,domain
+󰧉,ballot
+,graph
+󰒴,smoking
+󱡏,earbuds
+󰆍,console
+󰆊,compare
+,github
+,folder
+󰎖,nfc
+󰌗,lan
+󰆪,cup
+,car
+,vm
+,new file
+,pair programming
+,long pause
+,mark github
+󱓲,wheel barrow
+󰤔,track light
+󱣻,teddy bear
+󱇯,state machine
+󱐩,spoon sugar
+󰠰,poker chip
+󰾀,patio heater
+󱁖,party popper
+󰟜,micro sd
+󱡄,magic staff
+󱒄,laser pointer
+󱋥,hydro power
+󱑸,hours 24
+󰕹,hands pray
+󰮢,grave stone
+󰧪,eight track
+󰴂,drama masks
+󰅹,color helper
+󱎔,cable data
+󰳬,blood bag
+󰂭,block helper
+󰂩,black mesa
+,thin close
+,spin double
+,real heart
+,moon cloud
+,milk bottle
+,high heel
+,gift card
+,trade federation
+,tower broadcast
+,torii gate
+,thumb tack
+,think peaks
+,tenge sign
+,spell check
+,space shuttle
+,solar panel
+,smile o
+,signs post
+,power off
+,pizza slice
+,piggy bank
+,optin monster
+,notes medical
+,mouse pointer
+,masks theater
+,layer group
+,holly berry
+,heard o
+,frown o
+,files o
+,candy cane
+,cable car
+,bread slice
+,boxes stacked
+,black tie
+,audio description
+,v lang
+,word wrap
+,text size
+,stop circle
+,sort precedence
+,open preview
+,live share
+,gist secret
+,case sensitive
+,project
+󰟟,mushroom
+󰈌,facebook
+󰃦,bullhorn
+󰡒,baseball
+,ellipsis
+,comment
+,time cop
+,play arrow
+,short pause
+,clean code
+,three bars
+,paper airplane
+,north star
+,multi select
+,light bulb
+,kebab horizontal
+,cross reference
+󱑷,wizard hat
+󱇡,vanity light
+󰿥,tanker truck
+󱓱,spirit level
+󱌝,simple icons
+󰙜,serial port
+󰜏,search web
+󰴰,safety goggles
+󰑕,rename box
+󰶓,racing helmet
+󱠦,liquid spot
+󰝄,humble bundle
+󰲉,hazard lights
+󰙈,grease pencil
+󰷑,gantry crane
+󱥗,french fries
+󰺤,ferris wheel
+󱘎,family tree
+󱕫,eiffel tower
+󱀣,domino mask
+󱑹,cosine wave
+󰭥,boxing glove
+󰁯,backup restore
+󰨤,aspect ratio
+󱀏,apache kafka
+,pop os
+,gnu guix
+⏾,sleep mode
+,coffe beans
+,apple fruit
+,walkie talkie
+,vector square
+,street view
+,record vinyl
+,puzzle piece
+,pepper hot
+,hockey puck
+,helmet safety
+,hacker news
+,delete left
+,cotton bureau
+,closed captioning
+,bezier curve
+,battle net
+,basket shopping
+,whole word
+,three bars
+,radio tower
+,kebab vertical
+,empty window
+,color mode
+,clear all
+,bookmark
+󰷻,signature
+󰗹,incognito
+󰈰,filmstrip
+󰇿,escalator
+󰁮,backspace
+󰗘,animation
+,handshake
+󰟥,pipe
+,list
+,code
+,bell
+,cloud
+󰆣,crosshairs
+,microphone
+,column number
+,current line
+,single select
+,mortar board
+,fiscal host
+,credit card
+󰢔,virtual reality
+󰘇,rounded corner
+󰲻,postage stamp
+󰨉,pokemon go
+󱁔,outdoor lamp
+󱪯,heating coil
+󱈷,digital ocean
+󰮇,deathly hallows
+󰬯,crystal ball
+󰏈,coolant temperature
+,kali linux
+⏼,toggle power
+,makeup brushes
+,whiskey glass
+,turkish lira
+,traffic light
+,tencent weibo
+,sticker mule
+,speaker deck
+,shuttle space
+,product hunt
+,picture o
+,network wired
+,hryvnia sign
+,fighter jet
+,digital ocean
+,diagram project
+,compact disc
+,bowling ball
+,scale balance
+,source control
+,mortar board
+,expand all
+,editor layout
+,credit card
+󰐼,radioactive
+󰑲,scale
+󰑚,reply
+󰏤,pause
+󰸣,comma
+,trash
+,times
+,phone
+,current column
+,sponsor tiers
+,sparkle fill
+,passkey fill
+,desktop download
+,command palette
+󰜦,treasure chest
+󰟯,standard definition
+󱡎,shipping pallet
+󰩮,settings helper
+󱌖,semantic web
+󰩫,scissors cutting
+󱑺,sawtooth wave
+󰑒,relative scale
+󰼞,railroad light
+󰐾,radiobox marked
+󰢶,periodic table
+󱢔,hydrogen station
+󱀤,electron framework
+󰵫,creative commons
+󰸢,circular saw
+󰄻,chemical weapon
+󰃥,bulletin board
+󱨯,bulkhead light
+,rocky linux
+,palette color
+,loyalty card
+,chicken thigh
+,triangle exclamation
+,sterling sign
+,internet explorer
+,critical role
+,computer mouse
+,charging station
+,business time
+,birthday cake
+,digital ocean
+,play arrow
+,request changes
+,desktop download
+,circuit board
+󰄺,checkerboard
+󰀬,alphabetical
+,gale warning
+,internal interruption
+,external interruption
+󱂒,soldering iron
+󰐿,raspberry pi
+󰚗,developer board
+󰡐,augmented reality
+,triangle ruler
+,wikipedia w
+,universal access
+,raspberry pi
+,parachute box
+,envelopes bulk
+,drumstick bite
+,champagne glasses
+,smashing magazine
+,mootools badge
+,variable group
+,preserve case
+,multiple windows
+,collapse all
+,activate breakpoints
+,y combinator
+󰖡,weight
+󱇢,router
+󰑔,remote
+󰑊,record
+,mobile
+,solar eclipse
+,lunar eclipse
+󰩧,registered trademark
+󱁎,instrument triangle
+,dotted guide
+,checklist o
+,tachograph digital
+,graduation cap
+,accessible icon
+,raspberry pi
+,common lisp
+,primitive square
+󰓩,tab
+󰒧,sim
+󰋥,pot
+󰏪,pen
+󰪯,egg
+,pen
+,strong wind
+,horizontal rule
+,horizontal rule
+,shield
+󰗃,youtube
+󰓃,speaker
+󰆋,compass
+󱂜,bicycle
+󰐭,professional hexagon
+,raspberry pi
+,deprecation cop
+󰔶,triangle
+󱁥,transfer
+󰒚,shopping
+󰿶,hospital
+,facebook
+󰹢,seed
+󰌪,leaf
+󰹄,gift
+󰇛,drag
+󰆞,crop
+,git
+,snowflake cold
+,clipboard
+󰵹,go kart
+,yc square
+,gg circle
+,c lang
+󰋋,headphones
+,diff
+󰚌,skull
+󰐹,radio
+,table
+,repo
+,diff
+󰋼,information
+,map
+󰔸,trophy
+󰐲,qrcode
+󰂬,blinds
+,c sharp
+󰟺,van passenger
+󰟻,van utility
+󱃅,ufo outline
+󰶟,tea outline
+󰳒,spa outline
+󰟮,soy sauce
+󰑮,run fast
+󱨐,raw off
+󰦍,not equal
+󰵾,hdr off
+󰮌,dns outline
+󱣼,cow off
+󱡁,bow arrow
+󰙸,bow tie
+󰾢,bee flower
+󱡂,axe battle
+󰿗,arm flex
+󱉗,api off
+,yen sign
+,won sign
+,sun o
+,rss feed square
+,poo storm
+,mug hot
+,mug saucer
+,ear deaf
+,ear listen
+,bus simple
+,bed pulse
+,bar chart
+,ban smoking
+,app store
+󰜋,rhombus
+󰏰,percent
+󰏘,palette
+󱂡,decimal
+󰠚,door
+󰆦,cube
+󰄘,cast
+,mars
+,envelope
+,ice waveform
+,tab external
+,key asterisk
+,eye closed
+,dot fill
+󰯟,wrap disabled
+󰨠,vote outline
+󰕍,undo variant
+󰹩,tree outline
+󰿧,tram side
+󱛟,tape drive
+󰭍,tape measure
+󱄔,slot machine
+󰴶,skew less
+󰴷,skew more
+󰿙,seal variant
+󱨆,sale outline
+󰻈,sail boat
+󰴯,sack percent
+󰢍,room service
+󰑢,road variant
+󰑏,redo variant
+󱩟,pool thermometer
+󱩜,pill off
+󰢈,pier crane
+󰙕,move resize
+󰣲,midi port
+󰥼,less than
+󰷘,leak off
+󱟐,lamp outline
+󱦆,kite outline
+󱖞,hvac off
+󰛣,hook off
+󰟏,high definition
+󱃯,hair dryer
+󱢵,fuel cell
+󱏳,fish off
+󰩈,exit run
+󱦹,draw pen
+󰥟,desk lamp
+󱏯,corn off
+󱥍,cone off
+󱡟,cctv off
+󱌂,bunk bed
+󱧠,bone off
+󰛅,bomb off
+󱄟,bike fast
+󱌌,beer outline
+󰹻,atom variant
+󰵆,apps box
+,xing square
+,wand magic
+,wand sparkles
+,turn down
+,turn up
+,step backward
+,step forward
+,send o
+,node js
+,moon o
+,lock open
+,link slash
+,line chart
+,left long
+,left right
+,jedi order
+,info circle
+,hard drive
+,fort awesome
+,font awesome
+,fill drip
+,fast backward
+,fast forward
+,euro sign
+,drum steelpan
+,down long
+,door closed
+,door open
+,css3 alt
+,crop simple
+,baby carriage
+,new file
+,new folder
+,mic filled
+,map filled
+,eye closed
+󰚅,hamburger
+󰂯,bluetooth
+󰔬,train
+󰉁,flash
+,truck
+,share
+,money
+,check
+󰒣,silverware
+󰈊,eyedropper
+,npm ignored
+,zoom in
+,zoom out
+,star fill
+,sort asc
+,sort desc
+,skip fill
+,sign in
+,sign out
+,plus circle
+,logo gist
+,logo github
+,list ordered
+,list unordered
+,link external
+,home fill
+󰩹,trash can
+󰚁,tower beach
+󰚂,tower fire
+󰔩,tooth outline
+󱣳,tilde off
+󰞇,sword cross
+󱥞,stool outline
+󰘋,stack exchange
+󰓌,stack overflow
+󰫠,spray bottle
+󰯉,space invaders
+󱎃,space station
+󰷿,slope downhill
+󰸀,slope uphill
+󰒳,sleep off
+󰿟,slash forward
+󰒰,skype business
+󰚙,skate off
+󰘫,sigma lower
+󱥙,scent off
+󰼝,purse outline
+󱀇,piggy bank
+󰚘,piano off
+󱗛,orbit variant
+󱙰,mower bag
+󰡿,mixed reality
+󱌦,medal outline
+󰣭,linux mint
+󱟑,lamps outline
+󰧼,knife military
+󱆊,grill outline
+󱁊,graph outline
+󱋗,globe light
+󰣩,globe model
+󱟶,fence electric
+󰇽,equal box
+󰮑,eject outline
+󰣘,death star
+󱗻,dance ballroom
+󱕸,dance pole
+󱀠,coach lamp
+󱐛,cigar off
+󰽈,chair rolling
+󰄥,chair school
+󰳮,bread slice
+󱃋,alien outline
+󱌨,abjad arabic
+󱌩,abjad hebrew
+,ruby o
+,file export
+,file import
+,book open
+,water ladder
+,vcard o
+,users gear
+,train subway
+,teeth open
+,stack exchange
+,stack overflow
+,spray can
+,skull crossbones
+,rupee sign
+,ruble sign
+,reply all
+,quote left
+,quote right
+,photo film
+,paper plane
+,paint brush
+,paint roller
+,level down
+,level up
+,lemon o
+,image portrait
+,hotel building
+,horse head
+,glide g
+,first order
+,chain broken
+,broom ball
+,css3 full
+,zoom in
+,zoom out
+,sync ignored
+,sign in
+,sign out
+,root folder
+,play circle
+,pass filled
+,mail read
+,lock small
+,link external
+,call incoming
+,call outgoing
+󰖄,wallet
+󰔖,ticket
+󰑟,rewind
+󰉊,flower
+,folder
+,code climate
+,code search
+,cake php
+,share android
+,heart fill
+,cloud offline
+,clock fill
+,alert fill
+󱜷,webcam off
+󱕔,vanish quarter
+󱦢,vacuum outline
+󱠾,tunnel outline
+󰔇,tennis ball
+󱊺,string lights
+󰹧,sprout outline
+󱥕,sphere off
+󰠴,soccer field
+󰦡,shower head
+󰜑,shovel off
+󱄏,shaker outline
+󰑵,screen rotation
+󱆀,school outline
+󱁙,routes clock
+󱄋,reload alert
+󰳁,radius outline
+󱧒,needle off
+󰎏,nature people
+󱌔,mother heart
+󰴡,mother nurse
+󱝈,mortar pestle
+󰍈,magnet on
+󰗽,logout variant
+󰟘,locker multiple
+󰌁,invert colors
+󰡹,hockey puck
+󰡺,hockey sticks
+󰧯,floppy variant
+󰮓,export variant
+󰪴,expand all
+󰙂,eraser variant
+󱦑,cradle outline
+󰅞,closed caption
+󱏮,cheese off
+󱐖,bucket outline
+󱨨,barrel outline
+󰭝,barley off
+,quora circle
+,quora square
+,equal bigger
+,yandex international
+,weight hanging
+,weight scale
+,viadeo square
+,tumblr square
+,toilet paper
+,ticket simple
+,stripe s
+,sticky note
+,shield halved
+,shekel sign
+,scroll torah
+,repeat alt
+,remove sign
+,object group
+,object ungroup
+,mortar board
+,mortar pestle
+,lastfm square
+,itunes note
+,futbol o
+,floppy disk
+,floppy o
+,dollar sign
+,credit card
+,cookie bite
+,camera retro
+,amazon pay
+,unity small
+,ghost small
+,split horizontal
+,split vertical
+,issue draft
+,issue reopened
+,heart filled
+,error small
+,close all
+,check all
+,azure devops
+󱊔,tray
+󰋖,help
+󰁬,baby
+,comment
+,circle
+,square fill
+,screen full
+,screen normal
+,circle slash
+󱍕,widgets outline
+󱊼,whistle outline
+󱪄,volcano outline
+󰳙,vibrate off
+󱗃,unicorn variant
+󱓄,tractor variant
+󰦭,toolbox outline
+󰟶,thought bubble
+󰿦,texture box
+󱩵,storage tank
+󰜠,stadium variant
+󱦜,sitemap outline
+󱖾,scooter electric
+󰻉,scatter plot
+󰤊,scanner off
+󱞉,sausage off
+󱪺,rolodex outline
+󱄍,restore alert
+󰚈,reorder horizontal
+󰚉,reorder vertical
+󰨎,reflect horizontal
+󰨏,reflect vertical
+󱎝,recycle variant
+󱥓,pyramid off
+󱥅,publish off
+󱍗,propane tank
+󰏄,octagon outline
+󱟕,menorah fire
+󰛯,medical bag
+󰥭,greater than
+󰩉,feature search
+󰺡,ellipse outline
+󰽋,dresser outline
+󰇟,drawing box
+󱒀,current ac
+󰥜,current dc
+󱃎,beehive outline
+󱠙,shower bathtub man outline
+󱌪,abugida devanagari
+󱌫,abugida thai
+,google drive
+,google play
+,twitter square
+,phoenix framework
+,phoenix squadron
+,greater than
+,feather pointed
+,droplet slash
+,drivers license
+,compass drafting
+,blogger b
+,blender phone
+,behance square
+,nodejs small
+,jekyll small
+,screen full
+,screen normal
+,remote explorer
+,pinned dirty
+,person add
+,filter filled
+,beaker stop
+󰕊,umbrella
+󰇭,elevator
+,repo
+󰖉,watch
+󰍽,mouse
+󰊌,forum
+,chess
+,elixir script
+,sidebar collapse
+,sidebar expand
+,comment discussion
+󱒁,watering can
+󰾑,wardrobe outline
+󱄑,variable box
+󰤳,trackpad lock
+󰤎,steering off
+󰒄,security network
+󱖼,rickshaw electric
+󰭅,resistor nodes
+󰘃,priority high
+󰘄,priority low
+󰫖,pinwheel outline
+󰜀,pentagon outline
+󰷡,passport biometric
+󰏐,ornament variant
+󰝵,octagram outline
+󰦆,material design
+󰍗,material ui
+󰌤,magazine pistol
+󰌣,magazine rifle
+󰿄,location enter
+󰿅,location exit
+󱌱,ideogram cjk
+󰫊,hexagram outline
+󱝊,gradient horizontal
+󰚠,gradient vertical
+󱂁,furigana horizontal
+󱂂,furigana vertical
+󰡱,function variant
+󰻴,fishbowl outline
+󱜣,firework off
+󰥤,exponent box
+󰺟,electric switch
+󰡩,doorbell video
+󰇕,division box
+󰝭,decagram outline
+󱥏,cylinder off
+󱡇,curtains closed
+󰽇,cupboard outline
+󰖸,contacts outline
+󰪦,collapse all
+󱙮,cannabis off
+󰣉,bullseye arrow
+󰻖,bacteria outline
+,blogger circle
+,blogger square
+,umbrella beach
+,landmark dome
+,keyboard o
+,galactic republic
+,galactic senate
+,external link
+,dumpster fire
+,bookmark o
+,symfony badge
+,clojure alt
+,replace all
+,bracket dot
+,bracket error
+,x circle
+󰐀,pi box
+󰷱,pi hole
+,th large
+,th list
+󰜗,snowflake
+󰏢,paperclip
+,snow wind
+,crystal embedded
+,codescan checkmark
+󰳖,turnstile outline
+󰸆,translate off
+󰨗,subtitles outline
+󰓉,spotlight beam
+󰹟,rectangle outline
+󱓅,radiology box
+󰲵,parachute outline
+󱖺,motorbike electric
+󱐣,microwave off
+󰟛,metronome tick
+󱩉,landslide outline
+󰼂,jellyfish outline
+󱖡,handshake outline
+󰸯,fireplace off
+󰢮,expansion card
+󰺣,equalizer outline
+󰇫,elevation decline
+󰇬,elevation rise
+󰃿,camcorder off
+󱖊,butterfly outline
+󱜡,broadcast off
+󰭢,billiards rack
+󱧧,autorenew off
+󱆵,amplifier off
+,ubuntu inverse
+,fedora inverse
+,telegram circle
+,envelope open
+,wordpress simple
+,snowflake o
+,satellite dish
+,newspaper o
+,lightbulb o
+,goodreads g
+,fonticons fi
+,briefcase medical
+,bluetooth b
+,bitbucket square
+,krakenjs badge
+,verified filled
+,thumbsup filled
+,settings gear
+,notebook template
+󰁦,attachment
+󰒋,server
+󰯁,script
+󱖲,motion
+󰛙,garage
+󱥷,diving
+,google
+,arrows
+,storm showers
+,storm warning
+,checkbox unchecked
+,honeycomb outline
+,backslash separator
+,telescope fill
+󰖤,wheelchair accessibility
+󰤖,transition masked
+󰔯,transcribe close
+󰢑,thermostat box
+󱃁,storefront outline
+󱉿,scoreboard outline
+󱥑,octahedron off
+󰽞,middleware outline
+󰨀,lighthouse on
+󰊔,fullscreen exit
+󰉅,flashlight off
+󰙁,directions fork
+󱠝,countertop outline
+󰮂,controller classic
+󱟓,candelabra fire
+󱀋,hot air balloon outline
+,kubuntu inverse
+,wheelchair alt
+,headphones simple
+,commenting o
+,chalkboard user
+,lightbulb autofix
+󰈸,fire
+,dice
+󰀮,rollerblade off
+󰴣,perspective less
+󰴤,perspective more
+󰺱,fingerprint off
+󱈸,exclamation thick
+󱆈,certificate outline
+,transgender alt
+,stumbleupon circle
+,screwdriver wrench
+,kickstarter k
+,thumbsdown filled
+󰛮,mailbox
+󰗄,zip box
+󰨣,zip disk
+󱌆,ski water
+󰑬,rss feed box
+󰼡,rss feed off
+󱀆,pig variant
+󰠪,ice cream
+󰻽,ice pop
+󰟅,ear hearing
+󰚾,all inclusive
+,hat cowboy
+,hat wizard
+,git alt
+,git square
+,box archive
+,box open
+,refresh alt
+,horizon alt
+󰐩,presentation play
+,slackware inverse
+,linuxmint inverse
+,forwardslash separator
+󰾞,approximately equal
+,odnoklassniki square
+󰒖,share
+󰠱,shape
+,file
+,hurricane warning
+,accessibility inset
+󰎃,multiplication box
+󱤫,advertisements off
+,cc
+,hourglass
+,terminal
+󰙨,test tube
+󰙦,stop circle
+󱉼,safe square
+󱩠,post lamp
+󱀉,post outline
+󰐅,pine tree
+󱠸,iron board
+󱠥,iron outline
+󱩃,heat pump
+󱩅,heat wave
+󰝘,grid large
+󰋂,grid off
+󱆤,golf cart
+󱂃,golf tee
+󰇑,disc alert
+󰥠,disc player
+󰨶,city variant
+󱍾,auto download
+󰁨,auto fix
+󰁩,auto upload
+,wine bottle
+,wine glass
+,text height
+,text slash
+,text width
+,stop circle
+,play circle
+,mail forward
+,mail reply
+,less than
+,bars progress
+,bars staggered
+,folder
+󰕒,upload
+󰗺,kettle
+󰒊,send
+󱐗,pail
+,star
+,book
+󰦯,two factor authentication
+󰠥,guy fawkes mask
+,the red yeti
+,hot tub person
+,dot circle o
+,buy n large
+,go to file
+,git folder
+,git ignore
+,fold down
+,fold up
+,bell fill
+,bell slash
+󰶦,wiper wash
+󱁧,valve closed
+󱁨,valve open
+󰳂,ruler square
+󰐤,pound box
+󱅗,paper roll
+󰤷,angle acute
+󰤸,angle obtuse
+󰤹,angle right
+,vimeo square
+,vimeo v
+,video camera
+,video slash
+,venus double
+,venus mars
+,steam square
+,steam symbol
+,scale balanced
+,scale unbalanced
+,right left
+,plane arrival
+,plane departure
+,pause circle
+,clock o
+,apple pay
+,apple whole
+,ruby rough
+,type hierarchy
+,star empty
+,star full
+,star half
+,save all
+,save as
+,fold down
+,fold up
+󰖟,web
+󰮴,pan
+󰋣,bed
+󱞙,smoke
+󰌕,label
+󰀵,apple
+,rel file path
+󰄓,case sensitive alt
+,wolf pack battalion
+,hire a helper
+,golf ball tee
+,free code camp
+󰩠,ip network
+󱦂,ip outline
+,up down
+,id badge
+,id card
+,check circle
+󱦣,wrench clock
+󰯠,wrench outline
+󰤗,tumble dryer
+󰯐,target account
+󰩷,target variant
+󰓟,subway variant
+󱇫,spider thread
+󰯊,spider web
+󱩡,rabbit variant
+󱅧,police badge
+󱠹,police station
+󱞟,mirror rectangle
+󱞠,mirror variant
+󰷙,marker cancel
+󰍕,marker check
+󱩊,laptop account
+󰛧,laptop off
+,kde neon
+,kde plasma
+⭘,power off
+⏽,power on
+,unlock alt
+,unlock keyhole
+,tablet button
+,search minus
+,search plus
+,rotate left
+,rotate right
+,reddit alien
+,reddit square
+,pencil square
+,laptop code
+,laptop medical
+,github alt
+,github square
+,border all
+,border none
+,cloud download
+,cloud upload
+󰎕,newspaper
+󰅶,coffee
+󰳃,seat
+󰁰,bank
+,sort
+,person add
+,person fill
+󰜪,washing machine
+󱍼,traffic cone
+󰔫,traffic light
+󱆷,toaster off
+󰳓,toaster oven
+󰒞,shuffle disabled
+󰒟,shuffle variant
+󱄌,restart alert
+󰶕,restart off
+󱣲,refresh auto
+󱍷,refresh circle
+󰐵,quality high
+󰨌,quality low
+󰨍,quality medium
+󱨢,library outline
+󰮩,library shelves
+󰋏,headset dock
+󰋐,headset off
+󰮋,diamond outline
+󰇈,diamond stone
+󰨿,contain end
+󰩀,contain start
+󱠚,blender outline
+󰂫,blender software
+󱈶,barcode off
+󰁲,barcode scan
+󰵅,android messages
+󰀴,android studio
+,youtube play
+,youtube square
+,martini glass
+,forward fast
+,forward step
+,github badge
+,github full
+,server environment
+,server process
+,search fuzzy
+,search stop
+,record keys
+,record small
+,layers active
+,layers dot
+,device camera
+,device mobile
+󰟹,ultra high definition
+󰔎,theme light dark
+󰶒,point of sale
+󱌃,fleur de lis
+󱢌,cabin a frame
+,place of worship
+󰑉,receipt
+󰋘,hexagon
+,package dependencies
+,package dependents
+,copilot error
+,copilot warning
+󰔳,trending down
+󰔴,trending neutral
+󰔵,trending up
+󰫗,radiator disabled
+󰫘,radiator off
+󱋾,molecule co
+󰟤,molecule co2
+󱁋,harddisk plus
+󱁌,harddisk remove
+󰴒,fountain pen
+󰉞,football australian
+󰉟,football helmet
+󰈁,ethernet cable
+󰱤,diameter outline
+󰱥,diameter variant
+󰆖,contrast box
+󰆗,contrast circle
+,suitcase medical
+,suitcase rolling
+,snapchat ghost
+,snapchat square
+,shopping bag
+,shopping basket
+,shopping cart
+,question circle
+,linkedin in
+,linkedin square
+,hospital o
+,hospital user
+,comments dollar
+,comments o
+,building columns
+,building o
+,backward fast
+,backward step
+,compass active
+,compass dot
+󰇧,earth
+󱇰,usb port
+󰐄,pin off
+󰤱,pin outline
+󰙗,paw off
+󱙵,paw outline
+󰼙,oil lamp
+󱁓,oil level
+󰿸,oil temperature
+󰪭,dog service
+󰩄,dog side
+󰨮,bug check
+󰨰,bug outline
+󰃕,box cutter
+󰘷,box shadow
+,eye dropper
+,eye slash
+,soccer ball o
+,people carry box
+,rain mix
+,rain wind
+󱦝,sprinkler fire
+󱁠,sprinkler variant
+󰤉,satellite uplink
+󰑱,satellite variant
+󱐋,lightning bolt zap
+,rectangle ad
+,rectangle list
+,rectangle xmark
+,pinterest p
+,pinterest square
+󱄬,toothbrush electric
+󱄪,toothbrush paste
+󱘇,navigation outline
+󱆸,dishwasher alert
+󱆹,dishwasher off
+󰪚,calculator variant
+󰰻,basketball hoop
+,workspace trusted
+,workspace unknown
+,workspace untrusted
+󰐮,projector
+󰟾,wall
+󰍜,menu
+󰊙,gate
+󰄐,cart
+,fantasy flight games
+,cloudy gusts
+,cloudy windy
+,discussion closed
+,discussion duplicate
+,discussion outdated
+󰔄,temperature celsius
+󰔅,temperature fahrenheit
+󰔆,temperature kelvin
+󰾅,speedometer medium
+󰾆,speedometer slow
+󰵪,contactless payment
+,exclamation circle
+,exclamation triangle
+,javascript alt
+,javascript badge
+󰍬,microphone
+󰈐,fan
+󱕂,tune variant
+󰙪,tune vertical
+󰓧,sync alert
+󱍸,sync circle
+󰓨,sync off
+󰓕,step backward
+󰓗,step forward
+󱕭,sofa outline
+󱕮,sofa single
+󱐭,fuse alert
+󰲆,fuse blade
+󱐬,fuse off
+󱃧,flip horizontal
+󱃨,flip vertical
+󰃪,cake layered
+󰃫,cake variant
+󰘗,bowl mix
+󰊩,bowl outline
+󰂶,blur linear
+󰂷,blur off
+󰂸,blur radial
+,sign hanging
+,sign in
+,sign language
+,sign out
+,plus circle
+,plus square
+,pied piper
+,life bouy
+,life buoy
+,life ring
+,life saver
+,grip lines
+,grip vertical
+,flag checkered
+,flag o
+,flag usa
+,fire extinguisher
+,run above
+,run all
+,run below
+,run errors
+,thermometer high
+,thermometer low
+,prescription bottle
+󱦒,fraction one half
+,canadian maple leaf
+󰏓,package
+,battery
+󰚇,inbox
+,spaghetti monster flying
+,assistive listening systems
+,y combinator square
+,d and d
+,lego separator
+,code review
+,code square
+󱣡,virus off
+󱎷,virus outline
+󰔑,thumb down
+󰔓,thumb up
+󱙳,shark fin
+󱢻,shark off
+󱖷,moped electric
+󱖹,moped outline
+󱩗,meter electric
+󱩙,meter gas
+󱗀,horse human
+󱗁,horse variant
+󰧵,ghost off
+󱙝,ghost outline
+󰡳,gauge empty
+󰡴,gauge full
+󰡵,gauge low
+󰽎,focus auto
+󰽏,focus field
+󱟜,crown circle
+󱇐,crown outline
+󰳭,cross bolnisi
+󰳵,cross celtic
+󰳶,cross outline
+󱥱,candy off
+󱥳,candy outline
+󱝱,brush off
+󱨍,brush outline
+󱠓,brush variant
+,ruler combined
+,ruler horizontal
+,ruler vertical
+,minus circle
+,minus square
+,house chimney
+,heart crack
+,heart o
+,heart pulse
+,hands holding
+,hands praying
+,gauge high
+,gauge simple
+,earth africa
+,earth americas
+,earth asia
+,earth europe
+,chart area
+,chart bar
+,chart line
+,chart pie
+,align center
+,align justify
+,align left
+,align right
+,bell dot
+,bell slash
+󰌷,link
+,small craft advisory
+󱤓,integrated circuit chip
+󰺴,frequently asked questions
+,thermometer exterior
+,thermometer internal
+󰌨,layers
+󰒉,selection
+󰃧,bus
+,flame thick
+,flame thin
+󰩻,tshirt crew
+󰩼,tshirt v
+󰓷,tablet android
+󰦧,tablet cellphone
+󰻎,tablet dashboard
+󱎞,stairs box
+󱊾,stairs down
+󱊽,stairs up
+󱩫,roller shade
+󰴫,roller skate
+󱓞,rocket launch
+󱎯,rocket outline
+󰑗,repeat off
+󰑘,repeat once
+󰕇,repeat variant
+󰴦,podium bronze
+󰴧,podium gold
+󰴨,podium silver
+󰿽,peanut off
+󰿾,peanut outline
+󱖃,lotion outline
+󱖄,lotion plus
+󱌢,hammer screwdriver
+󱢇,hammer sickle
+󱌣,hammer wrench
+󰝱,guitar acoustic
+󰋄,guitar electric
+󰋅,guitar pick
+󰩆,engine off
+󰇻,engine outline
+󰵯,domain off
+󱂭,domain plus
+󱂮,domain remove
+󰧊,ballot outline
+󰰹,ballot recount
+,thumbs down
+,thumbs up
+,angles down
+,angles left
+,angles right
+,angles up
+,graph left
+,graph line
+,graph scatter
+󰔂,television
+󰎟,notification clear all
+󰍉,magnify
+󰄬,check
+,cloud
+,device camera
+,device desktop
+,device mobile
+󰒵,smoking off
+󱐍,smoking pipe
+󱡐,earbuds off
+󱡒,earbuds outline
+󰞷,console line
+󰢩,console network
+󱒒,compare horizontal
+󱢳,compare remove
+󱒓,compare vertical
+,address book
+,address card
+,github action
+,github alt
+,github inverted
+,folder active
+,folder library
+,folder opened
+,chrome close
+,chrome maximize
+,chrome minimize
+,chrome restore
+󰎗,nfc tap
+󰎘,nfc variant
+󱊪,lan check
+󰌘,lan connect
+󰌙,lan disconnect
+󰌚,lan pending
+󰗥,cup off
+󱌏,cup outline
+󰆫,cup water
+,car battery
+,car burst
+,car rear
+,car side
+,vm active
+,vm connect
+,vm outline
+,vm running
+󰈻,flag
+󰵺,go kart track
+󰌆,key
+,project roadmap
+,project symlink
+,project template
+,chevron down
+,chevron left
+,chevron right
+,chevron up
+󰟡,nintendo switch
+󰖫,nintendo wii
+󰜭,nintendo wiiu
+󱏺,mushroom off
+󰟠,mushroom outline
+󰟝,facebook gaming
+󰈎,facebook messenger
+󰬱,facebook workplace
+󰬣,bullhorn outline
+󱥮,bullhorn variant
+󰡓,baseball bat
+󱗬,baseball diamond
+,location arrow
+,location crosshairs
+,location dot
+,location pin
+,ellipsis h
+,ellipsis v
+,ellipsis vertical
+,comment discussion
+,comment draft
+,comment unresolved
+,chevron down
+,chevron left
+,chevron right
+,chevron up
+,pomodoro done
+,pomodoro estimated
+,pomodoro squashed
+,pomodoro ticking
+,triangle down
+,triangle left
+,triangle right
+,triangle up
+,bookmark fill
+,bookmark slash
+󱌳,syllabary hangul
+󱌴,syllabary hiragana
+󱌵,syllabary katakana
+󰷼,signature freehand
+󰷽,signature image
+󰷾,signature text
+󱐡,incognito circle
+󰁵,incognito off
+󰌲,filmstrip box
+󰈱,filmstrip off
+󱎙,escalator box
+󱋀,escalator down
+󱊿,escalator up
+󰭜,backspace outline
+󰹾,backspace reverse
+󰪏,animation outline
+󰤺,animation play
+,handshake angle
+,handshake o
+,handshake simple
+,triangle down
+,triangle left
+,triangle right
+,triangle up
+󰍴,minus
+󱪈,wind power
+󰶥,wind turbine
+󰟦,pipe disconnected
+󰢉,pipe leak
+󱡍,pipe valve
+󱍔,pipe wrench
+󱂩,dock bottom
+󱂪,dock left
+󱂫,dock right
+󱔓,dock top
+󱂬,dock window
+󰃷,call made
+󰃸,call merge
+󰃹,call missed
+󰃺,call received
+󰃻,call split
+,list alt
+,list check
+,list ol
+,list ul
+,code branch
+,code commit
+,code fork
+,code merge
+,cart flatbed
+,cart plus
+,cart shopping
+,bell concierge
+,bell o
+,bell slash
+,thermometer
+,cloud down
+,cloud refresh
+,cloud up
+󰆤,crosshairs gps
+󰽅,crosshairs off
+󱄶,crosshairs question
+,microphone lines
+,microphone slash
+󰄔,cash
+󰏜,panorama
+󰇚,download
+,calendar
+󱡝,radioactive circle
+󰻁,radioactive off
+󱏼,soy sauce off
+󰦎,not equal variant
+󰻟,cpu 32 bit
+󰻠,cpu 64 bit
+󰿖,arm flex outline
+,bar chart o
+,app store ios
+󰒢,signal
+󰒅,select
+󰳪,beaker
+󰁶,basket
+󰶛,solar panel
+󰩲,solar power
+󰷴,screw lag
+󰗑,scale balance
+󰑳,scale bathroom
+󱁚,scale off
+󱦸,scale unbalanced
+󰑛,reply all
+󱆮,reply circle
+󰼠,reply outline
+󰏥,pause circle
+󰏧,pause octagon
+󱞛,light recessed
+󰥾,light switch
+󰸫,comma box
+󰸥,comma circle
+󰤽,audio video
+,trash can
+,trash o
+,times circle
+,times rectangle
+,phone flip
+,phone slash
+,phone square
+,phone volume
+󰴾,transmission tower
+󱈂,checkerboard minus
+󱈁,checkerboard plus
+󱈃,checkerboard remove
+󱀌,alphabetical off
+󱀍,alphabetical variant
+󰅖,close
+󰀠,alarm
+󰭹,chat
+󰴿,weight gram
+󰖢,weight kilogram
+󱅝,weight lifter
+󰦵,weight pound
+󱂇,router network
+󰑩,router wireless
+󰢹,remote desktop
+󰻄,remote off
+󰻅,remote tv
+󰻂,record circle
+󰦚,record player
+󰑋,record rec
+,window close
+,window maximize
+,window minimize
+,window restore
+,mobile button
+,mobile phone
+,mobile screen
+󰔏,thermometer
+,ice waveform mirrored
+,left hard divider
+,left soft divider
+󱄕,slot machine outline
+󱫯,sail boat sink
+󰶗,room service outline
+󰙖,move resize variant
+󰡸,high definition box
+󱃰,hair dryer outline
+󰈆,exit to app
+󰂗,bunk bed outline
+,hard of hearing
+,fort awesome alt
+,beer mug empty
+󰭋,tab minus
+󰝜,tab plus
+󰭌,tab remove
+󱦞,tab search
+󰓪,tab unselected
+󰒨,sim alert
+󰒩,sim off
+󱗕,sim outline
+󰙛,pot mix
+󰋿,pot outline
+󰙚,pot steam
+󰷢,pen lock
+󰷣,pen minus
+󰷤,pen off
+󰷥,pen plus
+󰷦,pen remove
+󱨛,gas burner
+󰙇,gas cylinder
+󰊘,gas station
+󰪰,egg easter
+󱡊,egg fried
+󱏰,egg off
+󱏲,egg outline
+󰀛,air conditioner
+󰵃,air filter
+󰶬,air horn
+󱂙,air humidifier
+󰵄,air purifier
+,pen clip
+,pen fancy
+,pen nib
+,pen ruler
+,shield check
+,shield lock
+,shield slash
+,shield x
+󰡈,youtube gaming
+󰡇,youtube studio
+󰵀,youtube subscription
+󰑈,youtube tv
+󰦢,speaker bluetooth
+󰴸,speaker multiple
+󰓄,speaker off
+󰜟,speaker wireless
+󰟀,desktop classic
+󰇄,desktop mac
+󰇅,desktop tower
+󰮀,compass off
+󰆌,compass outline
+󱎂,compass rose
+󱈵,bicycle basket
+󱢜,bicycle cargo
+󱖴,bicycle electric
+,file
+,right hard divider
+,right soft divider
+󰩺,trash can outline
+󰿠,slash forward box
+󱦗,razor double edge
+󱦘,razor single edge
+󱙹,piggy bank outline
+󰶏,mixed martial arts
+󰣙,death star variant
+󱨷,coach lamp variant
+󰳯,bread slice outline
+,book open o
+,spray can sparkles
+,paper plane o
+,first order alt
+,root folder opened
+󰐊,play
+󰔷,triangle outline
+󱑼,triangle wave
+󰶡,transfer down
+󰶢,transfer left
+󰔰,transfer right
+󰶣,transfer up
+󰒛,shopping music
+󱇕,shopping outline
+󰾄,shopping search
+󰋠,hospital box
+󰋡,hospital building
+󰋢,hospital marker
+,facebook f
+,facebook messenger
+,facebook official
+,facebook square
+󱗊,shoe ballet
+󱗇,shoe cleat
+󰭇,shoe formal
+󰭈,shoe heel
+󰷺,shoe print
+󱗈,shoe sneaker
+󱏽,seed off
+󰹣,seed outline
+󱩭,seed plus
+󱤅,leaf circle
+󰲓,leaf maple
+󱋙,leaf off
+󱪲,land fields
+󱪳,land plots
+󱛯,gift off
+󱛱,gift open
+󰊡,gift outline
+󱐀,form dropdown
+󱐁,form select
+󱂕,form textarea
+󰘎,form textbox
+󰇜,drag horizontal
+󰮐,drag variant
+󰇝,drag vertical
+󱔼,data matrix
+󰆟,crop free
+󰆠,crop landscape
+󰆡,crop portrait
+󰚖,crop rotate
+󰆢,crop square
+,git branch
+,git commit
+,git compare
+,git merge
+󰗱,ev station
+󰠮,notebook
+󰀝,airplane
+󰐱,puzzle
+,person
+,clipboard alt
+,clipboard check
+,clipboard list
+,clipboard user
+,upper left triangle
+,upper right triangle
+,lower left triangle
+,lower right triangle
+󰔕,thumbs up down
+󱊻,string lights off
+󰑸,screen rotation lock
+󰑝,resize bottom right
+󰏱,mortar pestle plus
+󰹊,invert colors off
+󰪵,expand all outline
+󰶽,closed caption outline
+,sticky note o
+,filter circle dollar
+,credit card alt
+󰥰,headphones bluetooth
+󰋌,headphones box
+󰟎,headphones off
+󰋍,headphones settings
+,magnifying glass
+,diff added
+,diff ignored
+,diff modified
+,diff removed
+,diff renamed
+󱂽,smart card
+󰯆,skull crossbones
+󰯈,skull outline
+󱓇,skull scan
+󰲾,radio am
+󰲿,radio fm
+󰐺,radio handheld
+󱈜,radio off
+󰐻,radio tower
+󰡜,chess bishop
+󰡗,chess king
+󰡘,chess knight
+󰡙,chess pawn
+󰡚,chess queen
+󰡛,chess rook
+󰶧,badge account
+,table cells
+,table columns
+,table list
+,repo clone
+,repo forked
+,repo pull
+,repo push
+,list filter
+,list flat
+,list ordered
+,list selection
+,list tree
+,list unordered
+,diff added
+,diff ignored
+,diff modified
+,diff removed
+,diff renamed
+󱍤,sticker
+,layout
+󰒓,cog
+󰐕,plus
+󰵈,axis
+󱞌,information off
+󰋽,information outline
+󰙎,information variant
+󰟷,thought bubble outline
+󰼫,stretch to page
+󱩶,storage tank outline
+󰻊,scatter plot outline
+󱍘,propane tank outline
+󱪸,medical cotton swab
+󰩊,feature search outline
+󱏭,beehive off outline
+,greater than equal
+,drivers license o
+,diamond turn right
+󰑀,ray end
+󰑂,ray start
+󰑅,ray vertex
+,map location
+,map marker
+,map o
+,map pin
+,map signs
+󰝤,square
+,issue closed
+,issue draft
+,issue opened
+,issue reopened
+,issue tracks
+󰔹,trophy award
+󰶤,trophy broken
+󰔺,trophy outline
+󰔻,trophy variant
+󰔡,toggle switch
+󰢸,qrcode edit
+󱆌,qrcode minus
+󱆋,qrcode plus
+󱆍,qrcode remove
+󰐳,qrcode scan
+󰦑,office building
+󰊜,gender female
+󰊝,gender male
+󰊟,gender transgender
+󱨫,blinds horizontal
+󱀑,blinds open
+󱨭,blinds vertical
+,chess bishop
+,chess horse
+,chess king
+,chess pawn
+,chess queen
+,chess tower
+,toggle down
+,toggle left
+,toggle off
+,toggle on
+,toggle right
+,toggle up
+󱒂,watering can outline
+󱌲,ideogram cjk variant
+󱃙,electric switch closed
+󰪧,collapse all outline
+󱨧,asterisk circle outline
+,external link square
+,baseball bat ball
+,x circle fill
+󱓆,radiology box outline
+󱌤,hydraulic oil level
+󱌥,hydraulic oil temperature
+󰾲,expansion card variant
+,envelope open o
+󰛳,network
+󰟋,gesture
+󰴼,transit connection
+󰾋,transit detour
+󱔕,transit skip
+󰚮,transit transfer
+󰨐,rhombus medium
+󰜌,rhombus outline
+󰨑,rhombus split
+󱨂,percent box
+󱨄,percent circle
+󱉸,percent outline
+󰏙,palette advanced
+󰸌,palette outline
+󰢵,palette swatch
+󱂢,decimal comma
+󰆶,decimal decrease
+󰆵,decimal increase
+󱞗,ceiling fan
+󰝩,ceiling light
+,trapezoid top bottom
+,backslash separator redundant
+󱃳,horizontal rotate clockwise
+󱃴,horizontal rotate counterclockwise
+󰮃,controller classic outline
+󱎥,size m
+󱎤,size s
+󱎧,size xl
+󱎣,size xs
+󱎨,size xxl
+󱎢,size xxs
+󱎩,size xxxl
+󰈑,fast forward
+󰠛,door closed
+󰠜,door open
+󱠞,door sliding
+󱐜,cube off
+󰆧,cube outline
+󰮄,cube scan
+󰆨,cube send
+󰆩,cube unfolded
+󱀞,cast audio
+󰄙,cast connected
+󰸝,cast education
+󰞊,cast off
+󰀟,cast variant
+,mars double
+,mars stroke
+󰆴,delete
+󱌬,alphabet aurebesh
+󱌭,alphabet cyrillic
+󱌮,alphabet greek
+󱌯,alphabet latin
+󱌰,alphabet piqad
+󱌷,alphabet tengwar
+,envelope o
+,envelope open
+,envelope square
+󰿺,zip box outline
+󱌅,ski cross country
+󱙸,pig variant outline
+󰹒,ice cream off
+󱫮,ear hearing loop
+󰩅,ear hearing off
+󱢍,all inclusive box
+,hat cowboy side
+󰘌,subdirectory arrow left
+󰘍,subdirectory arrow right
+󱝶,hamburger check
+󱝷,hamburger minus
+󱝸,hamburger off
+󱝹,hamburger plus
+󱝺,hamburger remove
+󰂰,bluetooth audio
+󰂱,bluetooth connect
+󰂲,bluetooth off
+󰂳,bluetooth settings
+󰂴,bluetooth transfer
+󰔣,tooltip
+󰐪,printer
+󰯘,train car
+󰣄,train variant
+󰻷,flash alert
+󰉂,flash auto
+󰉃,flash off
+󰛕,flash outline
+,truck fast
+,truck medical
+,truck monster
+,truck moving
+,truck pickup
+,share alt
+,share nodes
+,share square
+,money bill
+,money check
+,check circle
+,check double
+,check square
+,forwardslash separator redundant
+󰾟,approximately equal box
+󰿞,silverware clean
+󰒤,silverware fork
+󰒥,silverware spoon
+󰒦,silverware variant
+󱏝,eyedropper minus
+󱏟,eyedropper off
+󱏜,eyedropper plus
+󱏞,eyedropper remove
+󰈋,eyedropper variant
+󰏫,pencil
+󰯑,timeline
+󰃀,bookmark
+󰈈,eye
+󰔽,truck
+󰖅,wallet giftcard
+󰖆,wallet membership
+󰯝,wallet outline
+󰾎,wallet plus
+󰖇,wallet travel
+󰔗,ticket account
+󰔘,ticket confirmation
+󰤓,ticket outline
+󰜤,ticket percent
+󰴪,rewind 10
+󱥆,rewind 15
+󰶖,rewind 30
+󱇹,rewind 5
+󱘌,rewind 60
+󰜊,rewind outline
+󰧰,flower outline
+󱢅,flower pollen
+󰴈,flower poppy
+󰧱,flower tulip
+,volume down
+,volume high
+,volume low
+,volume off
+,volume up
+,volume xmark
+,folder minus
+,folder o
+,folder open
+,folder plus
+,folder tree
+󰤑,test tube empty
+󰤒,test tube off
+󰙧,stop circle outline
+󱉽,safe square outline
+󰐆,pine tree box
+󱐚,pine tree fire
+󰏋,open in app
+󰏌,open in new
+󰮮,open source initiative
+󱩄,heat pump outline
+󰨷,city variant outline
+,wine glass empty
+,stop circle o
+,play circle o
+,mail reply all
+,less than equal
+󰍹,monitor
+,group by ref type
+󰊐,fridge
+,git branch
+,git commit
+,git compare
+,git merge
+󱊕,tray alert
+󱊖,tray full
+󱊗,tray minus
+󱊘,tray plus
+󱊙,tray remove
+󰒡,sign caution
+󰞁,sign direction
+󱓸,sign pole
+󰞂,sign text
+󰽢,moon full
+󰽤,moon new
+󰞋,help box
+󰋗,help circle
+󰛵,help network
+󰮥,help rhombus
+󰼹,baby bottle
+󱏠,baby buggy
+󰚏,baby carriage
+󰹼,baby face
+,comment dollar
+,comment dots
+,comment medical
+,comment o
+,comment slash
+,comment sms
+,circle filled
+,circle large
+,circle slash
+,circle small
+󰐥,power
+󰎚,note
+󰉚,food
+󱣟,wiper wash alert
+󰺾,ruler square compass
+󱅿,pound box outline
+󰏡,paper cut vertical
+󱅘,paper roll outline
+󰆹,debug step into
+󰆸,debug step out
+󰆷,debug step over
+,scale unbalanced flip
+,right from bracket
+,right to bracket
+,pause circle o
+,clock rotate left
+,ruby on rails
+,type hierarchy sub
+,type hierarchy super
+,wizards of the coast
+󱢊,umbrella beach
+󰦰,umbrella closed
+󰕋,umbrella outline
+󰗅,surround sound
+󱋂,elevator down
+󱎁,elevator passenger
+󱋁,elevator up
+,repo clone
+,repo deleted
+,repo forked
+,repo locked
+,repo pull
+,repo push
+,repo template
+󰖊,watch export
+󰖋,watch import
+󰢗,watch variant
+󰚱,watch vibrate
+󰦋,mouse bluetooth
+󰍾,mouse off
+󰍿,mouse variant
+󱪩,forum minus
+󰠢,forum outline
+󱪫,forum plus
+󱪭,forum remove
+,chess bishop
+,chess board
+,chess king
+,chess knight
+,chess pawn
+,chess queen
+,chess rook
+,caret down
+,caret left
+,caret right
+,caret up
+,angle down
+,angle left
+,angle right
+,angle up
+󱩷,sun clock
+󱦥,sun compass
+󱞖,sun snowflake
+󱣖,sun thermometer
+󱟾,sun wireless
+󰌫,led off
+󰌬,led on
+󰌭,led outline
+󰟖,led strip
+,american sign language interpreting
+,ungroup by ref type
+󰼩,snowflake alert
+󱩰,snowflake check
+󱋋,snowflake melt
+󱓣,snowflake off
+󱩱,snowflake thermometer
+󰼪,snowflake variant
+󱫆,paperclip check
+󱧚,paperclip lock
+󱫇,paperclip minus
+󱫈,paperclip off
+󱫉,paperclip plus
+󱫊,paperclip remove
+󰲐,ip network outline
+,id card clip
+,id card o
+,check circle fill
+󱆺,tumble dryer alert
+󱆻,tumble dryer off
+󰶝,subway alert variant
+󱩢,rabbit variant outline
+󱅨,police badge outline
+,tablet screen button
+,pencil square o
+,border top left
+󰚩,robot
+󰀦,alert
+󱫁,attachment check
+󱧄,attachment lock
+󱫂,attachment minus
+󱫃,attachment off
+󱫄,attachment plus
+󱫅,attachment remove
+,d and d beyond
+󰒌,server minus
+󰒍,server network
+󰒏,server off
+󰒐,server plus
+󰒑,server remove
+󰒒,server security
+󰑷,script outline
+󰯂,script text
+󱦙,rotate 360
+󰻇,rotate 3d
+󰑥,rotate left
+󰶘,rotate orbit
+󰑧,rotate right
+󱖳,motion outline
+󱖐,motion pause
+󱖏,motion play
+󰶑,motion sensor
+󰡲,garage alert
+󱟻,garage lock
+󰛚,garage open
+󱋓,garage variant
+󰶿,diving flippers
+󰷀,diving helmet
+󰷁,diving scuba
+󰷅,diving snorkel
+󰀃,access point
+,google drive
+,google play
+,google plus
+,google wallet
+,arrows alt
+,arrows h
+,arrows rotate
+,arrows v
+󱆼,washing machine alert
+󱆽,washing machine off
+󱠪,traffic light outline
+,martini glass citrus
+,martini glass empty
+,device camera video
+,temperature empty
+,temperature full
+,temperature half
+,temperature high
+,temperature low
+,temperature quarter
+󰍘,math compass
+󰲖,math cos
+󰿈,math integral
+󱂅,math log
+󰿊,math norm
+󰲗,math sin
+󰲘,math tan
+󱗗,fire alert
+󱠇,fire circle
+󰻲,fire extinguisher
+󱄷,fire hydrant
+󱜢,fire off
+󰢫,fire truck
+,dice d20
+,dice d6
+,dice five
+,dice four
+,dice one
+,dice six
+,dice three
+,dice two
+󰴓,fountain pen tip
+󰈂,ethernet cable off
+,question circle o
+󰶈,mailbox open
+󰶌,mailbox outline
+󰶍,mailbox up
+,chevron down
+,chevron left
+,chevron right
+,chevron up
+󰣆,application
+󱊞,usb flash drive
+󰤰,pin off outline
+󱙶,paw off outline
+󰻵,fit to page
+󱣴,fit to screen
+󱛮,dog side off
+󰨯,bug check outline
+󰭊,box cutter off
+,eye low vision
+󰊖,gamepad
+󰠠,lightning bolt zap circle
+󱐌,lightning bolt zap outline
+,cc by
+,cc cc
+,cc nc
+,cc nd
+,cc remix
+,cc sa
+,cc share
+,cc zero
+󱇴,share all
+󱆭,share circle
+󰼣,share off
+󰤲,share outline
+󰒗,share variant
+󰠲,shape outline
+󰒕,shape plus
+󱁂,fruit cherries
+󱁃,fruit citrus
+󱁄,fruit grapes
+󱨎,fruit pear
+󱁆,fruit pineapple
+󱁇,fruit watermelon
+󰣝,floor lamp
+󰠡,floor plan
+,file binary
+,file code
+,file media
+,file pdf
+,file submodule
+,file zip
+󰂓,flask
+󱣱,navigation variant outline
+󱖦,calculator variant outline
+󰰼,basketball hoop outline
+,cc amex
+,cc discover
+,cc jcb
+,cc mastercard
+,cc paypal
+,cc stripe
+,cc visa
+,hourglass 1
+,hourglass 2
+,hourglass 3
+,hourglass end
+,hourglass half
+,hourglass o
+,hourglass start
+,terminal bash
+,terminal cmd
+,terminal debian
+,terminal linux
+,terminal powershell
+,terminal tmux
+,terminal ubuntu
+󰌡,contactless payment circle
+󱕃,tune vertical variant
+󰓖,step backward 2
+󰓘,step forward 2
+󱕯,sofa single outline
+󰉇,flip to back
+󰉈,flip to front
+󱟰,cake variant outline
+󰋤,bowl mix outline
+,plus square o
+,pied piper alt
+,pied piper hat
+,pied piper pp
+,long arrow down
+,long arrow left
+,long arrow right
+,long arrow up
+,grip lines vertical
+,fire flame curved
+,fire flame simple
+,folder config
+,folder git
+,folder github
+,folder npm
+,folder oct
+,folder open
+󱍳,upload lock
+󰠽,upload multiple
+󰛶,upload network
+󱃆,upload off
+󰸇,upload outline
+󱌗,kettle alert
+󱌛,kettle off
+󰽖,kettle outline
+󱌙,kettle steam
+󰇀,cursor default
+󰆾,cursor move
+󰆽,cursor pointer
+󰗧,cursor text
+󰈲,filter
+,prescription bottle medical
+󰦨,text
+󰂚,bell
+󰅟,cloud
+󰓡,swap horizontal
+󰓢,swap vertical
+󱅡,send check
+󰷸,send circle
+󱅣,send clock
+󰟭,send lock
+󱅥,send outline
+󱐷,pail minus
+󱐹,pail off
+󱐺,pail outline
+󱐶,pail plus
+󱐸,pail remove
+󰺆,boom gate
+,star half
+,star o
+,book atlas
+,book bible
+,book medical
+,book open
+,book quran
+,book skull
+,book tanakh
+,git commit
+,git compare
+,git fetch
+,git merge
+,lego block facing
+,lego block sideways
+,lego separator thin
+,move to bottom
+,move to end
+,move to start
+,move to top
+,code of conduct
+󰖥,white balance auto
+󰖦,white balance incandescent
+󰖧,white balance iridescent
+󰖨,white balance sunny
+󱡙,waves arrow left
+󱡚,waves arrow right
+󱡛,waves arrow up
+󱣢,virus off outline
+󰔒,thumb down outline
+󰔔,thumb up outline
+󱙴,shark fin outline
+󱖸,moped electric outline
+󱩘,meter electric outline
+󱩚,meter gas outline
+󱡮,horse variant fast
+󱙜,ghost off outline
+󰽐,focus field horizontal
+󰽑,focus field vertical
+󱟝,crown circle outline
+󱥲,candy off outline
+,minus square o
+,house chimney crack
+,house chimney medical
+,hands asl interpreting
+,gauge simple high
+,bell slash dot
+󰾔,web box
+󱞐,web cancel
+󰞉,web check
+󱉊,web clock
+󱂠,web minus
+󰪎,web off
+󰀳,web plus
+󱞑,web refresh
+󰕑,web remove
+󱞒,web sync
+󰮷,pan down
+󰮸,pan horizontal
+󰮹,pan left
+󰮺,pan right
+󰮽,pan up
+󰮾,pan vertical
+󰿔,bed double
+󰢠,bed empty
+󰿒,bed king
+󰂙,bed outline
+󰿐,bed queen
+󱁭,bed single
+,feed discussion
+,feed forked
+,feed heart
+,feed merged
+,feed person
+,feed repo
+,feed rocket
+,feed star
+,feed tag
+,feed trophy
+󰎒,smoke detector
+󱍵,label multiple
+󰫋,label off
+󰌖,label outline
+󱋪,label percent
+󰫍,label variant
+󱟪,chili alert
+󰞲,chili hot
+󰞳,chili medium
+󰞴,chili mild
+󱑧,chili off
+󰀶,apple finder
+󰀸,apple icloud
+󰀷,apple ios
+󰀹,apple safari
+󰗇,playlist check
+󰤀,playlist edit
+󰐐,playlist minus
+󰲸,playlist music
+󰐑,playlist play
+󰐒,playlist plus
+󰐓,playlist remove
+󰷲,playlist star
+,direction down
+,direction left
+,direction right
+,direction up
+󰓹,tag
+,flame thick mirrored
+,flame thin mirrored
+󰕎,unfold less horizontal
+󰝠,unfold less vertical
+󰕏,unfold more horizontal
+󰝡,unfold more vertical
+󰔿,tshirt crew outline
+󰕀,tshirt v outline
+󱩬,roller shade closed
+󰅅,roller skate off
+󱓟,rocket launch outline
+󰿿,peanut off outline
+󱖅,lotion plus outline
+󰋆,guitar pick outline
+󰩇,engine off outline
+󰰺,ballot recount outline
+,thumbs o down
+,thumbs o up
+󱥃,newspaper check
+󰼌,newspaper minus
+󰼍,newspaper plus
+󱥄,newspaper remove
+󱀁,newspaper variant
+󱍞,head
+,user
+󰆘,cookie
+󰓜,store
+󰋑,heart
+󰘸,cards
+,arrow both
+,arrow down
+,arrow left
+,arrow right
+,arrow switch
+,arrow up
+󰕾,volume high
+󰕿,volume low
+󰖀,volume medium
+󰝞,volume minus
+󰝟,volume mute
+󰖁,volume off
+󰝝,volume plus
+󱄠,volume source
+󱄡,volume vibrate
+󱂟,coffee maker
+󰾪,coffee off
+󰛊,coffee outline
+󰑻,seat flat
+󰳄,seat outline
+󱉉,seat passenger
+󱥸,dots circle
+󱗼,dots grid
+󱗿,dots hexagon
+󰇘,dots horizontal
+󱗽,dots square
+󱗾,dots triangle
+󰇙,dots vertical
+󱙕,bank check
+󰶰,bank minus
+󱙖,bank off
+󰺀,bank outline
+󰶱,bank plus
+󰶲,bank remove
+󰨧,bank transfer
+,sort asc
+,sort desc
+,sort down
+,sort up
+󰃚,brightness 1
+󰃛,brightness 2
+󰃜,brightness 3
+󰃝,brightness 4
+󰃞,brightness 5
+󰃟,brightness 6
+󰃠,brightness 7
+󰃡,brightness auto
+󰳲,brightness percent
+,device camera video
+󱐨,smoking pipe off
+󱡑,earbuds off outline
+󰱠,console network outline
+󰀽,arrange bring forward
+󰀿,arrange send backward
+,address book o
+,address card o
+󰹓,nfc search variant
+󰹔,nfc variant off
+󱍽,cup off outline
+󰥽,less than or equal
+󰒺,sort
+󱊈,toy brick
+󰝸,set all
+󰝹,set center
+󰝻,set left
+󱓠,set merge
+󰝾,set none
+󰝿,set right
+󱓡,set split
+󱑝,set square
+󰼽,bag checked
+󰸐,bag personal
+󱖋,bag suitcase
+󱧜,receipt outline
+󰛡,hexagon multiple
+󰋙,hexagon outline
+󱎓,nintendo game boy
+󱏻,mushroom off outline
+󱥯,bullhorn variant outline
+󱗭,baseball diamond outline
+󰛍,earth box
+󱐄,earth minus
+󰇨,earth off
+󱐃,earth plus
+󱐅,earth remove
+󰲼,progress alert
+󰦕,progress check
+󰦖,progress clock
+󱄊,progress close
+󰦗,progress download
+󱞇,progress pencil
+󱔢,progress question
+󱞈,progress star
+󰦘,progress upload
+󰲽,progress wrench
+󰭯,card
+,bookmark slash fill
+󱌶,syllabary katakana halfwidth
+󱐢,incognito circle off
+󰴘,filmstrip box multiple
+󰹿,backspace reverse outline
+󰪐,animation play outline
+󱪉,wind power outline
+󱦫,wind turbine alert
+󱦬,wind turbine check
+,cart arrow down
+,cart flatbed suitcase
+,bell slash o
+󰖌,water
+󰄜,cellphone
+󱨣,projector off
+󰐯,projector screen
+󱨑,wall fire
+󰤜,wall sconce
+󰒫,skip backward
+󰒬,skip forward
+󰒭,skip next
+󰒮,skip previous
+󰘀,page first
+󰘁,page last
+󰮰,page next
+󰮲,page previous
+󰍝,menu down
+󰍞,menu left
+󰮫,menu open
+󰍟,menu right
+󰩤,menu swap
+󰍠,menu up
+󱟸,gate alert
+󰣡,gate and
+󰣢,gate nand
+󰣣,gate nor
+󰣤,gate not
+󱅪,gate open
+󰣥,gate or
+󰣦,gate xnor
+󰣧,gate xor
+󱗪,cart check
+󱣠,cart heart
+󰵨,cart minus
+󰙫,cart off
+󰄑,cart outline
+󰄒,cart plus
+󰵩,cart remove
+󱗫,cart variant
+,pixelated squares big
+,pixelated squares small
+,microphone lines slash
+󰌌,keyboard
+,hand
+󱤔,thumbs up down outline
+󱕹,social distance 2 meters
+󱕺,social distance 6 feet
+󰢳,microphone minus
+󰍭,microphone off
+󰍮,microphone outline
+󰢴,microphone plus
+󱦉,microphone question
+󰍯,microphone settings
+󰍰,microphone variant
+󱡞,radioactive circle outline
+󱑬,fan alert
+󱜝,fan auto
+󱨺,fan clock
+󱑰,fan minus
+󰠝,fan off
+󱑯,fan plus
+󱑱,fan remove
+󱪼,tally mark 1
+󱪽,tally mark 2
+󱪾,tally mark 3
+󱪿,tally mark 4
+󱫀,tally mark 5
+󰶜,solar panel large
+󱩳,solar power variant
+󰷳,screw flat top
+󰷷,screw round top
+󰼟,reply all outline
+󰏦,pause circle outline
+󰏨,pause octagon outline
+󱦇,light flood down
+󱦈,light flood up
+󱨤,light switch off
+󰸤,comma box outline
+󰸦,comma circle outline
+󱡫,audio input rca
+󱡭,audio input xlr
+󱆶,audio video off
+,trash arrow up
+,times circle o
+,times rectangle o
+󰏔,package down
+󰏕,package up
+󰏖,package variant
+,battery 0
+,battery 1
+,battery 2
+,battery 3
+,battery 4
+,battery empty
+,battery full
+,battery half
+,battery quarter
+󱤬,transmission tower export
+󱤭,transmission tower import
+󱧝,transmission tower off
+󱀎,alphabetical variant off
+󱉲,inbox full
+󰢰,inbox multiple
+󱉴,inbox outline
+󱖟,inbox remove
+󰍖,glass cocktail
+󰊥,glass flute
+󱡳,glass fragile
+󰊦,glass mug
+󰊧,glass stange
+󰊨,glass tulip
+󰡶,glass wine
+󰼬,stretch to page outline
+󰥮,greater than or equal
+󱖣,router wireless off
+󰩩,router wireless settings
+󰻆,remote tv off
+󰻃,record circle outline
+,window close o
+,mobile screen button
+󰴚,link box
+󱂺,link lock
+󰌸,link off
+󰲔,link plus
+󰌹,link variant
+󱗓,sim alert outline
+󱗔,sim off outline
+󰙷,pot mix outline
+󰌦,pot steam outline
+󱐉,gas station off
+󰺸,gas station outline
+󱏱,egg off outline
+󱑦,air humidifier off
+,pen to square
+󰩽,zodiac aquarius
+󰩾,zodiac aries
+󰩿,zodiac cancer
+󰪀,zodiac capricorn
+󰪁,zodiac gemini
+󰪂,zodiac leo
+󰪃,zodiac libra
+󰪄,zodiac pisces
+󰪅,zodiac sagittarius
+󰪆,zodiac scorpio
+󰪇,zodiac taurus
+󰪈,zodiac virgo
+󱢒,layers edit
+󰹌,layers minus
+󰌩,layers off
+󰧾,layers outline
+󰹍,layers plus
+󰹎,layers remove
+󱈆,layers search
+󰽘,layers triple
+󱁰,bottle soda
+󱄮,bottle tonic
+󰡔,bottle wine
+󰩭,selection drag
+󰴲,selection ellipse
+󱊃,selection marker
+󱊅,selection multiple
+󰝷,selection off
+󱟃,selection remove
+󱈅,selection search
+󰓎,star
+󰌾,lock
+󰪙,bus alert
+󰣊,bus clock
+󱤝,bus electric
+󱈒,bus marker
+󰼿,bus multiple
+󰞟,bus school
+󰞠,bus side
+󱀒,bus stop
+󰧨,desktop mac dashboard
+󰪫,desktop tower monitor
+󰮁,compass off outline
+󱗩,bicycle penny farthing
+󰠹,television box
+󰟴,television classic
+󰔃,television guide
+󰠻,television off
+󰾉,television pause
+󰻏,television play
+󱄐,television shimmer
+󰾊,television stop
+󰦀,magnify close
+󱡴,magnify expand
+󰍊,magnify minus
+󰍋,magnify plus
+󱉶,magnify scan
+,trapezoid top bottom mirrored
+󰄭,check all
+󰸞,check bold
+󰗠,check circle
+󰞑,check decagram
+󰱓,check network
+󰡕,check outline
+󰸟,check underline
+,cloud lightning bolt
+,cloud download
+,cloud meatball
+,cloud moon
+,cloud rain
+,cloud sun
+,cloud upload
+󱨉,triangle small down
+󱨊,triangle small up
+󱩯,shopping search outline
+󰿷,hospital box outline
+󰕧,video
+󱏾,seed off outline
+󱩮,seed plus outline
+󱤆,leaf circle outline
+󱋚,leaf maple off
+󱪴,land plots circle
+󱪶,land rows horizontal
+󱪷,land rows vertical
+󱛰,gift off outline
+󱛲,gift open outline
+󱍝,form textbox lock
+󰟵,form textbox password
+󱋰,drag horizontal variant
+󱋱,drag vertical variant
+󱔽,data matrix edit
+󱔾,data matrix minus
+󱔿,data matrix plus
+󱕀,data matrix remove
+󱕁,data matrix scan
+,git pull request
+󰊭,google
+,debug
+󱔙,ev plug ccs1
+󱔚,ev plug ccs2
+󱔛,ev plug chademo
+󱔜,ev plug tesla
+󱔝,ev plug type1
+󱔞,ev plug type2
+󰈼,flag checkered
+󰮙,flag minus
+󱣮,flag off
+󰈽,flag outline
+󰮚,flag plus
+󰮛,flag remove
+󰈿,flag triangle
+󰉀,flag variant
+󰵰,face agent
+󰙃,face man
+󱖆,face mask
+󰱻,face recognition
+󱁷,face woman
+󱢎,all inclusive box outline
+󱦃,key alert
+󱕴,key chain
+󰌇,key change
+󱆟,key link
+󰌈,key minus
+󰷖,key outline
+󰌉,key plus
+󰌊,key remove
+󱆞,key star
+󰌋,key variant
+󰿂,key wireless
+󰖭,window close
+󰖮,window closed
+󰖯,window maximize
+󰖰,window minimize
+󰖱,window open
+󰖲,window restore
+󱄜,window shutter
+,time 1
+,time 10
+,time 11
+,time 12
+,time 2
+,time 3
+,time 4
+,time 5
+,time 6
+,time 7
+,time 8
+,time 9
+,circle
+,magnifying glass dollar
+,magnifying glass location
+,magnifying glass minus
+,magnifying glass plus
+󱣷,smart card off
+󱂾,smart card outline
+󱂿,smart card reader
+󰯇,skull crossbones outline
+󱓈,skull scan outline
+󰶨,badge account alert
+󰸍,badge account horizontal
+󰶪,badge account outline
+,table cells large
+,repo force push
+󱞍,information off outline
+󰍵,minus box
+󰍶,minus circle
+󰍸,minus network
+󱘹,minus thick
+󰋦,human
+,thermometer 0
+,thermometer 1
+,thermometer 2
+,thermometer 3
+,thermometer 4
+,thermometer alt
+,thermometer empty
+,thermometer full
+,thermometer half
+,thermometer quarter
+󰑁,ray end arrow
+󰑃,ray start arrow
+󰑄,ray start end
+,map location dot
+󰄕,cash 100
+󱓮,cash check
+󱪑,cash clock
+󱡜,cash fast
+󱓪,cash lock
+󰶸,cash marker
+󱉠,cash minus
+󰄖,cash multiple
+󱉡,cash plus
+󰪜,cash refund
+󰳴,cash register
+󱉢,cash remove
+󱪒,cash sync
+󰏝,panorama fisheye
+󱤨,panorama horizontal
+󱦌,panorama outline
+󱦍,panorama sphere
+󱦏,panorama variant
+󱤩,panorama vertical
+󱑢,download box
+󱑤,download circle
+󱌠,download lock
+󰧩,download multiple
+󰛴,download network
+󱂰,download off
+󰮏,download outline
+,calendar check
+,calendar day
+,calendar days
+,calendar minus
+,calendar o
+,calendar plus
+,calendar week
+,calendar xmark
+,issue tracked by
+󰔼,trophy variant outline
+󰔢,toggle switch off
+󰨚,toggle switch outline
+󱨥,toggle switch variant
+󱥉,office building cog
+󱔠,office building marker
+󱔟,office building outline
+󰊞,gender male female
+󱅀,gender non binary
+󱨬,blinds horizontal closed
+󱨮,blinds vertical closed
+󰜒,signal 2g
+󰜓,signal 3g
+󰜔,signal 4g
+󰩯,signal 5g
+󰜕,signal hspa
+󰞃,signal off
+󰘊,signal variant
+󰒆,select all
+󰴱,select color
+󰫙,select compare
+󰩬,select drag
+󰾂,select group
+󰒇,select inverse
+󱊀,select marker
+󱊁,select multiple
+󰒈,select off
+󰿚,select place
+󱟁,select remove
+󱈄,select search
+󱈩,beaker alert
+󱈫,beaker check
+󱈭,beaker minus
+󰚐,beaker outline
+󱈯,beaker plus
+󱈱,beaker question
+󱈳,beaker remove
+󱣥,basket check
+󰁷,basket fill
+󱔣,basket minus
+󱔥,basket off
+󱆁,basket outline
+󱔧,basket plus
+󱔩,basket remove
+󰁸,basket unfill
+,arrow both
+,arrow down
+,arrow left
+,arrow right
+,arrow swap
+,arrow up
+󱕆,transit connection horizontal
+󰴽,transit connection variant
+󱓜,rhombus medium outline
+󱓝,rhombus split outline
+󱨃,percent box outline
+󱨅,percent circle outline
+󱍜,palette swatch outline
+󱥚,palette swatch variant
+󱂣,decimal comma decrease
+󱂤,decimal comma increase
+󱞘,ceiling fan light
+󱣝,ceiling light multiple
+󱟇,ceiling light outline
+,left half circle thick
+,left half circle thin
+,left hard divider inverse
+󰍲,microsoft
+󰅗,close box
+󰅙,close circle
+󰅛,close network
+󰅜,close octagon
+󰛉,close outline
+󱎘,close thick
+󰞎,alarm bell
+󰀡,alarm check
+󰞏,alarm light
+󰀢,alarm multiple
+󰹱,alarm note
+󰀣,alarm off
+󱗄,alarm panel
+󰀤,alarm plus
+󰚎,alarm snooze
+󰝚,music
+󰵱,fast forward 10
+󱤺,fast forward 15
+󰴆,fast forward 30
+󱇸,fast forward 5
+󱘋,fast forward 60
+󰛒,fast forward outline
+󱂯,door closed lock
+󱠟,door sliding lock
+󱠠,door sliding open
+󱐝,cube off outline
+󱝉,cast audio variant
+,mars stroke h
+,mars stroke right
+,mars stroke up
+,mars stroke v
+󰭺,chat alert
+󱐐,chat minus
+󰻞,chat outline
+󱐏,chat plus
+󰭻,chat processing
+󱜸,chat question
+󱐑,chat remove
+󱋑,chat sleep
+,envelope open o
+,envelope open text
+󰸁,thermometer alert
+󱢕,thermometer bluetooth
+󱩿,thermometer check
+󱃂,thermometer high
+󰔐,thermometer lines
+󱃃,thermometer low
+󰸄,thermometer minus
+󱔱,thermometer off
+󰸅,thermometer plus
+󱪀,thermometer water
+󰃖,briefcase
+,creative commons
+,up down left right
+,up right from square
+,right half circle thick
+,right half circle thin
+,right hard divider inverse
+󱜳,train car passenger
+󱂉,roman numeral 2
+󱂊,roman numeral 3
+󱂋,roman numeral 4
+󱂍,roman numeral 6
+󱂎,roman numeral 7
+󱂏,roman numeral 8
+󱂐,roman numeral 9
+󰻸,flash alert outline
+󰙻,flash red eye
+,truck ramp box
+,share alt square
+,share from square
+,share square o
+,money bill 1
+,money bill wave
+,money check dollar
+,check circle o
+,check square o
+,check to slot
+󰩰,silverware fork knife
+󱇉,distribute horizontal center
+󱇈,distribute horizontal left
+󱇊,distribute horizontal right
+󱇋,distribute vertical bottom
+󱇌,distribute vertical center
+󱇍,distribute vertical top
+󰇮,email
+,file added
+,file badge
+,file binary
+,file code
+,file diff
+,file directory
+,file media
+,file moved
+,file removed
+,file submodule
+,file zip
+󰱨,emoticon
+󰄀,camera
+,file
+󱉺,play box
+󰐌,play circle
+󰢋,play network
+󰼛,play outline
+󰐎,play pause
+󰣿,play speed
+󰅨,code array
+󰅩,code braces
+󰅪,code brackets
+󰅫,code equal
+󰘦,code json
+󰅲,code parentheses
+󰅳,code string
+󰅴,code tags
+󰾏,wallet plus outline
+󱎪,ticket confirmation outline
+󱐫,ticket percent outline
+󱢆,flower pollen outline
+󰧲,flower tulip outline
+,volume control phone
+,folder open o
+󱓵,notebook check
+󱓧,notebook edit
+󱨋,notebook heart
+󱘐,notebook minus
+󰹕,notebook multiple
+󰺿,notebook outline
+󱘒,notebook plus
+󱘔,notebook remove
+󱡺,airplane alert
+󱡻,airplane check
+󱡼,airplane clock
+󱡽,airplane cog
+󱡾,airplane edit
+󰗔,airplane landing
+󱡿,airplane marker
+󱢀,airplane minus
+󰀞,airplane off
+󱢁,airplane plus
+󱢂,airplane remove
+󱢃,airplane search
+󱢄,airplane settings
+󰗕,airplane takeoff
+󱐦,puzzle check
+󱓓,puzzle edit
+󱓔,puzzle heart
+󱓑,puzzle minus
+󰩦,puzzle outline
+󱓐,puzzle plus
+󱓒,puzzle remove
+󱓕,puzzle star
+,person biking
+,person booth
+,person digging
+,person dress
+,person hiking
+,person praying
+,person running
+,person skating
+,person skiing
+,person snowboarding
+,person swimming
+,person walking
+󱊟,usb flash drive outline
+󰻶,fit to page outline
+󱣵,fit to screen outline
+,git merge queue
+,git pull request
+󰄠,tray arrow down
+󰄝,tray arrow up
+󱀀,sign direction minus
+󰿜,sign direction plus
+󰿝,sign direction remove
+󱄘,sign real estate
+󰽡,moon first quarter
+󰽣,moon last quarter
+󰽥,moon waning crescent
+󰽦,moon waning gibbous
+󰽧,moon waxing crescent
+󰽨,moon waxing gibbous
+󰘥,help circle outline
+󰲊,help network outline
+󰮦,help rhombus outline
+󰼺,baby bottle outline
+󰾠,baby carriage off
+󰹽,baby face outline
+,circle large filled
+,circle small filled
+󰍍,map
+󱍥,sticker alert
+󱍧,sticker check
+󰞅,sticker emoji
+󱍩,sticker minus
+󱍫,sticker outline
+󱍬,sticker plus
+󱍮,sticker remove
+󱞎,sticker text
+,layout centered
+,layout menubar
+,layout panel
+,layout statusbar
+󰒔,cog box
+󱇝,cog clockwise
+󱇞,cog counterclockwise
+󱏎,cog off
+󰢻,cog outline
+󱤳,cog pause
+󱤵,cog play
+󱑞,cog refresh
+󱤷,cog stop
+󱑠,cog sync
+󱁛,cog transfer
+󰐖,plus box
+󰐗,plus circle
+󱩝,plus lock
+󰦒,plus minus
+󰐚,plus network
+󰜅,plus outline
+󱇬,plus thick
+󰵉,axis arrow
+󰵋,axis lock
+󱢋,umbrella beach outline
+󱏢,umbrella closed outline
+󱏡,umbrella closed variant
+󱥹,elevator passenger off
+󱥻,elevator passenger outline
+󰐈,contactless payment circle outline
+󰖩,wifi
+󱔀,square circle
+󰨓,square medium
+󱋮,square off
+󱡔,square opacity
+󰝣,square outline
+󰞄,square root
+󱓻,square rounded
+󰨕,square small
+󱑻,square wave
+󰢕,watch export variant
+󰢖,watch import variant
+󰳚,watch vibrate off
+󰈍,order alphabetical ascending
+󰴇,order alphabetical descending
+󰊾,order bool ascending
+󱎄,order bool descending
+󰕅,order numeric ascending
+󰕆,order numeric descending
+󱕐,mouse move down
+󱕑,mouse move up
+󱕒,mouse move vertical
+󰎀,mouse variant off
+󱪪,forum minus outline
+󱪬,forum plus outline
+󱪮,forum remove outline
+󱇃,align horizontal center
+󱥢,align horizontal distribute
+󱇂,align horizontal left
+󱇄,align horizontal right
+󱇅,align vertical bottom
+󱇆,align vertical center
+󱥣,align vertical distribute
+󱇇,align vertical top
+,angle double down
+,angle double left
+,angle double right
+,angle double up
+󱩸,sun clock outline
+󱩹,sun snowflake variant
+󱣗,sun thermometer outline
+󱟿,sun wireless outline
+󱁑,led strip variant
+󰌮,led variant off
+󰌯,led variant on
+󰌰,led variant outline
+󰲛,network off
+󰲝,network outline
+󱫋,network pos
+󰪽,gesture pinch
+󰪾,gesture spread
+󰵶,gesture swipe
+󰝁,gesture tap
+󰒎,server network off
+󱜥,script text key
+󰯃,script text outline
+󱜧,script text play
+󰑤,rotate 3d variant
+󰑦,rotate left variant
+󰑨,rotate right variant
+󱖒,motion pause outline
+󱖑,motion play outline
+󱐵,motion sensor off
+󱋕,garage alert variant
+󱋔,garage open variant
+󱟼,garage variant lock
+󰷂,diving scuba flag
+󰷃,diving scuba tank
+󱔸,access point check
+󱔹,access point minus
+󰀂,access point network
+󱔑,access point off
+󱔺,access point plus
+󱔻,access point remove
+,google plus circle
+,google plus official
+,google plus square
+,arrows left right
+,arrows up down
+󰋩,image
+󰥔,clock
+,temperature three quarters
+󱂥,delete alert
+󰚃,delete circle
+󱕖,delete clock
+󰛌,delete empty
+󰗨,delete forever
+󱂧,delete off
+󰧧,delete outline
+󰠙,delete restore
+󰗩,delete sweep
+󰆳,delete variant
+󰃇,border all
+󰃈,border bottom
+󰃉,border color
+󰃊,border horizontal
+󰃋,border inside
+󰃌,border left
+󰃍,border none
+󰃎,border outside
+󰃏,border right
+󰃐,border style
+󰃑,border top
+󰃒,border vertical
+󰅺,comment
+󰿉,math integral box
+󰿋,math norm box
+󱄸,fire hydrant alert
+󱄹,fire hydrant off
+󰶉,mailbox open outline
+󰶊,mailbox open up
+󰶎,mailbox up outline
+,chevron circle down
+,chevron circle left
+,chevron circle right
+,chevron circle up
+󰌵,lightbulb
+󰀌,tooltip account
+󱠻,tooltip cellphone
+󱕜,tooltip check
+󰔤,tooltip edit
+󰔥,tooltip image
+󱕞,tooltip minus
+󰔦,tooltip outline
+󰯖,tooltip plus
+󱕠,tooltip remove
+󰔨,tooltip text
+󰐫,printer 3d
+󰐬,printer alert
+󱅆,printer check
+󱑘,printer eye
+󰹝,printer off
+󱞆,printer outline
+󱁗,printer pos
+󱑗,printer search
+󰜇,printer settings
+󰨋,printer wireless
+,cc nc eu
+,cc nc jp
+󱇵,share all outline
+󰼤,share off outline
+󱔔,share variant outline
+󰙝,shape circle plus
+󱇺,shape oval plus
+󰙞,shape polygon plus
+󰙟,shape rectangle plus
+󰙠,shape square plus
+󱏸,fruit cherries off
+󱏹,fruit citrus off
+󱁅,fruit grapes outline
+󱁀,floor lamp dual
+󱟈,floor lamp outline
+󱝇,floor lamp torchiere
+,file symlink directory
+,file symlink file
+󰀾,arrange bring to front
+󰁀,arrange send to back
+󰘬,source branch
+󰜘,source commit
+󰓁,source fork
+󰘭,source merge
+󰓂,source pull
+󰳏,source repository
+󰏬,pencil box
+󰛿,pencil circle
+󰏮,pencil lock
+󰷨,pencil minus
+󰏯,pencil off
+󰲶,pencil outline
+󰷫,pencil plus
+󰷭,pencil remove
+󱍓,pencil ruler
+󰾕,timeline alert
+󱔲,timeline check
+󱇻,timeline clock
+󰾙,timeline help
+󱔴,timeline minus
+󰯒,timeline outline
+󰾖,timeline plus
+󱔶,timeline remove
+󰯓,timeline text
+󰃁,bookmark check
+󰧌,bookmark minus
+󰸕,bookmark multiple
+󰃂,bookmark music
+󰧎,bookmark off
+󰃃,bookmark outline
+󰃅,bookmark plus
+󰃆,bookmark remove
+,cc amazon pay
+,cc apple pay
+,cc diners club
+󰴄,eye check
+󰮔,eye circle
+󱀦,eye minus
+󰈉,eye off
+󰛐,eye outline
+󰡫,eye plus
+󱥼,eye refresh
+󱗣,eye remove
+󰡭,eye settings
+󱧞,truck alert
+󰳔,truck check
+󰔾,truck delivery
+󰞈,truck fast
+󱢑,truck flatbed
+󱦮,truck minus
+󱊝,truck outline
+󱦭,truck plus
+󱦯,truck remove
+󱦦,truck snowflake
+󰜧,truck trailer
+,square
+󱩛,monitor account
+󰦉,monitor cellphone
+󰨇,monitor dashboard
+󱋆,monitor edit
+󱎴,monitor eye
+󰷛,monitor lock
+󰍺,monitor multiple
+󰶐,monitor off
+󰹑,monitor screenshot
+󱒃,monitor share
+󱄄,monitor shimmer
+󱡶,monitor small
+󰽟,monitor speaker
+󰷜,monitor star
+,folder git branch
+󱍴,upload lock outline
+󰳘,upload network outline
+󱃇,upload off outline
+󱌘,kettle alert outline
+󱌜,kettle off outline
+󱜼,kettle pour over
+󱌚,kettle steam outline
+󰳽,cursor default click
+󱄧,cursor default gesture
+󰆿,cursor default outline
+󰯍,swap horizontal bold
+󰿡,swap horizontal circle
+󰣁,swap horizontal variant
+󰯎,swap vertical bold
+󰿣,swap vertical circle
+󰣂,swap vertical variant
+󱅢,send check outline
+󰷹,send circle outline
+󱅤,send clock outline
+󱅦,send lock outline
+󱐼,pail minus outline
+󱐾,pail off outline
+󱐻,pail plus outline
+󱐽,pail remove outline
+󰺇,boom gate alert
+󰺋,boom gate outline
+󱟹,boom gate up
+,star and crescent
+,star half empty
+,star half full
+,star half o
+,star half stroke
+,star of david
+,star of life
+,book journal whills
+,book open reader
+,git pull request
+󱆱,fridge alert
+󰊒,fridge bottom
+󱗮,fridge industrial
+󱆯,fridge off
+󰊏,fridge outline
+󰊑,fridge top
+󱗴,fridge variant
+󰀼,archive
+󱎫,timer
+󰎁,movie
+󰤁,power cycle
+󰤂,power off
+󰤃,power on
+󰚥,power plug
+󰐦,power settings
+󰤄,power sleep
+󰐧,power socket
+󰤆,power standby
+󱝽,note alert
+󱝿,note check
+󱞁,note edit
+󱙏,note minus
+󰚸,note multiple
+󱞃,note off
+󰎛,note outline
+󰎜,note plus
+󱙑,note remove
+󱙓,note search
+󰎞,note text
+󰉛,food apple
+󰟈,food croissant
+󱐟,food drumstick
+󱕲,food halal
+󱕳,food kosher
+󰗳,food off
+󱤖,food outline
+󱑪,food steak
+󱜜,food turkey
+󰉜,food variant
+,pixelated squares big mirrored
+,pixelated squares small mirrored
+󰮵,pan bottom left
+󰮶,pan bottom right
+󰮻,pan top left
+󰮼,pan top right
+󰿓,bed double outline
+󰿑,bed king outline
+󰿛,bed queen outline
+󱁮,bed single outline
+󱤮,smoke detector alert
+󱠉,smoke detector off
+󱠈,smoke detector outline
+󱠋,smoke detector variant
+󱍶,label multiple outline
+󰫌,label off outline
+󱋫,label percent outline
+󰫎,label variant outline
+󱟫,chili alert outline
+󱟬,chili hot outline
+󱟭,chili medium outline
+󱟮,chili mild outline
+󱟯,chili off outline
+󰘲,apple keyboard caps
+󰘳,apple keyboard command
+󰘴,apple keyboard control
+󰘵,apple keyboard option
+󰘶,apple keyboard shift
+󰲹,playlist music outline
+,direction down left
+,direction down right
+,direction up left
+,direction up right
+󱗜,circle box
+󰺕,circle double
+󰺖,circle expand
+󱎕,circle half
+󰧞,circle medium
+󰬸,circle multiple
+󱡓,circle opacity
+󰧟,circle small
+󱩴,solar power variant outline
+󰷵,screw machine flat top
+󰷶,screw machine round top
+󱡬,audio input stereo minijack
+,trash can arrow up
+󱚝,robot angry
+󱚟,robot confused
+󱚡,robot dead
+󱚣,robot excited
+󱜙,robot happy
+󰭆,robot industrial
+󱚥,robot love
+󱇷,robot mower
+󱚧,robot off
+󱙺,robot outline
+󰜍,robot vacuum
+󰀧,alert box
+󰀨,alert circle
+󰚽,alert decagram
+󱒻,alert minus
+󰀩,alert octagon
+󰝧,alert octagram
+󰀪,alert outline
+󱒺,alert plus
+󱒼,alert remove
+󱇎,alert rhombus
+󱀂,newspaper variant multiple
+󱀄,newspaper variant outline
+,arrow down left
+,arrow down right
+,arrow up left
+,arrow up right
+󰸈,volume variant off
+󱤱,coffee maker check
+󱠛,coffee maker outline
+󰾫,coffee off outline
+󰅷,coffee to go
+󰆼,database
+󰓫,table
+󰑼,seat flat angled
+󰑽,seat individual suite
+󰑾,seat legroom extra
+󰑿,seat legroom normal
+󰒀,seat legroom reduced
+󰒁,seat recline extra
+󰒂,seat recline normal
+󰟃,dots horizontal circle
+󰟄,dots vertical circle
+󱙗,bank off outline
+󰨨,bank transfer in
+󰨩,bank transfer out
+,sort alpha asc
+,sort alpha desc
+,sort amount asc
+,sort amount desc
+,sort numeric asc
+,sort numeric desc
+󱐊,gas station off outline
+󱊉,toy brick marker
+󱊋,toy brick minus
+󱊍,toy brick outline
+󱊎,toy brick plus
+󱊐,toy brick remove
+󱊒,toy brick search
+󰝺,set center right
+󰝼,set left center
+󰝽,set left right
+󰦟,set top box
+󰼻,bag carry on
+󰸑,bag personal off
+󰸓,bag personal outline
+󱖍,bag suitcase off
+󱖌,bag suitcase outline
+󱩣,receipt text check
+󱩥,receipt text minus
+󱩧,receipt text plus
+󱩩,receipt text remove
+󱃲,hexagon multiple outline
+󰫃,hexagon slice 1
+󰫄,hexagon slice 2
+󰫅,hexagon slice 3
+󰫆,hexagon slice 4
+󰫇,hexagon slice 5
+󰫈,hexagon slice 6
+󰒘,shield
+󱃵,application array
+󱃷,application braces
+󰲋,application brackets
+󰙵,application cog
+󰂮,application edit
+󰶭,application export
+󰶮,application import
+󰘔,application outline
+󱃹,application parentheses
+󰭠,application settings
+󱃻,application variable
+󱌑,earth arrow right
+󱐇,earth box minus
+󰛎,earth box off
+󱐆,earth box plus
+󱐈,earth box remove
+󰸳,gamepad circle
+󰸹,gamepad down
+󰸺,gamepad left
+󱤙,gamepad outline
+󰸻,gamepad right
+󰸼,gamepad round
+󰺵,gamepad square
+󰹂,gamepad up
+󰊗,gamepad variant
+󰆏,content copy
+󰆐,content cut
+󰆑,content duplicate
+󰆒,content paste
+󰆓,content save
+󰍡,message
+󰂔,flask empty
+󱉀,flask minus
+󱏶,flask off
+󰂖,flask outline
+󱉂,flask plus
+󱉄,flask remove
+󱪵,land plots circle variant
+󱠍,projector screen off
+󱜤,projector screen outline
+󱠏,projector screen variant
+󰤝,wall sconce flat
+󱟋,wall sconce outline
+󰝈,wall sconce round
+󰼥,skip backward outline
+󰼦,skip forward outline
+󰙡,skip next circle
+󰼧,skip next outline
+󰙣,skip previous circle
+󰼨,skip previous outline
+󰛺,page layout body
+󰛻,page layout footer
+󰛼,page layout header
+󰮱,page next outline
+󰮳,page previous outline
+󰚶,menu down outline
+󰨂,menu left outline
+󰨃,menu right outline
+󰩥,menu swap outline
+󰚷,menu up outline
+󱟷,gate arrow left
+󱅩,gate arrow right
+󰵦,cart arrow down
+󰱎,cart arrow right
+󰵧,cart arrow up
+󰏲,phone
+󱦊,microphone question outline
+󰍱,microphone variant off
+󱑭,fan chevron down
+󱑮,fan chevron up
+󱑲,fan speed 1
+󱑳,fan speed 2
+󱑴,fan speed 3
+,wind direction
+,wind east
+,wind north
+,wind south
+,wind west
+󱣬,filter check
+󱪣,filter cog
+󱃥,filter menu
+󰻮,filter minus
+󱨿,filter multiple
+󱓯,filter off
+󰈳,filter outline
+󰻰,filter plus
+󰈴,filter remove
+󱪥,filter settings
+󰈶,filter variant
+󱕰,text account
+󰈚,text box
+󰦪,text long
+󱄽,text recognition
+󱎸,text search
+󰙩,text shadow
+󰦩,text short
+󰇊,dice 1
+󰇋,dice 2
+󰇌,dice 3
+󰇍,dice 4
+󰇎,dice 5
+󰇏,dice 6
+󱅓,dice d10
+󱅔,dice d12
+󱅕,dice d20
+󱅐,dice d4
+󱅑,dice d6
+󱅒,dice d8
+󰝮,dice multiple
+󰵙,bell alert
+󱅫,bell badge
+󱏧,bell cancel
+󱇥,bell check
+󰵚,bell circle
+󱨩,bell cog
+󱏩,bell minus
+󰂛,bell off
+󰂜,bell outline
+󰂝,bell plus
+󱏫,bell remove
+󰂞,bell ring
+󰂠,bell sleep
+󰏗,package variant closed
+󱧗,package variant minus
+󱧘,package variant plus
+󱧙,package variant remove
+,battery three quarters
+󰧠,cloud alert
+󰞵,cloud braces
+󰅠,cloud check
+󰅡,cloud circle
+󰅢,cloud download
+󱇱,cloud lock
+󰅣,cloud outline
+󱨵,cloud percent
+󰅥,cloud print
+󰨹,cloud question
+󰔪,cloud refresh
+󰥖,cloud search
+󰘿,cloud sync
+󰞶,cloud tags
+󰅧,cloud upload
+󱣸,smart card off outline
+󱃀,smart card reader outline
+󰶩,badge account alert outline
+󰸎,badge account horizontal outline
+,table tennis paddle ball
+󰙱,language c
+󰙲,language cpp
+󰌛,language csharp
+󰌜,language css3
+󱈚,language fortran
+󰟓,language go
+󰲒,language haskell
+󰌝,language html5
+󰬷,language java
+󰌞,language javascript
+󱈙,language kotlin
+󰢱,language lua
+󰍔,language markdown
+󰌟,language php
+󰌠,language python
+󰟔,language r
+󰴭,language ruby
+󱘗,language rust
+󰛥,language swift
+󰛦,language typescript
+󰙳,language xaml
+󰋻,inbox arrow down
+󰏑,inbox arrow up
+󱉳,inbox full outline
+󰮨,inbox multiple outline
+󱖠,inbox remove outline
+󱗦,glass cocktail off
+󱗧,glass mug off
+󱄖,glass mug variant
+󱌍,glass pint outline
+󰋜,home
+󱗘,ray start vertex end
+󰄋,car
+󰨙,toggle switch off outline
+󱨦,toggle switch variant off
+󱥊,office building cog outline
+󱔡,office building marker outline
+󱄿,gender male female variant
+󰴛,link box outline
+󰴜,link box variant
+󱃿,link variant minus
+󰌺,link variant off
+󱄀,link variant plus
+󱄁,link variant remove
+󰧽,layers off outline
+󱈇,layers search outline
+󰽙,layers triple outline
+󱁱,bottle soda classic
+󱁲,bottle soda outline
+󱄯,bottle tonic outline
+󱄰,bottle tonic plus
+󱄲,bottle tonic skull
+󱌐,bottle wine outline
+󰃭,calendar
+󱟂,selection ellipse remove
+󱊄,selection multiple marker
+,day cloudy
+,day fog
+,day hail
+,day haze
+,day lightning
+,day rain
+,day showers
+,day sleet
+,day snow
+,day sprinkle
+,day sunny
+,day thunderstorm
+,day windy
+󰄮,checkbox blank
+󰡖,checkbox intermediate
+󰄲,checkbox marked
+󰱒,checkbox outline
+󰞜,bus articulated end
+󰞝,bus articulated front
+󰞞,bus double decker
+󱀓,bus stop covered
+󱀔,bus stop uncovered
+󱩺,tag check
+󰓺,tag faces
+󰚋,tag heart
+󰤐,tag minus
+󰓻,tag multiple
+󱈠,tag off
+󰓼,tag outline
+󰜢,tag plus
+󰜣,tag remove
+󱤇,tag search
+󱈤,tag text
+,symbol array
+,symbol boolean
+,symbol class
+,symbol color
+,symbol constant
+,symbol enum
+,symbol event
+,symbol field
+,symbol file
+,symbol interface
+,symbol key
+,symbol keyword
+,symbol method
+,symbol misc
+,symbol namespace
+,symbol numeric
+,symbol operator
+,symbol parameter
+,symbol property
+,symbol ruler
+,symbol snippet
+,symbol string
+,symbol structure
+,symbol variable
+󱍖,television ambient light
+󰠺,television classic off
+󱣞,ceiling light multiple outline
+󱌸,head alert
+󱌺,head check
+󱌼,head cog
+󱍀,head flash
+󱍂,head heart
+󱍄,head lightbulb
+󱍆,head minus
+󱍟,head outline
+󱍈,head plus
+󱍊,head question
+󱍌,head remove
+󱍎,head snowflake
+󱍐,head sync
+,user astronaut
+,user check
+,user circle
+,user clock
+,user doctor
+,user gear
+,user graduate
+,user group
+,user injured
+,user large
+,user lock
+,user md
+,user minus
+,user ninja
+,user nurse
+,user o
+,user pen
+,user plus
+,user secret
+,user shield
+,user slash
+,user tag
+,user tie
+,user times
+,user xmark
+󱛐,cookie alert
+󱛒,cookie check
+󱛤,cookie clock
+󱛔,cookie cog
+󱛦,cookie edit
+󱛨,cookie lock
+󱛚,cookie minus
+󱛪,cookie off
+󱛞,cookie outline
+󱛖,cookie plus
+󱛬,cookie refresh
+󱛘,cookie remove
+󱛜,cookie settings
+󰩢,magnify minus cursor
+󰛬,magnify minus outline
+󰩣,magnify plus cursor
+󰛭,magnify plus outline
+󱈌,magnify remove cursor
+󱈍,magnify remove outline
+󱣁,store alert
+󱣃,store check
+󱣅,store clock
+󱣇,store cog
+󱣉,store edit
+󱣋,store marker
+󱙞,store minus
+󱣎,store off
+󱍡,store outline
+󱙟,store plus
+󱙠,store remove
+󱣒,store search
+󱣔,store settings
+󰋒,heart box
+󰋔,heart broken
+󰥱,heart circle
+󱙣,heart cog
+󰻹,heart flash
+󰛟,heart half
+󱐯,heart minus
+󰩖,heart multiple
+󰝙,heart off
+󰋕,heart outline
+󱐮,heart plus
+󰗶,heart pulse
+󱐰,heart remove
+󱙥,heart settings
+󰣎,cards club
+󰣏,cards diamond
+󰘹,cards outline
+󱢡,cards playing
+󰣑,cards spade
+󰛇,cards variant
+󰗡,check circle outline
+󱝀,check decagram outline
+󰱔,check network outline
+󰸠,check underline circle
+,cloud arrow down
+,cloud arrow up
+,cloud moon rain
+,cloud showers heavy
+,cloud sun rain
+󰡤,currency bdt
+󰮅,currency brl
+󰆬,currency btc
+󰞺,currency cny
+󰞻,currency eth
+󰆭,currency eur
+󱨹,currency fra
+󰆮,currency gbp
+󰱡,currency ils
+󰆯,currency inr
+󰞼,currency jpy
+󰞽,currency krw
+󰡥,currency kzt
+󱔒,currency mnt
+󰆰,currency ngn
+󰧦,currency php
+󰺜,currency rial
+󰆱,currency rub
+󱥶,currency rupee
+󰞾,currency sign
+󰆲,currency try
+󰞿,currency twd
+󰇁,currency usd
+󱂲,flag minus outline
+󱣯,flag off outline
+󱂳,flag plus outline
+󱂴,flag remove outline
+󰈾,flag variant outline
+󰮖,face man outline
+󰙄,face man profile
+󱗌,face man shimmer
+󱖇,face mask outline
+󱁸,face woman outline
+󱁶,face woman profile
+󱗎,face woman shimmer
+󰒼,sort ascending
+󰒽,sort descending
+󰒿,sort variant
+󱦄,key alert outline
+󱌒,key arrow right
+󱕵,key chain variant
+󱇛,window closed variant
+󱇜,window open variant
+󱄝,window shutter alert
+󱪊,window shutter cog
+󱄞,window shutter open
+󱪋,window shutter settings
+󱜴,train car passenger door
+󱜶,train car passenger variant
+,money bill 1 wave
+󰅇,clipboard
+󰭰,card bulleted
+󱘀,card minus
+󱟱,card multiple
+󱘂,card off
+󰭶,card outline
+󱇿,card plus
+󱘄,card remove
+󱁴,card search
+󰭷,card text
+󱅁,minus box multiple
+󰛲,minus box outline
+󰍚,minus circle multiple
+󱑙,minus circle off
+󰍷,minus circle outline
+󰲚,minus network outline
+󱔂,water alert
+󰾒,water boiler
+󱔄,water check
+󱠆,water circle
+󱔆,water minus
+󰖍,water off
+󱡕,water opacity
+󰸊,water outline
+󰖎,water percent
+󱔊,water plus
+󱊠,water polo
+󰖏,water pump
+󱔌,water remove
+󱟆,water sync
+󱪅,water thermometer
+󱁫,water well
+󰄞,cellphone basic
+󱎗,cellphone charging
+󱟽,cellphone check
+󰥑,cellphone cog
+󰄟,cellphone dock
+󰽁,cellphone information
+󰥎,cellphone key
+󰄡,cellphone link
+󰥏,cellphone lock
+󱠺,cellphone marker
+󰣓,cellphone message
+󰺐,cellphone nfc
+󰥐,cellphone off
+󱀟,cellphone play
+󰥍,cellphone remove
+󰨵,cellphone screenshot
+󰄣,cellphone settings
+󰥒,cellphone sound
+󰣒,cellphone text
+󰠕,cellphone wireless
+,thermometer three quarters
+,progress empty left
+,progress empty mid
+,progress empty right
+,progress full left
+,progress full mid
+,progress full right
+,progress spinner 1
+,progress spinner 2
+,progress spinner 3
+,progress spinner 4
+,progress spinner 5
+,progress spinner 6
+󱓫,cash lock open
+󰌍,keyboard backspace
+󰌎,keyboard caps
+󰌏,keyboard close
+󱊷,keyboard esc
+󱊫,keyboard f1
+󱊴,keyboard f10
+󱊵,keyboard f11
+󱊶,keyboard f12
+󱊬,keyboard f2
+󱊭,keyboard f3
+󱊮,keyboard f4
+󱊯,keyboard f5
+󱊰,keyboard f6
+󱊱,keyboard f7
+󱊲,keyboard f8
+󱊳,keyboard f9
+󰌐,keyboard off
+󰥻,keyboard outline
+󰌑,keyboard return
+󰧹,keyboard settings
+󱁐,keyboard space
+󰌒,keyboard tab
+󰌓,keyboard variant
+󰏞,panorama horizontal outline
+󱦎,panorama sphere outline
+󱦐,panorama variant outline
+󰏟,panorama vertical outline
+󱥟,panorama wide angle
+󱑣,download box outline
+󱑥,download circle outline
+󱌡,download lock outline
+󰱦,download network outline
+󱂱,download off outline
+,calendar check o
+,calendar minus o
+,calendar plus o
+,calendar times o
+,hand dots
+,hand fist
+,hand holding
+,hand lizard
+,hand peace
+,hand pointer
+,hand scissors
+,hand spock
+󰅀,chevron down
+󰅁,chevron left
+󰅂,chevron right
+󰅃,chevron up
+󰢼,signal cellular 1
+󰢽,signal cellular 2
+󰢾,signal cellular 3
+󰢿,signal cellular outline
+󰹤,signal distance variant
+󰜖,signal hspa plus
+󱊂,select multiple marker
+󱈪,beaker alert outline
+󱈬,beaker check outline
+󱈮,beaker minus outline
+󱈰,beaker plus outline
+󱈲,beaker question outline
+󱈴,beaker remove outline
+󱣦,basket check outline
+󱔤,basket minus outline
+󱔦,basket off outline
+󱔨,basket plus outline
+󱔪,basket remove outline
+,arrow circle down
+,arrow circle left
+,arrow circle right
+,arrow circle up
+,arrow small down
+,arrow small left
+,arrow small right
+,arrow small up
+,git pull request closed
+,git pull request draft
+󰱝,close box multiple
+󰅘,close box outline
+󰘪,close circle multiple
+󰅚,close circle outline
+󰱟,close network outline
+󰅝,close octagon outline
+󱜞,alarm light off
+󰯪,alarm light outline
+󰹲,alarm note off
+󱗅,alarm panel outline
+󰟰,surround sound 2 0
+󱜩,surround sound 2 1
+󰟱,surround sound 3 1
+󰟲,surround sound 5 1
+󰟳,surround sound 7 1
+󱥺,elevator passenger off outline
+󰄦,chart arc
+󰄧,chart areaspline
+󰄨,chart bar
+󱕍,chart box
+󰗣,chart bubble
+󰞯,chart donut
+󰙬,chart gantt
+󰄩,chart histogram
+󰄪,chart line
+󰣔,chart multiline
+󱈓,chart multiple
+󰄫,chart pie
+󱎀,chart ppf
+󱇟,chart sankey
+󰙮,chart timeline
+󰺔,chart tree
+󱤘,chart waterfall
+󱋉,chat alert outline
+󱐓,chat minus outline
+󱐒,chat plus outline
+󱋊,chat processing outline
+󱜹,chat question outline
+󱐔,chat remove outline
+󱋒,chat sleep outline
+󰸂,thermometer chevron down
+󰸃,thermometer chevron up
+󰦏,order bool ascending variant
+󰦐,order bool descending variant
+,caret square o down
+,caret square o left
+,caret square o right
+,caret square o up
+󱩋,led strip variant off
+󰹗,picture in picture bottom right
+󰹙,picture in picture top right
+,creative commons by
+,creative commons nc
+,creative commons nd
+,creative commons pd
+,creative commons remix
+,creative commons sa
+,creative commons sampling
+,creative commons share
+,creative commons zero
+󰩳,star box
+󱕦,star check
+󰓏,star circle
+󱙨,star cog
+󰥹,star crescent
+󰥺,star david
+󰦥,star face
+󰉆,star half
+󱕤,star minus
+󰓑,star off
+󰓒,star outline
+󱕣,star plus
+󱕥,star remove
+󱙪,star settings
+󱝁,star shooting
+󰣮,lock alert
+󱎚,lock check
+󰥿,lock clock
+󱚩,lock minus
+󱙱,lock off
+󰌿,lock open
+󰍁,lock outline
+󰛪,lock pattern
+󰗻,lock plus
+󰣯,lock question
+󱚳,lock remove
+󰝳,lock reset
+󰢲,lock smart
+󱥋,hand clap
+󱢏,hand coin
+󱢶,hand extended
+󱃱,hand heart
+󰩐,hand okay
+󰩑,hand peace
+󰹈,hand saw
+󱕿,hand wash
+󱎟,hand water
+󱠡,hand wave
+󰂺,book
+󱜦,script text key outline
+󱜨,script text play outline
+󰷄,diving scuba tank multiple
+󰯡,access point network off
+,file directory fill
+,file symlink directory
+,file symlink file
+󱨖,play box lock
+󰴙,play box multiple
+󰐋,play box outline
+󰐍,play circle outline
+󰲷,play network outline
+󰐏,play protected content
+󱃖,code braces box
+󰅬,code greater than
+󰅮,code less than
+󰅰,code not equal
+󱃗,code parentheses box
+󰚔,code tags check
+󰖐,weather cloudy
+󰖑,weather fog
+󰖒,weather hail
+󰼰,weather hazy
+󰢘,weather hurricane
+󰖓,weather lightning
+󰖔,weather night
+󰖖,weather pouring
+󰖗,weather rainy
+󰖘,weather snowy
+󰖙,weather sunny
+󰖚,weather sunset
+󰼸,weather tornado
+󰖝,weather windy
+󱨜,video 2d
+󰟽,video 3d
+󰤙,video account
+󰃽,video box
+󱁩,video check
+󰤚,video image
+󱦩,video marker
+󰦲,video minus
+󰕨,video off
+󰯜,video outline
+󰦳,video plus
+󰤛,video stabilization
+󰕩,video switch
+󰨜,video vintage
+󰻒,video wireless
+󰲇,google ads
+󰟌,google analytics
+󰟍,google assistant
+󰊮,google cardboard
+󰊯,google chrome
+󰊰,google circles
+󰋀,google classroom
+󱇶,google cloud
+󰊴,google controller
+󱍢,google downasaur
+󰊶,google drive
+󰊷,google earth
+󰥬,google fit
+󰊸,google glass
+󰋉,google hangouts
+󰠤,google home
+󰛜,google keep
+󰧶,google lens
+󰗵,google maps
+󰊹,google nearby
+󰊼,google play
+󰊽,google plus
+󰺹,google podcast
+󰧷,google spreadsheet
+󰊿,google translate
+,debug all
+,debug alt
+,debug console
+,debug continue
+,debug coverage
+,debug disconnect
+,debug pause
+,debug rerun
+,debug restart
+,debug stackframe
+,debug start
+,debug stop
+󰶋,mailbox open up outline
+󱓶,notebook check outline
+󱓩,notebook edit outline
+󱨌,notebook heart outline
+󱘑,notebook minus outline
+󱘓,notebook plus outline
+󱘕,notebook remove outline
+󱐧,puzzle check outline
+󱓙,puzzle edit outline
+󱓚,puzzle heart outline
+󱓗,puzzle minus outline
+󱓖,puzzle plus outline
+󱓘,puzzle remove outline
+󱓛,puzzle star outline
+,person skiing nordic
+,circle check
+,circle dot
+,circle down
+,circle exclamation
+,circle h
+,circle info
+,circle left
+,circle minus
+,circle notch
+,circle o
+,circle pause
+,circle play
+,circle plus
+,circle question
+,circle radiation
+,circle right
+,circle stop
+,circle thin
+,circle up
+,circle user
+,circle xmark
+󱓺,shape square rounded plus
+󱟎,floor lamp dual outline
+󱟖,floor lamp torchiere outline
+󱁁,floor lamp torchiere variant
+,face angry
+,face dizzy
+,face flushed
+,face frown
+,face grimace
+,face grin
+,face kiss
+,face laugh
+,face meh
+,face smile
+,face surprise
+,face tired
+󱍦,sticker alert outline
+󱍨,sticker check outline
+󰗐,sticker circle outline
+󱍪,sticker minus outline
+󱍭,sticker plus outline
+󱍯,sticker remove outline
+󱞏,sticker text outline
+,layout activitybar left
+,layout activitybar right
+,layout panel center
+,layout panel justify
+,layout panel left
+,layout panel off
+,layout panel right
+,layout sidebar left
+,layout sidebar right
+󱏏,cog off outline
+󱤴,cog pause outline
+󱤶,cog play outline
+󱑟,cog refresh outline
+󱤸,cog stop outline
+󱑡,cog sync outline
+󱁜,cog transfer outline
+󰌴,plus box multiple
+󰜄,plus box outline
+󰍌,plus circle multiple
+󰐙,plus circle outline
+󱩞,plus lock open
+󰦓,plus minus box
+󱓉,plus minus variant
+󰲺,plus network outline
+󱐎,axis arrow info
+󰵊,axis arrow lock
+󰵌,axis x arrow
+󰵑,axis y arrow
+󰵕,axis z arrow
+󱖁,human cane
+󰋧,human child
+󱦀,human dolly
+󱓨,human edit
+󰙉,human female
+󰩚,human female female
+󱟄,human greeting
+󰙋,human handsdown
+󰙌,human handsup
+󰙍,human male
+󰩞,human male male
+󰗏,human pregnant
+󱕱,human queue
+󱇩,human scooter
+󱎍,human wheelchair
+󰫨,vector bezier
+󰕖,vector circle
+󰕘,vector combine
+󰕙,vector curve
+󰕚,vector difference
+󰢓,vector ellipse
+󰕝,vector intersection
+󰕞,vector line
+󰿨,vector link
+󰕟,vector point
+󰕠,vector polygon
+󰕡,vector polyline
+󰝊,vector radius
+󰗆,vector rectangle
+󰕢,vector selection
+󰀁,vector square
+󰕣,vector triangle
+󰕤,vector union
+󰤌,square edit outline
+󰨔,square medium outline
+󱋯,square off outline
+󰦣,square root box
+󱨇,square rounded badge
+󱓼,square rounded outline
+󰳾,cursor default click outline
+󱄨,cursor default gesture outline
+󰿢,swap horizontal circle outline
+󰿤,swap vertical circle outline
+󰺈,boom gate alert outline
+󰺉,boom gate arrow down
+󰺌,boom gate arrow up
+󱟺,boom gate up outline
+,git pull request closed
+,git pull request create
+,git pull request draft
+󰲜,network off outline
+󰣴,network strength 1
+󰣶,network strength 2
+󰣸,network strength 3
+󰣺,network strength 4
+󰣼,network strength off
+󰣾,network strength outline
+󰜼,gesture double tap
+󰜽,gesture swipe down
+󰪿,gesture swipe horizontal
+󰜾,gesture swipe left
+󰜿,gesture swipe right
+󰝀,gesture swipe up
+󰫀,gesture swipe vertical
+󱊩,gesture tap box
+󱊨,gesture tap button
+󰵷,gesture tap hold
+󰝃,gesture two tap
+󱎎,microsoft access
+󰠅,microsoft azure
+󰂤,microsoft bing
+󰇩,microsoft edge
+󱎏,microsoft excel
+󰏆,microsoft office
+󰏊,microsoft onedrive
+󰝇,microsoft onenote
+󰴢,microsoft outlook
+󱎐,microsoft powerpoint
+󱎑,microsoft sharepoint
+󰊻,microsoft teams
+󰖳,microsoft windows
+󱎒,microsoft word
+󰖹,microsoft xbox
+󰎄,music box
+󰎆,music circle
+󰎇,music note
+󰝛,music off
+,arrow down
+,arrow left
+,arrow pointer
+,arrow right
+,arrow up
+,down left and up right to center
+󱂦,delete alert outline
+󰮈,delete circle outline
+󱕗,delete clock outline
+󰺝,delete empty outline
+󰮉,delete forever outline
+󱂨,delete off outline
+󰱢,delete sweep outline
+󰢡,border all variant
+󰢢,border bottom variant
+󰢣,border left variant
+󰢤,border none variant
+󰢥,border right variant
+󰢦,border top variant
+󱤯,smoke detector alert outline
+󱠊,smoke detector off outline
+󱤰,smoke detector variant alert
+󱠌,smoke detector variant off
+󰳰,briefcase account
+󰃗,briefcase check
+󱃐,briefcase clock
+󰃘,briefcase download
+󰪘,briefcase edit
+󱟙,briefcase eye
+󰨪,briefcase minus
+󱙘,briefcase off
+󰠔,briefcase outline
+󰨫,briefcase plus
+󰨬,briefcase remove
+󰨭,briefcase search
+󰃙,briefcase upload
+󱒔,briefcase variant
+󱀃,newspaper variant multiple outline
+󱕝,tooltip check outline
+󱋅,tooltip edit outline
+󰯕,tooltip image outline
+󱕟,tooltip minus outline
+󰔧,tooltip plus outline
+󱕡,tooltip remove outline
+󰯗,tooltip text outline
+󰹛,printer 3d nozzle
+󱞅,printer off outline
+󱤲,coffee maker check outline
+󱌎,coffee to go outline
+󰮍,dots horizontal circle outline
+󰮎,dots vertical circle outline
+󰛏,email alert
+󰴃,email box
+󰪱,email check
+󰻣,email edit
+󱡯,email fast
+󰇱,email lock
+󰻥,email minus
+󰻧,email multiple
+󰾱,email newsletter
+󱏣,email off
+󰇯,email open
+󰇰,email outline
+󰧫,email plus
+󱃚,email receive
+󱙡,email remove
+󱥛,email seal
+󰥡,email search
+󱃜,email send
+󱋇,email sync
+󰗰,email variant
+󱓏,source branch check
+󱓋,source branch minus
+󱓊,source branch plus
+󱓍,source branch refresh
+󱓌,source branch remove
+󱓎,source branch sync
+󰜙,source commit end
+󰜛,source commit local
+󰜝,source commit start
+󰳐,source repository multiple
+󱅄,pencil box multiple
+󰏭,pencil box outline
+󰝶,pencil circle outline
+󰷧,pencil lock outline
+󰷩,pencil minus outline
+󰷪,pencil off outline
+󰷬,pencil plus outline
+󰷮,pencil remove outline
+󰱩,emoticon angry
+󱃞,emoticon confused
+󰱫,emoticon cool
+󰱬,emoticon cry
+󰱮,emoticon dead
+󰱯,emoticon devil
+󰱰,emoticon excited
+󰽌,emoticon frown
+󰱱,emoticon happy
+󰱲,emoticon kiss
+󱈔,emoticon lol
+󰱴,emoticon neutral
+󰇲,emoticon outline
+󰇷,emoticon poop
+󰱶,emoticon sad
+󱕼,emoticon sick
+󰇹,emoticon tongue
+󰱸,emoticon wink
+󰾘,timeline alert outline
+󱔳,timeline check outline
+󱇼,timeline clock outline
+󰾚,timeline help outline
+󱔵,timeline minus outline
+󰾗,timeline plus outline
+󱔷,timeline remove outline
+󰯔,timeline text outline
+󱥬,bookmark box multiple
+󱍻,bookmark check outline
+󰧍,bookmark minus outline
+󰸖,bookmark multiple outline
+󱍹,bookmark music outline
+󰧏,bookmark off outline
+󰃄,bookmark plus outline
+󱍺,bookmark remove outline
+󰣋,camera account
+󰚓,camera burst
+󰭩,camera control
+󱡱,camera document
+󰄁,camera enhance
+󱗙,camera flip
+󰄂,camera front
+󰞡,camera gopro
+󰣌,camera image
+󰄄,camera iris
+󱨔,camera lock
+󱦧,camera marker
+󰗟,camera off
+󰵝,camera outline
+󰻛,camera plus
+󰄆,camera rear
+󰸙,camera retake
+󰄈,camera switch
+󰄉,camera timer
+󰶶,camera wireless
+,file audio
+,file code
+,file contract
+,file csv
+,file excel
+,file export
+,file image
+,file import
+,file invoice
+,file lines
+,file medical
+,file o
+,file pdf
+,file pen
+,file powerpoint
+,file prescription
+,file signature
+,file text
+,file video
+,file waveform
+,file word
+,file zipper
+󱣽,eye arrow left
+󱣿,eye arrow right
+󰴅,eye check outline
+󰮕,eye circle outline
+󱀧,eye minus outline
+󰛑,eye off outline
+󰡬,eye plus outline
+󱥽,eye refresh outline
+󱗤,eye remove outline
+󰡮,eye settings outline
+󱊊,toy brick marker outline
+󱊌,toy brick minus outline
+󱊏,toy brick plus outline
+󱊑,toy brick remove outline
+󱊓,toy brick search outline
+󰵥,bag carry on check
+󰼼,bag carry on off
+󰸒,bag personal off outline
+󱖎,bag suitcase off outline
+󱧟,truck alert outline
+󱣘,truck cargo container
+󱊚,truck check outline
+󱊛,truck delivery outline
+󱊜,truck fast outline
+󱦽,truck minus outline
+󱦼,truck plus outline
+󱦾,truck remove outline
+󱩤,receipt text check outline
+󱩦,receipt text minus outline
+󱩨,receipt text plus outline
+󱩪,receipt text remove outline
+󱧐,monitor arrow down
+󰦊,monitor cellphone star
+󰽠,monitor speaker off
+󱆲,fridge alert outline
+󱗯,fridge industrial alert
+󱗱,fridge industrial off
+󱗳,fridge industrial outline
+󱆰,fridge off outline
+󱗵,fridge variant alert
+󱗷,fridge variant off
+󱗹,fridge variant outline
+󰺼,map check
+󰴞,map clock
+󰨁,map legend
+󰍎,map marker
+󰦁,map minus
+󰦂,map outline
+󰦃,map plus
+󰦄,map search
+󰚦,power plug off
+󱐥,power plug outline
+󰤅,power socket au
+󰾳,power socket ch
+󱄇,power socket de
+󰟧,power socket eu
+󱄈,power socket fr
+󱓿,power socket it
+󱄉,power socket jp
+󰟨,power socket uk
+󰟩,power socket us
+󰕪,view agenda
+󰕫,view array
+󰕬,view carousel
+󰕭,view column
+󰹪,view comfy
+󰹫,view compact
+󰕮,view dashboard
+󰕯,view day
+󱢈,view gallery
+󰕰,view grid
+󰕱,view headline
+󰕲,view list
+󰕳,view module
+󰜨,view parallel
+󰕴,view quilt
+󰜩,view sequential
+󰕵,view stream
+󰕶,view week
+󱝾,note alert outline
+󱞀,note check outline
+󱞂,note edit outline
+󱙐,note minus outline
+󰚹,note multiple outline
+󱞄,note off outline
+󰎝,note plus outline
+󱙒,note remove outline
+󱙔,note search outline
+󱇗,note text outline
+󰲄,food apple outline
+󱑨,food drumstick off
+󱐠,food drumstick outline
+󰗲,food fork drink
+󱡋,food hot dog
+󱤕,food off outline
+󱑫,food steak off
+󱠶,food takeout box
+󱏥,food variant off
+󱠎,projector screen off outline
+󱠐,projector screen variant off
+󱠒,projector screen variant outline
+󱟉,wall sconce flat outline
+󰐜,wall sconce flat variant
+󱟌,wall sconce round outline
+󰤞,wall sconce round variant
+󰙢,skip next circle outline
+󰙤,skip previous circle outline
+󰽿,page layout header footer
+󰛽,page layout sidebar left
+󰛾,page layout sidebar right
+󰎠,numeric
+󰁹,battery
+󱚵,wifi alert
+󱚼,wifi cancel
+󱚽,wifi check
+󱚾,wifi cog
+󱚿,wifi lock
+󱛁,wifi marker
+󱛂,wifi minus
+󰖪,wifi off
+󱛃,wifi plus
+󱛄,wifi refresh
+󱛅,wifi remove
+󱛆,wifi settings
+󰸋,wifi star
+󱛇,wifi sync
+󱗝,circle box outline
+󰣕,circle edit outline
+󱎖,circle half full
+󰚕,circle multiple outline
+󱃓,circle off outline
+󰪞,circle slice 1
+󰪟,circle slice 2
+󰪠,circle slice 3
+󰪡,circle slice 4
+󰪢,circle slice 5
+󰪣,circle slice 6
+󰪤,circle slice 7
+󰪥,circle slice 8
+󱧔,package variant closed minus
+󱧕,package variant closed plus
+󱧖,package variant closed remove
+󱚞,robot angry outline
+󱚠,robot confused outline
+󱚢,robot dead outline
+󱚤,robot excited outline
+󱜚,robot happy outline
+󱨚,robot industrial outline
+󱚦,robot love outline
+󱇳,robot mower outline
+󱙻,robot off outline
+󰤈,robot vacuum variant
+󰳤,alert box outline
+󱇭,alert circle check
+󰗖,alert circle outline
+󰳥,alert decagram outline
+󱒾,alert minus outline
+󰳦,alert octagon outline
+󰳧,alert octagram outline
+󱒽,alert plus outline
+󱒿,alert remove outline
+󱇏,alert rhombus outline
+󱉰,inbox arrow down outline
+󱉱,inbox arrow up outline
+󱗨,glass mug variant off
+󰿯,credit card
+󱜵,train car passenger door open
+󰋪,image album
+󰋫,image area
+󰋭,image broken
+󱇣,image edit
+󰹉,image frame
+󱪰,image lock
+󱝻,image marker
+󱐙,image minus
+󰧸,image move
+󰋹,image multiple
+󰠫,image off
+󰥶,image outline
+󰡼,image plus
+󱧾,image refresh
+󱐘,image remove
+󰥷,image search
+󱨀,image sync
+󱘍,image text
+󰥕,clock alert
+󰾨,clock check
+󰺗,clock digital
+󱦺,clock edit
+󰅑,clock end
+󰅒,clock fast
+󰅓,clock in
+󱡣,clock minus
+󰅔,clock out
+󰅐,clock outline
+󱡡,clock plus
+󱡥,clock remove
+󰅕,clock start
+󰴝,link box variant outline
+󰅻,comment account
+󰅽,comment alert
+󱖮,comment bookmark
+󰅿,comment check
+󱆿,comment edit
+󰨺,comment eye
+󱖰,comment flash
+󱗟,comment minus
+󰡟,comment multiple
+󱗡,comment off
+󰆂,comment outline
+󰧥,comment plus
+󰆄,comment processing
+󰠗,comment question
+󱀡,comment quote
+󰗞,comment remove
+󰨼,comment search
+󰆈,comment text
+󱍣,bottle soda classic outline
+󱄱,bottle tonic plus outline
+󱄳,bottle tonic skull outline
+󰼢,selection ellipse arrow inside
+,night clear
+,night cloudy
+,night fog
+,night hail
+,night lightning
+,night rain
+,night showers
+,night sleet
+,night snow
+,night sprinkle
+,night thunderstorm
+󱃶,application array outline
+󱃸,application braces outline
+󰲌,application brackets outline
+󱕷,application cog outline
+󰘙,application edit outline
+󱃺,application parentheses outline
+󱕕,application settings outline
+󱃼,application variable outline
+󰹘,picture in picture bottom right outline
+󰹚,picture in picture top right outline
+󱧡,lightbulb alert
+󱠀,lightbulb auto
+󱈈,lightbulb cfl
+󱉓,lightbulb group
+󱉕,lightbulb multiple
+󱩌,lightbulb night
+󰹏,lightbulb off
+󰛨,lightbulb on
+󰌶,lightbulb outline
+󱧣,lightbulb question
+󱟴,lightbulb spot
+󱠂,lightbulb variant
+󰸴,gamepad circle down
+󰸵,gamepad circle left
+󰸶,gamepad circle outline
+󰸷,gamepad circle right
+󰸸,gamepad circle up
+󰸽,gamepad round down
+󰸾,gamepad round left
+󰸿,gamepad round outline
+󰹀,gamepad round right
+󰹁,gamepad round up
+󰺶,gamepad square outline
+󰺷,gamepad variant outline
+󰽂,content save alert
+󰆔,content save all
+󱣪,content save check
+󱑛,content save cog
+󰳻,content save edit
+󰸧,content save move
+󱙃,content save off
+󰠘,content save outline
+󰘛,content save settings
+󰸡,check underline circle outline
+󱈺,flask empty minus
+󱏴,flask empty off
+󰂕,flask empty outline
+󱈼,flask empty plus
+󱈾,flask empty remove
+󱉁,flask minus outline
+󱏷,flask off outline
+󱉃,flask plus outline
+󱉅,flask remove outline
+󱉋,flask round bottom
+󱗍,face man shimmer outline
+󱗏,face woman shimmer outline
+,square behance
+,square check
+,square dribbble
+,square envelope
+,square facebook
+,square full
+,square git
+,square github
+,square h
+,square js
+,square lastfm
+,square minus
+,square o
+,square odnoklassniki
+,square parking
+,square pen
+,square phone
+,square pinterest
+,square plus
+,square reddit
+,square rss feed
+,square snapchat
+,square steam
+,square tumblr
+,square twitter
+,square viadeo
+,square vimeo
+,square whatsapp
+,square xing
+,square xmark
+,square youtube
+󱜪,surround sound 5 1 2
+,wind beaufort 0
+,wind beaufort 1
+,wind beaufort 10
+,wind beaufort 11
+,wind beaufort 12
+,wind beaufort 2
+,wind beaufort 3
+,wind beaufort 4
+,wind beaufort 5
+,wind beaufort 6
+,wind beaufort 7
+,wind beaufort 8
+,wind beaufort 9
+,wind north east
+,wind north west
+,wind south east
+,wind south west
+󱣭,filter check outline
+󱪤,filter cog outline
+󱃦,filter menu outline
+󰻯,filter minus outline
+󱩀,filter multiple outline
+󱓰,filter off outline
+󰻱,filter plus outline
+󰈵,filter remove outline
+󱪦,filter settings outline
+󱄒,filter variant minus
+󱄓,filter variant plus
+󱀿,filter variant remove
+󰺦,text box check
+󱩼,text box edit
+󰺨,text box minus
+󰪷,text box multiple
+󰧭,text box outline
+󰺪,text box plus
+󰺬,text box remove
+󰺮,text box search
+󱩾,text search variant
+󰔊,text to speech
+󱅊,dice 1 outline
+󱅋,dice 2 outline
+󱅌,dice 3 outline
+󱅍,dice 4 outline
+󱅎,dice 5 outline
+󱅏,dice 6 outline
+󰝯,dice d10 outline
+󰡧,dice d12 outline
+󰗪,dice d20 outline
+󰗫,dice d4 outline
+󰗭,dice d6 outline
+󰗬,dice d8 outline
+󱅖,dice multiple outline
+󰺁,bell alert outline
+󰅸,bell badge outline
+󱏨,bell cancel outline
+󱇦,bell check outline
+󰵛,bell circle outline
+󱨪,bell cog outline
+󱏪,bell minus outline
+󰪑,bell off outline
+󰪒,bell plus outline
+󱏬,bell remove outline
+󰂟,bell ring outline
+󰪓,bell sleep outline
+󱋌,cloud check outline
+󰭽,cloud download outline
+󱇲,cloud lock outline
+󰅤,cloud off outline
+󱨶,cloud percent outline
+󰅦,cloud print outline
+󰥗,cloud search outline
+󱋖,cloud sync outline
+󰭾,cloud upload outline
+󰽛,language markdown outline
+󱓽,archive alert
+󱝋,archive cancel
+󱝍,archive check
+󱝏,archive clock
+󱝑,archive cog
+󱝓,archive edit
+󱝕,archive eye
+󱝗,archive lock
+󱝛,archive marker
+󱝝,archive minus
+󱝟,archive music
+󱝡,archive off
+󱈎,archive outline
+󱝣,archive plus
+󱝥,archive refresh
+󱝧,archive remove
+󱝩,archive search
+󱝫,archive settings
+󱝭,archive star
+󱝯,archive sync
+󱅂,minus box multiple outline
+󰫓,minus circle multiple outline
+󱑚,minus circle off outline
+󰔜,timer 10
+󰔝,timer 3
+󱫌,timer alert
+󱫎,timer cancel
+󱫐,timer check
+󱤥,timer cog
+󱫒,timer edit
+󱫔,timer lock
+󱫘,timer marker
+󱫚,timer minus
+󱫜,timer music
+󱎬,timer off
+󰔛,timer outline
+󱫞,timer pause
+󱫠,timer play
+󱫢,timer plus
+󱫤,timer refresh
+󱫦,timer remove
+󰔟,timer sand
+󱤣,timer settings
+󱫨,timer star
+󱫪,timer stop
+󱫬,timer sync
+󱛳,movie check
+󱛵,movie cog
+󱄢,movie edit
+󱄤,movie filter
+󱛷,movie minus
+󱛹,movie off
+󰿎,movie open
+󰷝,movie outline
+󱜏,movie play
+󱜑,movie plus
+󱜓,movie remove
+󰟞,movie roll
+󱇒,movie search
+󱜕,movie settings
+󱜗,movie star
+,arrows up down left right
+󰏠,panorama wide angle outline
+,up right and down left from center
+,day cloudy gusts
+,day cloudy high
+,day cloudy windy
+,day light wind
+,day rain mix
+,day rain wind
+,day sleet storm
+,day snow thunderstorm
+,day snow wind
+,day storm showers
+,day sunny overcast
+󱅶,checkbox blank badge
+󰄯,checkbox blank circle
+󱋬,checkbox blank off
+󰄱,checkbox blank outline
+󰄳,checkbox marked circle
+󰄵,checkbox marked outline
+󰄶,checkbox multiple blank
+󰄸,checkbox multiple marked
+󰱑,checkbox multiple outline
+󰉋,folder
+󱜫,tag arrow down
+󱜭,tag arrow left
+󱜯,tag arrow right
+󱜱,tag arrow up
+󱩻,tag check outline
+󰯏,tag heart outline
+󱈟,tag minus outline
+󱋷,tag multiple outline
+󱈡,tag off outline
+󱈢,tag plus outline
+󱈣,tag remove outline
+󱤈,tag search outline
+󰓽,tag text outline
+,symbol enum member
+󱌹,head alert outline
+󱌻,head check outline
+󱌽,head cog outline
+󱌾,head dots horizontal
+󱍁,head flash outline
+󱍃,head heart outline
+󱍅,head lightbulb outline
+󱍇,head minus outline
+󱍉,head plus outline
+󱍋,head question outline
+󱍍,head remove outline
+󱍏,head snowflake outline
+󱍑,head sync outline
+,user circle o
+,user large slash
+󱛑,cookie alert outline
+󱛓,cookie check outline
+󱛥,cookie clock outline
+󱛕,cookie cog outline
+󱛧,cookie edit outline
+󱛩,cookie lock outline
+󱛛,cookie minus outline
+󱛫,cookie off outline
+󱛗,cookie plus outline
+󱛭,cookie refresh outline
+󱛙,cookie remove outline
+󱛝,cookie settings outline
+󰱞,close box multiple outline
+󰢃,close circle multiple outline
+󱜟,alarm light off outline
+󰓝,store 24 hour
+󱣂,store alert outline
+󱣄,store check outline
+󱣆,store clock outline
+󱣈,store cog outline
+󱣊,store edit outline
+󱣌,store marker outline
+󱣍,store minus outline
+󱣏,store off outline
+󱣐,store plus outline
+󱣑,store remove outline
+󱣓,store search outline
+󱣕,store settings outline
+󰋓,heart box outline
+󰴔,heart broken outline
+󰥲,heart circle outline
+󱙤,heart cog outline
+󰛞,heart half full
+󰛠,heart half outline
+󱐲,heart minus outline
+󰩗,heart multiple outline
+󱐴,heart off outline
+󱐱,heart plus outline
+󱐳,heart remove outline
+󱙦,heart settings outline
+󱢟,cards club outline
+󱀝,cards diamond outline
+󱢢,cards playing club
+󱢦,cards playing diamond
+󱢪,cards playing heart
+󰘺,cards playing outline
+󱢮,cards playing spade
+󱢲,cards spade outline
+󱘺,database alert
+󰪩,database check
+󱘿,database clock
+󱙋,database cog
+󰮆,database edit
+󰥞,database export
+󱤟,database eye
+󰥝,database import
+󰪪,database lock
+󱋶,database marker
+󰆻,database minus
+󱙀,database off
+󱘲,database outline
+󰆺,database plus
+󰗂,database refresh
+󰴀,database remove
+󰡦,database search
+󰴁,database settings
+󰳿,database sync
+󱎹,table account
+󱎺,table alert
+󰨘,table border
+󱎿,table cancel
+󱁡,table chair
+󱏀,table check
+󱏁,table clock
+󱏂,table cog
+󰠵,table column
+󰓰,table edit
+󱂔,table eye
+󰖼,table furniture
+󱏄,table heart
+󱏅,table key
+󰓱,table large
+󱏆,table lock
+󱏇,table minus
+󱏈,table multiple
+󱏉,table network
+󱏊,table off
+󱝃,table picnic
+󱠼,table pivot
+󰩵,table plus
+󱎠,table refresh
+󰩶,table remove
+󰠷,table row
+󰤏,table search
+󰠸,table settings
+󱏋,table star
+󱎡,table sync
+󰹨,table tennis
+󱌕,currency eur off
+󰙺,currency usd off
+󱟏,floor lamp torchiere variant outline
+,creative commons nc eu
+,creative commons nc jp
+,creative commons pd alt
+,creative commons sampling plus
+󰖽,sort alphabetical ascending
+󰖿,sort alphabetical descending
+󰒻,sort alphabetical variant
+󱎅,sort bool ascending
+󱎇,sort bool descending
+󱕇,sort calendar ascending
+󱕈,sort calendar descending
+󱕉,sort clock ascending
+󱕋,sort clock descending
+󱎉,sort numeric ascending
+󱎊,sort numeric descending
+󰒾,sort numeric variant
+󰌼,sort reverse variant
+󰳍,sort variant lock
+󱪻,sort variant off
+󱅇,sort variant remove
+󰢏,shield account
+󰚻,shield airplane
+󰻌,shield alert
+󱏚,shield bug
+󰾃,shield car
+󰕥,shield check
+󰳉,shield cross
+󱢼,shield crown
+󱆠,shield edit
+󱍠,shield half
+󰚊,shield home
+󰯄,shield key
+󰦝,shield lock
+󱠨,shield moon
+󰦞,shield off
+󰒙,shield outline
+󰫚,shield plus
+󰂪,shield refresh
+󰫜,shield remove
+󰶚,shield search
+󱄻,shield star
+󱁝,shield sun
+󱢾,shield sword
+󱆢,shield sync
+,file directory open fill
+󰗒,card account details
+󰆎,card account mail
+󰺙,card account phone
+󰭱,card bulleted off
+󰭳,card bulleted outline
+󰭴,card bulleted settings
+󱘁,card minus outline
+󱟲,card multiple outline
+󱘃,card off outline
+󱈀,card plus outline
+󱘅,card remove outline
+󱁵,card search outline
+󰭸,card text outline
+󰺊,boom gate arrow down outline
+󰺍,boom gate arrow up outline
+,git pull request new changes
+󱨗,play box lock open
+󱨙,play box lock outline
+󱏦,play box multiple outline
+󰅱,code not equal variant
+󰍢,message alert
+󱥁,message badge
+󱖬,message bookmark
+󰚢,message bulleted
+󰛱,message cog
+󰍣,message draw
+󱧌,message fast
+󱖩,message flash
+󰍤,message image
+󰿌,message lock
+󱅮,message minus
+󱙍,message off
+󰍥,message outline
+󰙓,message plus
+󰍦,message processing
+󱜺,message question
+󰍧,message reply
+󰛰,message settings
+󰚚,message star
+󰍩,message text
+󰍫,message video
+󱔃,water alert outline
+󱆳,water boiler alert
+󱆴,water boiler off
+󱔅,water check outline
+󱔇,water minus outline
+󱔈,water off outline
+󱔉,water percent alert
+󱔋,water plus outline
+󰾓,water pump off
+󱔍,water remove outline
+󱪆,water thermometer outline
+󱁬,water well outline
+󰧕,cellphone arrow down
+󰄢,cellphone link off
+󱃒,cellphone message off
+󱋘,cellphone nfc off
+󰹋,keyboard off outline
+󰧺,keyboard settings outline
+󰌥,keyboard tab reverse
+󰼚,phone alert
+󰏳,phone bluetooth
+󱂼,phone cancel
+󱆩,phone check
+󰘂,phone classic
+󱧛,phone clock
+󱕙,phone dial
+󰏴,phone forward
+󰏵,phone hangup
+󰏷,phone incoming
+󰏸,phone lock
+󰏹,phone log
+󱆖,phone message
+󰙘,phone minus
+󰏺,phone missed
+󰷯,phone off
+󰏻,phone outgoing
+󰷰,phone outline
+󰏼,phone paused
+󰙙,phone plus
+󱦓,phone refresh
+󱔯,phone remove
+󰠯,phone return
+󱆫,phone ring
+󰏽,phone settings
+󱦕,phone sync
+󰏾,phone voip
+,person dots from line
+,person walking with cane
+,hand back fist
+,hand grab o
+,hand holding dollar
+,hand holding droplet
+,hand holding heart
+,hand lizard o
+,hand middle finger
+,hand o down
+,hand o left
+,hand o right
+,hand o up
+,hand paper o
+,hand peace o
+,hand point down
+,hand point left
+,hand point right
+,hand point up
+,hand pointer o
+,hand rock o
+,hand scissors o
+,hand spock o
+,hand stop o
+󰄼,chevron double down
+󰄽,chevron double left
+󰄾,chevron double right
+󰄿,chevron double up
+󰧖,chevron down box
+󰬦,chevron down circle
+󰧘,chevron left box
+󰬨,chevron left circle
+󰧚,chevron right box
+󰬪,chevron right circle
+󰶹,chevron triple down
+󰶺,chevron triple left
+󰶻,chevron triple right
+󰶼,chevron triple up
+󰧜,chevron up box
+󰬬,chevron up circle
+,layout sidebar left off
+,layout sidebar right off
+󱅃,plus box multiple outline
+󰐘,plus circle multiple outline
+󰵍,axis x arrow lock
+󰵎,axis x rotate clockwise
+󰵏,axis x rotate counterclockwise
+󰵒,axis y arrow lock
+󰵓,axis y rotate clockwise
+󰵔,axis y rotate counterclockwise
+󰵖,axis z arrow lock
+󰵗,axis z rotate clockwise
+󰵘,axis z rotate counterclockwise
+󰀄,account
+󰠦,home account
+󰡻,home alert
+󰺺,home analytics
+󰟐,home assistant
+󰟑,home automation
+󱤁,home battery
+󰟒,home circle
+󰴕,home city
+󱨒,home clock
+󱅙,home edit
+󰻺,home flood
+󰷔,home group
+󰠧,home heart
+󱉑,home lightbulb
+󰣫,home lock
+󰥴,home minus
+󰋝,home modern
+󱩆,home off
+󰚡,home outline
+󰥵,home plus
+󱉇,home remove
+󱄫,home roof
+󱎰,home search
+󱞔,home switch
+󰽔,home thermometer
+󰋞,home variant
+󰺑,chart areaspline variant
+󰝪,chart bar stacked
+󰱐,chart bell curve
+󱕎,chart box outline
+󰞰,chart donut variant
+󰝫,chart line stacked
+󰞱,chart line variant
+󱇠,chart sankey variant
+󰺒,chart scatter plot
+󰺓,chart timeline variant
+󱨈,square rounded badge outline
+󰸛,car back
+󰄌,car battery
+󱥴,car clock
+󱀘,car clutch
+󱏌,car cog
+󰄍,car connected
+󰞧,car convertible
+󰭫,car door
+󰭬,car electric
+󱘏,car emergency
+󰱉,car esp
+󰞨,car estate
+󰞩,car hatchback
+󱆾,car info
+󰭭,car key
+󰣍,car limousine
+󰭮,car multiple
+󰸜,car off
+󱓭,car outline
+󰞪,car pickup
+󰾤,car seat
+󱡹,car select
+󱏍,car settings
+󰞫,car side
+󰞬,car sports
+󱀚,car turbocharger
+󰄎,car wash
+󱀛,car windshield
+󱡸,car wireless
+󱠔,car wrench
+󰻗,calendar account
+󰨱,calendar alert
+󰃮,calendar blank
+󰃯,calendar check
+󰃰,calendar clock
+󱕻,calendar cursor
+󰢧,calendar edit
+󱙬,calendar end
+󰬤,calendar export
+󰧒,calendar heart
+󰬥,calendar import
+󱙁,calendar lock
+󰵜,calendar minus
+󰸗,calendar month
+󰃱,calendar multiple
+󰨲,calendar multiselect
+󰭧,calendar outline
+󰃳,calendar plus
+󰚒,calendar question
+󰙹,calendar range
+󰇡,calendar refresh
+󰃴,calendar remove
+󰥌,calendar search
+󰧓,calendar star
+󱙭,calendar start
+󰺎,calendar sync
+󰃵,calendar text
+󰃶,calendar today
+󰨳,calendar week
+󰻙,calendar weekend
+󱊆,star box multiple
+󰩴,star box outline
+󱕪,star check outline
+󰦤,star circle outline
+󱙩,star cog outline
+󰫢,star four points
+󰓐,star half full
+󱕨,star minus outline
+󱕛,star off outline
+󱕧,star plus outline
+󱕩,star remove outline
+󱙫,star settings outline
+󱝂,star shooting outline
+󰫤,star three points
+󱗑,lock alert outline
+󱚨,lock check outline
+󱚪,lock minus outline
+󱙲,lock off outline
+󱎛,lock open alert
+󱎜,lock open check
+󱚬,lock open minus
+󰍀,lock open outline
+󱚮,lock open plus
+󱚰,lock open remove
+󰿆,lock open variant
+󱚲,lock plus outline
+󱚴,lock remove outline
+󰹆,hand back left
+󰹇,hand back right
+󱩂,hand clap off
+󱢐,hand coin outline
+󱢷,hand extended outline
+󱠫,hand front left
+󰩏,hand front right
+󱕾,hand heart outline
+󰩒,hand peace variant
+󰩓,hand pointing down
+󰩔,hand pointing left
+󰋇,hand pointing right
+󰩕,hand pointing up
+󱖀,hand wash outline
+󱠢,hand wave outline
+󰣵,network strength 1 alert
+󰣷,network strength 2 alert
+󰣹,network strength 3 alert
+󰣻,network strength 4 alert
+󱤚,network strength 4 cog
+󰣽,network strength off outline
+󰝂,gesture two double tap
+,moon full
+,moon new
+󰼯,weather cloudy alert
+󱣶,weather cloudy clock
+󰙾,weather lightning rainy
+󰖕,weather partly cloudy
+󰼲,weather partly lightning
+󰼳,weather partly rainy
+󰼴,weather partly snowy
+󰼶,weather snowy heavy
+󰙿,weather snowy rainy
+󰼷,weather sunny alert
+󱓤,weather sunny off
+󰖛,weather sunset down
+󰖜,weather sunset up
+󰖞,weather windy variant
+󱏙,video 3d off
+󰻑,video 3d variant
+󰠾,video 4k box
+󰃾,video box off
+󱁪,video check outline
+󱔮,video high definition
+󰠿,video input antenna
+󰡀,video input component
+󰡁,video input hdmi
+󰾌,video input scart
+󰡂,video input svideo
+󱦪,video marker outline
+󰊺,video minus outline
+󰯛,video off outline
+󰇓,video plus outline
+󰞐,video switch outline
+󰻓,video wireless outline
+󰊱,google circles communities
+󰊲,google circles extended
+󰊳,google circles group
+󰊵,google controller off
+󱁈,google my business
+󰲈,google street view
+,debug alt small
+,debug breakpoint conditional
+,debug breakpoint data
+,debug breakpoint function
+,debug breakpoint log
+,debug breakpoint unsupported
+,debug continue small
+,debug line by line
+,debug restart frame
+,debug reverse continue
+,debug stackframe active
+,debug step back
+,debug step into
+,debug step out
+,debug step over
+󱠑,projector screen variant off outline
+󱟊,wall sconce flat variant outline
+󱟍,wall sconce round variant outline
+󱇀,printer 3d nozzle alert
+󱢸,printer 3d nozzle heat
+󰹜,printer 3d nozzle outline
+,circle arrow down
+,circle arrow left
+,circle arrow right
+,circle arrow up
+,circle chevron down
+,circle chevron left
+,circle chevron right
+,circle chevron up
+,circle half stroke
+,circle o notch
+󰅈,clipboard account
+󰅉,clipboard alert
+󰅎,clipboard check
+󱛢,clipboard clock
+󱓥,clipboard edit
+󱉥,clipboard file
+󰛈,clipboard flow
+󱃔,clipboard list
+󱘘,clipboard minus
+󱉧,clipboard multiple
+󱘚,clipboard off
+󰅌,clipboard outline
+󰱙,clipboard play
+󰝑,clipboard plus
+󰡝,clipboard pulse
+󱘜,clipboard remove
+󱘞,clipboard search
+󰅍,clipboard text
+󰜚,source commit end local
+󰜜,source commit next local
+󱅅,pencil box multiple outline
+,face frown open
+,face grin beam
+,face grin hearts
+,face grin squint
+,face grin stars
+,face grin tears
+,face grin tongue
+,face grin wide
+,face grin wink
+,face kiss beam
+,face laugh beam
+,face laugh squint
+,face laugh wink
+,face meh blank
+,face rolling eyes
+,face sad cry
+,face sad tear
+,face smile beam
+,face smile wink
+󱥭,bookmark box multiple outline
+󱣾,eye arrow left outline
+󱤀,eye arrow right outline
+󱖛,human capacity decrease
+󱖜,human capacity increase
+󰩙,human female boy
+󱗉,human female dance
+󰩛,human female girl
+󱖝,human greeting proximity
+󰙊,human greeting variant
+󰢐,human male board
+󰩜,human male boy
+󱎌,human male child
+󰋨,human male female
+󰩝,human male girl
+󰻻,human male height
+󱡈,human non binary
+󱦁,human white cane
+󰀫,alpha
+󰕔,vector arrange above
+󰕕,vector arrange below
+󰕗,vector circle variant
+󰕛,vector difference ab
+󰕜,vector difference ba
+󱡖,vector polygon variant
+󱈥,vector polyline edit
+󱈦,vector polyline minus
+󱈧,vector polyline plus
+󱈨,vector polyline remove
+󱡗,vector square close
+󱣙,vector square edit
+󱣚,vector square minus
+󱡘,vector square open
+󱣛,vector square plus
+󱣜,vector square remove
+󱧑,monitor arrow down variant
+󱗰,fridge industrial alert outline
+󱗲,fridge industrial off outline
+󱗶,fridge variant alert outline
+󱗸,fridge variant off outline
+󱐤,power plug off outline
+󱑩,food drumstick off outline
+󱠷,food takeout box outline
+󰿕,microsoft azure devops
+󰦈,microsoft dynamics 365
+󰌀,microsoft internet explorer
+󰘐,microsoft visual studio
+󰨡,microsoft windows classic
+󰖺,microsoft xbox controller
+󰽫,music accidental flat
+󰽬,music accidental natural
+󰽭,music accidental sharp
+󰌳,music box multiple
+󰎅,music box outline
+󰫔,music circle outline
+󰽮,music clef alto
+󰽯,music clef bass
+󰽰,music clef treble
+󰗾,music note bluetooth
+󰎉,music note half
+󰎊,music note off
+󰽴,music note outline
+󰷞,music note plus
+󰎋,music note quarter
+󰎌,music note sixteenth
+󰎍,music note whole
+󰽸,music rest eighth
+󰽹,music rest half
+󰽺,music rest quarter
+󰽻,music rest sixteenth
+󰽼,music rest whole
+,arrow circle down
+,arrow circle left
+,arrow circle right
+,arrow circle up
+,arrow down long
+,arrow left long
+,arrow right long
+,arrow rotate left
+,arrow rotate right
+,arrow turn down
+,arrow turn up
+,arrow up long
+󰳱,briefcase account outline
+󱌞,briefcase check outline
+󱃑,briefcase clock outline
+󰰽,briefcase download outline
+󰰾,briefcase edit outline
+󱟚,briefcase eye outline
+󰰿,briefcase minus outline
+󱙙,briefcase off outline
+󰱀,briefcase plus outline
+󰱁,briefcase remove outline
+󰱂,briefcase search outline
+󰱃,briefcase upload outline
+󱙚,briefcase variant off
+󱒕,briefcase variant outline
+󱇮,alert circle check outline
+󱎭,book account
+󱙼,book alert
+󰘝,book alphabet
+󱚆,book cancel
+󱓳,book check
+󱚈,book clock
+󱚊,book cog
+󰂢,book cross
+󱚌,book edit
+󱛉,book education
+󱨝,book heart
+󰞚,book lock
+󱚐,book marker
+󰗙,book minus
+󰂻,book multiple
+󰁧,book music
+󱚔,book off
+󰂽,book open
+󰭤,book outline
+󰺂,book play
+󰗛,book plus
+󱚗,book refresh
+󰪗,book remove
+󰺄,book search
+󱚚,book settings
+󱚜,book sync
+󰂿,book variant
+󰵂,email alert outline
+󰪲,email check outline
+󰻤,email edit outline
+󱡰,email fast outline
+󰻦,email minus outline
+󰻨,email multiple outline
+󱏤,email off outline
+󰻩,email open multiple
+󰗯,email open outline
+󰧬,email plus outline
+󱃛,email receive outline
+󱙢,email remove outline
+󱥜,email seal outline
+󰥢,email search outline
+󱃝,email send outline
+󱋈,email sync outline
+󱒖,relation many to many
+󱒣,relation one to one
+󰱪,emoticon angry outline
+󱃟,emoticon confused outline
+󰇳,emoticon cool outline
+󰱭,emoticon cry outline
+󰚛,emoticon dead outline
+󰇴,emoticon devil outline
+󰚜,emoticon excited outline
+󰽍,emoticon frown outline
+󰇵,emoticon happy outline
+󰱳,emoticon kiss outline
+󱈕,emoticon lol outline
+󰇶,emoticon neutral outline
+󰱵,emoticon poop outline
+󰇸,emoticon sad outline
+󱕽,emoticon sick outline
+󰱷,emoticon tongue outline
+󰱹,emoticon wink outline
+󱡲,camera document off
+󰭪,camera enhance outline
+󱗚,camera flip outline
+󰄃,camera front variant
+󱨕,camera lock outline
+󱦨,camera marker outline
+󰞢,camera metering center
+󰞣,camera metering matrix
+󰞤,camera metering partial
+󰞥,camera metering spot
+󱦿,camera off outline
+󰄅,camera party mode
+󰻜,camera plus outline
+󰄇,camera rear variant
+󰸚,camera retake outline
+󰡊,camera switch outline
+󰶷,camera wireless outline
+,file archive o
+,file arrow down
+,file arrow up
+,file audio o
+,file code o
+,file excel o
+,file image o
+,file invoice dollar
+,file movie o
+,file pdf o
+,file photo o
+,file picture o
+,file powerpoint o
+,file sound o
+,file text o
+,file video o
+,file word o
+,file zip o
+󰽃,content save alert outline
+󰽄,content save all outline
+󱣫,content save check outline
+󱑜,content save cog outline
+󰳼,content save edit outline
+󰸨,content save move outline
+󱙄,content save off outline
+󰬮,content save settings outline
+󱈻,flask empty minus outline
+󱏵,flask empty off outline
+󱈽,flask empty plus outline
+󱈿,flask empty remove outline
+󱉌,flask round bottom empty
+󱉎,flask round bottom outline
+󰺽,map check outline
+󰴟,map clock outline
+󱣣,map marker account
+󰼅,map marker alert
+󰲕,map marker check
+󰍏,map marker circle
+󰣰,map marker distance
+󱄂,map marker down
+󱋛,map marker left
+󰙐,map marker minus
+󰍐,map marker multiple
+󰍑,map marker off
+󰟙,map marker outline
+󰴠,map marker path
+󰙑,map marker plus
+󰼇,map marker question
+󰍒,map marker radius
+󰼉,map marker remove
+󱋜,map marker right
+󱘈,map marker star
+󱄃,map marker up
+󰦅,map search outline
+󱇘,view agenda outline
+󱒅,view array outline
+󱒆,view carousel outline
+󱒇,view column outline
+󱒈,view comfy outline
+󰹬,view compact outline
+󱥇,view dashboard edit
+󰨝,view dashboard outline
+󰡃,view dashboard variant
+󱒊,view day outline
+󱢉,view gallery outline
+󱇙,view grid outline
+󰾍,view grid plus
+󱒋,view list outline
+󱒌,view module outline
+󱒍,view parallel outline
+󱒎,view quilt outline
+󱒏,view sequential outline
+󰯋,view split horizontal
+󰯌,view split vertical
+󱒐,view stream outline
+󱒑,view week outline
+,git pull request go to changes
+󰈔,file
+󱚶,wifi arrow down
+󱚷,wifi arrow left
+󱚹,wifi arrow right
+󱚺,wifi arrow up
+󱛀,wifi lock open
+󰤟,wifi strength 1
+󰤢,wifi strength 2
+󰤥,wifi strength 3
+󰤨,wifi strength 4
+󰤭,wifi strength off
+󰤯,wifi strength outline
+󰺧,text box check outline
+󱩽,text box edit outline
+󰺩,text box minus outline
+󰪸,text box multiple outline
+󰺫,text box plus outline
+󰺭,text box remove outline
+󰺯,text box search outline
+󰔋,text to speech off
+󰫏,language ruby on rails
+󱏐,credit card check
+󱤏,credit card chip
+󰻡,credit card clock
+󱟗,credit card edit
+󱤑,credit card fast
+󱣧,credit card lock
+󰚨,credit card marker
+󰾬,credit card minus
+󰿰,credit card multiple
+󰿱,credit card off
+󰆛,credit card outline
+󰿲,credit card plus
+󱙅,credit card refresh
+󰿳,credit card refund
+󰾮,credit card remove
+󰿴,credit card scan
+󱙇,credit card search
+󰿵,credit card settings
+󱙉,credit card sync
+󰠂,credit card wireless
+󰋬,image area close
+󰿁,image auto adjust
+󰋮,image broken variant
+󱇤,image edit outline
+󰋳,image filter drama
+󰋴,image filter frames
+󰋵,image filter hdr
+󰋶,image filter none
+󰋸,image filter vintage
+󱪱,image lock outline
+󱝼,image marker outline
+󰋯,image multiple outline
+󱇑,image off outline
+󱧿,image refresh outline
+󰥸,image search outline
+󱨁,image sync outline
+󰗎,clock alert outline
+󰾩,clock check outline
+󱦻,clock edit outline
+󱡤,clock minus outline
+󱡢,clock plus outline
+󱡦,clock remove outline
+󱑆,clock time eight
+󱑉,clock time eleven
+󱑃,clock time five
+󱑂,clock time four
+󱑇,clock time nine
+󱐿,clock time one
+󱑅,clock time seven
+󱑄,clock time six
+󱑈,clock time ten
+󱑁,clock time three
+󱑊,clock time twelve
+󱑀,clock time two
+󰅼,comment account outline
+󰅾,comment alert outline
+󰧡,comment arrow left
+󰧣,comment arrow right
+󱖯,comment bookmark outline
+󰆀,comment check outline
+󱋄,comment edit outline
+󰨻,comment eye outline
+󱖱,comment flash outline
+󱗠,comment minus outline
+󰆁,comment multiple outline
+󱗢,comment off outline
+󰆃,comment plus outline
+󰆅,comment processing outline
+󰆆,comment question outline
+󱀢,comment quote outline
+󰆇,comment remove outline
+󰨽,comment search outline
+󰡠,comment text multiple
+󰆉,comment text outline
+󰄗,checkbox blank badge outline
+󰄰,checkbox blank circle outline
+󱋭,checkbox blank off outline
+󰄴,checkbox marked circle outline
+󰘻,checkbox multiple blank circle
+󰄷,checkbox multiple blank outline
+󰘽,checkbox multiple marked circle
+󰄹,checkbox multiple marked outline
+󱨘,play box lock open outline
+󰅭,code greater than or equal
+󰅯,code less than or equal
+󱜬,tag arrow down outline
+󱜮,tag arrow left outline
+󱜰,tag arrow right outline
+󱜲,tag arrow up outline
+,night alt cloudy
+,night alt hail
+,night alt lightning
+,night alt rain
+,night alt showers
+,night alt sleet
+,night alt snow
+,night alt sprinkle
+,night alt thunderstorm
+,night cloudy gusts
+,night cloudy high
+,night cloudy windy
+,night partly cloudy
+,night rain mix
+,night rain wind
+,night sleet storm
+,night snow thunderstorm
+,night snow wind
+,night storm showers
+󱧢,lightbulb alert outline
+󱠁,lightbulb auto outline
+󱈉,lightbulb cfl off
+󱉵,lightbulb cfl spiral
+󱠄,lightbulb fluorescent tube
+󱋍,lightbulb group off
+󱉔,lightbulb group outline
+󱋏,lightbulb multiple off
+󱉖,lightbulb multiple outline
+󱩍,lightbulb night outline
+󰹐,lightbulb off outline
+󱩎,lightbulb on 10
+󱩏,lightbulb on 20
+󱩐,lightbulb on 30
+󱩑,lightbulb on 40
+󱩒,lightbulb on 50
+󱩓,lightbulb on 60
+󱩔,lightbulb on 70
+󱩕,lightbulb on 80
+󱩖,lightbulb on 90
+󰛩,lightbulb on outline
+󱧤,lightbulb question outline
+󱟵,lightbulb spot off
+󱠃,lightbulb variant outline
+󱌿,head dots horizontal outline
+󱢣,cards playing club multiple
+󱢥,cards playing club outline
+󱢧,cards playing diamond multiple
+󱢩,cards playing diamond outline
+󱢫,cards playing heart multiple
+󱢭,cards playing heart outline
+󱢯,cards playing spade multiple
+󱢱,cards playing spade outline
+󰵐,axis x y arrow lock
+󱅈,sort alphabetical ascending variant
+󱅉,sort alphabetical descending variant
+󱎆,sort bool ascending variant
+󱎈,sort bool descending variant
+󱕊,sort clock ascending outline
+󱕌,sort clock descending outline
+󰤍,sort numeric ascending variant
+󰫒,sort numeric descending variant
+󰳎,sort variant lock open
+,square caret down
+,square caret left
+,square caret right
+,square caret up
+,square google plus
+,square hacker news
+,square phone flip
+,square poll horizontal
+,square poll vertical
+,square root variable
+,square share nodes
+,square up right
+󰶫,card account details outline
+󰊣,card account details star
+󰺘,card account mail outline
+󰺚,card account phone outline
+󰭲,card bulleted off outline
+󰭵,card bulleted settings outline
+󱓾,archive alert outline
+󱉙,archive arrow down
+󱉛,archive arrow up
+󱝌,archive cancel outline
+󱝎,archive check outline
+󱝐,archive clock outline
+󱝒,archive cog outline
+󱝔,archive edit outline
+󱝖,archive eye outline
+󱝘,archive lock open
+󱝚,archive lock outline
+󱝜,archive marker outline
+󱝞,archive minus outline
+󱝠,archive music outline
+󱝢,archive off outline
+󱝤,archive plus outline
+󱝦,archive refresh outline
+󱝨,archive remove outline
+󱝪,archive search outline
+󱝬,archive settings outline
+󱝮,archive star outline
+󱝰,archive sync outline
+󱫍,timer alert outline
+󱫏,timer cancel outline
+󱫑,timer check outline
+󱤦,timer cog outline
+󱫓,timer edit outline
+󱫕,timer lock open
+󱫗,timer lock outline
+󱫙,timer marker outline
+󱫛,timer minus outline
+󱫝,timer music outline
+󰔞,timer off outline
+󱫟,timer pause outline
+󱫡,timer play outline
+󱫣,timer plus outline
+󱫥,timer refresh outline
+󱫧,timer remove outline
+󱦟,timer sand complete
+󰚭,timer sand empty
+󰞌,timer sand full
+󱦠,timer sand paused
+󱤤,timer settings outline
+󱫩,timer star outline
+󱫫,timer stop outline
+󱫭,timer sync outline
+󱛴,movie check outline
+󱛶,movie cog outline
+󱄣,movie edit outline
+󱄥,movie filter outline
+󱛸,movie minus outline
+󱛺,movie off outline
+󱛻,movie open check
+󱛽,movie open cog
+󱛿,movie open edit
+󱜁,movie open minus
+󱜃,movie open off
+󰿏,movie open outline
+󱜅,movie open play
+󱜇,movie open plus
+󱜉,movie open remove
+󱜋,movie open settings
+󱜍,movie open star
+󱜐,movie play outline
+󱜒,movie plus outline
+󱜔,movie remove outline
+󱇓,movie search outline
+󱜖,movie settings outline
+󱜘,movie star outline
+󱧅,cellphone arrow down variant
+󰬺,numeric 1
+󰿩,numeric 10
+󰬻,numeric 2
+󰬼,numeric 3
+󰬽,numeric 4
+󰬾,numeric 5
+󰬿,numeric 6
+󰭀,numeric 7
+󰭁,numeric 8
+󰭂,numeric 9
+󱧓,numeric off
+󰁺,battery 10
+󰁻,battery 20
+󰁼,battery 30
+󰁽,battery 40
+󰁾,battery 50
+󰁿,battery 60
+󰂀,battery 70
+󰂁,battery 80
+󰂂,battery 90
+󰂃,battery alert
+󰥈,battery bluetooth
+󰂄,battery charging
+󱟢,battery check
+󱧥,battery clock
+󱈏,battery heart
+󱊣,battery high
+󱞜,battery lock
+󱊡,battery low
+󱊢,battery medium
+󱟤,battery minus
+󰂍,battery negative
+󱉝,battery off
+󰂎,battery outline
+󱟦,battery plus
+󰂐,battery positive
+󱟨,battery remove
+󱠴,battery sync
+󰂑,battery unknown
+󰧗,chevron down box outline
+󰬧,chevron down circle outline
+󰧙,chevron left box outline
+󰬩,chevron left circle outline
+󰧛,chevron right box outline
+󰬫,chevron right circle outline
+󰧝,chevron up box outline
+󰬭,chevron up circle outline
+󱇁,printer 3d nozzle alert outline
+󱢹,printer 3d nozzle heat outline
+󱘤,database alert outline
+󱘻,database arrow down
+󱘼,database arrow left
+󱘽,database arrow right
+󱘾,database arrow up
+󱘩,database check outline
+󱘪,database clock outline
+󱙌,database cog outline
+󱘫,database edit outline
+󱘬,database export outline
+󱤠,database eye off
+󱤢,database eye outline
+󱘭,database import outline
+󱘮,database lock outline
+󱘯,database marker outline
+󱘰,database minus outline
+󱘱,database off outline
+󱘳,database plus outline
+󱘴,database refresh outline
+󱘵,database remove outline
+󱘶,database search outline
+󱘷,database settings outline
+󱘸,database sync outline
+󱎻,table arrow down
+󱎼,table arrow left
+󱎽,table arrow right
+󱎾,table arrow up
+󰓮,table column remove
+󰓯,table column width
+󱏃,table eye off
+󱈝,table headers eye
+󰾇,table large plus
+󰾈,table large remove
+󰦦,table merge cells
+󰠶,table of contents
+󰓲,table row height
+󰓵,table row remove
+󱐪,table split cell
+󰾧,chart bell curve cumulative
+󱕏,chart box plus outline
+󰙭,chart scatter plot hexbin
+󱖶,chart timeline variant shimmer
+󰜞,source commit start next local
+󱊇,star box multiple outline
+󰫣,star four points outline
+󰫥,star three points outline
+󱗒,lock open alert outline
+󱚫,lock open check outline
+󱚭,lock open minus outline
+󱚯,lock open plus outline
+󱚱,lock open remove outline
+󰿇,lock open variant outline
+󱠰,hand back left off
+󱠬,hand back left outline
+󱠱,hand back right off
+󱠭,hand back right outline
+󱠮,hand front left outline
+󱠯,hand front right outline
+󰨒,shield account outline
+󱖧,shield account variant
+󰳇,shield airplane outline
+󰻍,shield alert outline
+󱏛,shield bug outline
+󰳈,shield check outline
+󰳊,shield cross outline
+󱢽,shield crown outline
+󱆡,shield edit outline
+󰞀,shield half full
+󰳋,shield home outline
+󰯅,shield key outline
+󰴳,shield link variant
+󱦚,shield lock open
+󰳌,shield lock outline
+󱠩,shield moon outline
+󰦜,shield off outline
+󰫛,shield plus outline
+󰇠,shield refresh outline
+󰫝,shield remove outline
+󱄼,shield star outline
+󱁞,shield sun outline
+󱢿,shield sword outline
+󱆣,shield sync outline
+󰨄,message alert outline
+󱋲,message arrow left
+󱋴,message arrow right
+󱥂,message badge outline
+󱖭,message bookmark outline
+󰚣,message bulleted off
+󱅲,message cog outline
+󱧍,message fast outline
+󱖪,message flash outline
+󱅬,message image outline
+󱅭,message lock outline
+󱅯,message minus outline
+󱙎,message off outline
+󱂻,message plus outline
+󱅰,message processing outline
+󱜻,message question outline
+󱜽,message reply outline
+󰍨,message reply text
+󱅱,message settings outline
+󱉐,message star outline
+󱅳,message text clock
+󱧎,message text fast
+󰿍,message text lock
+󰍪,message text outline
+󰹮,weather cloudy arrow right
+󰼱,weather night partly cloudy
+󰼵,weather partly snowy rainy
+,debug breakpoint conditional unverified
+,debug breakpoint data unverified
+,debug breakpoint function unverified
+,debug breakpoint log unverified
+󱆎,phone alert outline
+󱆏,phone bluetooth outline
+󱆐,phone cancel outline
+󱆪,phone check outline
+󱉹,phone classic off
+󱕚,phone dial outline
+󱆑,phone forward outline
+󱆒,phone hangup outline
+󰏶,phone in talk
+󱆓,phone incoming outline
+󱆔,phone lock outline
+󱆕,phone log outline
+󱆗,phone message outline
+󱆘,phone minus outline
+󱆥,phone missed outline
+󱆦,phone off outline
+󱆙,phone outgoing outline
+󱆚,phone paused outline
+󱆛,phone plus outline
+󱦔,phone refresh outline
+󱔰,phone remove outline
+󱆜,phone return outline
+󱆬,phone ring outline
+󰢅,phone rotate landscape
+󰢆,phone rotate portrait
+󱆝,phone settings outline
+󱦖,phone sync outline
+,circle dollar to slot
+,face grin beam sweat
+,face grin squint tears
+,face grin tongue squint
+,face grin tongue wink
+,face kiss wink heart
+󱗐,home alert outline
+󱤂,home battery outline
+󱁍,home circle outline
+󰴖,home city outline
+󱨓,home clock outline
+󱅚,home edit outline
+󰾛,home export outline
+󰷒,home floor 0
+󰶀,home floor 1
+󰶁,home floor 2
+󰶂,home floor 3
+󰶃,home floor a
+󰶄,home floor b
+󰶅,home floor g
+󰶆,home floor l
+󱧁,home group minus
+󱧀,home group plus
+󱧂,home group remove
+󰾜,home import outline
+󱉒,home lightbulb outline
+󱤃,home lightning bolt
+󰣬,home lock open
+󰗸,home map marker
+󱏕,home minus outline
+󱩇,home off outline
+󱏖,home plus outline
+󱏗,home remove outline
+󱎱,home search outline
+󱞕,home switch outline
+󰽕,home thermometer outline
+󰮧,home variant outline
+󱎋,human baby changing table
+󰡆,human male board poll
+󱠣,human male female child
+󰻼,human male height variant
+󱀕,car 2 plus
+󱀖,car 3 plus
+󱎲,car arrow left
+󱎳,car arrow right
+󰱇,car brake abs
+󰱈,car brake alert
+󰵞,car brake hold
+󰵟,car brake parking
+󱀗,car brake retarder
+󱤋,car brake temperature
+󰾣,car child seat
+󱀙,car coolant level
+󰵠,car cruise control
+󰵡,car defrost front
+󰵢,car defrost rear
+󱂝,car door lock
+󱖵,car electric outline
+󱔭,car lifted pickup
+󱤍,car light alert
+󰱊,car light dimmed
+󰱋,car light fog
+󰱌,car light high
+󰵣,car parking lights
+󰾥,car seat cooler
+󰾦,car seat heater
+󰽀,car shift pattern
+󱤎,car speed limiter
+󰱍,car tire alert
+󰵤,car traction control
+󱀜,car windshield outline
+󰻘,calendar account outline
+󱄴,calendar arrow left
+󱄵,calendar arrow right
+󱁳,calendar blank multiple
+󰭦,calendar blank outline
+󰱄,calendar check outline
+󱛡,calendar clock outline
+󱢝,calendar collapse horizontal
+󱢞,calendar expand horizontal
+󱙂,calendar lock outline
+󰸘,calendar month outline
+󰃲,calendar multiple check
+󰭨,calendar range outline
+󰈃,calendar refresh outline
+󰱅,calendar remove outline
+󰺏,calendar sync outline
+󰱆,calendar text outline
+󱨰,calendar today outline
+󰨴,calendar week begin
+󱨲,calendar week end
+󱨴,calendar week outline
+󰻚,calendar weekend outline
+󰉤,format bold
+󰉥,format clear
+󰣟,format columns
+󰛖,format font
+󰉷,format italic
+󰺳,format overline
+󰉼,format paint
+󰉽,format paragraph
+󰛘,format pilcrow
+󰚟,format section
+󰉿,format size
+󰊀,format strikethrough
+󰊂,format subscript
+󰊃,format superscript
+󰊄,format text
+󰴑,format textbox
+󰗴,format title
+󰊇,format underline
+󰉌,folder account
+󰷌,folder alert
+󱧴,folder cancel
+󱥾,folder check
+󰪺,folder clock
+󱁿,folder cog
+󰉍,folder download
+󰣞,folder edit
+󱞊,folder eye
+󱧶,folder file
+󱃪,folder heart
+󱞞,folder hidden
+󱂵,folder home
+󰉏,folder image
+󱂷,folder information
+󰢬,folder key
+󰉐,folder lock
+󱉭,folder marker
+󰉒,folder move
+󰉓,folder multiple
+󱍙,folder music
+󰡰,folder network
+󱧸,folder off
+󰝰,folder open
+󰉖,folder outline
+󱧺,folder play
+󰉗,folder plus
+󰴉,folder pound
+󱧊,folder question
+󰝉,folder refresh
+󰉘,folder remove
+󰥨,folder search
+󱁽,folder settings
+󰚝,folder star
+󰾶,folder swap
+󰴋,folder sync
+󱋣,folder table
+󰲂,folder text
+󰉙,folder upload
+󱧼,folder wrench
+󰛫,folder zip
+󰨞,microsoft visual studio code
+󰹯,microsoft xbox controller menu
+󰖻,microsoft xbox controller off
+󰹰,microsoft xbox controller view
+󰽩,music accidental double flat
+󰽪,music accidental double sharp
+󰼄,music box multiple outline
+󰗿,music note bluetooth off
+󰽱,music note eighth dotted
+󰽲,music note half dotted
+󰽳,music note off outline
+󰽵,music note quarter dotted
+󰽶,music note sixteenth dotted
+󰽷,music note whole dotted
+,arrow circle o down
+,arrow circle o left
+,arrow circle o right
+,arrow circle o up
+,arrow down 1 9
+,arrow down 9 1
+,arrow down a z
+,arrow down short wide
+,arrow down wide short
+,arrow down z a
+,arrow right arrow left
+,arrow right from bracket
+,arrow right to bracket
+,arrow up 1 9
+,arrow up 9 1
+,arrow up a z
+,arrow up short wide
+,arrow up wide short
+,arrow up z a
+,moon alt full
+,moon alt new
+,moon first quarter
+,moon third quarter
+󱉍,flask round bottom empty outline
+󱪍,briefcase arrow left right
+󱪏,briefcase arrow up down
+󱙛,briefcase variant off outline
+󰱕,clipboard account outline
+󰳷,clipboard alert outline
+󰅊,clipboard arrow down
+󰅋,clipboard arrow left
+󰳹,clipboard arrow right
+󰱗,clipboard arrow up
+󱉣,clipboard check multiple
+󰢨,clipboard check outline
+󱛣,clipboard clock outline
+󱓦,clipboard edit outline
+󱉦,clipboard file outline
+󱄗,clipboard flow outline
+󱃕,clipboard list outline
+󱘙,clipboard minus outline
+󱉨,clipboard multiple outline
+󱘛,clipboard off outline
+󱉩,clipboard play multiple
+󰱚,clipboard play outline
+󱌟,clipboard plus outline
+󰡞,clipboard pulse outline
+󱘝,clipboard remove outline
+󱘟,clipboard search outline
+󱣹,clipboard text clock
+󱉫,clipboard text multiple
+󱘠,clipboard text off
+󰨸,clipboard text outline
+󰱛,clipboard text play
+󱘢,clipboard text search
+󰮒,email mark as unread
+󰻪,email open multiple outline
+󱒗,relation many to one
+󱒢,relation one to many
+󱒥,relation one to only one
+󱒩,relation only one to one
+󱒫,relation only one to only one
+󱤧,checkbox marked circle plus outline
+󰘼,checkbox multiple blank circle outline
+󰘾,checkbox multiple marked circle outline
+󱣤,map marker account outline
+󰼆,map marker alert outline
+󱋻,map marker check outline
+󱋝,map marker left outline
+󱋹,map marker minus outline
+󱉷,map marker multiple outline
+󱋽,map marker off outline
+󱋸,map marker plus outline
+󰼈,map marker question outline
+󱋼,map marker radius outline
+󱋺,map marker remove outline
+󰼊,map marker remove variant
+󱋞,map marker right outline
+󱘉,map marker star outline
+󱥈,view dashboard edit outline
+󱒉,view dashboard variant outline
+󱇚,view grid plus outline
+󰀅,account alert
+󰀆,account box
+󱋟,account cancel
+󱂗,account cash
+󰀈,account check
+󰪉,account child
+󰀉,account circle
+󰭖,account clock
+󱍰,account cog
+󰀊,account convert
+󰘱,account details
+󰚼,account edit
+󰐠,account eye
+󰤶,account filter
+󰡉,account group
+󰢙,account heart
+󱠕,account injury
+󰀋,account key
+󱅞,account lock
+󰀍,account minus
+󰀎,account multiple
+󰠃,account music
+󰀑,account network
+󰀒,account off
+󰀓,account outline
+󰀔,account plus
+󰭙,account question
+󱔫,account reactivate
+󰀕,account remove
+󱨠,account school
+󰀖,account search
+󰘰,account settings
+󰀗,account star
+󰪋,account supervisor
+󰀙,account switch
+󱤛,account sync
+󰳣,account tie
+󰗋,account voice
+󱢚,account wrench
+󱢤,cards playing club multiple outline
+󱢨,cards playing diamond multiple outline
+󱢬,cards playing heart multiple outline
+󱢰,cards playing spade multiple outline
+󱚸,wifi arrow left right
+󱚻,wifi arrow up down
+󰤠,wifi strength 1 alert
+󰤡,wifi strength 1 lock
+󰤣,wifi strength 2 alert
+󰤤,wifi strength 2 lock
+󰤦,wifi strength 3 alert
+󰤧,wifi strength 3 lock
+󰤩,wifi strength 4 alert
+󰤪,wifi strength 4 lock
+󰤫,wifi strength alert outline
+󰤬,wifi strength lock outline
+󰤮,wifi strength off outline
+󱎮,book account outline
+󱙽,book alert outline
+󱙾,book arrow down
+󱚀,book arrow left
+󱚂,book arrow right
+󱚄,book arrow up
+󱚇,book cancel outline
+󱓴,book check outline
+󱚉,book clock outline
+󱚋,book cog outline
+󱚍,book edit outline
+󱛊,book education outline
+󱨞,book heart outline
+󱁯,book information variant
+󰞛,book lock open
+󱚏,book lock outline
+󱚑,book marker outline
+󰪔,book minus multiple
+󱚒,book minus outline
+󰐶,book multiple outline
+󱚓,book music outline
+󱚕,book off outline
+󰭣,book open outline
+󱓷,book open variant
+󰺃,book play outline
+󰪕,book plus multiple
+󱚖,book plus outline
+󱚘,book refresh outline
+󰪖,book remove multiple
+󱚙,book remove outline
+󰺅,book search outline
+󱚛,book settings outline
+󱛈,book sync outline
+󰂼,book variant multiple
+󱏑,credit card check outline
+󱤐,credit card chip outline
+󰻢,credit card clock outline
+󱟘,credit card edit outline
+󱤒,credit card fast outline
+󱣨,credit card lock outline
+󰶾,credit card marker outline
+󰾭,credit card minus outline
+󰆜,credit card multiple outline
+󰗤,credit card off outline
+󰙶,credit card plus outline
+󱙆,credit card refresh outline
+󰪨,credit card refund outline
+󰾯,credit card remove outline
+󰆝,credit card scan outline
+󱙈,credit card search outline
+󰣗,credit card settings outline
+󱙊,credit card sync outline
+󰕺,credit card wireless off
+󰵬,credit card wireless outline
+󰋰,image filter black white
+󰋱,image filter center focus
+󰋷,image filter tilt shift
+󰲍,image size select actual
+󰲎,image size select large
+󰲏,image size select small
+󱑒,clock time eight outline
+󱑕,clock time eleven outline
+󱑏,clock time five outline
+󱑎,clock time four outline
+󱑓,clock time nine outline
+󱑋,clock time one outline
+󱑑,clock time seven outline
+󱑐,clock time six outline
+󱑔,clock time ten outline
+󱑍,clock time three outline
+󱑖,clock time twelve outline
+󱑌,clock time two outline
+󰧢,comment arrow left outline
+󰧤,comment arrow right outline
+󰡡,comment text multiple outline
+󰛛,card account details star outline
+,night alt cloudy gusts
+,night alt cloudy high
+,night alt cloudy windy
+,night alt partly cloudy
+,night alt rain mix
+,night alt rain wind
+,night alt sleet storm
+,night alt snow thunderstorm
+,night alt snow wind
+,night alt storm showers
+󱋃,lightbulb cfl spiral off
+󱠅,lightbulb fluorescent tube outline
+󱋎,lightbulb group off outline
+󱋐,lightbulb multiple off outline
+󰫮,alpha a
+󰫯,alpha b
+󰫰,alpha c
+󰫱,alpha d
+󰫲,alpha e
+󰫳,alpha f
+󰫴,alpha g
+󰫵,alpha h
+󰫶,alpha i
+󰫷,alpha j
+󰫸,alpha k
+󰫹,alpha l
+󰫺,alpha m
+󰫻,alpha n
+󰫼,alpha o
+󰫽,alpha p
+󰫾,alpha q
+󰫿,alpha r
+󰬀,alpha s
+󰬁,alpha t
+󰬂,alpha u
+󰬃,alpha v
+󰬄,alpha w
+󰬅,alpha x
+󰬆,alpha y
+󰬇,alpha z
+,square arrow up right
+,square font awesome stroke
+󱠲,hand back left off outline
+󱠳,hand back right off outline
+󱉚,archive arrow down outline
+󱉜,archive arrow up outline
+󱝙,archive lock open outline
+󱫖,timer lock open outline
+󱛼,movie open check outline
+󱛾,movie open cog outline
+󱜀,movie open edit outline
+󱜂,movie open minus outline
+󱜄,movie open off outline
+󱜆,movie open play outline
+󱜈,movie open plus outline
+󱜊,movie open remove outline
+󱜌,movie open settings outline
+󱜎,movie open star outline
+󱘥,database arrow down outline
+󱘦,database arrow left outline
+󱘧,database arrow right outline
+󱘨,database arrow up outline
+󱤡,database eye off outline
+󰓬,table column plus after
+󰓭,table column plus before
+󱈞,table headers eye off
+󰓳,table row plus after
+󰓴,table row plus before
+󱖨,shield account variant outline
+󰴴,shield link variant outline
+󱦛,shield lock open outline
+󱋳,message arrow left outline
+󱋵,message arrow right outline
+󱜾,message reply text outline
+󱅴,message text clock outline
+󱧏,message text fast outline
+󱅵,message text lock outline
+󰝋,microsoft xbox controller battery alert
+󰨢,microsoft xbox controller battery charging
+󰝌,microsoft xbox controller battery empty
+󰝍,microsoft xbox controller battery full
+󰝎,microsoft xbox controller battery low
+󰝏,microsoft xbox controller battery medium
+󰝐,microsoft xbox controller battery unknown
+󱆂,phone in talk outline
+󰎡,numeric 0 box
+󰽽,numeric 10 box
+󰿬,numeric 10 circle
+󰎤,numeric 1 box
+󰲠,numeric 1 circle
+󰎧,numeric 2 box
+󰲢,numeric 2 circle
+󰎪,numeric 3 box
+󰲤,numeric 3 circle
+󰎭,numeric 4 box
+󰲦,numeric 4 circle
+󰎱,numeric 5 box
+󰲨,numeric 5 circle
+󰎳,numeric 6 box
+󰲪,numeric 6 circle
+󰎶,numeric 7 box
+󰲬,numeric 7 circle
+󰎹,numeric 8 box
+󰲮,numeric 8 circle
+󰎼,numeric 9 box
+󰲰,numeric 9 circle
+󰿮,numeric 9 plus
+󱁒,numeric negative 1
+󱗋,numeric positive 1
+󰤾,battery 10 bluetooth
+󰤿,battery 20 bluetooth
+󰥀,battery 30 bluetooth
+󰥁,battery 40 bluetooth
+󰥂,battery 50 bluetooth
+󰥃,battery 60 bluetooth
+󰥄,battery 70 bluetooth
+󰥅,battery 80 bluetooth
+󰥆,battery 90 bluetooth
+󰥇,battery alert bluetooth
+󱃌,battery alert variant
+󱟞,battery arrow down
+󱟠,battery arrow up
+󰥉,battery bluetooth variant
+󰢜,battery charging 10
+󰂅,battery charging 100
+󰂆,battery charging 20
+󰂇,battery charging 30
+󰂈,battery charging 40
+󰢝,battery charging 50
+󰂉,battery charging 60
+󰢞,battery charging 70
+󰂊,battery charging 80
+󰂋,battery charging 90
+󱊦,battery charging high
+󱊤,battery charging low
+󱊥,battery charging medium
+󰢟,battery charging outline
+󰠇,battery charging wireless
+󱟣,battery check outline
+󱧦,battery clock outline
+󱈐,battery heart outline
+󱈑,battery heart variant
+󱞝,battery lock open
+󱟥,battery minus outline
+󰂌,battery minus variant
+󱉞,battery off outline
+󱟧,battery plus outline
+󰂏,battery plus variant
+󱟩,battery remove outline
+󱠵,battery sync outline
+󰥊,battery unknown bluetooth
+󰜻,file account
+󰩋,file alert
+󰪶,file cabinet
+󰻫,file cad
+󰷆,file cancel
+󱆆,file certificate
+󰈕,file chart
+󰈖,file check
+󱋡,file clock
+󰈗,file cloud
+󰈮,file code
+󱁻,file cog
+󰢪,file compare
+󰈘,file delimited
+󰈙,file document
+󰥥,file download
+󱇧,file edit
+󰈛,file excel
+󰈝,file export
+󰷊,file eye
+󰈞,file find
+󰘓,file hidden
+󰈟,file image
+󰈠,file import
+󱆄,file key
+󱅷,file link
+󰈡,file lock
+󱝴,file marker
+󱪡,file minus
+󰪹,file move
+󰈢,file multiple
+󰈣,file music
+󰈤,file outline
+󰠞,file percent
+󱅹,file phone
+󰝒,file plus
+󰈧,file powerpoint
+󰡯,file question
+󰤘,file refresh
+󰮘,file remove
+󰬲,file replace
+󰙰,file restore
+󰱼,file search
+󰈪,file send
+󱁹,file settings
+󱧃,file sign
+󱀺,file star
+󰾴,file swap
+󱈖,file sync
+󰱾,file table
+󰙅,file tree
+󰣜,file undo
+󰩍,file upload
+󰈫,file video
+󰈬,file word
+,arrow up right from square
+󱪎,briefcase arrow left right outline
+󱪐,briefcase arrow up down outline
+󰷓,home floor negative 1
+󱤄,home lightning bolt outline
+󱤉,car brake fluid level
+󱤊,car brake low pressure
+󱤌,car brake worn linings
+󱒘,relation many to one or many
+󱒙,relation many to only one
+󱒚,relation many to zero or many
+󱒜,relation one or many to many
+󱒝,relation one or many to one
+󱒞,relation one or many to one or many
+󱒤,relation one to one or many
+󱒧,relation one to zero or one
+󱒨,relation only one to many
+󱒮,relation zero or many to many
+󱒲,relation zero or many to zero or many
+󱒵,relation zero or one to one
+󱒹,relation zero or one to zero or one
+󱨱,calendar week begin outline
+󱨳,calendar week end outline
+󰁁,arrow all
+󰘕,arrow collapse
+󰦻,arrow decision
+󰁅,arrow down
+󰘖,arrow expand
+󰁍,arrow left
+󱡀,arrow projectile
+󰁔,arrow right
+󰁝,arrow up
+,moon alt first quarter
+,moon alt third quarter
+,moon waning crescent 1
+,moon waning crescent 2
+,moon waning crescent 3
+,moon waning crescent 4
+,moon waning crescent 5
+,moon waning crescent 6
+,moon waning gibbous 1
+,moon waning gibbous 2
+,moon waning gibbous 3
+,moon waning gibbous 4
+,moon waning gibbous 5
+,moon waning gibbous 6
+,moon waxing crescent 1
+,moon waxing crescent 2
+,moon waxing crescent 3
+,moon waxing crescent 4
+,moon waxing crescent 5
+,moon waxing crescent 6
+,moon waxing gibbous 1
+,moon waxing gibbous 2
+,moon waxing gibbous 3
+,moon waxing gibbous 4
+,moon waxing gibbous 5
+,moon waxing gibbous 6
+󱛋,wifi strength 1 lock open
+󱛌,wifi strength 2 lock open
+󱛍,wifi strength 3 lock open
+󱛎,wifi strength 4 lock open
+󱛏,wifi strength lock open outline
+󰱖,clipboard arrow down outline
+󰳸,clipboard arrow left outline
+󰳺,clipboard arrow right outline
+󰱘,clipboard arrow up outline
+󱉤,clipboard check multiple outline
+󱉪,clipboard play multiple outline
+󱣺,clipboard text clock outline
+󱉬,clipboard text multiple outline
+󱘡,clipboard text off outline
+󰱜,clipboard text play outline
+󱘣,clipboard text search outline
+󰕻,credit card wireless off outline
+󰻿,image filter center focus strong
+󰋲,image filter center focus weak
+󰝓,format align bottom
+󰉠,format align center
+󰉡,format align justify
+󰉢,format align left
+󰝔,format align middle
+󰉣,format align right
+󰝕,format align top
+󰪼,format annotation minus
+󰙆,format annotation plus
+󰉦,format color fill
+󰸱,format color highlight
+󰚞,format color text
+󰉧,format float center
+󰉨,format float left
+󰉩,format float none
+󰉪,format float right
+󰉫,format header 1
+󰉬,format header 2
+󰉭,format header 3
+󰉮,format header 4
+󰉯,format header 5
+󰉰,format header 6
+󰉱,format header decrease
+󰉲,format header equal
+󰉳,format header increase
+󰉴,format header pound
+󰉵,format indent decrease
+󰉶,format indent increase
+󰬴,format letter case
+󰾹,format letter matches
+󱥖,format letter spacing
+󰉸,format line spacing
+󰗈,format line style
+󰗉,format line weight
+󰉹,format list bulleted
+󰥪,format list checkbox
+󰝖,format list checks
+󱡠,format list group
+󰉻,format list numbered
+󱉯,format list text
+󰛗,format page break
+󱤗,format page split
+󰉾,format quote close
+󰝗,format quote open
+󰚪,format rotate 90
+󰊁,format strikethrough variant
+󰸲,format text variant
+󱣩,format underline wavy
+󰊈,format wrap inline
+󰊉,format wrap square
+󰊊,format wrap tight
+󰮜,folder account outline
+󰷍,folder alert outline
+󱧨,folder arrow down
+󱧪,folder arrow left
+󱧮,folder arrow right
+󱧰,folder arrow up
+󱧵,folder cancel outline
+󱥿,folder check outline
+󰪻,folder clock outline
+󱂀,folder cog outline
+󱃩,folder download outline
+󰷎,folder edit outline
+󱞋,folder eye outline
+󱧷,folder file outline
+󰉎,folder google drive
+󱃫,folder heart outline
+󱂶,folder home outline
+󱂸,folder information outline
+󰢭,folder key network
+󱃬,folder key outline
+󰉑,folder lock open
+󱪨,folder lock outline
+󱉮,folder marker outline
+󱉆,folder move outline
+󰉔,folder multiple image
+󰉕,folder multiple outline
+󱑾,folder multiple plus
+󱍚,folder music outline
+󰲁,folder network outline
+󱧹,folder off outline
+󰷏,folder open outline
+󱧻,folder play outline
+󰮝,folder plus outline
+󰴊,folder pound outline
+󱧋,folder question outline
+󰕂,folder refresh outline
+󰮞,folder remove outline
+󰥩,folder search outline
+󱁾,folder settings outline
+󱏓,folder star multiple
+󰮟,folder star outline
+󰾷,folder swap outline
+󰴌,folder sync outline
+󱋤,folder table outline
+󰲃,folder text outline
+󱃭,folder upload outline
+󱧽,folder wrench outline
+󰞹,folder zip outline
+󱙿,book arrow down outline
+󱚁,book arrow left outline
+󱚃,book arrow right outline
+󱚅,book arrow up outline
+󱚎,book lock open outline
+󰤋,book minus multiple outline
+󰂾,book open blank variant
+󰗚,book open page variant
+󰫞,book plus multiple outline
+󰓊,book remove multiple outline
+󰭐,account alert outline
+󱡨,account arrow down
+󰭑,account arrow left
+󰭓,account arrow right
+󱡧,account arrow up
+󰤴,account box multiple
+󰀇,account box outline
+󱋠,account cancel outline
+󱂘,account cash outline
+󰯢,account check outline
+󰪊,account child circle
+󱃈,account child outline
+󰭕,account circle outline
+󰭗,account clock outline
+󱍱,account cog outline
+󱌁,account convert outline
+󰺛,account cowboy hat
+󱍲,account details outline
+󰿻,account edit outline
+󱉻,account eye outline
+󰾝,account filter outline
+󰭘,account group outline
+󰖵,account hard hat
+󰯣,account heart outline
+󱠖,account injury outline
+󰯤,account key outline
+󱥠,account lock open
+󱅟,account lock outline
+󰫬,account minus outline
+󰣅,account multiple check
+󰗓,account multiple minus
+󰀏,account multiple outline
+󰀐,account multiple plus
+󱈊,account multiple remove
+󰳩,account music outline
+󰯦,account network outline
+󰯧,account off outline
+󰠁,account plus outline
+󰭚,account question outline
+󱔬,account reactivate outline
+󰫭,account remove outline
+󱨡,account school outline
+󰤵,account search outline
+󱃉,account settings outline
+󰯨,account star outline
+󰪌,account supervisor circle
+󱄭,account supervisor outline
+󰓋,account switch outline
+󱤜,account sync outline
+󱢘,account tie hat
+󱃊,account tie outline
+󱌈,account tie voice
+󱪌,account tie woman
+󰻔,account voice off
+󱢛,account wrench outline
+󱒛,relation many to zero or one
+󱒟,relation one or many to only one
+󱒠,relation one or many to zero or many
+󱒡,relation one or many to zero or one
+󱒦,relation one to zero or many
+󱒪,relation only one to one or many
+󱒭,relation only one to zero or one
+󱒯,relation zero or many to one
+󱒰,relation zero or many to one or many
+󱒳,relation zero or many to zero or one
+󱒴,relation zero or one to many
+󱒶,relation zero or one to one or many
+󱒷,relation zero or one to only one
+󱒸,relation zero or one to zero or many
+󰬈,alpha a box
+󰯬,alpha a circle
+󰬉,alpha b box
+󰯯,alpha b circle
+󰬊,alpha c box
+󰯲,alpha c circle
+󰬋,alpha d box
+󰯵,alpha d circle
+󰬌,alpha e box
+󰯸,alpha e circle
+󰬍,alpha f box
+󰯻,alpha f circle
+󰬎,alpha g box
+󰯾,alpha g circle
+󰬏,alpha h box
+󰰁,alpha h circle
+󰬐,alpha i box
+󰰄,alpha i circle
+󰬑,alpha j box
+󰰇,alpha j circle
+󰬒,alpha k box
+󰰊,alpha k circle
+󰬓,alpha l box
+󰰍,alpha l circle
+󰬔,alpha m box
+󰰐,alpha m circle
+󰬕,alpha n box
+󰰓,alpha n circle
+󰬖,alpha o box
+󰰖,alpha o circle
+󰬗,alpha p box
+󰰙,alpha p circle
+󰬘,alpha q box
+󰰜,alpha q circle
+󰬙,alpha r box
+󰰟,alpha r circle
+󰬚,alpha s box
+󰰢,alpha s circle
+󰬛,alpha t box
+󰰥,alpha t circle
+󰬜,alpha u box
+󰰨,alpha u circle
+󰬝,alpha v box
+󰰫,alpha v circle
+󰬞,alpha w box
+󰰮,alpha w circle
+󰬟,alpha x box
+󰰱,alpha x circle
+󰬠,alpha y box
+󰰴,alpha y circle
+󰬡,alpha z box
+󰰷,alpha z circle
+󰼎,numeric 0 box multiple
+󰎣,numeric 0 box outline
+󰿪,numeric 10 box multiple
+󰽾,numeric 10 box outline
+󰿭,numeric 10 circle outline
+󰼏,numeric 1 box multiple
+󰎦,numeric 1 box outline
+󰲡,numeric 1 circle outline
+󰼐,numeric 2 box multiple
+󰎩,numeric 2 box outline
+󰲣,numeric 2 circle outline
+󰼑,numeric 3 box multiple
+󰎬,numeric 3 box outline
+󰲥,numeric 3 circle outline
+󰼒,numeric 4 box multiple
+󰎮,numeric 4 box outline
+󰲧,numeric 4 circle outline
+󰼓,numeric 5 box multiple
+󰎰,numeric 5 box outline
+󰲩,numeric 5 circle outline
+󰼔,numeric 6 box multiple
+󰎵,numeric 6 box outline
+󰲫,numeric 6 circle outline
+󰼕,numeric 7 box multiple
+󰎸,numeric 7 box outline
+󰲭,numeric 7 circle outline
+󰼖,numeric 8 box multiple
+󰎻,numeric 8 box outline
+󰲯,numeric 8 circle outline
+󰼗,numeric 9 box multiple
+󰎾,numeric 9 box outline
+󰲱,numeric 9 circle outline
+󰎿,numeric 9 plus box
+󰲲,numeric 9 plus circle
+󱃍,battery alert variant outline
+󱟟,battery arrow down outline
+󱟡,battery arrow up outline
+󰠈,battery charging wireless 10
+󰠉,battery charging wireless 20
+󰠊,battery charging wireless 30
+󰠋,battery charging wireless 40
+󰠌,battery charging wireless 50
+󰠍,battery charging wireless 60
+󰠎,battery charging wireless 70
+󰠏,battery charging wireless 80
+󰠐,battery charging wireless 90
+󰠑,battery charging wireless alert
+󰠒,battery charging wireless outline
+,moon alt waning crescent 1
+,moon alt waning crescent 2
+,moon alt waning crescent 3
+,moon alt waning crescent 4
+,moon alt waning crescent 5
+,moon alt waning crescent 6
+,moon alt waning gibbous 1
+,moon alt waning gibbous 2
+,moon alt waning gibbous 3
+,moon alt waning gibbous 4
+,moon alt waning gibbous 5
+,moon alt waning gibbous 6
+,moon alt waxing crescent 1
+,moon alt waxing crescent 2
+,moon alt waxing crescent 3
+,moon alt waxing crescent 4
+,moon alt waxing crescent 5
+,moon alt waxing crescent 6
+,moon alt waxing gibbous 1
+,moon alt waxing gibbous 2
+,moon alt waxing gibbous 3
+,moon alt waxing gibbous 4
+,moon alt waxing gibbous 5
+,moon alt waxing gibbous 6
+󰼀,image filter center focus strong outline
+󱀨,file account outline
+󰩌,file alert outline
+󰻬,file cad box
+󰷇,file cancel outline
+󱆇,file certificate outline
+󱧆,file chart check
+󱀩,file chart outline
+󰸩,file check outline
+󱋢,file clock outline
+󱀪,file cloud outline
+󱀫,file code outline
+󱁼,file cog outline
+󰺥,file delimited outline
+󱪗,file document alert
+󱪙,file document check
+󰷈,file document edit
+󱪛,file document minus
+󱔗,file document multiple
+󰧮,file document outline
+󱪝,file document plus
+󱪟,file document remove
+󰥦,file download outline
+󱇨,file edit outline
+󰈜,file excel box
+󱀭,file excel outline
+󱀮,file export outline
+󰷋,file eye outline
+󰮗,file find outline
+󰵸,file gif box
+󱝲,file image marker
+󱤻,file image minus
+󰺰,file image outline
+󱤽,file image plus
+󱤿,file image remove
+󱀯,file import outline
+󰈥,file jpg box
+󱆅,file key outline
+󱅸,file link outline
+󱧈,file lock open
+󱀰,file lock outline
+󱝵,file marker outline
+󱪢,file minus outline
+󱀱,file move outline
+󱀲,file multiple outline
+󰸪,file music outline
+󰈦,file pdf box
+󱀳,file percent outline
+󱅺,file phone outline
+󰻭,file plus outline
+󰸭,file png box
+󰈨,file powerpoint box
+󱀵,file powerpoint outline
+󰈩,file presentation box
+󱀶,file question outline
+󰕁,file refresh outline
+󱀷,file remove outline
+󰬳,file replace outline
+󱀸,file restore outline
+󱨻,file rotate left
+󱨽,file rotate right
+󰱽,file search outline
+󱀹,file send outline
+󱁺,file settings outline
+󱀻,file star outline
+󰾵,file swap outline
+󱈗,file sync outline
+󱃡,file table box
+󰱿,file table outline
+󱏒,file tree outline
+󱀼,file undo outline
+󰩎,file upload outline
+󰸬,file video outline
+󰈭,file word box
+󱀾,file word outline
+󱗖,book open page variant outline
+󱌓,format color marker cancel
+󰧳,format font size decrease
+󰧴,format font size increase
+󰘞,format horizontal align center
+󰘟,format horizontal align left
+󰘠,format horizontal align right
+󰬵,format letter case lower
+󰬶,format letter case upper
+󰾸,format letter ends with
+󰾺,format letter starts with
+󰷐,format list bulleted square
+󰺲,format list bulleted triangle
+󰉺,format list bulleted type
+󰴍,format list numbered rtl
+󱆨,format quote close outline
+󱆧,format quote open outline
+󰵳,format text rotation down
+󰵴,format text rotation none
+󰾾,format text rotation up
+󰾿,format text rotation vertical
+󱔏,format text variant outline
+󰴎,format text wrapping clip
+󰴏,format text wrapping overflow
+󰴐,format text wrapping wrap
+󰘡,format vertical align bottom
+󰘢,format vertical align center
+󰘣,format vertical align top
+󰊋,format wrap top bottom
+󱧩,folder arrow down outline
+󱧫,folder arrow left outline
+󱧬,folder arrow left right
+󱧯,folder arrow right outline
+󱧱,folder arrow up down
+󱧳,folder arrow up outline
+󰲀,folder key network outline
+󱪧,folder lock open outline
+󱑿,folder multiple plus outline
+󱏔,folder star multiple outline
+󱒬,relation only one to zero or many
+󱒱,relation zero or many to only one
+󰁂,arrow bottom left
+󰁃,arrow bottom right
+󰁄,arrow collapse all
+󰞒,arrow collapse down
+󰡌,arrow collapse horizontal
+󰞓,arrow collapse left
+󰞔,arrow collapse right
+󰞕,arrow collapse up
+󰡍,arrow collapse vertical
+󰦼,arrow decision auto
+󰦾,arrow decision outline
+󰜮,arrow down bold
+󰛀,arrow down box
+󰳛,arrow down circle
+󱞡,arrow down left
+󱞣,arrow down right
+󰁆,arrow down thick
+󱦳,arrow down thin
+󰁌,arrow expand all
+󰞖,arrow expand down
+󰡎,arrow expand horizontal
+󰞗,arrow expand left
+󰞘,arrow expand right
+󰞙,arrow expand up
+󰡏,arrow expand vertical
+󱅛,arrow horizontal lock
+󰜱,arrow left bold
+󱞥,arrow left bottom
+󰛁,arrow left box
+󰳝,arrow left circle
+󰹳,arrow left right
+󰁎,arrow left thick
+󱦱,arrow left thin
+󱞧,arrow left top
+󱠿,arrow projectile multiple
+󰜴,arrow right bold
+󱞩,arrow right bottom
+󰛂,arrow right box
+󰳟,arrow right circle
+󰁕,arrow right thick
+󱦰,arrow right thin
+󱞫,arrow right top
+󰤻,arrow split horizontal
+󰤼,arrow split vertical
+󰁛,arrow top left
+󰁜,arrow top right
+󰜷,arrow up bold
+󰛃,arrow up box
+󰳡,arrow up circle
+󰹹,arrow up down
+󱞽,arrow up left
+󱞿,arrow up right
+󰁞,arrow up thick
+󱦲,arrow up thin
+󱅜,arrow vertical lock
+󱡩,account arrow down outline
+󰭒,account arrow left outline
+󰭔,account arrow right outline
+󱡪,account arrow up outline
+󱀊,account box multiple outline
+󱟳,account cowboy hat outline
+󱨟,account hard hat outline
+󱥡,account lock open outline
+󱇾,account multiple check outline
+󰯥,account multiple minus outline
+󰠀,account multiple plus outline
+󱈋,account multiple remove outline
+󱓬,account supervisor circle outline
+󱢙,account tie hat outline
+󱌊,account tie voice off
+󱌉,account tie voice outline
+󰎢,numeric 0 box multiple outline
+󰿫,numeric 10 box multiple outline
+󰎥,numeric 1 box multiple outline
+󰎨,numeric 2 box multiple outline
+󰎫,numeric 3 box multiple outline
+󰎲,numeric 4 box multiple outline
+󰎯,numeric 5 box multiple outline
+󰎴,numeric 6 box multiple outline
+󰎷,numeric 7 box multiple outline
+󰎺,numeric 8 box multiple outline
+󰎽,numeric 9 box multiple outline
+󰼘,numeric 9 plus box multiple
+󰏁,numeric 9 plus box outline
+󰲳,numeric 9 plus circle outline
+󰯫,alpha a box outline
+󰯭,alpha a circle outline
+󰯮,alpha b box outline
+󰯰,alpha b circle outline
+󰯱,alpha c box outline
+󰯳,alpha c circle outline
+󰯴,alpha d box outline
+󰯶,alpha d circle outline
+󰯷,alpha e box outline
+󰯹,alpha e circle outline
+󰯺,alpha f box outline
+󰯼,alpha f circle outline
+󰯽,alpha g box outline
+󰯿,alpha g circle outline
+󰰀,alpha h box outline
+󰰂,alpha h circle outline
+󰰃,alpha i box outline
+󰰅,alpha i circle outline
+󰰆,alpha j box outline
+󰰈,alpha j circle outline
+󰰉,alpha k box outline
+󰰋,alpha k circle outline
+󰰌,alpha l box outline
+󰰎,alpha l circle outline
+󰰏,alpha m box outline
+󰰑,alpha m circle outline
+󰰒,alpha n box outline
+󰰔,alpha n circle outline
+󰰕,alpha o box outline
+󰰗,alpha o circle outline
+󰰘,alpha p box outline
+󰰚,alpha p circle outline
+󰰛,alpha q box outline
+󰰝,alpha q circle outline
+󰰞,alpha r box outline
+󰰠,alpha r circle outline
+󰰡,alpha s box outline
+󰰣,alpha s circle outline
+󰰤,alpha t box outline
+󰰦,alpha t circle outline
+󰰧,alpha u box outline
+󰰩,alpha u circle outline
+󰰪,alpha v box outline
+󰰬,alpha v circle outline
+󰰭,alpha w box outline
+󰰯,alpha w circle outline
+󰰰,alpha x box outline
+󰰲,alpha x circle outline
+󰰳,alpha y box outline
+󰰵,alpha y circle outline
+󰰶,alpha z box outline
+󰰸,alpha z circle outline
+󰾻,format text rotation angle down
+󰾼,format text rotation angle up
+󰾽,format text rotation down vertical
+󰊅,format textdirection l to r
+󰊆,format textdirection r to l
+󱧭,folder arrow left right outline
+󱧲,folder arrow up down outline
+󱪓,file arrow left right
+󱪕,file arrow up down
+󱧇,file chart check outline
+󱪘,file document alert outline
+󱪚,file document check outline
+󰷉,file document edit outline
+󱪜,file document minus outline
+󱔘,file document multiple outline
+󱪞,file document plus outline
+󱪠,file document remove outline
+󱀬,file excel box outline
+󱝳,file image marker outline
+󱤼,file image minus outline
+󱤾,file image plus outline
+󱥀,file image remove outline
+󱧉,file lock open outline
+󱀴,file powerpoint box outline
+󱨼,file rotate left outline
+󱨾,file rotate right outline
+󱃢,file table box multiple
+󱃤,file table box outline
+󱀽,file word box outline
+󰦸,arrow bottom left thick
+󱦶,arrow bottom left thin
+󰦺,arrow bottom right thick
+󱦷,arrow bottom right thin
+󰦽,arrow decision auto outline
+󰜯,arrow down bold box
+󰁇,arrow down bold circle
+󰦿,arrow down bold outline
+󰳜,arrow down circle outline
+󰁊,arrow down drop circle
+󱞢,arrow down left bold
+󱞤,arrow down right bold
+󰜲,arrow left bold box
+󰁏,arrow left bold circle
+󰧀,arrow left bold outline
+󱞦,arrow left bottom bold
+󰳞,arrow left circle outline
+󰁒,arrow left drop circle
+󰹴,arrow left right bold
+󱞨,arrow left top bold
+󰜵,arrow right bold box
+󰁖,arrow right bold circle
+󰧂,arrow right bold outline
+󱞪,arrow right bottom bold
+󰳠,arrow right circle outline
+󰁙,arrow right drop circle
+󱞬,arrow right top bold
+󰧄,arrow top left thick
+󱦵,arrow top left thin
+󰧆,arrow top right thick
+󱦴,arrow top right thin
+󱞭,arrow u down left
+󱞯,arrow u down right
+󱞱,arrow u left bottom
+󱞳,arrow u left top
+󱞵,arrow u right bottom
+󱞷,arrow u right top
+󱞹,arrow u up left
+󱞻,arrow u up right
+󰜸,arrow up bold box
+󰁟,arrow up bold circle
+󰧇,arrow up bold outline
+󰳢,arrow up circle outline
+󰹺,arrow up down bold
+󰁢,arrow up drop circle
+󱞾,arrow up left bold
+󱟀,arrow up right bold
+󱌋,account tie voice off outline
+󰏀,numeric 9 plus box multiple outline
+󱪔,file arrow left right outline
+󱪖,file arrow up down outline
+󱃣,file table box multiple outline
+󱥤,arrow bottom left bold box
+󰦷,arrow bottom left bold outline
+󱥦,arrow bottom right bold box
+󰦹,arrow bottom right bold outline
+󰜰,arrow down bold box outline
+󰁈,arrow down bold circle outline
+󰁉,arrow down bold hexagon outline
+󰁋,arrow down drop circle outline

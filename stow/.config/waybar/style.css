@@ -1,0 +1,41 @@
+* {
+    color: white;
+    font-family: "Adwaita Mono";
+    font-size: 17px;
+}
+
+window#waybar {
+    background: linear-gradient(to top, rgba(0, 0, 0, .7), transparent);
+}
+.modules-left .module {
+    margin-right: 10px;
+}
+/* No spacing for center yet */
+.modules-right .module {
+    margin-left: 10px;
+}
+
+.module {
+    border-bottom: 3px solid white;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+    background: none;
+    box-shadow: none;
+    transition: none;
+}
+
+#workspaces button.hosting-monitor {
+    transition: border-bottom-width 0.2s ease-out, padding-bottom 0.2s ease-out;
+    border-bottom: 0px solid white;
+    padding-bottom: 3px;
+}
+#workspaces button.hosting-monitor:hover {
+    border-bottom-width: 3px;
+    padding-bottom: 0;
+}
+#workspaces button.hosting-monitor.active {
+    background: linear-gradient(to top, rgba(200, 200, 200, .7), transparent);
+}

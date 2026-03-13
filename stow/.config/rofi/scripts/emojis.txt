@@ -1,0 +1,1918 @@
+# Scraped on 12-03-2026 from https://emojis.wiki/all-emojis using below script
+# console.log(Array.from(document.querySelectorAll("div.cpbtn+a[href]>div")).map(el => `${el.firstElementChild?.textContent},${el.lastElementChild?.textContent.slice(1, -1).toLowerCase().replaceAll(/[^a-z]/g, " ").replaceAll(/\s+/g, " ")}`).join("\n"));
+# Manually adjusted search terms
+
+😃,grinning face with big eyes
+😄,grinning face with smiling eyes
+🙃,upside down face
+🙂,slightly smiling face
+😀,grinning face
+😆,grinning squinting face
+😇,smiling face with halo
+😁,beaming face with smiling eyes
+😅,grinning face with sweat
+🫠,melting face
+😊,smiling face with smiling eyes
+😉,winking face
+🤣,rolling on the floor laughing
+😂,face with tears of joy
+💟,heart decoration
+❣️,heart exclamation
+🩶,grey heart
+💞,revolving hearts
+💓,beating heart
+🤎,brown heart
+💘,heart with arrow
+💝,heart with ribbon
+💌,love letter
+🧡,orange heart
+💛,yellow heart
+🩵,light blue heart
+💚,green heart
+💗,growing heart
+💕,two hearts
+💜,purple heart
+🖤,black heart
+🤍,white heart
+❤️‍🔥,heart on fire
+🩷,pink heart
+💙,blue heart
+💖,sparkling heart
+❤️‍🩹,mending heart
+💔,broken heart
+❤️,red heart
+🥸,disguised face
+🤠,cowboy hat face
+🥳,partying face
+🫪,distorted face
+😦,frowning face with open mouth
+🙁,slightly frowning face
+😧,anguished face
+😯,hushed face
+😓,downcast face with sweat
+😣,persevering face
+😞,disappointed face
+😕,confused face
+😥,sad but relieved face
+😖,confounded face
+😲,astonished face
+😫,tired face
+🥱,yawning face
+☹️,frowning face
+😟,worried face
+🫤,face with diagonal mouth
+😰,anxious face with sweat
+😮,face with open mouth
+😱,face screaming in fear
+😩,weary face
+😨,fearful face
+😢,crying face
+🥺,pleading face
+🥹,face holding back tears
+😳,flushed face
+😭,loudly crying face sob
+😤,face with steam from nose
+👿,angry face with horns
+😠,angry face
+🤬,face with symbols on mouth
+😡,pouting face
+☠️,skull and crossbones
+💀,skull
+😈,smiling face with horns
+🤧,sneezing face
+🤒,face with thermometer
+😷,face with medical mask
+🤕,face with head bandage
+🤮,face vomiting
+😵,dizzy face
+🥴,woozy face
+😵‍💫,face with spiral eyes
+🤢,nauseated face
+🥵,hot face
+🤯,exploding head
+🥶,cold face
+😾,pouting cat
+😹,cat with tears of joy
+😿,crying cat
+🙀,weary cat
+😽,kissing cat
+😺,grinning cat
+😸,grinning cat with smiling eyes
+😼,cat with wry smile
+😻,smiling cat with heart eyes
+🤥,lying face
+😶,face without mouth
+🤐,zipper mouth face
+😐,neutral face
+🫨,shaking face
+😒,unamused face
+😶‍🌫️,face in clouds
+😑,expressionless face
+🙂‍↕️,head shaking vertically
+🤨,face with raised eyebrow
+😮‍💨,face exhaling
+🙂‍↔️,head shaking horizontally
+😏,smirking face
+🫥,dotted line face
+😬,grimacing face
+🙄,face with rolling eyes
+😛,face with tongue
+😝,squinting face with tongue
+😋,face savoring food
+🤑,money mouth face
+😜,winking face with tongue
+🤪,zany face
+🙉,hear no evil monkey
+🙊,speak no evil monkey
+🙈,see no evil monkey
+🫩,face with bags under eyes
+😪,sleepy face
+🤤,drooling face
+😴,sleeping face
+😔,pensive face
+😌,relieved face
+🫢,face with open eyes and hand over mouth
+🤫,shushing face
+🤭,face with hand over mouth
+🤗,hugging face
+🤔,thinking face
+🫣,face with peeking eye
+🫡,saluting face
+🫯,fight cloud
+🗯️,right anger bubble
+🗨️,left speech bubble
+💢,anger symbol
+🕳️,hole
+👁️‍🗨️,eye in speech bubble
+💯,hundred points
+💭,thought balloon
+💨,dashing away
+💤,zzz
+💬,speech balloon
+💦,sweat droplets
+💋,kiss mark
+💫,dizzy
+💥,collision
+😙,kissing face with smiling eyes
+😚,kissing face with closed eyes
+😗,kissing face
+🥲,smiling face with tear
+☺️,smiling face
+🤩,star struck
+😍,smiling face with heart eyes
+😘,face blowing a kiss
+🥰,smiling face with hearts
+👺,goblin
+💩,pile of poo
+👾,alien monster
+👽,alien
+🤡,clown face
+🤖,robot
+👹,ogre
+👻,ghost
+🧐,face with monocle
+🤓,nerd face
+😎,smiling face with sunglasses
+🧘‍♂️,man in lotus position
+🛀,person taking bath
+🧘,person in lotus position
+🛌,person in bed
+🧘‍♀️,woman in lotus position
+🧑‍🩰,ballet dancer
+🧑‍🦯‍➡️,person with white cane facing right
+👩‍🦽‍➡️,woman in manual wheelchair facing right
+👩‍🦼‍➡️,woman in motorized wheelchair facing right
+🚶‍♂️‍➡️,man walking facing right
+👩‍🦯‍➡️,woman with white cane facing right
+🧑‍🦼‍➡️,person in motorized wheelchair facing right
+👨‍🦽‍➡️,man in manual wheelchair facing right
+🧑‍🦽‍➡️,person in manual wheelchair facing right
+🧎‍➡️,person kneeling facing right
+🧎‍♂️‍➡️,man kneeling facing right
+👨‍🦼‍➡️,man in motorized wheelchair facing right
+🏃‍♀️‍➡️,woman running facing right
+🏃‍♂️‍➡️,man running facing right
+🚶‍♀️‍➡️,woman walking facing right
+🧑‍🦼,person in motorized wheelchair
+👨‍🦯‍➡️,man with white cane facing right
+🧑‍🦽,person in manual wheelchair
+👩‍🦼,woman in motorized wheelchair
+👨‍🦼,man in motorized wheelchair
+👩‍🦽,woman in manual wheelchair
+🧎‍♀️‍➡️,woman kneeling facing right
+🚶‍➡️,person walking facing right
+🧑‍🦯,person with white cane
+💇‍♂️,man getting haircut
+🏃‍➡️,person running facing right
+💇,person getting haircut
+🧖,person in steamy room
+👩‍🦯,woman with white cane
+👨‍🦽,man in manual wheelchair
+👯‍♂️,men with bunny ears
+🧗‍♀️,woman climbing
+🧗‍♂️,man climbing
+🧖‍♂️,man in steamy room
+🧎,person kneeling
+🧎‍♂️,man kneeling
+💆,person getting massage
+💇‍♀️,woman getting haircut
+👨‍🦯,man with white cane
+🧍,person standing
+🧍‍♂️,man standing
+👯,people with bunny ears
+🧗,person climbing
+🕴️,person in suit levitating
+🧍‍♀️,woman standing
+💆‍♂️,man getting massage
+🚶,person walking
+🚶‍♀️,woman walking
+🚶‍♂️,man walking
+👯‍♀️,women with bunny ears
+🏃‍♂️,man running
+🧖‍♀️,woman in steamy room
+🏃‍♀️,woman running
+🧎‍♀️,woman kneeling
+💆‍♀️,woman getting massage
+🏃,person running
+🕺,man dancing
+💃,woman dancing
+🤏,pinching hand
+🤟,love you gesture
+🤌,pinched fingers
+🤙,call me hand
+👌,ok hand
+🫰,hand with index finger and thumb crossed
+🤞,crossed fingers
+✌️,victory hand
+🤘,sign of the horns
+🤛,left facing fist
+🤜,right facing fist
+✊,raised fist
+👎,thumbs down
+👊,oncoming fist
+👍,thumbs up
+🤳,selfie
+💅,nail polish
+✍️,writing hand
+🦻,ear with hearing aid
+🦿,mechanical leg
+🫁,lungs
+👃,nose
+👂,ear
+🦷,tooth
+🦵,leg
+🦶,foot
+🦴,bone
+👄,mouth
+🦾,mechanical arm
+🫦,biting lip
+👁️,eye
+🫀,anatomical heart
+🧠,brain
+👅,tongue
+💪,flexed biceps
+👀,eyes
+👨‍🦰,man red hair
+🧑‍🦳,person white hair
+🧑‍🦱,person curly hair
+👨‍🦱,man curly hair
+👨‍🦳,man white hair
+🧑‍🦲,person bald
+👱‍♂️,man blond hair
+👱,person blond hair
+👩‍🦲,woman bald
+👨‍🦲,man bald
+👩‍🦱,woman curly hair
+🧑‍🦰,person red hair
+🧓,older person
+🧔‍♂️,man beard
+🧔‍♀️,woman beard
+👩‍🦳,woman white hair
+🧔,person beard
+👩‍🦰,woman red hair
+👱‍♀️,woman blond hair
+🧒,child
+👴,old man
+👵,old woman
+🧑,person
+👦,boy
+👧,girl
+👶,baby
+👨,man
+👩,woman
+👐,open hands
+🤲,palms up together
+👏,clapping hands
+🤝,handshake
+🫶,heart hands
+🙌,raising hands
+🙏,folded hands
+🙎‍♂️,man pouting
+🙎,person pouting
+🙍‍♂️,man frowning
+🙍,person frowning
+🙍‍♀️,woman frowning
+🙎‍♀️,woman pouting
+🧏‍♂️,deaf man
+💁,person tipping hand
+🙆,person gesturing ok
+🧏‍♀️,deaf woman
+🧏,deaf person
+🙋,person raising hand
+🙅,person gesturing no
+💁‍♂️,man tipping hand
+🙇,person bowing
+🙅‍♂️,man gesturing no
+💁‍♀️,woman tipping hand
+🙋‍♂️,man raising hand
+🙆‍♂️,man gesturing ok
+🙋‍♀️,woman raising hand
+🤷,person shrugging
+🙇‍♂️,man bowing
+🙅‍♀️,woman gesturing no
+🤷‍♂️,man shrugging
+🙆‍♀️,woman gesturing ok
+🤦‍♂️,man facepalming
+🤦,person facepalming
+🤦‍♀️,woman facepalming
+🤷‍♀️,woman shrugging
+🙇‍♀️,woman bowing
+💂‍♀️,woman guard
+🤵‍♀️,woman in tuxedo
+👩‍🚒,woman firefighter
+🧑‍🏭,factory worker
+👳‍♀️,woman wearing turban
+👩‍🏭,woman factory worker
+🧑‍🍼,person feeding baby
+👨‍🚒,man firefighter
+👩‍✈️,woman pilot
+👩‍🔧,woman mechanic
+👷‍♀️,woman construction worker
+🧑‍🚒,firefighter
+👳‍♂️,man wearing turban
+👨‍🍼,man feeding baby
+🤵‍♂️,man in tuxedo
+🧑‍✈️,pilot
+👩‍🚀,woman astronaut
+👰‍♂️,man with veil
+🧑‍🔬,scientist
+👲,person with skullcap
+💂‍♂️,man guard
+🧑‍⚕️,health worker
+👨‍✈️, man pilot
+🧑‍🔧,mechanic
+👳,person wearing turban
+🧑‍⚖️,judge
+👩‍🍼,woman feeding baby
+🧑‍🚀,astronaut
+👨‍🎓,man student
+👰‍♀️,woman with veil
+👨‍🏫,man teacher
+🫄,pregnant person
+👨‍🚀,man astronaut
+👮‍♀️,woman police officer
+🤱,breast feeding
+👷‍♂️,man construction worker
+👨‍🎨,man artist
+👩‍🎓,woman student
+🤵,person in tuxedo
+👩‍🎨,woman artist
+👷,construction worker
+👩‍🍳,woman cook
+🧕,woman with headscarf
+👩‍🌾,woman farmer
+🧑‍💼,office worker
+🫅,person with crown
+👨‍⚕️,man health worker
+👨‍⚖️,man judge
+🧑‍🌾,farmer
+💂,guard
+🧑‍🍳,cook
+🕵️‍♀️,woman detective
+🧑‍🏫,teacher
+👨‍🔬,man scientist
+👩‍⚖️,woman judge
+👨‍🔧,man mechanic
+👨‍🌾,man farmer
+👨‍🎤,man singer
+🧑‍🎨,artist
+👩‍🎤,woman singer
+🧑‍🎤,singer
+🫃,pregnant man
+👰,person with veil
+👩‍🔬,woman scientist
+👩‍💼,woman office worker
+🧑‍🎓,student
+👮‍♂️,man police officer
+👩‍🏫,woman teacher
+🤴,prince
+👨‍🏭,man factory worker
+👩‍⚕️,woman health worker
+🤰,pregnant woman
+👨‍🍳,man cook
+👨‍💼,man office worker
+👮,police officer
+🧑‍💻,technologist
+🕵️‍♂️,man detective
+👸,princess
+🕵️,detective
+👩‍💻,woman technologist
+🥷,ninja
+👨‍💻,man technologist
+👩‍👩‍👦,family woman woman boy
+👨‍👨‍👧,family man man girl
+👩‍👩‍👦‍👦,family woman woman boy boy
+👩‍👦‍👦,family woman boy boy
+👩‍👩‍👧,family woman woman girl
+👩‍👩‍👧‍👧,family woman woman girl girl
+👨‍👦‍👦,family man boy boy
+👨‍👨‍👧‍👧,family man man girl girl
+👨‍👩‍👦‍👦,family man woman boy boy
+👨‍👧,family man girl
+👨‍👨‍👧‍👦,family man man girl boy
+👨‍👨‍👦‍👦,family man man boy boy
+👨‍👩‍👧‍👧,family man woman girl girl
+👩‍👧‍👧,family woman girl girl
+👨‍👨‍👦,family man man boy
+👨‍👧‍👦,family man girl boy
+👬,men holding hands
+👨‍👩‍👦,family man woman boy
+👨‍❤️‍👨,couple with heart man man
+👨‍👩‍👧,family man woman girl
+👨‍👧‍👧,family man girl girl
+👨‍❤️‍💋‍👨,kiss man man
+👩‍👩‍👧‍👦,family woman woman girl boy
+👩‍❤️‍💋‍👩,kiss woman woman
+👨‍👦,family man boy
+👭,women holding hands
+👨‍👩‍👧‍👦,family man woman girl boy
+👩‍❤️‍💋‍👨,kiss woman man
+💏,kiss
+👩‍❤️‍👩,couple with heart woman woman
+🧑‍🤝‍🧑,people holding hands
+👫,woman and man holding hands
+👩‍👧‍👦,family woman girl boy
+👩‍❤️‍👨,couple with heart woman man
+💑,couple with heart
+👩‍👦,family woman boy
+👩‍👧,family woman girl
+🫈,hairy creature
+🧜,merperson
+🦹‍♂️,man supervillain
+🦹‍♀️,woman supervillain
+🧝‍♂️,man elf
+🧛‍♀️,woman vampire
+🧛‍♂️,man vampire
+🦹,supervillain
+🧞‍♀️,woman genie
+🧝‍♀️,woman elf
+🧚‍♂️,man fairy
+🧝,elf
+🦸‍♀️,woman superhero
+🧑‍🎄,mx claus
+🧞,genie
+🧞‍♂️,man genie
+🧜‍♂️,merman
+🧟‍♀️,woman zombie
+🦸,superhero
+🦸‍♂️,man superhero
+🧙‍♀️,woman mage
+🤶,mrs claus
+🧛,vampire
+🧜‍♀️,mermaid
+🧟‍♂️,man zombie
+🧚‍♀️,woman fairy
+🧚,fairy
+🧟,zombie
+🧙,mage
+🧙‍♂️,man mage
+🧌,troll
+👼,baby angel
+🎅,santa claus
+🫷,leftwards pushing hand
+🫲,leftwards hand
+🫸,rightwards pushing hand
+🫳,palm down hand
+🖐️,hand with fingers splayed
+🤚,raised back of hand
+🫱,rightwards hand
+🫴,palm up hand
+✋,raised hand
+🖖,vulcan salute
+👋,waving hand
+☝️,index pointing up
+👈,backhand index pointing left
+👇,backhand index pointing down
+🖕,middle finger
+👆,backhand index pointing up
+👉,backhand index pointing right
+🫵,index pointing at the viewer
+🫆,fingerprint
+🧑‍🧒‍🧒,family adult child child
+🧑‍🧑‍🧒‍🧒,family adult adult child child
+🧑‍🧑‍🧒,family adult adult child
+🧑‍🧒,family adult child
+👤,bust in silhouette
+👣,footprints
+👪,family
+👥,busts in silhouette
+🫂,people hugging
+🗣️,speaking head
+🤽‍♀️,woman playing water polo
+🚵‍♀️,woman mountain biking
+🤽‍♂️,man playing water polo
+⛹️,person bouncing ball
+🚵,person mountain biking
+🚣‍♂️,man rowing boat
+🤽,person playing water polo
+🚵‍♂️,man mountain biking
+⛹️‍♀️,woman bouncing ball
+🤾‍♀️,woman playing handball
+🏌️‍♀️,woman golfing
+🤾‍♂️,man playing handball
+⛹️‍♂️,man bouncing ball
+🏌️‍♂️,man golfing
+🚣‍♀️,woman rowing boat
+🚴‍♂️,man biking
+🤹‍♀️,woman juggling
+🤼‍♀️,women wrestling
+🤾,person playing handball
+🤸‍♂️,man cartwheeling
+🏊‍♂️,man swimming
+🏌️,person golfing
+🚴‍♀️,woman biking
+🏄‍♀️,woman surfing
+🚴,person biking
+🤹‍♂️,man juggling
+🏊‍♀️,woman swimming
+🤹,person juggling
+🤸,person cartwheeling
+🏄,person surfing
+🏂,snowboarder
+🚣,person rowing boat
+🤼‍♂️,men wrestling
+🤼,people wrestling
+🏊,person swimming
+🏇,horse racing
+🏋️,person lifting weights
+🏄‍♂️,man surfing
+🏋️‍♀️,woman lifting weights
+🤸‍♀️,woman cartwheeling
+🤺,person fencing
+⛷️,skier
+🏋️‍♂️,man lifting weights
+🦎,lizard
+🐊,crocodile
+🐲,dragon face
+🐢,turtle
+🦕,sauropod
+🐍,snake
+🦖,t rex
+🐉,dragon
+🫍,orca
+🪸,coral
+🦪,oyster
+🦐,shrimp
+🦑,squid
+🦞,lobster
+🐡,blowfish
+🐬,dolphin
+🦀,crab
+🦭,seal
+🐠,tropical fish
+🐚,spiral shell
+🪼,jellyfish
+🦈,shark
+🐳,spouting whale
+🐙,octopus
+🐋,whale
+🐟,fish
+🦡,badger
+🦮,guide dog
+🦬,bison
+🐫,two hump camel
+🐩,poodle
+🐃,water buffalo
+🐕‍🦺,service dog
+🦙,llama
+🐏,ram
+🦨,skunk
+🦫,beaver
+🫎,moose
+🐨,koala
+🐗,boar
+🦝,raccoon
+🐹,hamster
+🐻‍❄️,polar bear
+🦏,rhinoceros
+🦣,mammoth
+🦓,zebra
+🐂,ox
+🫏,donkey
+🦥,sloth
+🦛,hippopotamus
+🦘,kangaroo
+🐁,mouse
+🐽,pig nose
+🦧,orangutan
+🐭,mouse face
+🦦,otter
+🐯,tiger face
+🦔,hedgehog
+🐖,pig
+🐪,camel
+🐴,horse face
+🐿️,chipmunk
+🐵,monkey face
+🦒,giraffe
+🐅,tiger
+🐀,rat
+🐷,pig face
+🐆,leopard
+🐑,ewe
+🐮,cow face
+🐰,rabbit face
+🦍,gorilla
+🐄,cow
+🦌,deer
+🐐,goat
+🐈‍⬛,black cat
+🐼,panda
+🐎,horse
+🐒,monkey
+🐇,rabbit
+🐱,cat face
+🦊,fox
+🐻,bear
+🐶,dog face
+🐺,wolf
+🐘,elephant
+🦁,lion
+🐕,dog
+🐾,paw prints
+🦄,unicorn
+🦇,bat
+🐈,cat
+🐸,frog
+🪾,leafless tree
+🪹,empty nest
+🪺,nest with eggs
+🪴,potted plant
+🌾,sheaf of rice
+🌵,cactus
+🍄,mushroom
+☘️,shamrock
+🍁,maple leaf
+🌴,palm tree
+🌲,evergreen tree
+🌳,deciduous tree
+🍃,leaf fluttering in wind
+🌱,seedling
+🍂,fallen leaf
+🍀,four leaf clover
+🌿,herb
+🏵️,rosette
+💮,white flower
+🪻,hyacinth
+🪷,lotus
+🌻,sunflower
+🌷,tulip
+💐,bouquet
+🌺,hibiscus
+🌼,blossom
+🌸,cherry blossom
+🌹,rose
+🥀,wilted flower
+🪳,cockroach
+🦂,scorpion
+🪰,fly
+🦠,microbe
+🐌,snail
+🦟,mosquito
+🪲,beetle
+🪱,worm
+🦗,cricket
+🐜,ant
+🐞,lady beetle
+🐛,bug
+🕸️,spider web
+🐝,honeybee
+🕷️,spider
+🦋,butterfly
+🦤,dodo
+🪿,goose
+🪶,feather
+🐤,baby chick
+🦚,peacock
+🐓,rooster
+🦜,parrot
+🦩,flamingo
+🐦‍🔥,phoenix
+🐣,hatching chick
+🦢,swan
+🐥,front facing baby chick
+🐔,chicken
+🦉,owl
+🦆,duck
+🪽,wing
+🐦‍⬛,black bird
+🐦,bird
+🐧,penguin
+🦃,turkey
+🕊️,dove
+🦅,eagle
+🍧,shaved ice
+🍮,custard
+🍦,soft ice cream
+🍩,doughnut
+🍨,ice cream
+🧁,cupcake
+🥧,pie
+🍯,honey pot
+🍰,shortcake
+🍭,lollipop
+🍫,chocolate bar
+🍬,candy
+🍪,cookie
+🎂,birthday cake
+🍐,pear
+🍋‍🟩,lime
+🫒,olive
+🥝,kiwi fruit
+🍍,pineapple
+🍈,melon
+🍅,tomato
+🍋,lemon
+🍇,grapes
+🥥,coconut
+🥭,mango
+🍉,watermelon
+🫐,blueberries
+🍏,green apple
+🍊,tangerine
+🍌,banana
+🍒,cherries
+🍎,red apple
+🍓,strawberry
+🍑,peach
+🫙,jar
+🥢,chopsticks
+🏺,amphora
+🍴,fork and knife
+🍽️,fork and knife with plate
+🔪,kitchen knife
+🥄,spoon
+🍶,sake
+🧉,mate
+🫖,teapot
+🫗,pouring liquid
+🍵,teacup without handle
+🧃,beverage box
+🥃,tumbler glass
+🍼,baby bottle
+🍸,cocktail glass
+🥛,glass of milk
+🍻,clinking beer mugs
+🍹,tropical drink
+🧊,ice
+🧋,bubble tea
+🥤,cup with straw
+🍷,wine glass
+🍺,beer mug
+🍾,bottle with popping cork
+☕,hot beverage
+🥂,clinking glasses
+🫜,root vegetable
+🍄‍🟫,brown mushroom
+🧄,garlic
+🫑,bell pepper
+🧅,onion
+🫛,pea pod
+🫘,beans
+🥬,leafy green
+🫚,ginger root
+🌰,chestnut
+🥦,broccoli
+🌽,ear of corn
+🥜,peanuts
+🥔,potato
+🥒,cucumber
+🥑,avocado
+🥕,carrot
+🌶️,hot pepper
+🍆,eggplant
+🫓,flatbread
+🫔,tamale
+🫕,fondue
+🧆,falafel
+🥯,bagel
+🥫,canned food
+🌯,burrito
+🥙,stuffed flatbread
+🧂,salt
+🧈,butter
+🥨,pretzel
+🧇,waffle
+🥓,bacon
+🥪,sandwich
+🥘,shallow pan of food
+🥣,bowl with spoon
+🥖,baguette bread
+🥞,pancakes
+🥗,green salad
+🍲,pot of food
+🌭,hot dog
+🧀,cheese wedge
+🥩,cut of meat
+🥐,croissant
+🍖,meat on bone
+🍗,poultry leg
+🌮,taco
+🍳,cooking
+🍟,french fries
+🍞,bread
+🍿,popcorn
+🥚,egg
+🍕,pizza
+🍔,hamburger
+🥡,takeout box
+🍘,rice cracker
+🥠,fortune cookie
+🍙,rice ball
+🍤,fried shrimp
+🍢,oden
+🍱,bento box
+🍠,roasted sweet potato
+🍚,cooked rice
+🍥,fish cake with swirl
+🥮,moon cake
+🍛,curry rice
+🍜,steaming bowl
+🥟,dumpling
+🍝,spaghetti
+🍣,sushi
+🍡,dango
+🌥️,sun behind large cloud
+⛱️,umbrella on ground
+🌂,closed umbrella
+🌩️,cloud with lightning
+🌦️,sun behind rain cloud
+🌛,first quarter moon face
+🌫️,fog
+⛅,sun behind cloud
+☂️,umbrella
+⛈️,cloud with lightning and rain
+🌜,last quarter moon face
+🌡️,thermometer
+🌤️,sun behind small cloud
+🌨️,cloud with snow
+☔,umbrella with rain drops
+🌪️,tornado
+🌬️,wind face
+🌝,full moon face
+🌠,shooting star
+🌧️,cloud with rain
+🪐,ringed planet
+🌚,new moon face
+☄️,comet
+🌗,last quarter moon
+☁️,cloud
+🌞,sun with face
+⛄,snowman without snow
+💧,droplet
+⚡,high voltage
+🌈,rainbow
+🌌,milky way
+🌓,first quarter moon
+🌕,full moon
+🌊,water wave
+🌙,crescent moon
+🌀,cyclone
+☃️,snowman
+🌖,waning gibbous moon
+🌘,waning crescent moon
+🌔,waxing gibbous moon
+🌑,new moon
+☀️,sun
+🌟,glowing star
+🌒,waxing crescent moon
+⭐,star
+❄️,snowflake
+🔥,fire
+🕍,synagogue
+⛩️,shinto shrine
+🛕,hindu temple
+🕌,mosque
+🕋,kaaba
+⛪,church
+🕢,seven thirty
+🕟,four thirty
+🕣,eight thirty
+🕤,nine thirty
+🕠,five thirty
+🕡,six thirty
+🕥,ten thirty
+🕞,three thirty
+🕚,eleven o clock
+🕦,eleven thirty
+🕖,seven o clock
+🕘,nine o clock
+🕜,one thirty
+🕧,twelve thirty
+🕗,eight o clock
+🕕,six o clock
+🕙,ten o clock
+🕔,five o clock
+🕓,four o clock
+🕝,two thirty
+🕐,one o clock
+🕒,three o clock
+🕑,two o clock
+⏲️,timer clock
+⏱️,stopwatch
+🕰️,mantelpiece clock
+🕛,twelve o clock
+⌚,watch
+⏰,alarm clock
+⌛,hourglass done
+⏳,hourglass not done
+🗾,map of japan
+🌏,globe showing asia australia
+🧭,compass
+🌍,globe showing europe africa
+🗺️,world map
+🌐,globe with meridians
+🌎,globe showing americas
+🏣,japanese post office
+🏤,post office
+🛖,hut
+🏬,department store
+🏪,convenience store
+🏩,love hotel
+🏟️,stadium
+🗼,tokyo tower
+🏯,japanese castle
+🏚️,derelict house
+🏨,hotel
+🏭,factory
+🏘️,houses
+🏗️,building construction
+💒,wedding
+🪵,wood
+🏥,hospital
+🏦,bank
+🗽,statue of liberty
+🏢,office building
+🏡,house with garden
+🪨,rock
+🧱,brick
+🏫,school
+🏛️,classical building
+🏰,castle
+🏠,house
+🚟,suspension railway
+🚠,mountain cableway
+💺,seat
+🛩️,small airplane
+🛰️,satellite
+🚡,aerial tramway
+🛬,airplane arrival
+🚁,helicopter
+🪂,parachute
+🛫,airplane departure
+🛸,flying saucer
+✈️,airplane
+🚀,rocket
+🛎️,bellhop bell
+🧳,luggage
+⛴️,ferry
+🛳️,passenger ship
+🛟,ring buoy
+🛥️,motor boat
+🚤,speedboat
+🛶,canoe
+⚓,anchor
+⛵,sailboat
+🚢,ship
+🦼,motorized wheelchair
+🚝,monorail
+🦽,manual wheelchair
+🚊,tram
+🚋,tram car
+🚈,light rail
+🚎,trolleybus
+🚞,mountain railway
+🚖,oncoming taxi
+🛤️,railway track
+🚏,bus stop
+🚉,station
+🛴,kick scooter
+🚃,railway car
+🛺,auto rickshaw
+🚄,high speed train
+🚍,oncoming bus
+🚐,minibus
+🚅,bullet train
+🛢️,oil drum
+🛵,motor scooter
+⛽,fuel pump
+🛼,roller skate
+🚆,train
+🛻,pickup truck
+🚥,horizontal traffic light
+🚦,vertical traffic light
+🛹,skateboard
+🚛,articulated lorry
+🚇,metro
+🚙,sport utility vehicle
+🚒,fire engine
+🚲,bicycle
+🚔,oncoming police car
+🚕,taxi
+🛣️,motorway
+🚂,locomotive
+🚓,police car
+🚜,tractor
+🚌,bus
+🏍️,motorcycle
+🚘,oncoming automobile
+🚑,ambulance
+🚚,delivery truck
+🛑,stop sign
+🛞,wheel
+🚧,construction
+🏎️,racing car
+🚗,automobile
+🚨,police car light
+💈,barber pole
+⛲,fountain
+🌁,foggy
+🛝,playground slide
+♨️,hot springs
+🎠,carousel horse
+⛺,tent
+🎡,ferris wheel
+🎢,roller coaster
+🏙️,cityscape
+🎪,circus tent
+🌉,bridge at night
+🌆,cityscape at dusk
+🌇,sunset
+🌄,sunrise over mountains
+🌅,sunrise
+🌃,night with stars
+🛘,landslide
+🗻,mount fuji
+🏜️,desert
+🏕️,camping
+🏔️,snow capped mountain
+🏞️,national park
+🌋,volcano
+🏝️,desert island
+🏖️,beach with umbrella
+⛰️,mountain
+🥉,3rd place medal
+🥈,2nd place medal
+🏅,sports medal
+🎖️,military medal
+🥇,1st place medal
+🏆,trophy
+🪡,sewing needle
+🧵,thread
+🧶,yarn
+🖼️,framed picture
+🪢,knot
+🎨,artist palette
+🎭,performing arts
+🎑,moon viewing ceremony
+🎍,pine decoration
+🎏,carp streamer
+🎐,wind chime
+🎎,japanese dolls
+🎋,tanabata tree
+🧨,firecracker
+🧧,red envelope
+🎟️,admission tickets
+🎫,ticket
+🎗️,reminder ribbon
+🎇,sparkler
+🎃,jack o lantern
+🎊,confetti ball
+🎈,balloon
+🎆,fireworks
+🎁,wrapped gift
+🎀,ribbon
+✨,sparkles
+🎄,christmas tree
+🎉,party popper
+🪀,yo yo
+🪆,nesting dolls
+♟️,chess pawn
+♣️,club suit
+♦️,diamond suit
+🎴,flower playing cards
+🪅,pi ata
+♠️,spade suit
+🎱,pool ball
+🀄,mahjong red dragon
+🕹️,joystick
+🧩,puzzle piece
+🪁,kite
+🪩,mirror ball
+🎰,slot machine
+🃏,joker
+🔮,crystal ball
+🪄,magic wand
+🎲,game die
+🎮,video game
+🧸,teddy bear
+♥️,heart suit
+🎯,direct hit
+🔫,pistol
+🏑,field hockey
+🥍,lacrosse
+🥌,curling stone
+🎽,running shirt
+🏉,rugby football
+🏸,badminton
+🥏,flying disc
+🥅,goal net
+🤿,diving mask
+🥎,softball
+🎳,bowling
+🏒,ice hockey
+🎿,skis
+🏓,ping pong
+🏏,cricket game
+⛸️,ice skate
+⛳,flag in hole
+🏐,volleyball
+🛷,sled
+🎾,tennis
+🥋,martial arts uniform
+⚾,baseball
+🎣,fishing pole
+🥊,boxing glove
+🏀,basketball
+⚽,soccer ball
+🏈,american football
+✒️,black nib
+🖋️,fountain pen
+🖊️,pen
+🖌️,paintbrush
+🖍️,crayon
+✏️,pencil
+📝,memo
+🎚️,level slider
+🎼,musical score
+📻,radio
+🎛️,control knobs
+🎙️,studio microphone
+🎤,microphone
+🎧,headphone
+🎶,musical notes
+🎵,musical note
+👝,clutch bag
+🥿,flat shoe
+🩱,one piece swimsuit
+🪮,hair pick
+👡,woman s sandal
+🥽,goggles
+⛑️,rescue worker s helmet
+🩴,thong sandal
+🩳,shorts
+👢,woman s boot
+👛,purse
+👘,kimono
+🥼,lab coat
+👒,woman s hat
+🥻,sari
+🪭,folding hand fan
+👞,man s shoe
+👜,handbag
+🩲,briefs
+👖,jeans
+👚,woman s clothes
+🦺,safety vest
+🧥,coat
+🧤,gloves
+🥾,hiking boot
+📿,prayer beads
+🧣,scarf
+🩰,ballet shoes
+🧦,socks
+🧢,billed cap
+👔,necktie
+👓,glasses
+🎒,backpack
+👗,dress
+👕,t shirt
+🎩,top hat
+👠,high heeled shoe
+🪖,military helmet
+👟,running shoe
+🕶️,sunglasses
+👙,bikini
+💍,ring
+💄,lipstick
+🎓,graduation cap
+🛍️,shopping bags
+💎,gem stone
+👑,crown
+🪊,trombone
+🪉,harp
+🪘,long drum
+🪗,accordion
+🪕,banjo
+🪇,maracas
+🪈,flute
+🎻,violin
+🎷,saxophone
+🎺,trumpet
+🎹,musical keyboard
+🥁,drum
+🎸,guitar
+⚱️,funeral urn
+🪧,placard
+⚰️,coffin
+🪪,identification card
+🪦,headstone
+🚬,cigarette
+🗿,moai
+🪬,hamsa
+🧿,nazar amulet
+🛗,elevator
+🪣,bucket
+🪠,plunger
+🪒,razor
+🧷,safety pin
+🪤,mouse trap
+🪥,toothbrush
+🧯,fire extinguisher
+🧻,roll of paper
+🧽,sponge
+🪟,window
+🚽,toilet
+🪑,chair
+🛋️,couch and lamp
+🛁,bathtub
+🧴,lotion bottle
+🚿,shower
+🧺,basket
+🪞,mirror
+🚪,door
+🛏️,bed
+🧼,soap
+🧹,broom
+🛒,shopping cart
+🫧,bubbles
+📠,fax machine
+📟,pager
+☎️,telephone
+📲,mobile phone with arrow
+📞,telephone receiver
+📱,mobile phone
+📪,closed mailbox with lowered flag
+📭,open mailbox with lowered flag
+📫,closed mailbox with raised flag
+📤,outbox tray
+📮,postbox
+📨,incoming envelope
+🗳️,ballot box with ballot
+📥,inbox tray
+📬,open mailbox with raised flag
+📩,envelope with arrow
+✉️,envelope
+📦,package
+📧,e mail
+🗜️,clamp
+🦯,white cane
+🪛,screwdriver
+🪃,boomerang
+🪝,hook
+⛓️‍💥,broken chain
+🔩,nut and bolt
+🪜,ladder
+🧰,toolbox
+🧲,magnet
+🪚,carpentry saw
+🪏,shovel
+⛏️,pick
+🪓,axe
+⚒️,hammer and pick
+🔨,hammer
+🏹,bow and arrow
+🔧,wrench
+🛠️,hammer and wrench
+⚙️,gear
+🛡️,shield
+⚖️,balance scale
+💣,bomb
+🗡️,dagger
+🔗,link
+⚔️,crossed swords
+⛓️,chains
+🔏,locked with pen
+🗝️,old key
+🔓,unlocked
+🔐,locked with key
+🔑,key
+🔒,locked
+🧫,petri dish
+⚗️,alembic
+📡,satellite antenna
+🔬,microscope
+🔭,telescope
+🧪,test tube
+🧬,dna
+📼,videocassette
+🏮,red paper lantern
+🔦,flashlight
+📽️,film projector
+🎞️,film frames
+📹,video camera
+📺,television
+🔍,magnifying glass tilted left
+🎬,clapper board
+🪔,diya lamp
+🕯️,candle
+📸,camera with flash
+📷,camera
+🎥,movie camera
+🔎,magnifying glass tilted right
+💡,light bulb
+🪎,treasure chest
+💴,yen banknote
+💷,pound banknote
+💶,euro banknote
+💹,chart increasing with yen
+🧾,receipt
+💳,credit card
+🪙,coin
+💵,dollar banknote
+💸,money with wings
+💰,money bag
+🗄️,file cabinet
+📇,card index
+🗃️,card file box
+📏,straight ruler
+📐,triangular ruler
+📂,open file folder
+🗂️,card index dividers
+📎,paperclip
+🗒️,spiral notepad
+✂️,scissors
+🖇️,linked paperclips
+📉,chart decreasing
+📁,file folder
+🗑️,wastebasket
+📆,tear off calendar
+📋,clipboard
+🗓️,spiral calendar
+📊,bar chart
+📌,pushpin
+💼,briefcase
+📅,calendar
+📈,chart increasing
+📍,round pushpin
+🖲️,trackball
+📀,dvd
+🖨️,printer
+💽,computer disk
+💾,floppy disk
+🖱️,computer mouse
+🔌,electric plug
+⌨️,keyboard
+💿,optical disk
+🧮,abacus
+🪫,low battery
+🔋,battery
+🖥️,desktop computer
+💻,laptop
+🗞️,rolled up newspaper
+📒,ledger
+🔖,bookmark
+📑,bookmark tabs
+📄,page facing up
+📙,orange book
+📗,green book
+📃,page with curl
+📔,notebook with decorative cover
+📓,notebook
+📘,blue book
+📰,newspaper
+📕,closed book
+🏷️,label
+📜,scroll
+📖,open book
+📚,books
+🩼,crutch
+🩹,adhesive bandage
+🩻,x ray
+💉,syringe
+🩺,stethoscope
+💊,pill
+🩸,drop of blood
+📯,postal horn
+🔈,speaker low volume
+🔕,bell with slash
+🔇,muted speaker
+🔉,speaker medium volume
+🔊,speaker high volume
+🔔,bell
+📣,megaphone
+📢,loudspeaker
+💱,currency exchange
+💲,heavy dollar sign
+⚧️,transgender symbol
+♂️,male sign
+♀️,female sign
+♒,aquarius
+♑,capricorn
+♍,virgo
+♈,aries
+♓,pisces
+♊,gemini
+♐,sagittarius
+⛎,ophiuchus
+♉,taurus
+♌,leo
+♏,scorpio
+♎,libra
+♋,cancer
+〰️,wavy dash
+❕,white exclamation mark
+❔,white question mark
+⁉️,exclamation question mark
+❗,exclamation mark
+❓,question mark
+‼️,double exclamation mark
+🟰,heavy equals sign
+➗,divide
+➖,minus
+✖️,multiply
+♾️,infinity
+➕,plus
+☸️,wheel of dharma
+⚛️,atom symbol
+🪯,khanda
+🔯,dotted six pointed star
+☯️,yin yang
+☮️,peace symbol
+☦️,orthodox cross
+✡️,star of david
+☪️,star and crescent
+🕉️,om
+🕎,menorah
+✝️,latin cross
+🛐,place of worship
+🫟,splatter
+📛,name badge
+✳️,eight spoked asterisk
+➿,double curly loop
+®️,registered
+™️,trade mark
+©️,copyright
+〽️,part alternation mark
+✴️,eight pointed star
+❇️,sparkle
+♻️,recycling symbol
+🔰,japanese symbol for beginner
+❎,cross mark button
+⭕,hollow red circle
+☑️,check box with check
+🔱,trident emblem
+⚜️,fleur de lis
+⚕️,medical symbol
+➰,curly loop
+❌,cross mark
+✔️,check mark
+✅,check mark button
+↙️,down left arrow
+↖️,up left arrow
+↘️,down right arrow
+↗️,up right arrow
+⤴️,right arrow curving up
+🔚,end arrow
+↪️,left arrow curving right
+↕️,up down arrow
+↩️,right arrow curving left
+🔃,clockwise vertical arrows
+⬅️,left arrow
+🔙,back arrow
+🔛,on arrow
+⤵️,right arrow curving down
+↔️,left right arrow
+🔝,top arrow
+🔜,soon arrow
+⬆️,up arrow
+⬇️,down arrow
+🔄,counterclockwise arrows button
+➡️,right arrow
+🈷️,japanese monthly amount button
+🈁,japanese here button
+🈶,japanese not free of charge button
+🈚,japanese free of charge button
+🈂️,japanese service charge button
+🈴,japanese passing grade button
+🈸,japanese application button
+🈹,japanese discount button
+🔡,input latin lowercase
+🈳,japanese vacancy button
+🉐,japanese bargain button
+🈲,japanese prohibited button
+㊗️,japanese congratulations button
+🈯,japanese reserved button
+🆎,ab button blood type 
+🈺,japanese open for business button
+🆒,cool button
+🅾️,o button blood type 
+🈵,japanese no vacancy button
+🉑,japanese acceptable button
+🆑,cl button
+🔣,input symbols
+🆖,ng button
+🔠,input latin uppercase
+🆚,vs button
+🆗,ok button
+🆓,free button
+🔤,input latin letters
+㊙️,japanese secret button
+🆙,up button
+🅱️,b button blood type 
+🆔,id button
+Ⓜ️,circled m
+🅰️,a button blood type 
+🅿️,p button
+🆕,new button
+🆘,sos button
+🔢,input numbers
+ℹ️,information
+*️⃣,keycap * star
+#️⃣,keycap # hashtag pound number symbol
+9️⃣,keycap 9 nine
+🔟,keycap 10 ten
+8️⃣,keycap 8 eight
+6️⃣,keycap 6 six
+7️⃣,keycap 7 seven
+0️⃣,keycap 0 zero
+5️⃣,keycap 5 five
+4️⃣,keycap 4 four
+3️⃣,keycap 3 three
+2️⃣,keycap 2 two
+1️⃣,keycap 1 one
+🛄,baggage claim
+🛅,left luggage
+🚾,water closet
+🛃,customs
+🛂,passport control
+🚹,men s room
+🚻,restroom
+♿,wheelchair symbol
+🚮,litter in bin sign
+🏧,atm sign
+🚺,women s room
+🚼,baby symbol
+🚰,potable water
+⏏️,eject button
+⏮️,last track button
+⏪,fast reverse button
+⏬,fast down button
+◀️,reverse button
+⏫,fast up button
+⏺️,record button
+⏹️,stop button
+🔽,downwards button
+🔅,dim button
+🔂,repeat single button
+🔼,upwards button
+🔀,shuffle tracks button
+📳,vibration mode
+⏯️,play or pause button
+📴,mobile phone off
+⏭️,next track button
+⏩,fast forward button
+📶,antenna bars
+⏸️,pause button
+🔆,bright button
+🛜,wireless
+🎦,cinema
+🔁,repeat button
+▶️,play button
+🚳,no bicycles
+🚱,non potable water
+🚯,no littering
+🚷,no pedestrians
+🚸,children crossing
+🚭,no smoking
+📵,no mobile phones
+☣️,biohazard
+☢️,radioactive hazard
+⛔,no entry
+🚫,prohibited
+🔞,no one under eighteen
+⚠️,warning
+◽,white medium small square
+◼️,black medium square
+◻️,white medium square
+▫️,white small square
+◾,black medium small square
+🔳,white square button
+🔸,small orange diamond
+▪️,black small square
+🔶,large orange diamond
+🔲,black square button
+🔘,radio button
+🔹,small blue diamond
+🟤,brown circle
+🟧,orange square
+⬜,white large square
+🟫,brown square
+🟨,yellow square
+🟪,purple square
+🔻,red triangle pointed down
+🔷,large blue diamond
+🔺,red triangle pointed up
+⬛,black large square
+🟦,blue square
+🟩,green square
+🟣,purple circle
+💠,diamond with a dot
+🟠,orange circle
+🟥,red square
+⚪,white circle
+⚫,black circle
+🟡,yellow circle
+🔵,blue circle
+🔴,red circle
+🟢,green circle
+🏴󠁧󠁢󠁷󠁬󠁳󠁿,flag wales
+🏴󠁧󠁢󠁳󠁣󠁴󠁿,flag scotland
+🏴󠁧󠁢󠁥󠁮󠁧󠁿,flag england
+🇨🇶,flag sark
+🇵🇳,flag pitcairn islands
+🇸🇧,flag solomon islands
+🇸🇹,flag s o tom pr ncipe
+🇩🇯,flag djibouti
+🇬🇲,flag gambia
+🇲🇸,flag montserrat
+🇸🇲,flag san marino
+🇫🇰,flag falkland islands
+🇬🇦,flag gabon
+🇰🇾,flag cayman islands
+🇬🇶,flag equatorial guinea
+🇬🇼,flag guinea bissau
+🇸🇯,flag svalbard jan mayen
+🇬🇸,flag south georgia south sandwich islands
+🇰🇲,flag comoros
+🇳🇷,flag nauru
+🇱🇸,flag lesotho
+🇨🇫,flag central african republic
+🇲🇼,flag malawi
+🇻🇺,flag vanuatu
+🇰🇮,flag kiribati
+🇹🇬,flag togo
+🇵🇫,flag french polynesia
+🇳🇦,flag namibia
+🇹🇻,flag tuvalu
+🇧🇮,flag burundi
+🇱🇮,flag liechtenstein
+🇹🇱,flag timor leste
+🇹🇲,flag turkmenistan
+🇳🇫,flag norfolk island
+🇷🇼,flag rwanda
+🇲🇭,flag marshall islands
+🇰🇳,flag st kitts nevis
+🇬🇮,flag gibraltar
+🇨🇬,flag congo brazzaville
+🇹🇰,flag tokelau
+🇵🇾,flag paraguay
+🇸🇭,flag st helena
+🇹🇨,flag turks caicos islands
+🇲🇵,flag northern mariana islands
+🇸🇸,flag south sudan
+🇨🇻,flag cape verde
+🇸🇿,flag eswatini
+🇹🇯,flag tajikistan
+🇲🇿,flag mozambique
+🇳🇨,flag new caledonia
+🇬🇳,flag guinea
+🇹🇦,flag tristan da cunha
+🇸🇨,flag seychelles
+🇵🇼,flag palau
+🇧🇻,flag bouvet island
+🇪🇷,flag eritrea
+🇧🇯,flag benin
+🇸🇱,flag sierra leone
+🇫🇴,flag faroe islands
+🇬🇫,flag french guiana
+🇩🇲,flag dominica
+🇬🇺,flag guam
+🇭🇲,flag heard mcdonald islands
+🇻🇬,flag british virgin islands
+🇨🇰,flag cook islands
+🇬🇩,flag grenada
+🇳🇺,flag niue
+🇲🇻,flag maldives
+🇩🇬,flag diego garcia
+🇦🇼,flag aruba
+🇨🇮,flag c te d ivoire
+🇾🇹,flag mayotte
+🇲🇷,flag mauritania
+🇺🇬,flag uganda
+🇨🇲,flag cameroon
+🇬🇱,flag greenland
+🇱🇨,flag st lucia
+🇫🇲,flag micronesia
+🇮🇴,flag british indian ocean territory
+🇦🇮,flag anguilla
+🇲🇬,flag madagascar
+🇧🇳,flag brunei
+🇻🇨,flag st vincent grenadines
+🇰🇬,flag kyrgyzstan
+🇲🇱,flag mali
+🇧🇼,flag botswana
+🇹🇿,flag tanzania
+🇧🇱,flag st barth lemy
+🇦🇬,flag antigua barbuda
+🇧🇫,flag burkina faso
+🇲🇺,flag mauritius
+🇿🇲,flag zambia
+🇵🇲,flag st pierre miquelon
+🇨🇵,flag clipperton island
+🇬🇵,flag guadeloupe
+🇧🇲,flag bermuda
+🇰🇼,flag kuwait
+🇧🇹,flag bhutan
+🇬🇬,flag guernsey
+🇦🇩,flag andorra
+🇹🇫,flag french southern territories
+🇻🇮,flag u s virgin islands
+🇧🇭,flag bahrain
+🇸🇷,flag suriname
+🇲🇰,flag north macedonia
+🇦🇽,flag land islands
+🇧🇿,flag belize
+🇨🇨,flag cocos keeling islands
+🇱🇺,flag luxembourg
+🇨🇾,flag cyprus
+🇪🇭,flag western sahara
+🇹🇴,flag tonga
+🇱🇰,flag sri lanka
+🇷🇪,flag r union
+🇦🇴,flag angola
+🇳🇮,flag nicaragua
+🇯🇪,flag jersey
+🇨🇼,flag cura ao
+🇧🇶,flag caribbean netherlands
+🇲🇩,flag moldova
+🇸🇳,flag senegal
+🇲🇳,flag mongolia
+🇱🇾,flag libya
+🇫🇯,flag fiji
+🇨🇩,flag congo kinshasa
+🇸🇮,flag slovenia
+🇦🇶,flag antarctica
+🇱🇷,flag liberia
+🇼🇸,flag samoa
+🇧🇸,flag bahamas
+🇲🇲,flag myanmar burma 
+🇲🇶,flag martinique
+🇿🇼,flag zimbabwe
+🇱🇦,flag laos
+🇺🇾,flag uruguay
+🇧🇧,flag barbados
+🇸🇩,flag sudan
+🇸🇽,flag sint maarten
+🇦🇸,flag american samoa
+🇸🇴,flag somalia
+🇹🇳,flag tunisia
+🇹🇩,flag chad
+🇲🇫,flag st martin
+🇲🇪,flag montenegro
+🇺🇿,flag uzbekistan
+🇬🇾,flag guyana
+🇲🇨,flag monaco
+🇧🇾,flag belarus
+🇵🇬,flag papua new guinea
+🇼🇫,flag wallis futuna
+🇺🇳,flag united nations
+🇮🇲,flag isle of man
+🇴🇲,flag oman
+🇧🇦,flag bosnia herzegovina
+🇨🇺,flag cuba
+🇲🇹,flag malta
+🇽🇰,flag kosovo
+🇳🇪,flag niger
+🇵🇦,flag panama
+🇨🇷,flag costa rica
+🇪🇨,flag ecuador
+🇱🇻,flag latvia
+🇪🇹,flag ethiopia
+🇬🇭,flag ghana
+🇾🇪,flag yemen
+🇭🇳,flag honduras
+🇻🇪,flag venezuela
+🇮🇨,flag canary islands
+🇦🇫,flag afghanistan
+🇰🇿,flag kazakhstan
+🇸🇻,flag el salvador
+🇦🇨,flag ascension island
+🇭🇷,flag croatia
+🇭🇹,flag haiti
+🇯🇴,flag jordan
+🇦🇿,flag azerbaijan
+🇰🇪,flag kenya
+🇨🇽,flag christmas island
+🇧🇴,flag bolivia
+🇨🇿,flag czechia
+🇻🇦,flag vatican city
+🇪🇦,flag ceuta melilla
+🇶🇦,flag qatar
+🇨🇱,flag chile
+🇰🇭,flag cambodia
+🇬🇪,flag georgia
+🇬🇹,flag guatemala
+🇸🇰,flag slovakia
+🇮🇷,flag iran
+🇩🇴,flag dominican republic
+🇮🇸,flag iceland
+🇹🇹,flag trinidad tobago
+🇧🇩,flag bangladesh
+🇦🇲,flag armenia
+🇦🇹,flag austria
+🇲🇴,flag macao sar china
+🇮🇶,flag iraq
+🇩🇿,flag algeria
+🇱🇹,flag lithuania
+🇰🇵,flag north korea
+🇳🇴,flag norway
+🇵🇪,flag peru
+🇪🇪,flag estonia
+🇫🇮,flag finland
+🇷🇸,flag serbia
+🇧🇬,flag bulgaria
+🇭🇰,flag hong kong sar china
+🇳🇵,flag nepal
+🇸🇾,flag syria
+🇯🇲,flag jamaica
+🇿🇦,flag south africa
+🇺🇲,flag u s outlying islands
+🇳🇿,flag new zealand
+🇸🇪,flag sweden
+🇪🇬,flag egypt
+🇵🇸,flag palestinian territories
+🇳🇬,flag nigeria
+🇦🇪,flag united arab emirates
+🇩🇰,flag denmark
+🇦🇷,flag argentina
+🇱🇧,flag lebanon
+🇧🇪,flag belgium
+🇬🇷,flag greece
+🇷🇴,flag romania
+🇵🇭,flag philippines
+🇪🇺,flag european union
+🇭🇺,flag hungary
+🇦🇱,flag albania
+🇵🇷,flag puerto rico
+🇸🇦,flag saudi arabia
+🇨🇭,flag switzerland
+🇲🇦,flag morocco
+🇮🇩,flag indonesia
+🇨🇴,flag colombia
+🇵🇹,flag portugal
+🇮🇱,flag israel
+🇵🇰,flag pakistan
+🇺🇦,flag ukraine
+🇸🇬,flag singapore
+🇰🇷,flag south korea
+🇹🇭,flag thailand
+🇷🇺,flag russia
+🇩🇪,flag germany
+🇮🇪,flag ireland
+🇵🇱,flag poland
+🇦🇺,flag australia
+🇪🇸,flag spain
+🇲🇾,flag malaysia
+🇻🇳,flag vietnam
+🇫🇷,flag france
+🇹🇷,flag turkey
+🇧🇷,flag brazil
+🇲🇽,flag mexico
+🇬🇧,flag united kingdom
+🇮🇹,flag italy
+🇨🇳,flag china
+🇯🇵,flag japan
+🇳🇱,flag netherlands
+🇹🇼,flag taiwan
+🇮🇳,flag india
+🇨🇦,flag canada
+🇺🇸,flag united states
+🏳️,white flag
+🎌,crossed flags
+🏴,black flag
+🏳️‍⚧️,transgender flag
+🏴‍☠️,pirate flag
+🏳️‍🌈,rainbow gay homo flag
+🏁,chequered flag
+🚩,triangular flag
