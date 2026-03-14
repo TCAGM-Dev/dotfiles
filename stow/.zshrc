@@ -21,3 +21,5 @@ alias neofetch=fastfetch
 alias detach="f(){\${@:1} </dev/null &>/dev/null &;disown;};f"
 alias pm=pacman
 spm(){sudo pacman $@}
+yeet(){git push}
+yoink(){git pull}
