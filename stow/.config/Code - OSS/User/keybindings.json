@@ -9,5 +9,36 @@
         "key": "shift+alt+down",
         "command": "-editor.action.insertCursorBelow",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k ctrl+shift+w",
+        "command": "-workbench.action.closeAllGroups"
+    },
+    {
+        "key": "ctrl+k w",
+        "command": "-workbench.action.closeEditorsInGroup"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "-workbench.action.remote.showMenu"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.files.openFolder",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openFolder",
+        "when": "openFolderWorkspaceSupport"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "-workbench.action.files.openLocalFolder",
+        "when": "remoteFileDialogVisible"
+    },
+    {
+        "key": "ctrl+k ctrl+o",
+        "command": "workbench.action.closeOtherEditors"
     }
 ]
