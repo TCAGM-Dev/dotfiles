@@ -2,6 +2,9 @@
     font = "Adwaita Mono 11"
     corner_radius = 5
     frame_width = 1
+    mouse_left_click = context
+    mouse_middle_click = close_all
+    mouse_right_click = close_current
 
 [change-appearance]
     background = "#1D1D1D7F"
