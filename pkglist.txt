@@ -11,3 +11,4 @@ wl-clipboard
 zsh
 dunst
 grim
+networkmanager_dmenu
