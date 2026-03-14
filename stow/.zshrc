@@ -17,6 +17,5 @@ source /usr/share/nvm/init-nvm.sh
 PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
 
 # Aliases
-alias fonts=fc-list
 alias neofetch=fastfetch
 alias detach="f(){\${@:1} </dev/null &>/dev/null &;disown;};f"
