@@ -7774,7 +7774,6 @@
 󰛽,page layout sidebar left
 󰛾,page layout sidebar right
 󰎠,numeric
-󰁹,battery
 󱚵,wifi alert
 󱚼,wifi cancel
 󱚽,wifi check
@@ -9248,6 +9247,7 @@
 󰂀,battery 70
 󰂁,battery 80
 󰂂,battery 90
+󰁹,battery 100
 󰂃,battery alert
 󰥈,battery bluetooth
 󰂄,battery charging
@@ -9921,7 +9921,6 @@
 󱟠,battery arrow up
 󰥉,battery bluetooth variant
 󰢜,battery charging 10
-󰂅,battery charging 100
 󰂆,battery charging 20
 󰂇,battery charging 30
 󰂈,battery charging 40
@@ -9930,6 +9929,7 @@
 󰢞,battery charging 70
 󰂊,battery charging 80
 󰂋,battery charging 90
+󰂅,battery charging 100
 󱊦,battery charging high
 󱊤,battery charging low
 󱊥,battery charging medium
