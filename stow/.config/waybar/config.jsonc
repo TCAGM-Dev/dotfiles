@@ -16,7 +16,6 @@
         "hyprland/workspaces"
     ],
     "modules-right": [
-        "mpd",
         "pulseaudio",
         "network",
         "clock"
