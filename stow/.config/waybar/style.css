@@ -53,3 +53,8 @@ button {
     border-bottom-color: #aaaaaa;
     color: #aaaaaa;
 }
+
+#bluetooth.disabled, #bluetooth.off {
+    border-bottom-color: #aaaaaa;
+    color: #aaaaaa;
+}

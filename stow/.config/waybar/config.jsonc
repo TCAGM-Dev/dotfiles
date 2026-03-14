@@ -18,6 +18,7 @@
     ],
     "modules-right": [
         "pulseaudio",
+        "bluetooth",
         "network",
         "clock"
     ],
@@ -97,6 +98,13 @@
             "balanced": "",
             "power-saver": ""
         }
+    },
+    "bluetooth": {
+        "format": "    ",
+        "format-connected": "{num_connections}",
+        "format-no-controller": "", // Disable module
+        "tooltip-format": "Bluetooth {status} ({controller_alias})\n{num_connections} devices connected",
+        "on-click": "blueman-manager"
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface

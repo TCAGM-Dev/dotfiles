@@ -12,3 +12,4 @@ zsh
 dunst
 grim
 networkmanager_dmenu
+blueman
