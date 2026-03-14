@@ -155,6 +155,7 @@
         "format-len": 20,
         "format-paused": "{player_icon} <i>{dynamic}</i>",
         "format-paused-len": 21,
+        "dynamic-order": ["artist", "title", "position", "length"],
         "player-icons": {
             "spotify": "",
             "firefox": "󰈹",
