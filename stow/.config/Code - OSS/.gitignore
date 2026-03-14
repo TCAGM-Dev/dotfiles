@@ -1,29 +1,4 @@
-Backups/
-blob_storage/
-Cache/
-CachedData/
-CachedProfilesData/
-Code Cache/
-Crashpad/
-DawnGraphiteCache/
-DawnWebGPUCache/
-Dictionaries/
-GPUCache/
-Local Storage/
-logs/
-Shared Dictionary/
-User/globalStorage/
-User/History/
-User/workspaceStorage/
-User/chatLanguageModels.json
-code.lock
-DIPS
-DIPS-wal
-languagepacks.json
-machineid
-Network Persistent State
-Preferences
-SharedStorage
-SharedStorage-wal
-Trust Tokens
-Trust Tokens-journal
+*
+!User/settings.json
+!User/keybindings.json
+!User/snippets
