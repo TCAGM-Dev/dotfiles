@@ -2,4 +2,5 @@ CachedData/
 Backups/
 User/History
 User/workspaceStorage
+User/globalStorage/
 User/chatLanguageModels.json
