@@ -61,6 +61,7 @@
         "format": "{capacity}% {icon}",
         "format-plugged": "{capacity}% ",
         "format-alt": "{power}W 󱐋",
+        "format-time": "{H}h {M}min",
         "states": {
             "warning": 30,
             "critical": 10
