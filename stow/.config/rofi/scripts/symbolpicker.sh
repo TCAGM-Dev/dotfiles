@@ -30,6 +30,7 @@ while IFS= read -r line; do # Loop through lines
 done <<< "$INPUT"
 
 openMenu() {
+    tail --pid=$1 -f /dev/null # Wait until parent is closed
     local choice # This is seperate because it would override $? otherwise
     choice=$(for symbol in "${!SYMBOLS[@]}"; do echo -e "$symbol\0display\x1f$symbol ${SYMBOLS[$symbol]}\x1fmeta\x1f${SYMBOLS[$symbol]}"; done | rofi -i -dmenu)
     if [ $? -eq 1 ]; then return; fi
@@ -37,4 +38,4 @@ openMenu() {
     notify-send "Copied \"$choice\""
 }
 
-coproc ( openMenu  > /dev/null  2>&1 )
+coproc (openMenu $$ >/dev/null 2>&1)
