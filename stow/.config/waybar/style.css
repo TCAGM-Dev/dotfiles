@@ -39,3 +39,12 @@ button {
 #workspaces button.hosting-monitor.active {
     background: linear-gradient(to top, rgba(200, 200, 200, .7), transparent);
 }
+
+#battery.warning {
+    border-bottom-color: #f9ac04;
+    color: #f9ac04;
+}
+#battery.critical {
+    border-bottom-color: #f90404;
+    color: #f90404;
+}

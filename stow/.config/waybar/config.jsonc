@@ -10,6 +10,7 @@
         "custom/power",
         "cpu",
         "memory",
+        "battery",
         "mpris"
     ],
     "modules-center": [
@@ -56,6 +57,19 @@
         "format": "{}% ",
         "on-click": "kitty htop"
     },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{power}W 󱐋",
+        "states": {
+            "warning": 30,
+            "critical": 10
+        },
+        "format-icons": {
+            "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+            "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+        }
+    },
     "temperature": {
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
@@ -68,21 +82,6 @@
         // "device": "acpi_video1",
         "format": "{percent}% {icon}",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
-    },
-    "battery": {
-        "states": {
-            // "good": 95,
-            "warning": 30,
-            "critical": 15
-        },
-        "format": "{capacity}% {icon}",
-        "format-full": "{capacity}% {icon}",
-        "format-charging": "{capacity}% ",
-        "format-plugged": "{capacity}% ",
-        "format-alt": "{time} {icon}",
-        // "format-good": "", // An empty format will hide the module
-        // "format-full": "",
-        "format-icons": ["", "", "", "", ""]
     },
     "battery#bat2": {
         "bat": "BAT2"
