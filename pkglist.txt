@@ -13,3 +13,4 @@ dunst
 grim
 networkmanager_dmenu
 blueman
+slurp
