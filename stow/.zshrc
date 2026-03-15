@@ -18,7 +18,7 @@ PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
 
 # Aliases
 alias neofetch=fastfetch
-alias detach="f(){\${@:1} </dev/null &>/dev/null &;disown;};f"
+detach(){${@:1} </dev/null &>/dev/null &;disown}
 alias pm=pacman
 spm(){sudo pacman $@}
 yeet(){git push}
