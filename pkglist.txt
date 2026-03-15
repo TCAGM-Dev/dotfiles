@@ -1,6 +1,7 @@
 hyprland
 xdg-desktop-portal-hyprland
 hyprpaper
+hyprlock
 waybar
 kitty
 thunar
