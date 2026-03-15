@@ -24,7 +24,7 @@
     ],
     // Modules configuration
     "custom/power": {
-        "format": " ⏻ ",
+        "format": "    ",
         "on-click": "rofi -show power -modes power -show-icons",
         "on-double-click": "systemctl poweroff"
     },
