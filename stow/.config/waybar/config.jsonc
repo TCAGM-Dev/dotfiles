@@ -169,6 +169,7 @@
             "spotify": "",
             "firefox": "󰈹",
             "default": ""
-        }
+        },
+        "ignored-players": ["firefox"]
     }
 }
