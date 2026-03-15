@@ -11,6 +11,7 @@
         "cpu",
         "memory",
         "battery",
+        "power-profiles-daemon",
         "mpris"
     ],
     "modules-center": [
@@ -89,7 +90,7 @@
         "bat": "BAT2"
     },
     "power-profiles-daemon": {
-        "format": "{icon}",
+        "format": "󰓅 {icon}",
         "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
         "tooltip": true,
         "format-icons": {

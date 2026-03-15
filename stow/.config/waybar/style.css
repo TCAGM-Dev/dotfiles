@@ -58,3 +58,12 @@ button {
     border-bottom-color: #aaaaaa;
     color: #aaaaaa;
 }
+
+#power-profiles-daemon.performance {
+    border-bottom-color: #ffce2e;
+    color: #ffce2e;
+}
+#power-profiles-daemon.power-saver {
+    border-bottom-color: #37ffc0;
+    color: #37ffc0;
+}
