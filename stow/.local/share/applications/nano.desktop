@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=nano
+Type=Application
+Exec=nano %u
+Terminal=true
+Categories=Development;TextEditor;
