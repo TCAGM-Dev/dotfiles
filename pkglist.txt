@@ -17,3 +17,4 @@ grim
 networkmanager_dmenu
 blueman
 slurp
+sxiv
