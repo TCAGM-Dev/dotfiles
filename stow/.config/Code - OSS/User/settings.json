@@ -14,5 +14,6 @@
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
     },
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "terminal.integrated.fontFamily": "Adwaita Mono, \"Symbols Nerd Font\""
 }
