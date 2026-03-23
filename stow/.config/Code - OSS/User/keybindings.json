@@ -77,16 +77,25 @@
         "when": "explorerViewletFocus"
     },
     {
+        "key": "ctrl+shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+    },
+    {
         "key": "ctrl+alt+meta+n",
         "command": "-welcome.showNewFileEntries"
     },
     {
-        "key": "ctrl+n",
+        "key": "ctrl+alt+n",
         "command": "workbench.action.files.newUntitledFile",
         "when": "editorFocus"
     },
     {
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "newf.newFileAtRoot"
     }
 ]
