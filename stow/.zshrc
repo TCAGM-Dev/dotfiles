@@ -12,6 +12,7 @@ compinit
 # End of lines added by compinstall
 
 source /usr/share/nvm/init-nvm.sh
+PATH=$PATH:$HOME/.bin
 
 # Default prompt
 PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
