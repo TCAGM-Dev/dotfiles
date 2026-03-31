@@ -5,7 +5,17 @@
     mouse_left_click = context
     mouse_middle_click = close_all
     mouse_right_click = close_current
-
+    
     background = "#1D1D1D7F"
     foreground = "#FFFFFF"
     frame_color = "#FFFFFF"
+
+[urgency_low]
+    background = "#1D1D1D7F"
+    foreground = "#E4E4E4"
+    frame_color = "#BBBBBB"
+
+[urgency_critical]
+    background = "#5700007f"
+    foreground = "#FFE0E0"
+    frame_color = "#FF1212"
