@@ -6,7 +6,6 @@
     mouse_middle_click = close_all
     mouse_right_click = close_current
 
-[change-appearance]
     background = "#1D1D1D7F"
     foreground = "#FFFFFF"
     frame_color = "#FFFFFF"
