@@ -2878,7 +2878,7 @@
 ,piggy bank
 ,optin monster
 ,notes medical
-,mouse pointer
+,mouse pointer cursor
 ,masks theater
 ,layer group
 ,holly berry
@@ -7500,7 +7500,7 @@
 󰝛,music off
 ,arrow down
 ,arrow left
-,arrow pointer
+,arrow pointer cursor
 ,arrow right
 ,arrow up
 ,down left and up right to center
