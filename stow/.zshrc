@@ -26,3 +26,4 @@ spm(){sudo pacman $@}
 yeet(){git push}
 yoink(){git pull}
 alias fonts=fc-list
+alias sqlite=sqlite3
