@@ -15,5 +15,6 @@
         "*.s3db": "${capture}.${extname}-*"
     },
     "git.confirmSync": false,
-    "terminal.integrated.fontFamily": "Adwaita Mono, \"Symbols Nerd Font\""
+    "terminal.integrated.fontFamily": "Adwaita Mono, \"Symbols Nerd Font\"",
+    "workbench.colorTheme": "Dark Modern"
 }
