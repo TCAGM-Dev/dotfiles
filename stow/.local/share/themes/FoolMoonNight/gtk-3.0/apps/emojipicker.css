@@ -1,0 +1,29 @@
+popover.emoji-picker {
+    border: 1px solid @border-color-inactive;
+    border-radius: 5px;
+}
+popover.emoji-picker .search {
+    margin-top: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+popover.emoji-picker > box > stack > box > box {
+    border-top: 1px solid @border-color-inactive;
+    background-color: @widget-bg-color;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+popover.emoji-picker > box > stack > box > box > button:first-child {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 3px;
+}
+popover.emoji-picker > box > stack > box > box > button:last-child {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+}
+popover.emoji-picker .emoji > widget {
+    border-radius: 5px;
+}
+popover.emoji-picker .emoji > widget:hover {
+    background: @highlight-color;
+}

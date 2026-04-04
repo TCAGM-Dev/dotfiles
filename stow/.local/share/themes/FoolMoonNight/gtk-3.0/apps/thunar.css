@@ -1,0 +1,22 @@
+window.thunar scrolledwindow.standard-view {
+    background: transparent;
+    border-radius: 0;
+}
+window.thunar scrolledwindow.standard-view > treeview > :selected { /* Unclear what name the rows have */
+    background: @selected-color;
+}
+window.thunar toolbar {
+    padding-bottom: 3px;
+}
+window.thunar notebook {
+    border: none;
+}
+window.thunar .shortcuts-pane {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+window.thunar > grid > paned > paned > grid > widget {
+    background: @widget-bg-color;
+}

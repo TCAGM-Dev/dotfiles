@@ -1,0 +1,3 @@
+messagedialog > box.titlebar {
+    border-bottom: 1px solid @border-color-inactive; 
+}

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=FoolMoonNight
+Comment=High-contrast lowchromatic transparent dark theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=FoolMoonNight
+MetacityTheme=FoolMoonNight
+IconTheme=Boston
+ButtonLayout=:minimize,maximize,close

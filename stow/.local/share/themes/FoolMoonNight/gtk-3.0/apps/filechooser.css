@@ -1,0 +1,31 @@
+dialog filechooser placessidebar {
+    background-color: @widget-bg-color;
+}
+dialog filechooser placessidebar.frame { /* .frame required for override */
+    border: none;
+}
+dialog filechooser placessidebar .sidebar-row:hover {
+    background-color: @highlight-color;
+}
+dialog filechooser placessidebar .sidebar-row:active {
+    background-color: @selected-color;
+}
+dialog filechooser placessidebar .sidebar-row .sidebar-icon {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+dialog filechooser #pathbarbox {
+    background-color: @widget-bg-color;
+    border-bottom: 1px solid @border-color-inactive;
+}
+dialog filechooser treeview.view header button:not(.titlebutton):not(.flat):last-child {
+    border-right: none;
+    border-top-right-radius: 0;
+}
+dialog filechooser treeview.view header button:not(.titlebutton):not(.flat):first-child {
+    border-left: none;
+    border-top-left-radius: 0;
+}
+dialog filechooser treeview.view > :selected { /* Unclear what name the rows have */
+    background: @selected-color;
+}

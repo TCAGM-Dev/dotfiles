@@ -1,0 +1,9 @@
+@define-color bg-color #000000;
+@define-color bg-color-transparent rgba(0, 0, 0, 0.5);
+@define-color fg-color #ffffff;
+@define-color selected-color rgba(147, 147, 147, 0.6);
+@define-color text-selected-color #939393;
+@define-color highlight-color rgba(147, 147, 147, 0.3);
+@define-color border-color @fg-color;
+@define-color border-color-inactive #595959;
+@define-color widget-bg-color #171717;
