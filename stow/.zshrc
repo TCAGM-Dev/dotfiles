@@ -18,13 +18,14 @@ PATH=$PATH:$HOME/.bin
 PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
 
 # Aliases
-alias neofetch=fastfetch
-detach(){${@:1} </dev/null &>/dev/null &;disown}
-restart(){killall ${@:1}; for v in ${@:1}; do detach $v; done}
+if [[ $TERM == xterm-kitty ]]; then ssh(){kitten ssh $@}; fi
+
 alias pm=pacman
 spm(){sudo pacman $@}
+detach(){${@:1} </dev/null &>/dev/null &;disown}
+restart(){killall ${@:1}; for v in ${@:1}; do detach $v; done}
 yeet(){git push}
 yoink(){git pull}
 alias fonts=fc-list
 alias sqlite=sqlite3
-if [[ $TERM == xterm-kitty ]]; then ssh(){kitten ssh $@}; fi
+alias neofetch=fastfetch
