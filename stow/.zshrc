@@ -11,7 +11,10 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
+# Node Version Manager
 source /usr/share/nvm/init-nvm.sh
+
+# User bin folder
 PATH=$PATH:$HOME/.bin
 
 # Default prompt
