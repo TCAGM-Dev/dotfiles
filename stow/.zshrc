@@ -27,3 +27,4 @@ yeet(){git push}
 yoink(){git pull}
 alias fonts=fc-list
 alias sqlite=sqlite3
+if [[ $TERM == xterm-kitty ]]; then ssh(){kitten ssh $@}; fi
