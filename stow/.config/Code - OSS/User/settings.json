@@ -16,5 +16,8 @@
     },
     "git.confirmSync": false,
     "terminal.integrated.fontFamily": "Adwaita Mono, \"Symbols Nerd Font\"",
-    "workbench.colorTheme": "Dark Modern"
+    "workbench.colorTheme": "Dark Modern",
+    "workbench.editorAssociations": {
+        "*.md": "vscode.markdown.preview.editor"
+    }
 }
