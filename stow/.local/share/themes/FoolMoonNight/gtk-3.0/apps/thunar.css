@@ -20,3 +20,7 @@ window.thunar .shortcuts-pane {
 window.thunar > grid > paned > paned > grid > widget {
     background: @widget-bg-color;
 }
+window.thunar > grid > paned > paned > grid > infobar > revealer > box {
+    background-color: @widget-bg-color;
+    border-bottom: 1px solid @border-color-inactive;
+}
