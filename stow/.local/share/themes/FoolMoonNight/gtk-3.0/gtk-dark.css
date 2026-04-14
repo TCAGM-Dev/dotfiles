@@ -16,6 +16,11 @@ text, label {
 .view text selection, entry selection {
     background-color: @text-selected-color;
 }
+.context-menu {
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid @border-color-inactive;
+}
 
 /**********
 * Widgets *
