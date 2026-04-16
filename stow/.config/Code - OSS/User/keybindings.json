@@ -97,5 +97,13 @@
     {
         "key": "ctrl+n",
         "command": "newf.newFileAtRoot"
+    },
+    {
+        "key": "ctrl+alt+,",
+        "command": "workbench.action.openGlobalKeybindings"
+    },
+    {
+        "key": "ctrl+k ctrl+s",
+        "command": "-workbench.action.openGlobalKeybindings"
     }
 ]
