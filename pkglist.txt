@@ -19,3 +19,4 @@ networkmanager_dmenu
 blueman
 slurp
 sxiv
+libqalculate
