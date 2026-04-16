@@ -19,5 +19,6 @@
     "workbench.colorTheme": "Dark Modern",
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
-    }
+    },
+    "workbench.startupEditor": "none"
 }
