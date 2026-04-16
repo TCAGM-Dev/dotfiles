@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=nvidia-smi
+Type=Application
+Exec=watch -tn1 "nvidia-smi"
+Terminal=true
+Categories=Utility;Graphics;Monitor;
