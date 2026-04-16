@@ -15,6 +15,14 @@ window#waybar {
     margin-left: 10px;
 }
 
+/* Align edges with hyprland outside gap */
+.modules-left > :first-child .module {
+    margin-left: 10px;
+}
+.modules-right > :last-child .module {
+    margin-right: 10px;
+}
+
 .module {
     border-bottom: 3px solid white;
     background: none;
