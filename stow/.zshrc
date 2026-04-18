@@ -30,8 +30,10 @@ alias pm=pacman
 alias spm="sudo pacman"
 detach(){${@:1} </dev/null &>/dev/null &;disown}
 restart(){killall ${@:1}; for v in ${@:1}; do detach $v; done}
-alias yeet="git push"
-alias yoink="git pull"
-alias fonts=fc-list
-alias sqlite=sqlite3
-alias neofetch=fastfetch
+which "git" &>/dev/null && {
+    alias yeet="git push"
+    alias yoink="git pull"
+}
+which "fc-list" &>/dev/null && alias fonts=fc-list
+which "sqlite3" &>/dev/null && alias sqlite=sqlite3
+which "fastfetch" &>/dev/null && alias neofetch=fastfetch
