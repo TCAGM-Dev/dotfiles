@@ -22,16 +22,16 @@ PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
 
 # Aliases
 if [[ $TERM == xterm-kitty ]]; then
-    ssh(){kitten ssh $@};
+    alias ssh="kitten ssh"
     alias icat="kitten icat"
 fi
 
 alias pm=pacman
-spm(){sudo pacman $@}
+alias spm="sudo pacman"
 detach(){${@:1} </dev/null &>/dev/null &;disown}
 restart(){killall ${@:1}; for v in ${@:1}; do detach $v; done}
-yeet(){git push}
-yoink(){git pull}
+alias yeet="git push"
+alias yoink="git pull"
 alias fonts=fc-list
 alias sqlite=sqlite3
 alias neofetch=fastfetch
