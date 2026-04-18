@@ -21,7 +21,10 @@ PATH=$PATH:$HOME/.bin
 PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
 
 # Aliases
-if [[ $TERM == xterm-kitty ]]; then ssh(){kitten ssh $@}; fi
+if [[ $TERM == xterm-kitty ]]; then
+    ssh(){kitten ssh $@};
+    alias icat="kitten icat"
+fi
 
 alias pm=pacman
 spm(){sudo pacman $@}
