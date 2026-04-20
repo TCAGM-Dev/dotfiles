@@ -1,6 +1,9 @@
 # Dotfiles
 The content of this repository are the dotfiles that I use in my personal Arch install.
 
+## Requirements
+- [Yay](https://github.com/Jguer/yay)
+
 ## Installation
 This repository includes a setup script that can be used to quickly install it.
 Do note that this script leaves the directory that you clone the repository into intact, which might not be ideal for people who aren't - well, *me*. There currently is not an easy script to *just* install the setup, so this will need to be done manually. 
