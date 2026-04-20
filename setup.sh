@@ -7,7 +7,7 @@ cd $SCRIPT_DIR/stow && stow --target="$HOME" . # Link dotfiles
 
 # Install packages
 pacman -S - < $SCRIPT_DIR/pkglist.txt
-yay -S quickshell
+yay --answerclean N --answerdiff N --removemake -S quickshell
 
 ln -s /usr/bin/kitty /usr/bin/xdg-terminal-exec # Make Kitty the XDG default terminal (fixes thunar "open with" terminal apps)
 
