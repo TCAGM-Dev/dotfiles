@@ -6,6 +6,7 @@ import Quickshell.Io
 
 PanelWindow {
 	id: launcher
+	WlrLayershell.namespace: "quickshell_launcher"
 
 	implicitWidth: 600
 	implicitHeight: getHeight()
