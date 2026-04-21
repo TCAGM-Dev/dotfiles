@@ -94,7 +94,6 @@ PanelWindow {
 				{name: "Search on Google", onSelect: () => Quickshell.execDetached(["xdg-open", `https://www.google.com/search?q=${encodedSearchQuery}`]), iconSource: `${home}/.local/share/icons/google.png`},
 				{name: "Search on ArchWiki", onSelect: () => Quickshell.execDetached(["xdg-open", `https://wiki.archlinux.org/index.php?search=${encodedSearchQuery}`]), iconSource: `${home}/.local/share/icons/arch.png`},
 				{name: "Search on MDN", onSelect: () => Quickshell.execDetached(["xdg-open", `https://developer.mozilla.org/search?q=${encodedSearchQuery}`]), iconSource: `${home}/.local/share/icons/mdn.png`},
-				{name: "Search on Bing", onSelect: () => Quickshell.execDetached(["xdg-open", `https://www.bing.com/search?q=${encodedSearchQuery}`]), iconSource: `${home}/.local/share/icons/bing.png`},
 			]
 		}
 		if (query.startsWith(":")) {
