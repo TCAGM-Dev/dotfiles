@@ -3,6 +3,7 @@ import QtQuick
 import Quickshell.Wayland
 import QtQuick.Controls
 import Quickshell.Io
+import "levenshtein.js" as Levenshtein
 
 PanelWindow {
 	id: launcher
@@ -41,7 +42,8 @@ PanelWindow {
 			if (desktopEntry.noDisplay == true) continue
 			result.push({
 				display: `${desktopEntry.name}${desktopEntry.genericName == "" ? "" : ` (${desktopEntry.genericName})`}`,
-				name: [desktopEntry.name, desktopEntry.genericName, desktopEntry.execString, desktopEntry.categories.join(" "), desktopEntry.keywords.join(" ")].filter(v => v != null && v != "").join(" "),
+				name: desktopEntry.name,
+				meta: [desktopEntry.genericName, desktopEntry.execString, desktopEntry.categories.join(" "), desktopEntry.keywords.join(" ")].filter(v => v != null && v != "").join(" "),
 				onSelect: () => {
 					if (desktopEntry.runInTerminal) { // desktopEntry.execute() doesnt respect Terminal=true
 						Quickshell.execDetached(["kitty", "sh", "-c", desktopEntry.execString])
@@ -99,12 +101,21 @@ PanelWindow {
 				{name: `Open "${uri}"`, onSelect: () => Quickshell.execDetached(["xdg-open", uri])},
 			]
 		}
+		
+		query = query.toLowerCase()
 
-		const queryItems = query.toLowerCase().split(" ").filter(v => v.length > 0)
-		return entries.filter(entry => {
-			const name = entry.name.toLowerCase()
-			return queryItems.some(q => q.includes(name) || name.includes(q))
+		const queryItems = query.split(" ").filter(v => v.length > 0)
+		const result = entries.filter(entry => {
+			const matcher = (entry.meta == null ? entry.name : `${entry.name} ${entry.meta}`).toLowerCase()
+			return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
 		})
+
+		for (const entry of result) {
+			entry.distance = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
+		}
+		result.sort((a, b) => a.distance - b.distance)
+
+		return result
 	}
 
 	focusable: true
