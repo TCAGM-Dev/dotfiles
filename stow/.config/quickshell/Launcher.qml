@@ -64,7 +64,7 @@ PanelWindow {
 
 		launcher.entries = result
 	}
-	property var viewEntries: search.text == null ? entries : runSearch(search.text)
+	property var viewEntries: runSearch(search.text)
 	function runSearch(query: string): list<var> {
 		if (query.startsWith("!")) {
 			const command = query.slice(1)
