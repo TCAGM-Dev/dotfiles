@@ -122,3 +122,4 @@ require("transparent").setup({
 
 vim.lsp.config("qmlls", {cmd = {"qmlls6"}})
 vim.lsp.enable("qmlls")
+vim.lsp.enable("ts_ls")
