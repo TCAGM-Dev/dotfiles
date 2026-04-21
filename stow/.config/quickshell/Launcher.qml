@@ -107,7 +107,7 @@ PanelWindow {
 		query = query.toLowerCase()
 
 		const queryItems = query.split(" ").filter(v => v.length > 0)
-		const result = entries.filter(entry => {
+		const result = query == "" ? entries : entries.filter(entry => {
 			const matcher = (entry.meta == null ? entry.name : `${entry.name} ${entry.meta}`).toLowerCase()
 			return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
 		})
