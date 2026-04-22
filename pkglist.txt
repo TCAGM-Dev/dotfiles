@@ -19,5 +19,6 @@ networkmanager_dmenu
 blueman
 slurp
 sxiv
+mpv
 nvim
 libqalculate
