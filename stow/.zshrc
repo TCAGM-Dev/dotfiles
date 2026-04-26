@@ -20,6 +20,9 @@ PATH=$PATH:$HOME/.bin
 # Default prompt
 PS1="%F{#888888}[%f%n@%m %B%1~%b%F{#888888}]%f "
 
+# Deduplicate history for faster navigation
+setopt hist_ignore_all_dups
+
 # Aliases
 if [[ $TERM == xterm-kitty ]]; then
     alias ssh="kitten ssh"
