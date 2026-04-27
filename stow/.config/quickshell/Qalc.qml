@@ -21,7 +21,7 @@ Singleton {
 		running: false
 		command: ["qalc", qalc.expression]
 		stdout: StdioCollector {
-			onStreamFinished: qalc.output = this.text.slice(0, this.text.length - 1)
+			onStreamFinished: qalc.output = this.text.slice(0, -1)
 		}
 	}
 }
