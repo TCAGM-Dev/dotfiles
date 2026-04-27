@@ -13,7 +13,7 @@ Singleton {
 		running: true
 		command: ["powerprofilesctl", "get"]
 		stdout: StdioCollector {
-			onStreamFinished: () => root.activeProfile = this.text
+			onStreamFinished: () => root.activeProfile = this.text.slice(0, -1)
 		}
 	}
 
