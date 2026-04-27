@@ -63,9 +63,9 @@ PanelWindow {
 		result.push({name: "Shutdown", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
 
 		// Power profiles
-		result.push({display: "Power profile: Ecological", name: "eco mode", onSelect: () => Quickshell.execDetached(["powerprofilesctl", "set", "power-saver"])})
-		result.push({display: "Power profile: Balanced", name: "balanced mode", onSelect: () => Quickshell.execDetached(["powerprofilesctl", "set", "balanced"])})
-		result.push({display: "Power profile: Performance", name: "performance mode", onSelect: () => Quickshell.execDetached(["powerprofilesctl", "set", "performance"])})
+		result.push({display: "Power profile: Ecological", name: "eco mode", onSelect: () => PowerProfile.activeProfile = "power-saver"})
+		result.push({display: "Power profile: Balanced", name: "balanced mode", onSelect: () => PowerProfile.activeProfile = "balanced"})
+		result.push({display: "Power profile: Performance", name: "performance mode", onSelect: () => PowerProfile.activeProfile = "performance"})
 
 		launcher.entries = result
 	}
