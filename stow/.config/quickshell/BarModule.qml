@@ -30,6 +30,7 @@ Button {
 			text: module.text
 
 			font: module.font
+			renderType: Text.NativeRendering // Improve legibility, for some reason the default is just bad
 
 			horizontalAlignment: Text.AlignHCenter
 			verticalAlignment: Text.AlignVCenter
