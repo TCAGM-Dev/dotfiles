@@ -1,1 +1,6 @@
-Launcher {}
+import Quickshell
+
+ShellRoot {
+	Launcher {}
+	Bar {}
+}

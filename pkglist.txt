@@ -4,7 +4,6 @@ xdg-desktop-portal-gtk
 hyprpaper
 hyprlock
 hypridle
-waybar
 kitty
 thunar
 rofi
