@@ -39,6 +39,7 @@ Variants {
 			anchors.leftMargin: bar.gap
 			spacing: bar.gap
 
+			BatteryBarModule {}
 			PowerProfileBarModule {}
 		}
 
