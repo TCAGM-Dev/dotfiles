@@ -36,6 +36,7 @@ Variants {
 
 			anchors.bottom: parent.bottom
 			anchors.left: parent.left
+			anchors.leftMargin: bar.gap
 			spacing: bar.gap
 
 			PowerProfileBarModule {}
@@ -58,6 +59,7 @@ Variants {
 
 			anchors.bottom: parent.bottom
 			anchors.right: parent.right
+			anchors.rightMargin: bar.gap
 			spacing: bar.gap
 
 			ClockBarModule {}
