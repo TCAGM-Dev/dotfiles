@@ -7,7 +7,7 @@ BarModule {
 		if (level <= 0) return set[0]
 		if (level >= 1) return set[set.length - 1]
 
-		return set[Math.floor(level * set.length)]
+		return set[Math.floor(level * (set.length - 1))]
 	}
 	function getColor(level: real): string {
 		if (level <= 0.1) return "#f90404"
