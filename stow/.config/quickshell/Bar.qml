@@ -21,7 +21,7 @@ Variants {
 
 		color: "transparent"
 
-		implicitHeight: 32
+		implicitHeight: Math.max(left.height, center.height, right.height)
 
 		Rectangle {
 			anchors.fill: parent
@@ -32,6 +32,8 @@ Variants {
 		}
 
 		RowLayout {
+			id: left
+
 			anchors.bottom: parent.bottom
 			anchors.left: parent.left
 			spacing: bar.gap
@@ -40,6 +42,8 @@ Variants {
 		}
 
 		RowLayout {
+			id: center
+
 			anchors.bottom: parent.bottom
 			anchors.horizontalCenter: parent.horizontalCenter
 			spacing: bar.gap
@@ -50,6 +54,8 @@ Variants {
 		}
 
 		RowLayout {
+			id: right
+
 			anchors.bottom: parent.bottom
 			anchors.right: parent.right
 			spacing: bar.gap
