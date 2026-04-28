@@ -32,31 +32,29 @@ Variants {
 		}
 
 		RowLayout {
-			anchors.fill: parent
+			anchors.bottom: parent.bottom
+			anchors.left: parent.left
 			spacing: bar.gap
 
-			RowLayout {
-				Layout.alignment: Qt.AlignBottom | Qt.AlignLeft
-				spacing: parent.spacing
+			PowerProfileBarModule {}
+		}
 
-				PowerProfileBarModule {}
+		RowLayout {
+			anchors.bottom: parent.bottom
+			anchors.horizontalCenter: parent.horizontalCenter
+			spacing: bar.gap
+
+			HyprlandWorkspacesBarModule {
+				monitor: Hyprland.monitorFor(bar.screen)
 			}
+		}
 
-			RowLayout {
-				Layout.alignment: Qt.AlignBottom | Qt.AlignHCenter
-				spacing: parent.spacing
+		RowLayout {
+			anchors.bottom: parent.bottom
+			anchors.right: parent.right
+			spacing: bar.gap
 
-				HyprlandWorkspacesBarModule {
-					monitor: Hyprland.monitorFor(bar.screen)
-				}
-			}
-
-			RowLayout {
-				Layout.alignment: Qt.AlignBottom | Qt.AlignRight
-				spacing: parent.spacing
-
-				ClockBarModule {}
-			}
+			ClockBarModule {}
 		}
 	}
 }
