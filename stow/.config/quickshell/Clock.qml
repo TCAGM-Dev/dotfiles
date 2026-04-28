@@ -10,6 +10,10 @@ Singleton {
 	property string currentDate: ""
 	property string currentTime: ""
 
+	function update() {
+		process.running = true
+	}
+
 	Process {
 		id: process
 
@@ -29,6 +33,6 @@ Singleton {
 		interval: 10000 // Every 10 seconds
 		running: true
 		repeat: true
-		onTriggered: process.running = true
+		onTriggered: root.update()
 	}
 }

@@ -3,5 +3,8 @@ BarModule {
 	
 	text: showDate ? Clock.currentDate : Clock.currentTime
 
-	onClicked: showDate = !showDate
+	onClicked: () => {
+		showDate = !showDate
+		if (showDate) Clock.update()
+	}
 }
