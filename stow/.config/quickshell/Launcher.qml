@@ -185,6 +185,7 @@ PanelWindow {
 				color: "white"
 				font.family: launcher.fontFamily
 				font.pointSize: 11
+				renderType: Text.NativeRendering
 				padding: 5
 			}
 
@@ -247,6 +248,7 @@ PanelWindow {
 							text: item.modelData.display ?? item.modelData.name
 							font.family: launcher.fontFamily
 							font.pointSize: 11
+							renderType: Text.NativeRendering
 							color: "white"
 						}
 					}
