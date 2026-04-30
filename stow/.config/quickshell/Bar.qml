@@ -12,6 +12,7 @@ Variants {
 
 		required property var modelData
 		screen: modelData
+		readonly property HyprlandMonitor monitor: Hyprland.monitorFor(modelData)
 
 		anchors.left: true
 		anchors.bottom: true
@@ -41,6 +42,10 @@ Variants {
 
 			BatteryBarModule {}
 			PowerProfileBarModule {}
+			MprisBarModule {
+				monitor: bar.monitor
+				ignored: ["firefox"]
+			}
 		}
 
 		RowLayout {
@@ -51,7 +56,7 @@ Variants {
 			spacing: bar.gap
 
 			HyprlandWorkspacesBarModule {
-				monitor: Hyprland.monitorFor(bar.screen)
+				monitor: bar.monitor
 			}
 		}
 
