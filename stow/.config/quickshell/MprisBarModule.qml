@@ -35,7 +35,19 @@ BarModule {
 		onTriggered: module.player.positionChanged()
 	}
 
-	text: `${playericons[player.desktopEntry] ?? ""} ${player.trackArtist == "" ? "" : `${player.trackArtist} - `}${player.trackTitle} [${formatLength(player.position)}/${formatLength(player.length)}]`
+	function getMediaDescription(artist: string, title: string): string {
+		if (artist == "" || artist == null) return title
+		else if (title == "" || title == "") return artist
+		else return `${artist} - ${title}`
+	}
+	function getText(): string {
+		const icon = playericons[player.desktopEntry] ?? ""
+		const description = getMediaDescription(player.trackArtist, player.trackTitle)
+		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
+		return [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
+	}
+	text: getText()
+
 	font.italic: player.playbackState == MprisPlaybackState.Paused
 
 	onClicked: player.togglePlaying()
