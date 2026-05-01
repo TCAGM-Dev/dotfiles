@@ -36,6 +36,8 @@ BarModule {
 		onTriggered: module.player.positionChanged()
 	}
 
+	property bool open: true
+
 	function getMediaDescription(artist: string, title: string): string {
 		if (artist == "" || artist == null) return title
 		else if (title == "" || title == "") return artist
@@ -43,6 +45,7 @@ BarModule {
 	}
 	function getText(): string {
 		const icon = playerIcons[player.desktopEntry] ?? playerIcons["default"]
+		if (!open) return icon
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
 		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
 		return [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
@@ -51,5 +54,9 @@ BarModule {
 
 	font.italic: player.playbackState == MprisPlaybackState.Paused
 
-	onClicked: player.togglePlaying()
+	onClicked: {
+		if (open) player.togglePlaying()
+		else open = true
+	}
+	onRightClicked: open = false
 }
