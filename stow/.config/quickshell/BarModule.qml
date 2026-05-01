@@ -17,8 +17,23 @@ Button {
 	font.family: "Adwaita Mono"
 	font.pixelSize: 17
 
-	HoverHandler {
-		cursorShape: Qt.PointingHandCursor
+	signal rightClicked()
+	signal middleClicked()
+
+	MouseArea {
+		anchors.fill: parent
+
+		acceptedButtons: Qt.LeftButton | Qt.RightButton | Qt.MiddleButton
+
+		onClicked: e => {
+			if (e.button == Qt.LeftButton) module.clicked()
+			else if (e.button == Qt.RightButton) module.rightClicked()
+			else if (e.button == Qt.MiddleButton) module.middleClicked()
+		}
+
+		HoverHandler {
+			cursorShape: Qt.PointingHandCursor
+		}
 	}
 
 	contentItem: ColumnLayout {
