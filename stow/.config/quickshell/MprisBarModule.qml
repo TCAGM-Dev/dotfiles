@@ -35,7 +35,7 @@ BarModule {
 		onTriggered: module.player.positionChanged()
 	}
 
-	text: `${playericons[player.desktopEntry] ?? ""} ${player.trackArtist} - ${player.trackTitle} [${formatLength(player.position)}/${formatLength(player.length)}]`
+	text: `${playericons[player.desktopEntry] ?? ""} ${player.trackArtist} - ${player.trackTitle} [${formatLength(player.position)}/${formatLength(player.length)}]`
 	font.italic: player.playbackState == MprisPlaybackState.Paused
 
 	onClicked: player.togglePlaying()
