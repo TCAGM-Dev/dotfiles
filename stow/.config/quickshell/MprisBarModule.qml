@@ -8,7 +8,7 @@ BarModule {
 	required property HyprlandMonitor monitor
 
 	property list<string> ignored: []
-	property var playericons: {
+	property var playerIcons: {
 		"spotify": "",
 		"firefox": "󰈹",
 		"default": "",
@@ -42,7 +42,7 @@ BarModule {
 		else return `${artist} - ${title}`
 	}
 	function getText(): string {
-		const icon = playericons[player.desktopEntry] ?? playericons["default"]
+		const icon = playerIcons[player.desktopEntry] ?? playerIcons["default"]
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
 		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
 		return [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
