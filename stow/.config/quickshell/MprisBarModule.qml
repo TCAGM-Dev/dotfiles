@@ -11,6 +11,7 @@ BarModule {
 	property var playericons: {
 		"spotify": "",
 		"firefox": "󰈹",
+		"default": "",
 	}
 
 	function formatLength(length: real): string {
@@ -41,7 +42,7 @@ BarModule {
 		else return `${artist} - ${title}`
 	}
 	function getText(): string {
-		const icon = playericons[player.desktopEntry] ?? ""
+		const icon = playericons[player.desktopEntry] ?? playericons["default"]
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
 		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
 		return [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
