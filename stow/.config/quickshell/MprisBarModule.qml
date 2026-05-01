@@ -36,6 +36,17 @@ BarModule {
 		onTriggered: module.player.positionChanged()
 	}
 
+	Timer {
+		id: idleCloser
+
+		running: module.player.playbackState != MprisPlaybackState.Playing
+
+		interval: 30000
+		repeat: false
+
+		onTriggered: module.open = false
+	}
+
 	property bool open: true
 
 	function getMediaDescription(artist: string, title: string): string {
