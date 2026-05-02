@@ -102,7 +102,8 @@ PanelWindow {
 			]
 		}
 		if (query.startsWith(":")) {
-			const uri = query.slice(1)
+			let uri = query.slice(1)
+			if (uri.startsWith("~")) uri = Quickshell.env("HOME") + uri.slice(1)
 			return [
 				{name: `Open "${uri}"`, onSelect: () => Quickshell.execDetached(["xdg-open", uri])},
 			]
