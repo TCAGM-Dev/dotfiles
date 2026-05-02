@@ -109,6 +109,7 @@ vim.pack.add({
   'https://github.com/stevearc/quicker.nvim',
   -- Git integration
   'https://github.com/lewis6991/gitsigns.nvim',
+  'https://github.com/fei6409/log-highlight.nvim',
 })
 
 require('fzf-lua').setup { fzf_colors = true }
