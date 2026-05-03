@@ -1,40 +1,13 @@
 import Quickshell
 import QtQuick
-import Quickshell.Wayland
-import QtQuick.Controls
 import Quickshell.Io
 import "levenshtein.js" as Levenshtein
 
-PanelWindow {
+LauncherWindow {
 	id: launcher
-	WlrLayershell.namespace: "quickshell_launcher"
 
-	implicitWidth: 600
-	implicitHeight: getHeight()
-	function getHeight(): real {
-		let h = 0
-
-		h += 2 // border
-		for (let child of column.children) {
-			h += child.height
-		}
-
-		return h
-	}
-
-	property string fontFamily: "Adwaita Mono"
-
-	property bool isOpen: false
-	function open() {
-		search.clear()
-		search.forceActiveFocus()
-		gatherEntries()
-		isOpen = true
-	}
-	function close() {isOpen = false}
-	visible: isOpen
-
-	property var entries: []
+	property list<var> entries: []
+	beforeOpen: () => gatherEntries()
 	function gatherEntries() {
 		const result = []
 		
@@ -69,7 +42,7 @@ PanelWindow {
 
 		launcher.entries = result
 	}
-	property var viewEntries: runSearch(search.text)
+	viewEntries: runSearch(launcher.searchText)
 	function runSearch(query: string): list<var> {
 		if (query.startsWith("!")) {
 			const command = query.slice(1)
@@ -125,13 +98,6 @@ PanelWindow {
 		return result
 	}
 
-	focusable: true
-	WlrLayershell.keyboardFocus: WlrKeyboardFocus.Exclusive
-
-	WlrLayershell.layer: WlrLayer.Overlay
-
-	color: "transparent"
-
 	IpcHandler {
 		target: "launcher"
 
@@ -143,118 +109,4 @@ PanelWindow {
 		}
 	}
 
-	Frame {
-		anchors.fill: parent
-		padding: 1 // exclude border
-
-		background: Rectangle {
-			id: windowFrameRectangle
-			color: "#80000000"
-			border.color: "white"
-			radius: 6
-		}
-
-		Column {
-			id: column
-
-			anchors.fill: parent
-			anchors.margins: 0
-
-			TextField {
-				id: search
-
-				width: parent.width
-
-				Keys.onEscapePressed: launcher.close()
-				Keys.onDownPressed: () => {
-					const entryItem = entriesRepeater.itemAt(1) ?? entriesRepeater.itemAt(0)
-					if (entryItem != null) entryItem.forceActiveFocus()
-				}
-				Keys.onReturnPressed: () => {
-					launcher.viewEntries[0]?.onSelect()
-					launcher.close()
-				}
-
-				background: Rectangle {
-					color: "#171717"
-					topLeftRadius: windowFrameRectangle.radius - 1
-					topRightRadius: windowFrameRectangle.radius - 1
-					bottomLeftRadius: launcher.viewEntries.length > 0 ? 0 : windowFrameRectangle.radius - 1
-					bottomRightRadius: launcher.viewEntries.length > 0 ? 0 : windowFrameRectangle.radius - 1
-				}
-
-				color: "white"
-				font.family: launcher.fontFamily
-				font.pointSize: 11
-				renderType: Text.NativeRendering
-				padding: 5
-			}
-
-			Rectangle {
-				visible: launcher.viewEntries.length > 0
-				implicitWidth: parent.width
-				implicitHeight: 1
-				color: "#595959"
-			}
-
-			Repeater {
-				id: entriesRepeater
-				model: launcher.viewEntries
-				Button {
-					id: item
-					required property int index
-					required property var modelData
-
-					Keys.onEscapePressed: search.forceActiveFocus()
-					
-					function activate() {
-						modelData.onSelect()
-						launcher.close()
-					}
-					onClicked: item.activate()
-					Keys.onReturnPressed: item.activate()
-					Keys.onEnterPressed: item.activate()
-
-					Keys.onUpPressed: () => {
-						const target = entriesRepeater.itemAt(index - 1)
-						if (target != null) target.forceActiveFocus()
-					}
-					Keys.onDownPressed: () => {
-						const target = entriesRepeater.itemAt(index + 1)
-						if (target != null) target.forceActiveFocus()
-					}
-
-					width: parent.width
-					background: Rectangle {
-						visible: parent.activeFocus || item.hovered || (search.activeFocus && item.index == 0)
-						color: "#4d939393"
-					}
-					contentItem: Row {
-						Image {
-							height: parent.height
-							width: height
-							source: item.modelData.iconSource ?? ""
-							mipmap: true
-							fillMode: Image.PreserveAspectFit
-							asynchronous: true
-						}
-
-						Rectangle {
-							width: 2
-							height: parent.height
-							color: "transparent"
-						}
-
-						Text {
-							text: item.modelData.display ?? item.modelData.name
-							font.family: launcher.fontFamily
-							font.pointSize: 11
-							renderType: Text.NativeRendering
-							color: "white"
-						}
-					}
-				}
-			}
-		}
-	}
 }
