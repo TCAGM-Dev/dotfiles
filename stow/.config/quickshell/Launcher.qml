@@ -8,6 +8,7 @@ LauncherWindow {
 
 	property list<var> entries: []
 	beforeOpen: () => gatherEntries()
+	Component.onCompleted: () => gatherEntries() // Fix desktop files not showing up on first open
 	function gatherEntries() {
 		const result = []
 		
