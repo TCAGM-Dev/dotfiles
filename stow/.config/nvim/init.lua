@@ -118,12 +118,14 @@ vim.pack.add({
   -- Git integration
   'https://github.com/lewis6991/gitsigns.nvim',
   'https://github.com/fei6409/log-highlight.nvim',
+  'https://github.com/NvChad/nvim-colorizer.lua',
 })
 
 require('fzf-lua').setup { fzf_colors = true }
 require('mini.completion').setup {}
 require('quicker').setup {}
 require('gitsigns').setup {}
+require("colorizer").setup {}
 
 require("transparent").setup({
   exclude_groups = {"LineNr", "StatusLine", "CursorLineNr"}
