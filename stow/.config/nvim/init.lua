@@ -13,6 +13,10 @@ vim.g.mapleader = ' '
 -- (Note the single quotes)
 
 vim.o.number = true -- Show line numbers in a column.
+vim.opt.termguicolors = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.wrap = false
 
 -- Show line numbers relative to where the cursor is.
 -- Affects the 'number' option above, see `:h number_relativenumber`.
