@@ -99,6 +99,10 @@ vim.api.nvim_create_user_command("Config", function()
   vim.cmd("e ~/.config/nvim/init.lua")
 end, { desc = "Open the root config file" })
 
+vim.api.nvim_create_user_command("Format", function()
+	vim.lsp.buf.format()
+end, { desc = "Format the open buffer using the applicable LSP" })
+
 -- PLUGINS
 --
 -- See `:h :packadd`, `:h vim.pack`
