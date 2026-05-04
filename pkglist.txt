@@ -21,3 +21,4 @@ sxiv
 mpv
 nvim
 libqalculate
+noto-fonts-cjk
