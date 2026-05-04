@@ -91,6 +91,10 @@ vim.api.nvim_create_user_command('GitBlameLine', function()
   print(vim.system({ 'git', 'blame', '-L', line_number .. ',+1', filename }):wait().stdout)
 end, { desc = 'Print the git blame for the current line' })
 
+vim.api.nvim_create_user_command("Config", function()
+  vim.cmd("e ~/.config/nvim/init.lua")
+end, { desc = "Open the root config file" })
+
 -- PLUGINS
 --
 -- See `:h :packadd`, `:h vim.pack`
