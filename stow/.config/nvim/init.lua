@@ -67,6 +67,10 @@ vim.keymap.set({ }, '<C-Down>', '<Cmd>MultipleCursorsAddDown<CR>')
 vim.keymap.set({ }, '<C-k>', '<Cmd>MultipleCursorsAddUp<CR>')
 vim.keymap.set({ }, '<C-Up>', '<Cmd>MultipleCursorsAddUp<CR>')
 
+vim.keymap.set({ 'n' }, '<S-l>', '<Cmd>bn<CR>')
+vim.keymap.set({ 'n' }, '<S-h>', '<Cmd>bp<CR>')
+vim.keymap.set({ 'n' }, '<C-c>', '<Cmd>bd<CR>')
+
 -- AUTOCOMMANDS (EVENT HANDLERS)
 --
 -- See `:h lua-guide-autocommands`, `:h autocmd`, `:h nvim_create_autocmd()`
