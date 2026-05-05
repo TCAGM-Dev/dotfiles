@@ -21,6 +21,7 @@ Scope {
 			for (const desktopEntry of DesktopEntries.applications.values) {
 				if (desktopEntry.noDisplay == true) continue
 				result.push({
+					id: `desktop:${desktopEntry.id}`,
 					display: `${desktopEntry.name}${desktopEntry.genericName == "" ? "" : ` (${desktopEntry.genericName})`}`,
 					name: desktopEntry.name,
 					meta: [desktopEntry.genericName, desktopEntry.execString, desktopEntry.categories.join(" "), desktopEntry.keywords.join(" ")].filter(v => v != null && v != "").join(" "),
@@ -36,20 +37,22 @@ Scope {
 			}
 			
 			// Power options
-			result.push({name: "Lock", onSelect: () => Quickshell.execDetached(["bash", "-c", "playerctl -a pause; hyprlock"])})
-			result.push({name: "Sleep", onSelect: () => Quickshell.execDetached(["systemctl", "sleep"])})
-			result.push({name: "Logout", onSelect: () => Quickshell.execDetached(["bash", "-c", "hyprshutdown && hyprshutdown || hyprctl dispatch exit"])})
-			result.push({name: "Reboot", onSelect: () => Quickshell.execDetached(["systemctl", "reboot"])})
-			result.push({name: "Shutdown", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
+			result.push({id: "power:lock", name: "Lock", onSelect: () => Quickshell.execDetached(["bash", "-c", "playerctl -a pause; hyprlock"])})
+			result.push({id: "power:sleep", name: "Sleep", onSelect: () => Quickshell.execDetached(["systemctl", "sleep"])})
+			result.push({id: "power:logout", name: "Logout", onSelect: () => Quickshell.execDetached(["bash", "-c", "hyprshutdown && hyprshutdown || hyprctl dispatch exit"])})
+			result.push({id: "power:reboot", name: "Reboot", onSelect: () => Quickshell.execDetached(["systemctl", "reboot"])})
+			result.push({id: "power:shutdown", name: "Shutdown", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
 	
 			// Power profiles
-			result.push({display: "Power profile: Ecological", name: "eco mode", onSelect: () => PowerProfile.activeProfile = "power-saver"})
-			result.push({display: "Power profile: Balanced", name: "balanced mode", onSelect: () => PowerProfile.activeProfile = "balanced"})
-			result.push({display: "Power profile: Performance", name: "performance mode", onSelect: () => PowerProfile.activeProfile = "performance"})
+			result.push({id: "power_profile:power-saver", display: "Power profile: Ecological", name: "eco mode", onSelect: () => PowerProfile.activeProfile = "power-saver"})
+			result.push({id: "power_profile:balanced", display: "Power profile: Balanced", name: "balanced mode", onSelect: () => PowerProfile.activeProfile = "balanced"})
+			result.push({id: "power_profile:performance", display: "Power profile: Performance", name: "performance mode", onSelect: () => PowerProfile.activeProfile = "performance"})
 
 			// Symbol picker
-			result.push({name: "Nerd Symbol picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/rofi/scripts/nerd_symbols.txt`)}})
-			result.push({name: "Emoji picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/rofi/scripts/emojis.txt`)}})
+			result.push({id: "symbol:nerd", name: "Nerd Symbol picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/rofi/scripts/nerd_symbols.txt`)}})
+			result.push({id: "symbol:emoji", name: "Emoji picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/rofi/scripts/emojis.txt`)}})
+
+			for (const entry of result) if (entry.id == null) console.error(`No id found in entry: ${entry}`) // Failsafe to prevent entries without ids to ever be added
 	
 			launcher.entries = result
 		}
