@@ -12,6 +12,7 @@ PanelWindow {
 	required property list<var> viewEntries
 	property var beforeOpen
 	property alias searchText: search.text
+	property bool showIcons: true
 
 	implicitWidth: 600
 	implicitHeight: getHeight()
@@ -133,6 +134,7 @@ PanelWindow {
 					}
 					contentItem: Row {
 						Image {
+							visible: root.showIcons
 							height: parent.height
 							width: height
 							source: item.modelData.iconSource ?? ""
@@ -142,6 +144,7 @@ PanelWindow {
 						}
 
 						Rectangle {
+							visible: root.showIcons
 							width: 2
 							height: parent.height
 							color: "transparent"
