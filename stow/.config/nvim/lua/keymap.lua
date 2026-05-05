@@ -18,5 +18,5 @@ return {bind = function()
 
 	vim.keymap.set({ "n" }, "<S-l>", "<Cmd>bn<CR>")
 	vim.keymap.set({ "n" }, "<S-h>", "<Cmd>bp<CR>")
-	vim.keymap.set({ "n" }, "<C-c>", "<Cmd>bd<CR>")
+	vim.keymap.set({ "n" }, "<C-w>", "<Cmd>bd<CR>")
 end}
