@@ -4,6 +4,7 @@ import Quickshell
 import QtQuick
 import Quickshell.Wayland
 import QtQuick.Controls
+import QtQuick.Layouts
 
 PanelWindow {
 	id: root
@@ -132,26 +133,21 @@ PanelWindow {
 						visible: parent.activeFocus || item.hovered || (search.activeFocus && item.index == 0)
 						color: "#4d939393"
 					}
-					contentItem: Row {
+					contentItem: RowLayout {
 						Image {
 							visible: root.showIcons
-							height: parent.height
-							width: height
+							Layout.preferredHeight: itemText.height
+							Layout.preferredWidth: itemText.height
 							source: item.modelData.iconSource ?? ""
 							mipmap: true
 							fillMode: Image.PreserveAspectFit
 							asynchronous: true
 						}
 
-						Rectangle {
-							visible: root.showIcons
-							width: 2
-							height: parent.height
-							color: "transparent"
-						}
-
 						Text {
+							id: itemText
 							text: item.modelData.display ?? item.modelData.name
+							Layout.fillWidth: true
 							font.family: root.fontFamily
 							font.pointSize: 11
 							renderType: Text.NativeRendering
