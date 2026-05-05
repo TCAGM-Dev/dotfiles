@@ -22,3 +22,4 @@ mpv
 nvim
 libqalculate
 noto-fonts-cjk
+fzf
