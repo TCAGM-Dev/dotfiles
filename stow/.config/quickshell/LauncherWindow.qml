@@ -47,7 +47,14 @@ PanelWindow {
 	function close() {isOpen = false}
 	visible: isOpen
 
+	readonly property list<int> shortcutNumbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+
 	Frame {
+		id: frame
+		property bool isCtrlPressed: false
+		Keys.onPressed: event => {if (event.key === Qt.Key_Control) isCtrlPressed = true}
+		Keys.onReleased: event => {if (event.key === Qt.Key_Control) isCtrlPressed = false}
+
 		anchors.fill: parent
 		padding: 1 // exclude border
 
@@ -77,6 +84,14 @@ PanelWindow {
 				Keys.onReturnPressed: () => {
 					root.viewEntries[0]?.onSelect()
 					root.close()
+				}
+				Keys.onPressed: (event) => {
+					if (!frame.isCtrlPressed) return
+					const keyNum = event.key - Qt.Key_0
+					if (keyNum < 0 || keyNum >= root.shortcutNumbers.length) return
+					const index = root.shortcutNumbers.indexOf(keyNum)
+					entriesRepeater.itemAt(index).activate()
+					frame.isCtrlPressed = false
 				}
 
 				background: Rectangle {
@@ -152,6 +167,15 @@ PanelWindow {
 							font.pointSize: 11
 							renderType: Text.NativeRendering
 							color: "white"
+						}
+
+						Text {
+							text: `CTRL+${root.shortcutNumbers[item.index]}`
+							visible: frame.isCtrlPressed && item.index < root.shortcutNumbers.length
+							font.family: root.fontFamily
+							font.pointSize: 9
+							renderType: Text.NativeRendering
+							color: "#777777"
 						}
 					}
 				}
