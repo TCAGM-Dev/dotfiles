@@ -61,11 +61,6 @@ vim.keymap.set({ "n" }, "<A-j>", "<C-w>j")
 vim.keymap.set({ "n" }, "<A-k>", "<C-w>k")
 vim.keymap.set({ "n" }, "<A-l>", "<C-w>l")
 
-vim.keymap.set({}, "<C-j>", "<Cmd>MultipleCursorsAddDown<CR>")
-vim.keymap.set({}, "<C-Down>", "<Cmd>MultipleCursorsAddDown<CR>")
-vim.keymap.set({}, "<C-k>", "<Cmd>MultipleCursorsAddUp<CR>")
-vim.keymap.set({}, "<C-Up>", "<Cmd>MultipleCursorsAddUp<CR>")
-
 vim.keymap.set({ "n" }, "<S-l>", "<Cmd>bn<CR>")
 vim.keymap.set({ "n" }, "<S-h>", "<Cmd>bp<CR>")
 vim.keymap.set({ "n" }, "<C-c>", "<Cmd>bd<CR>")
@@ -110,39 +105,19 @@ end, { desc = "Format the open buffer using the applicable LSP" })
 -- 'updatetime' and when going to insert mode.
 vim.cmd("packadd! nohlsearch")
 
--- Install third-party plugins via "vim.pack.add()".
-vim.pack.add({
-	"https://github.com/brenton-leighton/multiple-cursors.nvim",
-	"https://github.com/xiyaowong/transparent.nvim",
-	-- Quickstart configs for LSP
-	"https://github.com/neovim/nvim-lspconfig",
-	-- Fuzzy picker
-	"https://github.com/ibhagwan/fzf-lua",
-	-- Autocompletion
-	"https://github.com/nvim-mini/mini.completion",
-	-- Enhanced quickfix/loclist
-	"https://github.com/stevearc/quicker.nvim",
-	-- Git integration
-	"https://github.com/lewis6991/gitsigns.nvim",
-	"https://github.com/fei6409/log-highlight.nvim",
-	"https://github.com/NvChad/nvim-colorizer.lua",
-	"https://github.com/romgrk/barbar.nvim",
-	"https://github.com/nvim-tree/nvim-web-devicons",
+require("plugins").load({
+	require("plugins/transparent"),
+	require("plugins/gitsigns"),
+	require("plugins/barbar"),
+	require("plugins/log-highlight"),
+	require("plugins/colorizer"),
+	require("plugins/multicursor"),
+	require("plugins/fzf"),
+	require("plugins/mini-completion"),
+	require("plugins/quicker"),
+	require("plugins/lspconfig")({
+		qmlls = { cmd = { "qmlls6" } },
+		ts_ls = {},
+		stylua = { filetypes = { "lua", "luau" } },
+	}),
 })
-
-require("fzf-lua").setup({ fzf_colors = true })
-require("mini.completion").setup({})
-require("quicker").setup({})
-require("gitsigns").setup({})
-require("colorizer").setup({})
-require("barbar").setup({})
-
-require("transparent").setup({
-	exclude_groups = { "LineNr", "StatusLine", "CursorLineNr" },
-})
-
-vim.lsp.config("qmlls", { cmd = { "qmlls6" } })
-vim.lsp.enable("qmlls")
-vim.lsp.enable("ts_ls")
-vim.lsp.config("stylua", { filetypes = { "lua", "luau" } })
-vim.lsp.enable("stylua")
