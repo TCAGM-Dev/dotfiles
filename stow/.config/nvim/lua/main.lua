@@ -86,3 +86,5 @@ require("plugins").load({
 })
 
 require("keymap").bind()
+
+vim.cmd("colorscheme foolmoonnight")
