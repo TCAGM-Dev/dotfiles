@@ -75,7 +75,7 @@ require("plugins").load({
 	require("plugins/lspconfig")({
 		qmlls = { cmd = { "qmlls6" } },
 		ts_ls = {},
-		stylua = { filetypes = { "lua", "luau" } },
+		lua_ls = {},
 	}),
 })
 
