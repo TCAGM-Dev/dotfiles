@@ -76,6 +76,11 @@ require("plugins").load({
 		qmlls = { cmd = { "qmlls6" } },
 		ts_ls = {},
 		lua_ls = {},
+		bashls = {},
+		html = {},
+		cssls = {},
+		jsonls = {},
+		docker_language_server = {},
 	}),
 })
 
