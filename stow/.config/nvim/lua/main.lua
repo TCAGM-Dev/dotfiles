@@ -82,6 +82,7 @@ require("plugins").load({
 		jsonls = {},
 		docker_language_server = {},
 	}),
+	require("plugins/oil"),
 })
 
 require("keymap").bind()
