@@ -13,7 +13,9 @@ if [ $1 == "display" ]; then
     OUTPUT=${GREP:8:-1}
     grim -o $OUTPUT $FILE
 else
-    grim -g "$(slurp)" $FILE
+	AREA=$(slurp)
+	[[ $? == 1 ]] && exit 1
+    grim -g "$AREA" $FILE
 fi
 
 wl-copy <$FILE
