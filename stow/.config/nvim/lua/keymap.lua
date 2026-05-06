@@ -21,4 +21,6 @@ return {bind = function()
 	vim.keymap.set({ "n" }, "<C-w>", "<Cmd>bd<CR>")
 
 	vim.keymap.set({ "n" }, "<C-`>", "<Cmd>terminal<CR>")
+
+	vim.keymap.set({ "n", "i" }, "<A-Return>", "<Cmd>lua vim.diagnostic.open_float()<CR>")
 end}
