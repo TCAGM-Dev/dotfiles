@@ -32,16 +32,16 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 vim.api.nvim_create_user_command("GitBlameLine", function()
 	local line_number = vim.fn.line(".") -- Get the current line number. See `:h line()`
 	local filename = vim.api.nvim_buf_get_name(0)
-	print(vim.system({ "git", "blame", "-L", line_number .. ",+1", filename }):wait().stdout)
-end, { desc = "Print the git blame for the current line" })
+	print(vim.system({"git", "blame", "-L", line_number .. ",+1", filename}):wait().stdout)
+end, {desc = "Print the git blame for the current line"})
 
 vim.api.nvim_create_user_command("Config", function()
 	vim.cmd("e ~/.config/nvim/init.lua")
-end, { desc = "Open the root config file" })
+end, {desc = "Open the root config file"})
 
 vim.api.nvim_create_user_command("Format", function()
 	vim.lsp.buf.format()
-end, { desc = "Format the open buffer using the applicable LSP" })
+end, {desc = "Format the open buffer using the applicable LSP"})
 
 -- OPTIONS
 --
@@ -73,7 +73,7 @@ require("plugins").load({
 	require("plugins/mini-completion"),
 	require("plugins/quicker"),
 	require("plugins/lspconfig")({
-		qmlls = { cmd = { "qmlls6" } },
+		qmlls = {cmd = {"qmlls6"}},
 		ts_ls = {},
 		lua_ls = {},
 		bashls = {},
