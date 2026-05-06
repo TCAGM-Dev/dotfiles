@@ -16,10 +16,6 @@ return {bind = function()
 	vim.keymap.set({ "n" }, "<A-k>", "<C-w>k")
 	vim.keymap.set({ "n" }, "<A-l>", "<C-w>l")
 
-	vim.keymap.set({ "n" }, "<S-l>", "<Cmd>bn<CR>")
-	vim.keymap.set({ "n" }, "<S-h>", "<Cmd>bp<CR>")
-	vim.keymap.set({ "n" }, "<C-w>", "<Cmd>bd<CR>")
-
 	vim.keymap.set({ "n" }, "<C-`>", "<Cmd>terminal<CR>")
 
 	vim.keymap.set({ "n", "i" }, "<A-Return>", "<Cmd>lua vim.diagnostic.open_float()<CR>")
