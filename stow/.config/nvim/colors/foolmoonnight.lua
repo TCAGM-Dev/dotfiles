@@ -27,8 +27,8 @@ hl("ColorColumn", {bg = "#ff00ff"})
 hl("SignColumn", {link = "LineNr"})
 hl("FoldColumn", {bg = "#0000ff"})
 hl("Folded", {bg = "#00ffff"})
-hl("Pmenu", {bg = "#2a2a2a"})
-hl("PmenuSbar", {bg = "#880088"})
+hl("Pmenu", {bg = "#2a2a2a"}) -- Popup menus
+hl("PmenuSbar", {link = "Pmenu"}) -- Scrollbar background in popup menus
 
 -- Base syntax
 hl("Boolean", {link = "Number"})
