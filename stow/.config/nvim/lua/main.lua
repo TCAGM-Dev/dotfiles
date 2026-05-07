@@ -2,6 +2,7 @@
 -- See `:h mapleader`
 -- NOTE: Must happen before plugins are loaded (otherwise wrong leader will be used)
 vim.g.mapleader = " "
+vim.o.updatetime = 750
 
 -- increase startup-time. Remove this option if you want your OS clipboard to remain independent.
 -- See `:h 'clipboard'`
