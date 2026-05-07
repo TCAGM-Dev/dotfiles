@@ -3,12 +3,17 @@ pragma ComponentBehavior: Bound
 import Quickshell
 import QtQuick
 import Quickshell.Wayland
+import Quickshell.Hyprland
 import QtQuick.Controls
 import QtQuick.Layouts
 
 PanelWindow {
 	id: root
 	WlrLayershell.namespace: "quickshell_launcher"
+	HyprlandWindow.visibleMask: Region {
+		item: windowFrameRectangle // Limit hyprland  background blur effect to the actually filled part
+	}
+	exclusionMode: ExclusionMode.Ignore
 
 	required property list<var> viewEntries
 	property var beforeOpen
@@ -16,18 +21,9 @@ PanelWindow {
 	property bool showIcons: true
 
 	implicitWidth: 600
-	implicitHeight: getHeight()
-	function getHeight(): real {
-		let h = 0
-
-		h += 2 // border
-		for (let child of column.children) {
-			h += child.height
-		}
-
-		return h
-	}
-
+	anchors.top: true
+	anchors.bottom: true
+	implicitHeight: WlrLayershell.screen.height
 	property string fontFamily: "Adwaita Mono"
 
 	focusable: true
@@ -55,7 +51,9 @@ PanelWindow {
 		Keys.onPressed: event => {if (event.key === Qt.Key_Control) isCtrlPressed = true}
 		Keys.onReleased: event => {if (event.key === Qt.Key_Control) isCtrlPressed = false}
 
-		anchors.fill: parent
+		anchors.left: parent.left
+		anchors.right: parent.right
+		anchors.verticalCenter: parent.verticalCenter
 		padding: 1 // exclude border
 
 		background: Rectangle {
