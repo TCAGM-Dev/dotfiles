@@ -68,6 +68,7 @@ Variants {
 			anchors.rightMargin: bar.gap
 			spacing: bar.gap
 
+			BluetoothBarModule {}
 			ClockBarModule {}
 		}
 	}
