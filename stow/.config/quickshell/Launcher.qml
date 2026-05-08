@@ -40,7 +40,7 @@ Scope {
 			result.push({id: "power:lock", name: "Lock", onSelect: () => Quickshell.execDetached(["bash", "-c", "playerctl -a pause; hyprlock"])})
 			result.push({id: "power:sleep", name: "Sleep", onSelect: () => Quickshell.execDetached(["systemctl", "sleep"])})
 			result.push({id: "power:logout", name: "Logout", onSelect: () => Quickshell.execDetached(["bash", "-c", "hyprshutdown && hyprshutdown || hyprctl dispatch exit"])})
-			result.push({id: "power:reboot", name: "Reboot", onSelect: () => Quickshell.execDetached(["systemctl", "reboot"])})
+			result.push({id: "power:reboot", name: "Reboot", meta: "restart", onSelect: () => Quickshell.execDetached(["systemctl", "reboot"])})
 			result.push({id: "power:shutdown", name: "Shutdown", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
 	
 			// Power profiles
