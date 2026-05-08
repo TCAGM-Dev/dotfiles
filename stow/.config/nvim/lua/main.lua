@@ -85,6 +85,7 @@ require("plugins").load({
 	}),
 	require("plugins/oil"),
 	require("plugins/endwise"),
+	require("plugins/image"),
 })
 
 require("keymap").bind()
