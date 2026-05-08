@@ -8,5 +8,10 @@ return {
 				end
 			}
 		})
+
+		vim.keymap.set({"n"}, "<CA-O>", function()
+			local path = vim.fn.expand("%:h")
+			require("oil").open(path)
+		end)
 	end
 }
