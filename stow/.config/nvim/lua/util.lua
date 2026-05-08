@@ -1,0 +1,37 @@
+local util = {}
+
+function util.stringifyDebug(value)
+	local typ = type(value)
+
+	if typ == "string" then
+		return "\"" .. string.gsub(value, "\"", "\\\"") .. "\""
+	end
+
+	if typ == "table" then
+		local isArray = true
+		for key, _ in pairs(value) do
+			if type(key) ~= "number" then isArray = false; break end
+		end
+		if isArray then
+			local result = "{"
+			for i, v in ipairs(value) do
+				if i > 1 then result = result .. ", " end
+				result = result .. util.stringifyDebug(v)
+			end
+			return result .. "}"
+		else
+			local result = "{"
+			local i = 1
+			for k, v in pairs(value) do
+				if i > 1 then result = result .. ", " end
+				result = result .. "[" .. util.stringifyDebug(k) .. "] = " .. util.stringifyDebug(v)
+				i = i + 1
+			end
+			return result .. "}"
+		end
+	end
+
+	return tostring(value)
+end
+
+return util
