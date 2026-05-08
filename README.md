@@ -3,6 +3,7 @@ The content of this repository are the dotfiles that I use in my personal Arch i
 
 ## Requirements
 - [Yay](https://github.com/Jguer/yay)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
 ## Installation
 This repository includes a setup script that can be used to quickly install it.
