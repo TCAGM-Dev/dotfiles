@@ -1,5 +1,7 @@
 local util = {}
 
+---@param ... any
+---@return string
 function util.stringifyDebug(...)
 	local args = {...}
 	if #args > 1 then
@@ -47,14 +49,21 @@ function util.stringifyDebug(...)
 end
 
 local ogPrint = print
+---@param ... any
+---@return nil
 function util.debugPrint(...)
 	ogPrint(util.stringifyDebug(...))
 end
 
+---@param destination any[]
+---@param source any[]
+---@return nil
 function util.insertAll(destination, source)
 	for _, v in ipairs(source) do table.insert(destination, v) end
 end
 
+---@param ... any[]
+---@return any[]
 function util.concatArray(...)
 	local result = {}
 	for _, arr in ipairs({...}) do
