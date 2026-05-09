@@ -10,3 +10,4 @@ indent_size = 4
 [*.lua]
 space_around_table_field_list = false
 align_continuous_inline_comment = false
+quote_style = double
