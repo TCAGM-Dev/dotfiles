@@ -51,4 +51,15 @@ function util.debugPrint(...)
 	ogPrint(util.stringifyDebug(...))
 end
 
+function util.insertAll(destination, source)
+	for _, v in ipairs(source) do table.insert(destination, v) end
+end
+
+function util.concatArray(a, b)
+	local result = {}
+	util.insertAll(result, a)
+	util.insertAll(result, b)
+	return result
+end
+
 return util
