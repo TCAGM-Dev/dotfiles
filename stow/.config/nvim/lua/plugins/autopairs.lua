@@ -1,3 +1,5 @@
+local concatArray = require("util").concatArray
+
 return {
 	src = "https://github.com/windwp/nvim-autopairs",
 	config = function()
@@ -9,6 +11,7 @@ return {
 		local jsLang = {"javascript", "typescript", "javascriptreact", "typescriptreact", "qmljs"}
 		local luaLang = {"lua", "luau"}
 		local xmlLang = {"xml", "html", "svg"}
+		local cssLang = {"css", "scss", "less", "stylus"}
 
 		nap.add_rules({
 			Rule("(", ")"),
@@ -18,6 +21,8 @@ return {
 			Rule("\"", "\""),
 			Rule("'", "'"),
 			Rule("`", "`", jsLang),
+
+			Rule("/*", "*/", concatArray(jsLang, cssLang)),
 
 			Rule("then$", "end", luaLang, "if_statement"):use_regex(true),
 			Rule("do$", "end", luaLang, {"while_loop", "for_loop"}):use_regex(true),
