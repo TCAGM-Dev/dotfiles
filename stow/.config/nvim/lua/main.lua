@@ -86,6 +86,7 @@ require("plugins").load({
 	require("plugins/oil"),
 	require("plugins/image"),
 	require("plugins/autopairs"),
+	require("plugins/galaxyline"),
 })
 
 require("keymap").bind()
