@@ -55,10 +55,11 @@ function util.insertAll(destination, source)
 	for _, v in ipairs(source) do table.insert(destination, v) end
 end
 
-function util.concatArray(a, b)
+function util.concatArray(...)
 	local result = {}
-	util.insertAll(result, a)
-	util.insertAll(result, b)
+	for _, arr in ipairs({...}) do
+		util.insertAll(result, arr)
+	end
 	return result
 end
 
