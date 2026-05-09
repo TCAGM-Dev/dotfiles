@@ -69,3 +69,6 @@ hl("@variable.member.lua", {link = "@property.lua"})
 
 -- Syntax: Markdown
 hl("@markup.raw.markdown_inline", {fg = "#dddddd", bg = "#2c2e33", italic = true})
+
+-- Syntax: HTML
+hl("htmlEndTag", {link = "htmlTag"})
