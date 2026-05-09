@@ -1,6 +1,18 @@
 local util = {}
 
-function util.stringifyDebug(value)
+function util.stringifyDebug(...)
+	local args = {...}
+	if #args > 1 then
+		local result = "("
+		for i, v in ipairs(args) do
+			if i > 1 then result = result .. ", " end
+			result = result .. util.stringifyDebug(v)
+		end
+		return result .. ")"
+	end
+
+	local value = args[1]
+
 	local typ = type(value)
 
 	if typ == "string" then
