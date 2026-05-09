@@ -46,4 +46,9 @@ function util.stringifyDebug(...)
 	return tostring(value)
 end
 
+local ogPrint = print
+function util.debugPrint(...)
+	ogPrint(util.stringifyDebug(...))
+end
+
 return util
