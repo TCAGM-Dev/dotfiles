@@ -84,8 +84,8 @@ require("plugins").load({
 		docker_language_server = {},
 	}),
 	require("plugins/oil"),
-	require("plugins/endwise"),
 	require("plugins/image"),
+	require("plugins/autopairs"),
 })
 
 require("keymap").bind()
