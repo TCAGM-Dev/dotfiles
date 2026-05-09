@@ -27,6 +27,7 @@ return {
 				:replace_endpair(function(opts)
 					return "</" .. string.match(opts.prev_char, opts.rule.start_pair) .. ">"
 				end),
+			Rule("<!--", "-->", xmlLang),
 		})
 	end
 }
