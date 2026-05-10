@@ -28,7 +28,7 @@ return {bind = function()
 	vim.keymap.set({"n", "i"}, "<CA-Return>", vim.lsp.buf.references)
 
 	vim.keymap.set({"n", "i"}, "<S-Up>", "10-")
-	vim.keymap.set({"n", "i"}, "<S-K>", "10-")
+	vim.keymap.set({"n"}, "<S-K>", "10-")
 	vim.keymap.set({"n", "i"}, "<S-Down>", "10<CR>")
-	vim.keymap.set({"n", "i"}, "<S-J>", "10<CR>")
+	vim.keymap.set({"n"}, "<S-J>", "10<CR>")
 end}
