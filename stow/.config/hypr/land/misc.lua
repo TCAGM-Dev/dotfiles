@@ -1,0 +1,8 @@
+-- https://wiki.hypr.land/Configuring/Variables/#misc
+hl.config({misc = {
+    force_default_wallpaper = true, -- Set to true to disable the anime mascot wallpapers
+    disable_hyprland_logo = false, -- If true disables the random hyprland logo / anime girl background. :(
+    disable_splash_rendering = true,
+    vrr = 3,
+    focus_on_activate = true, -- Allow apps to request focus
+}})
