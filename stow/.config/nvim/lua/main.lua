@@ -82,6 +82,7 @@ require("plugins").load({
 		cssls = {},
 		jsonls = {},
 		docker_language_server = {},
+		sqlls = {},
 	}),
 	require("plugins/oil"),
 	require("plugins/image"),
