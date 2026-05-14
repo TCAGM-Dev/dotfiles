@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "'Droid Sans Mono', monospace, \"Symbols Nerd Font\"",
+    "editor.fontFamily": "'JetBrains Mono', monospace, \"Symbols Nerd Font\"",
     "explorer.fileNesting.patterns": {
         "*.ts": "${capture}.js",
         "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
@@ -15,7 +15,7 @@
         "*.s3db": "${capture}.${extname}-*"
     },
     "git.confirmSync": false,
-    "terminal.integrated.fontFamily": "Adwaita Mono, \"Symbols Nerd Font\"",
+    "terminal.integrated.fontFamily": "JetBrains Mono, \"Symbols Nerd Font\"",
     "workbench.colorTheme": "Dark Modern",
     "workbench.editorAssociations": {
         "*.md": "vscode.markdown.preview.editor"
