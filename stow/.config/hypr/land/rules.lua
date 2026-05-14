@@ -79,12 +79,9 @@ hl.window_rule({
     immediate = true,
 })
 
--- Make rofi instant
-hl.layer_rule({match = {namespace = "rofi"}, no_anim = true})
--- Same for the quickshell launcher
-hl.layer_rule({match = {namespace = "quickshell_launcher"}, no_anim = true})
-
-hl.layer_rule({match = {namespace = "quickshell_launcher"}, blur = true})
+for _, namespace in ipairs({"rofi", "quickshell_launcher"}) do
+	hl.layer_rule({match = {namespace = namespace}, no_anim = true, blur = true})
+end
 
 -- Tray special workspace
 -- workspace = special:tray, layout:scrolling, layoutopt:direction:down
