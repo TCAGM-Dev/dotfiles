@@ -6,6 +6,8 @@ BarModule {
 	id: module
 
 	required property HyprlandMonitor monitor
+	property int maxLength
+	property string ellipsis: ".."
 
 	property list<string> ignored: []
 	property var playerIcons: {
@@ -59,7 +61,13 @@ BarModule {
 		if (!open) return icon
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
 		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
-		return [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
+		let result = [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
+		if (module.maxLength != null && result.length > module.maxLength) {
+			const delta = result.length - module.maxLength
+			const shortenedDescription = description.slice(0, -(delta + module.ellipsis.length)) + module.ellipsis
+			result = [icon, shortenedDescription, timeString].filter(v => v != "" && v != null).join(" ")
+		}
+		return result
 	}
 	text: getText()
 

@@ -45,6 +45,7 @@ Variants {
 			MprisBarModule {
 				monitor: bar.monitor
 				ignored: ["firefox"]
+				maxLength: 50
 			}
 		}
 
