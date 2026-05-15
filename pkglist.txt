@@ -7,7 +7,7 @@ hypridle
 kitty
 thunar
 rofi
-htop
+btop
 wiremix
 hyprpicker
 wl-clipboard

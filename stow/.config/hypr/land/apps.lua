@@ -8,6 +8,6 @@ apps.menu = "qs ipc call launcher open"
 apps.browser = "firefox"
 apps.colorpicker = "~/.config/hypr/colorpicker.sh"
 apps.powermenu = "rofi -show power -modes power -show-icons"
-apps.top = "htop"
+apps.top = "btop"
 
 return apps
