@@ -23,7 +23,7 @@ hl.bind(mainMod .. " + BACKSPACE", hl.dsp.exec_cmd("playerctl -a pause; pidof hy
 hl.bind("switch:Lid Switch", hl.dsp.exec_cmd("systemctl suspend"), {locked = true})
 hl.bind(mainMod .. " + N", hl.dsp.focus({workspace = "empty"}))
 hl.bind(mainMod .. " + SHIFT + N", hl.dsp.window.move({workspace = "empty"}))
-hl.bind("XF86Calculator", hl.dsp.exec_cmd("[float;center;size 500 600] apps.terminal qalc -i")) -- TODO: test
+hl.bind("XF86Calculator", hl.dsp.exec_cmd(apps.terminal .. " qalc -i", {float = true, center = true, size = {500, 600}})) -- TODO: test
 hl.bind(mainMod .. " + ALT + S", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + M", hl.dsp.workspace.toggle_special("tray"))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.window.move({workspace = "special:tray"})) -- TODO: test
