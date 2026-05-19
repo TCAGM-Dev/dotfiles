@@ -41,3 +41,4 @@ which "fc-list" &>/dev/null && alias fonts=fc-list
 which "sqlite3" &>/dev/null && alias sqlite=sqlite3
 which "fastfetch" &>/dev/null && alias neofetch=fastfetch
 alias ls="ls -Ah --color=always"
+which "docker-compose" &>/dev/null && alias dc="docker-compose"
