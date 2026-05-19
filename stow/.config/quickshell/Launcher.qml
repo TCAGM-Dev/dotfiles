@@ -38,10 +38,10 @@ Scope {
 			
 			// Power options
 			result.push({id: "power:lock", name: "Lock", onSelect: () => Quickshell.execDetached(["bash", "-c", "playerctl -a pause; hyprlock"])})
-			result.push({id: "power:sleep", name: "Sleep", onSelect: () => Quickshell.execDetached(["systemctl", "sleep"])})
+			result.push({id: "power:sleep", name: "Sleep", meta: "suspend", onSelect: () => Quickshell.execDetached(["systemctl", "sleep"])})
 			result.push({id: "power:logout", name: "Logout", onSelect: () => Quickshell.execDetached(["bash", "-c", "hyprshutdown && hyprshutdown || hyprctl dispatch exit"])})
 			result.push({id: "power:reboot", name: "Reboot", meta: "restart", onSelect: () => Quickshell.execDetached(["systemctl", "reboot"])})
-			result.push({id: "power:shutdown", name: "Shutdown", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
+			result.push({id: "power:shutdown", name: "Shutdown", meta: "power off", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
 	
 			// Power profiles
 			result.push({id: "power_profile:power-saver", display: "Power profile: Ecological", name: "eco mode", onSelect: () => PowerProfile.activeProfile = "power-saver"})
