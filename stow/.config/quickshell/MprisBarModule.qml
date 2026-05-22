@@ -57,7 +57,7 @@ BarModule {
 		else return `${artist} - ${title}`
 	}
 	function getText(): string {
-		const icon = playerIcons[player.desktopEntry] ?? playerIcons["default"]
+		const icon = playerIcons[player.desktopEntry] ?? playerIcons[player.identity.toLowerCase()] ?? playerIcons["default"]
 		if (!open) return icon
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
 		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
