@@ -13,6 +13,7 @@ Button {
 
 	padding: 0
 	Layout.alignment: Qt.AlignBottom
+	implicitWidth: Math.max(this.contentItem.width, 24)
 
 	font.family: "Adwaita Mono"
 	font.pixelSize: 17

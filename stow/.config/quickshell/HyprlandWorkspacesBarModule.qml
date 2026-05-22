@@ -15,7 +15,6 @@ Row {
 			required property var modelData
 
 			text: modelData.id
-			implicitWidth: 24
 			glow: modelData === Hyprland.focusedWorkspace
 
 			onClicked: () => Hyprland.dispatch(`focusworkspaceoncurrentmonitor ${modelData.id}`)
