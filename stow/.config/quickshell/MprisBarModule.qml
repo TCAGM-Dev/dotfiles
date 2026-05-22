@@ -13,6 +13,7 @@ BarModule {
 	property var playerIcons: {
 		"spotify": "",
 		"firefox": "󰈹",
+		"cliamp":  "",
 		"default": "",
 	}
 
