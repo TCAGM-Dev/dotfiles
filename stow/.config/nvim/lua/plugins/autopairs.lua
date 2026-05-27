@@ -24,9 +24,9 @@ return {
 
 			Rule("/*", "*/", concatArray(jsLang, cssLang)),
 
-			Rule("then$", "end", luaLang, "if_statement"):use_regex(true),
-			Rule("do$", "end", luaLang, {"while_loop", "for_loop"}):use_regex(true),
-			Rule("function.*%(.*%)$", "end", luaLang, {"function_declaration", "local_function", "function"}):use_regex(true),
+			Rule("%sthen$", "end", luaLang, "if_statement"):use_regex(true),
+			Rule("%sdo$", "end", luaLang, {"while_loop", "for_loop"}):use_regex(true),
+			Rule("function%s*%a*%s*%(.*%)$", "end", luaLang, {"function_declaration", "local_function", "function"}):use_regex(true),
 
 			Rule("<%s*(%w+)%s*>$", "", xmlLang):use_regex(true)
 				:replace_endpair(function(opts)
