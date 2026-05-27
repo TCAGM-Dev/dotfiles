@@ -29,6 +29,21 @@ return {
 			provider = "FileName",
 			condition = condition.buffer_not_empty,
 		}})
+		table.insert(gls.mid, {DiagnosticError = {
+			provider = "DiagnosticError",
+			icon = " ",
+			highlight = {"#ff6060", nil},
+		}})
+		table.insert(gls.mid, {DiagnosticWarn = {
+			provider = "DiagnosticWarn",
+			icon = " ",
+			highlight = {"#ffd040", nil},
+		}})
+		table.insert(gls.mid, {DiagnosticHint = {
+			provider = "DiagnosticHint",
+			icon = " ",
+			highlight = {"#60b0ff", nil},
+		}})
 
 		table.insert(gls.right, {CursorLocation = {
 			provider = "LinePercent",
