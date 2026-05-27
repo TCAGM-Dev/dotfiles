@@ -79,6 +79,7 @@ require("plugins").load({
 		jsonls = {},
 		docker_language_server = {},
 		sqlls = {},
+		basedpyright = {},
 	}),
 	require("plugins/oil"),
 	require("plugins/image"),
