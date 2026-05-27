@@ -15,7 +15,7 @@ return {
 		table.insert(gls.left, {Git = {
 			provider = "GitBranch",
 			icon = " ",
-			highlight = {colors.white, colors.bg2},
+			highlight = {colors.fg, colors.bg2},
 			condition = condition.check_git_workspace,
 			separator = "",
 			separator_highlight = {colors.bg2, nil},
@@ -32,9 +32,9 @@ return {
 
 		table.insert(gls.right, {CursorLocation = {
 			provider = "LinePercent",
-			highlight = {nil, "#494949"},
+			highlight = {nil, colors.bg2},
 			separator = "",
-			separator_highlight = {"#494949", nil},
+			separator_highlight = {colors.bg2, nil},
 		}})
 	end
 }
