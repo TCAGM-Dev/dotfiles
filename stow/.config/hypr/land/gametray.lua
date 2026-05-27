@@ -5,6 +5,7 @@ local mainMod = "SUPER"
 local gameMatchers = {
 	"Minecraft.*",
 	"steam_app_.*",
+	"org.vinegarhq.Sober",
 }
 
 hl.workspace_rule({
