@@ -1,3 +1,4 @@
+import Quickshell
 import Quickshell.Hyprland
 import QtQuick
 
@@ -17,7 +18,7 @@ Row {
 			text: modelData.id
 			glow: modelData === Hyprland.focusedWorkspace
 
-			onClicked: () => Hyprland.dispatch(`focusworkspaceoncurrentmonitor ${modelData.id}`)
+			onClicked: () => Quickshell.execDetached(["hyprctl", "eval", `hl.dispatch(hl.dsp.focus({workspace=${modelData.id}}))`])
 		}
 	}
 }
