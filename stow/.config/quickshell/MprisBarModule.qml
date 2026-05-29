@@ -50,6 +50,11 @@ BarModule {
 		onTriggered: module.open = false
 	}
 
+	onWheel: e => {
+		if (e.angleDelta.y > 0) player.previous()
+		else if (e.angleDelta.y < 0) player.next()
+	}
+
 	property bool open: true
 
 	function getMediaDescription(artist: string, title: string): string {

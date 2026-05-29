@@ -20,6 +20,7 @@ Button {
 
 	signal rightClicked()
 	signal middleClicked()
+	signal wheel(event: WheelEvent)
 
 	MouseArea {
 		anchors.fill: parent
@@ -31,6 +32,8 @@ Button {
 			else if (e.button == Qt.RightButton) module.rightClicked()
 			else if (e.button == Qt.MiddleButton) module.middleClicked()
 		}
+
+		onWheel: (event) => module.wheel(event)
 
 		HoverHandler {
 			cursorShape: Qt.PointingHandCursor

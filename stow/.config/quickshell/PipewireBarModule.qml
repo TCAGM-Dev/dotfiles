@@ -17,5 +17,9 @@ BarModule {
 	}
 	readonly property string deviceIcon: getIcon(["", "", ""]) // TODO: Add different icons for device types if it becomes possible
 
+	onWheel: (e) => {
+		audio.volume = Math.min(Math.max(volume + e.angleDelta.y / 12000, 0), 1)
+	}
+
 	text: `${Math.round(volume * 100)}% ${deviceIcon}`
 }
