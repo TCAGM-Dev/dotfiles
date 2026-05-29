@@ -51,6 +51,7 @@ BarModule {
 	}
 
 	onWheel: e => {
+		if (!module.open) return
 		if (e.angleDelta.y > 0) player.previous()
 		else if (e.angleDelta.y < 0) player.next()
 	}
