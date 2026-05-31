@@ -28,6 +28,13 @@ hl.bind(mainMod .. " + ALT + S", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + M", hl.dsp.workspace.toggle_special("tray"))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.window.move({workspace = "special:tray"})) -- TODO: test
 
+-- OBS Global hotkeys
+for _, hotkey in ipairs({
+	mainMod .. " + F11",
+	mainMod .. " + SHIFT + F11",
+	mainMod .. " + F12",
+}) do hl.bind(hotkey, hl.dsp.pass({window = "class:^(com\\.obsproject\\.Studio)$"})) end
+
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({direction = "l"}))
 hl.bind(mainMod .. " + right", hl.dsp.focus({direction = "r"}))
