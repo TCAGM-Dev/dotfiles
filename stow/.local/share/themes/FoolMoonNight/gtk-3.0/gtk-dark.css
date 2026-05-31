@@ -319,7 +319,8 @@ frame > box.horizontal:dir(rtl) > .frame + .frame,
     border-right: none;
 }
 frame > viewport.frame,
-.frame > viewport.frame {
+.frame > viewport.frame,
+scrolledwindow viewport.frame {
     border: none;
 }
 
