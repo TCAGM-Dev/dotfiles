@@ -127,6 +127,9 @@ spinbutton.horizontal button.up:dir(rtl) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 }
+spinbutton > button:disabled {
+	color: @border-color-inactive;
+}
 
 .linked:not(.vertical):dir(ltr) > button:first-child:not(:last-child),
 .linked:not(.vertical):dir(ltr) > entry:first-child:not(:last-child),
