@@ -4,6 +4,18 @@ local colors = {
 	fg = "#ffffff",
 }
 
+local modes = setmetatable({
+	n      = {text = "NORMAL",       color = "#ffffff"},
+	i      = {text = "INSERT",       color = "#b0ffb0"},
+	v      = {text = "VISUAL",       color = "#80bcff"},
+	V      = {text = "VISUAL-LINE",  color = "#80bcff"},
+	[''] = {text = "VISUAL-BLOCK", color = "#80bcff"},
+	t      = {text = "TERMINAL",     color = "#b0a0ff"},
+	['!']  = {text = "SHELL",        color = "#b0a0ff"},
+	R      = {text = "REPLACE",      color = "#ffa0e0"},
+	c      = {text = "COMMAND",      color = "#ff7070"},
+}, {__index = function(_, mode) return {text = "UNKNOWN MODE: " .. mode, color = "red"} end})
+
 return {
 	src = "https://github.com/NTBBloodbath/galaxyline.nvim",
 	dependencies = {"https://github.com/nvim-tree/nvim-web-devicons"},
@@ -12,6 +24,19 @@ return {
 		local gls = gl.section
 		local condition = require("galaxyline.condition")
 
+		table.insert(gls.left, {Mode = {
+			provider = function()
+				local m = vim.fn.mode()
+				local mode = modes[m]
+				vim.cmd("highlight GalaxyLineMode guifg=black guibg=" .. mode.color)
+				vim.cmd("highlight GalaxyLineModeSep guibg=# guifg=" .. mode.color)
+				if condition.check_git_workspace() then vim.cmd("highlight GalaxyLineModeSep guibg=" .. colors.bg2) end
+				return mode.text
+			end,
+			highlight = "GalaxyLineMode",
+			separator = "",
+			separator_highlight = "GalaxyLineModeSep",
+		}})
 		table.insert(gls.left, {Git = {
 			provider = "GitBranch",
 			icon = " ",
