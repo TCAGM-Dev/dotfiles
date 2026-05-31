@@ -5,8 +5,8 @@ return {
 			view_options = {
 				is_hidden_file = function(name, bufnr)
 					return name == "./"
-				end
-			}
+				end,
+			},
 		})
 
 		vim.keymap.set({"n"}, "<CA-O>", function()
