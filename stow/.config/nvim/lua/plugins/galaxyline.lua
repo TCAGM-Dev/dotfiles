@@ -39,7 +39,7 @@ return {
 		}})
 		table.insert(gls.left, {Git = {
 			provider = "GitBranch",
-			icon = " ",
+			icon = "  ",
 			highlight = {colors.fg, colors.bg2},
 			condition = condition.check_git_workspace,
 			separator = "",
