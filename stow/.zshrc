@@ -14,6 +14,9 @@ compinit
 # Node Version Manager
 source /usr/share/nvm/init-nvm.sh
 
+# uv
+which "uv" &>/dev/null && PATH=$PATH:$HOME/.local/bin
+
 # User bin folder
 PATH=$PATH:$HOME/.bin
 
