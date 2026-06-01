@@ -27,7 +27,7 @@ Scope {
 					meta: [desktopEntry.genericName, desktopEntry.execString, desktopEntry.categories.join(" "), desktopEntry.keywords.join(" ")].filter(v => v != null && v != "").join(" "),
 					onSelect: () => {
 						if (desktopEntry.runInTerminal) { // desktopEntry.execute() doesnt respect Terminal=true
-							Quickshell.execDetached(["kitty", "sh", "-c", desktopEntry.execString])
+							Quickshell.execDetached(["kitty", "sh", "-c", desktopEntry.command])
 						} else {
 							desktopEntry.execute()
 						}
