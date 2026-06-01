@@ -1,5 +1,6 @@
+import Quickshell
+import Quickshell.Io
 import QtQml 2.15
-import "file.js" as File
 import "levenshtein.js" as Levenshtein
 
 LauncherWindow {
@@ -30,18 +31,45 @@ LauncherWindow {
 	}
 
 	function openPicker(file: string) {
-		File.read(file).then(content => {
-			let lines = content.split("\n")
-			lines = lines.map(line => {
-				const commentIndex = line.indexOf("#")
-				if (commentIndex == -1) return line
-				else return line.slice(0, commentIndex)
-			})
-			lines = lines.map(line => line.trim())
-			lines = lines.filter(line => line != "")
+		reader.filePath = file
+		reader.running = true
+	}
 
-			picker.entries = lines.map(line => ({name: line}))
-			picker.open()
-		})
+	Process {
+		id: reader
+
+		property string filePath
+
+		running: false
+		command: ["cat", this.filePath]
+		
+		stdout: StdioCollector {
+			onStreamFinished: () => {
+				const content = this.text
+
+				let lines = content.split("\n")
+				lines = lines.map(line => {
+					const commentIndex = line.indexOf("#")
+					if (commentIndex == -1) return line
+					else return line.slice(0, commentIndex)
+				})
+				lines = lines.map(line => line.trim())
+				lines = lines.filter(line => line != "")
+
+				picker.entries = lines.map(line => {
+					const [symbol, searchString] = line.split(",")
+
+					return {
+						display: `${symbol} ${searchString}`,
+						name: searchString,
+						onSelect: () => {
+							Quickshell.execDetached(["wl-copy", symbol])
+							Quickshell.execDetached(["notify-send", `Copied "${symbol}"`])
+						}
+					}
+				})
+				picker.open()
+			}
+		}
 	}
 }
