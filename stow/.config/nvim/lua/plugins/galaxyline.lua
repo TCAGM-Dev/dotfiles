@@ -31,20 +31,15 @@ return {
 				local mode = modes[m]
 				vim.cmd("highlight GalaxyLineMode guifg=black guibg=" .. mode.color)
 				vim.cmd("highlight GalaxyLineModeSep guibg=# guifg=" .. mode.color)
-				if condition.check_git_workspace() then vim.cmd("highlight GalaxyLineModeSep guibg=" .. colors.bg2) end
 				return mode.text
 			end,
 			highlight = "GalaxyLineMode",
 			separator = "",
 			separator_highlight = "GalaxyLineModeSep",
 		}})
-		table.insert(gls.left, {Git = {
-			provider = "GitBranch",
-			icon = "  ",
-			highlight = {colors.fg, colors.bg2},
-			condition = condition.check_git_workspace,
-			separator = "",
-			separator_highlight = {colors.bg2, nil},
+		table.insert(gls.left, {Cwd = {
+			provider = function() return vim.fn.getcwd() end,
+			icon = " ",
 		}})
 
 		table.insert(gls.mid, {FileIcon = {
@@ -71,9 +66,29 @@ return {
 			highlight = {"#60b0ff", nil},
 		}})
 
-		table.insert(gls.right, {CursorLocation = {
-			provider = "LinePercent",
+		table.insert(gls.right, {GitRemoved = {
+			provider = "DiffRemove",
+			icon = "-",
+			highlight = {"#ffc0b9", nil},
+			condition = condition.check_git_workspace,
+		}})
+		table.insert(gls.right, {GitModified = {
+			provider = "DiffModified",
+			icon = "~",
+			highlight = {"#8cf7f6", nil},
+			condition = condition.check_git_workspace,
+		}})
+		table.insert(gls.right, {GitAdded = {
+			provider = "DiffAdd",
+			icon = "+",
+			highlight = {"#b3f6c0", nil},
+			condition = condition.check_git_workspace,
+		}})
+		table.insert(gls.right, {Git = {
+			provider = "GitBranch",
+			icon = "  ",
 			highlight = {nil, colors.bg2},
+			condition = condition.check_git_workspace,
 			separator = "",
 			separator_highlight = {colors.bg2, nil},
 		}})
