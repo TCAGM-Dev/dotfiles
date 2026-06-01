@@ -80,7 +80,7 @@ PanelWindow {
 					if (entryItem != null) entryItem.forceActiveFocus()
 				}
 				Keys.onReturnPressed: () => {
-					root.viewEntries[0]?.onSelect()
+					root.viewEntries[0]?.onSelect?.()
 					root.close()
 				}
 				Keys.onPressed: (event) => {
