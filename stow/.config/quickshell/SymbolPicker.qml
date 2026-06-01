@@ -11,7 +11,6 @@ LauncherWindow {
 	property list<var> entries: []
 	viewEntries: runSearch(picker.searchText).slice(0, 30)
 	function runSearch(query: string): list<var> {
-		console.log(`search "${query}"`)
 		if (query == "") return entries
 
 		query = query.toLowerCase()
