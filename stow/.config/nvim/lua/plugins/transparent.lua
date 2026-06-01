@@ -1,3 +1,4 @@
+---@type Spec
 return {
 	src = "xiyaowong/transparent.nvim",
 	config = function()

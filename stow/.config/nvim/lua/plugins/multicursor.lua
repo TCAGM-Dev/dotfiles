@@ -1,3 +1,4 @@
+---@type Spec
 return {
 	src = "https://github.com/brenton-leighton/multiple-cursors.nvim",
 	config = function()

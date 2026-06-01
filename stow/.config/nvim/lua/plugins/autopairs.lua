@@ -1,5 +1,6 @@
 local concatArray = require("util").concatArray
 
+---@type Spec
 return {
 	src = "https://github.com/windwp/nvim-autopairs",
 	config = function()

@@ -1,3 +1,4 @@
+---@type Spec
 return {
 	src = "https://github.com/stevearc/oil.nvim",
 	config = function()

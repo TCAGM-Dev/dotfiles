@@ -1,4 +1,4 @@
-return function(lsps) return {
+return function(lsps) return { ---@type Spec
 	src = "https://github.com/neovim/nvim-lspconfig",
 	config = function()
 		for name, opts in pairs(lsps) do

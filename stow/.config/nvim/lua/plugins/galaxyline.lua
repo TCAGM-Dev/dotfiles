@@ -16,6 +16,7 @@ local modes = setmetatable({
 	c      = {text = "COMMAND",      color = "#ff7070"},
 }, {__index = function(_, mode) return {text = "UNKNOWN MODE: " .. mode, color = "red"} end})
 
+---@type Spec
 return {
 	src = "https://github.com/NTBBloodbath/galaxyline.nvim",
 	dependencies = {"https://github.com/nvim-tree/nvim-web-devicons"},
