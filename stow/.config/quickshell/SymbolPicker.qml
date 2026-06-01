@@ -22,10 +22,11 @@ LauncherWindow {
 			return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
 		})
 	
+		const distances = {}
 		for (const entry of result) {
-			entry.distance = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
+			distances[entry] = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
 		}
-		result.sort((a, b) => a.distance - b.distance)
+		result.sort((a, b) => distances[a] - distances[b])
 	
 		return result
 	}
