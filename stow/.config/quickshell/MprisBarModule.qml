@@ -71,7 +71,7 @@ BarModule {
 		let result = [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
 		if (module.maxLength != null && result.length > module.maxLength) {
 			const delta = result.length - module.maxLength
-			const shortenedDescription = description.slice(0, -(delta + module.ellipsis.length)) + module.ellipsis
+			const shortenedDescription = description.slice(0, -(delta + module.ellipsis.length)).trim() + module.ellipsis
 			result = [icon, shortenedDescription, timeString].filter(v => v != "" && v != null).join(" ")
 		}
 		return result
