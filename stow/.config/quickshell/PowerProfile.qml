@@ -7,6 +7,7 @@ Singleton {
 	id: root
 
 	property string activeProfile: "balanced" // Assume balanced at first to avoid errors
+	property bool wasOwnChange: false
 
 	Process {
 		id: retrieval
@@ -36,10 +37,16 @@ Singleton {
 					interface == "net.hadess.PowerProfiles" &&
 					propertyName == "ActiveProfile" &&
 					propertyType == "s"
-				) root.activeProfile = propertyValue.slice(1, -1)
+				) {
+					root.wasOwnChange = true
+					root.activeProfile = propertyValue.slice(1, -1)
+					root.wasOwnChange = false
+				}
 			}
 		}
 	}
 
-	onActiveProfileChanged: () => Quickshell.execDetached(["powerprofilesctl", "set", root.activeProfile])
+	onActiveProfileChanged: () => {
+		if (!root.wasOwnChange) Quickshell.execDetached(["powerprofilesctl", "set", root.activeProfile])
+	}
 }
