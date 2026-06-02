@@ -49,8 +49,8 @@ Scope {
 			result.push({id: "power_profile:performance", display: "Power profile: Performance", name: "performance mode", onSelect: () => PowerProfile.activeProfile = "performance"})
 
 			// Symbol picker
-			result.push({id: "symbol:nerd", name: "Nerd Symbol picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/rofi/scripts/nerd_symbols.txt`)}})
-			result.push({id: "symbol:emoji", name: "Emoji picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/rofi/scripts/emojis.txt`)}})
+			result.push({id: "symbol:nerd", name: "Nerd Symbol picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/quickshell/symbols/nerd_symbols.txt`)}})
+			result.push({id: "symbol:emoji", name: "Emoji picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/quickshell/symbols/emojis.txt`)}})
 
 			for (const entry of result) if (entry.id == null) console.error(`No id found in entry: ${entry}`) // Failsafe to prevent entries without ids to ever be added
 	
