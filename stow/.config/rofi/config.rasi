@@ -1,5 +1,0 @@
-@theme "tcagm"
-
-window {
-  border: 1;
-}
