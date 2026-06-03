@@ -11,7 +11,6 @@ wiremix
 hyprpicker
 wl-clipboard
 zsh
-dunst
 grim
 blueman
 slurp
