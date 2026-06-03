@@ -53,11 +53,15 @@ PanelWindow {
 
 	color: "transparent"
 
+	function tryGatherEntries() {
+		if (root.gatherEntries != null) root.entries = root.gatherEntries() ?? root.entries
+	}
+	Component.onCompleted: tryGatherEntries()
 	property bool isOpen: false
 	function open() {
 		search.clear()
 		search.forceActiveFocus()
-		if (root.gatherEntries != null) root.entries = root.gatherEntries() ?? root.entries
+		tryGatherEntries()
 		isOpen = true
 	}
 	function close() {
