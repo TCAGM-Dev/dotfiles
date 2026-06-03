@@ -180,7 +180,7 @@ Item {
 						Timer {
 							running: notificationItem.modelData.urgency != NotificationUrgency.Critical && !hover.hovered
 
-							interval: (notificationItem.modelData.expireTimeout ?? root.timeoutSeconds) * 1000
+							interval: (notificationItem.modelData.expireTimeout != -1 ? notificationItem.modelData.expireTimeout : root.timeoutSeconds) * 1000
 
 							onTriggered: notificationItem.modelData.expire()
 						}
