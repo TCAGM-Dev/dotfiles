@@ -14,6 +14,7 @@ BarModule {
 		"spotify": "",
 		"firefox": "󰈹",
 		"cliamp":  "",
+		"kew":  "",
 		"default": "",
 	}
 
