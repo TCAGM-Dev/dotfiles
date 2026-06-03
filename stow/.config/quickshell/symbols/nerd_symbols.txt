@@ -1607,7 +1607,7 @@
 ,ellipsis
 ,download
 ,database
-,checkbox
+,checkbox checkmark
 ,calendar
 󰖴,wordpress
 󰖬,wikipedia
@@ -2528,7 +2528,7 @@
 ,thumbsup
 ,settings
 ,notebook
-,checkbox
+,checkbox checkmark
 ,honeycomb
 ,telescope
 󱪇,wheelchair
@@ -2565,7 +2565,7 @@
 󰑫,rss feed
 󰐁,pig
 ,git
-,box
+,cardboard box
 ,refresh
 ,horizon
 󰐨,presentation
@@ -2888,7 +2888,7 @@
 ,candy cane
 ,cable car
 ,bread slice
-,boxes stacked
+,cardboard boxes stacked
 ,black tie
 ,audio description
 ,v lang
@@ -2926,7 +2926,7 @@
 󰙜,serial port
 󰜏,search web
 󰴰,safety goggles
-󰑕,rename box
+󰑕,rename box square
 󰶓,racing helmet
 󱠦,liquid spot
 󰝄,humble bundle
@@ -3088,7 +3088,7 @@
 ,wikipedia w
 ,universal access
 ,raspberry pi
-,parachute box
+,parachute box airdrop
 ,envelopes bulk
 ,drumstick bite
 ,champagne glasses
@@ -3254,7 +3254,7 @@
 󱄟,bike fast
 󱌌,beer outline
 󰹻,atom variant
-󰵆,apps box
+󰵆,apps box square
 ,xing square
 ,wand magic
 ,wand sparkles
@@ -3352,7 +3352,7 @@
 󱋗,globe light
 󰣩,globe model
 󱟶,fence electric
-󰇽,equal box
+󰇽,equal box square
 󰮑,eject outline
 󰣘,death star
 󱗻,dance ballroom
@@ -3521,7 +3521,7 @@
 󱓄,tractor variant
 󰦭,toolbox outline
 󰟶,thought bubble
-󰿦,texture box
+󰿦,texture box square
 󱩵,storage tank
 󰜠,stadium variant
 󱦜,sitemap outline
@@ -3546,7 +3546,7 @@
 󰩉,feature search
 󰺡,ellipse outline
 󰽋,dresser outline
-󰇟,drawing box
+󰇟,drawing box square
 󱒀,current ac
 󰥜,current dc
 󱃎,beehive outline
@@ -3588,7 +3588,7 @@
 ,comment discussion
 󱒁,watering can
 󰾑,wardrobe outline
-󱄑,variable box
+󱄑,variable box square
 󰤳,trackpad lock
 󰤎,steering off
 󰒄,security network
@@ -3616,10 +3616,10 @@
 󰡱,function variant
 󰻴,fishbowl outline
 󱜣,firework off
-󰥤,exponent box
+󰥤,exponent box square
 󰺟,electric switch
 󰡩,doorbell video
-󰇕,division box
+󰇕,division box square
 󰝭,decagram outline
 󱥏,cylinder off
 󱡇,curtains closed
@@ -3645,7 +3645,7 @@
 ,bracket dot
 ,bracket error
 ,x circle
-󰐀,pi box
+󰐀,pi box square
 󰷱,pi hole
 ,th large
 ,th list
@@ -3659,7 +3659,7 @@
 󰨗,subtitles outline
 󰓉,spotlight beam
 󰹟,rectangle outline
-󱓅,radiology box
+󱓅,radiology box square
 󰲵,parachute outline
 󱖺,motorbike electric
 󱐣,microwave off
@@ -3707,14 +3707,14 @@
 ,arrows
 ,storm showers
 ,storm warning
-,checkbox unchecked
+,checkbox unchecked square
 ,honeycomb outline
 ,backslash separator
 ,telescope fill
 󰖤,wheelchair accessibility
 󰤖,transition masked
 󰔯,transcribe close
-󰢑,thermostat box
+󰢑,thermostat box square
 󱃁,storefront outline
 󱉿,scoreboard outline
 󱥑,octahedron off
@@ -4486,13 +4486,13 @@
 ,mobile screen
 󰔏,thermometer
 ,ice waveform mirrored
-,left hard divider
-,left soft divider
+,left hard divider triangle
+,left soft divider triangle arrow
 󱄕,slot machine outline
 󱫯,sail boat sink
 󰶗,room service outline
 󰙖,move resize variant
-󰡸,high definition box
+󰡸,high definition box square
 󱃰,hair dryer outline
 󰈆,exit to app
 󰂗,bunk bed outline
@@ -4553,10 +4553,10 @@
 󱢜,bicycle cargo
 󱖴,bicycle electric
 ,file
-,right hard divider
-,right soft divider
+,right hard divider triangle
+,right soft divider triangle arrow
 󰩺,trash can outline
-󰿠,slash forward box
+󰿠,slash forward box square
 󱦗,razor double edge
 󱦘,razor single edge
 󱙹,piggy bank outline
@@ -4579,7 +4579,7 @@
 󰒛,shopping music
 󱇕,shopping outline
 󰾄,shopping search
-󰋠,hospital box
+󰋠,hospital box square
 󰋡,hospital building
 󰋢,hospital marker
 ,facebook f
@@ -4645,7 +4645,7 @@
 ,filter circle dollar
 ,credit card alt
 󰥰,headphones bluetooth
-󰋌,headphones box
+󰋌,headphones box square
 󰟎,headphones off
 󰋍,headphones settings
 ,magnifying glass
@@ -4758,7 +4758,7 @@
 ,external link square
 ,baseball bat ball
 ,x circle fill
-󱓆,radiology box outline
+󱓆,radiology box outline square
 󱌤,hydraulic oil level
 󱌥,hydraulic oil temperature
 󰾲,expansion card variant
@@ -4772,7 +4772,7 @@
 󰨐,rhombus medium
 󰜌,rhombus outline
 󰨑,rhombus split
-󱨂,percent box
+󱨂,percent box square
 󱨄,percent circle
 󱉸,percent outline
 󰏙,palette advanced
@@ -4827,7 +4827,7 @@
 󰹒,ice cream off
 󱫮,ear hearing loop
 󰩅,ear hearing off
-󱢍,all inclusive box
+󱢍,all inclusive box square
 ,hat cowboy side
 󰘌,subdirectory arrow left
 󰘍,subdirectory arrow right
@@ -4863,7 +4863,7 @@
 ,check double
 ,check square
 ,forwardslash separator redundant
-󰾟,approximately equal box
+󰾟,approximately equal box square
 󰿞,silverware clean
 󰒤,silverware fork
 󰒥,silverware spoon
@@ -4912,7 +4912,7 @@
 󰤒,test tube off
 󰙧,stop circle outline
 󱉽,safe square outline
-󰐆,pine tree box
+󰐆,pine tree box square
 󱐚,pine tree fire
 󰏋,open in app
 󰏌,open in new
@@ -4942,7 +4942,7 @@
 󰞂,sign text
 󰽢,moon full
 󰽤,moon new
-󰞋,help box
+󰞋,help box square
 󰋗,help circle
 󰛵,help network
 󰮥,help rhombus
@@ -4965,7 +4965,7 @@
 󰉚,food
 󱣟,wiper wash alert
 󰺾,ruler square compass
-󱅿,pound box outline
+󱅿,pound box outline square
 󰏡,paper cut vertical
 󱅘,paper roll outline
 󰆹,debug step into
@@ -5312,7 +5312,7 @@
 ,hands asl interpreting
 ,gauge simple high
 ,bell slash dot
-󰾔,web box
+󰾔,web box square
 󱞐,web cancel
 󰞉,web check
 󱉊,web clock
@@ -5481,7 +5481,7 @@
 󱏻,mushroom off outline
 󱥯,bullhorn variant outline
 󱗭,baseball diamond outline
-󰛍,earth box
+󰛍,earth box square
 󱐄,earth minus
 󰇨,earth off
 󱐃,earth plus
@@ -5584,7 +5584,7 @@
 󱦇,light flood down
 󱦈,light flood up
 󱨤,light switch off
-󰸤,comma box outline
+󰸤,comma box outline square
 󰸦,comma circle outline
 󱡫,audio input rca
 󱡭,audio input xlr
@@ -5627,7 +5627,7 @@
 󰻃,record circle outline
 ,window close o
 ,mobile screen button
-󰴚,link box
+󰴚,link box square
 󱂺,link lock
 󰌸,link off
 󰲔,link plus
@@ -5685,7 +5685,7 @@
 󰪫,desktop tower monitor
 󰮁,compass off outline
 󱗩,bicycle penny farthing
-󰠹,television box
+󰠹,television box square
 󰟴,television classic
 󰔃,television guide
 󰠻,television off
@@ -5716,7 +5716,7 @@
 󱨉,triangle small down
 󱨊,triangle small up
 󱩯,shopping search outline
-󰿷,hospital box outline
+󰿷,hospital box outline square
 󰕧,video
 󱏾,seed off outline
 󱩮,seed plus outline
@@ -5758,7 +5758,7 @@
 󱖆,face mask
 󰱻,face recognition
 󱁷,face woman
-󱢎,all inclusive box outline
+󱢎,all inclusive box outline square
 󱦃,key alert
 󱕴,key chain
 󰌇,key change
@@ -5805,7 +5805,7 @@
 ,table cells large
 ,repo force push
 󱞍,information off outline
-󰍵,minus box
+󰍵,minus box square
 󰍶,minus circle
 󰍸,minus network
 󱘹,minus thick
@@ -5843,7 +5843,7 @@
 󱦍,panorama sphere
 󱦏,panorama variant
 󱤩,panorama vertical
-󱑢,download box
+󱑢,download box square
 󱑤,download circle
 󱌠,download lock
 󰧩,download multiple
@@ -5914,7 +5914,7 @@
 󰴽,transit connection variant
 󱓜,rhombus medium outline
 󱓝,rhombus split outline
-󱨃,percent box outline
+󱨃,percent box outline square
 󱨅,percent circle outline
 󱍜,palette swatch outline
 󱥚,palette swatch variant
@@ -5925,9 +5925,9 @@
 󱟇,ceiling light outline
 ,left half circle thick
 ,left half circle thin
-,left hard divider inverse
+,left hard divider inverse triangle
 󰍲,microsoft
-󰅗,close box
+󰅗,close box square
 󰅙,close circle
 󰅛,close network
 󰅜,close octagon
@@ -5984,7 +5984,7 @@
 ,up right from square
 ,right half circle thick
 ,right half circle thin
-,right hard divider inverse
+,right hard divider inverse triangle
 󱜳,train car passenger
 󱂉,roman numeral 2
 󱂊,roman numeral 3
@@ -6027,7 +6027,7 @@
 󰱨,emoticon
 󰄀,camera
 ,file
-󱉺,play box
+󱉺,play box square
 󰐌,play circle
 󰢋,play network
 󰼛,play outline
@@ -6128,7 +6128,7 @@
 ,layout menubar
 ,layout panel
 ,layout statusbar
-󰒔,cog box
+󰒔,cog box square
 󱇝,cog clockwise
 󱇞,cog counterclockwise
 󱏎,cog off
@@ -6139,7 +6139,7 @@
 󱤷,cog stop
 󱑠,cog sync
 󱁛,cog transfer
-󰐖,plus box
+󰐖,plus box square
 󰐗,plus circle
 󱩝,plus lock
 󰦒,plus minus
@@ -6259,8 +6259,8 @@
 󰃑,border top
 󰃒,border vertical
 󰅺,comment
-󰿉,math integral box
-󰿋,math norm box
+󰿉,math integral box square
+󰿋,math norm box square
 󱄸,fire hydrant alert
 󱄹,fire hydrant off
 󰶉,mailbox open outline
@@ -6317,7 +6317,7 @@
 󰘭,source merge
 󰓂,source pull
 󰳏,source repository
-󰏬,pencil box
+󰏬,pencil box square
 󰛿,pencil circle
 󰏮,pencil lock
 󰷨,pencil minus
@@ -6491,7 +6491,7 @@
 ,direction down right
 ,direction up left
 ,direction up right
-󱗜,circle box
+󱗜,circle box square
 󰺕,circle double
 󰺖,circle expand
 󱎕,circle half
@@ -6515,7 +6515,7 @@
 󱚧,robot off
 󱙺,robot outline
 󰜍,robot vacuum
-󰀧,alert box
+󰀧,alert box square
 󰀨,alert circle
 󰚽,alert decagram
 󱒻,alert minus
@@ -6596,10 +6596,10 @@
 󰭠,application settings
 󱃻,application variable
 󱌑,earth arrow right
-󱐇,earth box minus
-󰛎,earth box off
-󱐆,earth box plus
-󱐈,earth box remove
+󱐇,earth box minus square
+󰛎,earth box off square
+󱐆,earth box plus square
+󱐈,earth box remove square
 󰸳,gamepad circle
 󰸹,gamepad down
 󰸺,gamepad left
@@ -6674,7 +6674,7 @@
 󱪥,filter settings
 󰈶,filter variant
 󱕰,text account
-󰈚,text box
+󰈚,text box square
 󰦪,text long
 󱄽,text recognition
 󱎸,text search
@@ -6752,11 +6752,11 @@
 󰛥,language swift
 󰛦,language typescript
 󰙳,language xaml
-󰋻,inbox arrow down
-󰏑,inbox arrow up
-󱉳,inbox full outline
-󰮨,inbox multiple outline
-󱖠,inbox remove outline
+󰋻,inbox arrow down square
+󰏑,inbox arrow up square
+󱉳,inbox full outline square
+󰮨,inbox multiple outline square
+󱖠,inbox remove outline square
 󱗦,glass cocktail off
 󱗧,glass mug off
 󱄖,glass mug variant
@@ -6769,8 +6769,8 @@
 󱥊,office building cog outline
 󱔡,office building marker outline
 󱄿,gender male female variant
-󰴛,link box outline
-󰴜,link box variant
+󰴛,link box outline square
+󰴜,link box variant square
 󱃿,link variant minus
 󰌺,link variant off
 󱄀,link variant plus
@@ -6800,10 +6800,10 @@
 ,day sunny
 ,day thunderstorm
 ,day windy
-󰄮,checkbox blank
-󰡖,checkbox intermediate
-󰄲,checkbox marked
-󰱒,checkbox outline
+󰄮,checkbox blank square
+󰡖,checkbox intermediate square
+󰄲,checkbox marked square checkmark
+󰱒,checkbox outline square checkmark
 󰞜,bus articulated end
 󰞝,bus articulated front
 󰞞,bus double decker
@@ -6917,7 +6917,7 @@
 󱙠,store remove
 󱣒,store search
 󱣔,store settings
-󰋒,heart box
+󰋒,heart box square
 󰋔,heart broken
 󰥱,heart circle
 󱙣,heart cog
@@ -7006,8 +7006,8 @@
 󱘄,card remove
 󱁴,card search
 󰭷,card text
-󱅁,minus box multiple
-󰛲,minus box outline
+󱅁,minus box multiple square
+󰛲,minus box outline square
 󰍚,minus circle multiple
 󱑙,minus circle off
 󰍷,minus circle outline
@@ -7090,7 +7090,7 @@
 󱦐,panorama variant outline
 󰏟,panorama vertical outline
 󱥟,panorama wide angle
-󱑣,download box outline
+󱑣,download box outline square
 󱑥,download circle outline
 󱌡,download lock outline
 󰱦,download network outline
@@ -7139,8 +7139,8 @@
 ,arrow small up
 ,git pull request closed
 ,git pull request draft
-󰱝,close box multiple
-󰅘,close box outline
+󰱝,close box multiple square
+󰅘,close box outline square
 󰘪,close circle multiple
 󰅚,close circle outline
 󰱟,close network outline
@@ -7158,7 +7158,7 @@
 󰄦,chart arc
 󰄧,chart areaspline
 󰄨,chart bar
-󱕍,chart box
+󱕍,chart box square
 󰗣,chart bubble
 󰞯,chart donut
 󰙬,chart gantt
@@ -7199,7 +7199,7 @@
 ,creative commons sampling
 ,creative commons share
 ,creative commons zero
-󰩳,star box
+󰩳,star box square
 󱕦,star check
 󰓏,star circle
 󱙨,star cog
@@ -7245,17 +7245,17 @@
 ,file directory fill
 ,file symlink directory
 ,file symlink file
-󱨖,play box lock
-󰴙,play box multiple
-󰐋,play box outline
+󱨖,play box lock square
+󰴙,play box multiple square
+󰐋,play box outline square
 󰐍,play circle outline
 󰲷,play network outline
 󰐏,play protected content
-󱃖,code braces box
+󱃖,code braces box square
 󰅬,code greater than
 󰅮,code less than
 󰅰,code not equal
-󱃗,code parentheses box
+󱃗,code parentheses box square
 󰚔,code tags check
 󰖐,weather cloudy
 󰖑,weather fog
@@ -7274,7 +7274,7 @@
 󱨜,video 2d
 󰟽,video 3d
 󰤙,video account
-󰃽,video box
+󰃽,video box square
 󱁩,video check
 󰤚,video image
 󱦩,video marker
@@ -7398,12 +7398,12 @@
 󱤸,cog stop outline
 󱑡,cog sync outline
 󱁜,cog transfer outline
-󰌴,plus box multiple
-󰜄,plus box outline
+󰌴,plus box multiple square
+󰜄,plus box outline square
 󰍌,plus circle multiple
 󰐙,plus circle outline
 󱩞,plus lock open
-󰦓,plus minus box
+󰦓,plus minus box square
 󱓉,plus minus variant
 󰲺,plus network outline
 󱐎,axis arrow info
@@ -7447,7 +7447,7 @@
 󰤌,square edit outline
 󰨔,square medium outline
 󱋯,square off outline
-󰦣,square root box
+󰦣,square root box square
 󱨇,square rounded badge
 󱓼,square rounded outline
 󰳾,cursor default click outline
@@ -7475,7 +7475,7 @@
 󰜿,gesture swipe right
 󰝀,gesture swipe up
 󰫀,gesture swipe vertical
-󱊩,gesture tap box
+󱊩,gesture tap box square
 󱊨,gesture tap button
 󰵷,gesture tap hold
 󰝃,gesture two tap
@@ -7494,7 +7494,7 @@
 󰖳,microsoft windows
 󱎒,microsoft word
 󰖹,microsoft xbox
-󰎄,music box
+󰎄,music box square
 󰎆,music circle
 󰎇,music note
 󰝛,music off
@@ -7550,7 +7550,7 @@
 󰮍,dots horizontal circle outline
 󰮎,dots vertical circle outline
 󰛏,email alert
-󰴃,email box
+󰴃,email box square
 󰪱,email check
 󰻣,email edit
 󱡯,email fast
@@ -7579,8 +7579,8 @@
 󰜛,source commit local
 󰜝,source commit start
 󰳐,source repository multiple
-󱅄,pencil box multiple
-󰏭,pencil box outline
+󱅄,pencil box multiple square
+󰏭,pencil box outline square
 󰝶,pencil circle outline
 󰷧,pencil lock outline
 󰷩,pencil minus outline
@@ -7613,7 +7613,7 @@
 󰾗,timeline plus outline
 󱔷,timeline remove outline
 󰯔,timeline text outline
-󱥬,bookmark box multiple
+󱥬,bookmark box multiple square
 󱍻,bookmark check outline
 󰧍,bookmark minus outline
 󰸖,bookmark multiple outline
@@ -7788,7 +7788,7 @@
 󱛆,wifi settings
 󰸋,wifi star
 󱛇,wifi sync
-󱗝,circle box outline
+󱗝,circle box outline square
 󰣕,circle edit outline
 󱎖,circle half full
 󰚕,circle multiple outline
@@ -7814,7 +7814,7 @@
 󱇳,robot mower outline
 󱙻,robot off outline
 󰤈,robot vacuum variant
-󰳤,alert box outline
+󰳤,alert box outline square
 󱇭,alert circle check
 󰗖,alert circle outline
 󰳥,alert decagram outline
@@ -7824,8 +7824,8 @@
 󱒽,alert plus outline
 󱒿,alert remove outline
 󱇏,alert rhombus outline
-󱉰,inbox arrow down outline
-󱉱,inbox arrow up outline
+󱉰,inbox arrow down outline square
+󱉱,inbox arrow up outline square
 󱗨,glass mug variant off
 󰿯,credit card
 󱜵,train car passenger door open
@@ -7860,7 +7860,7 @@
 󱡡,clock plus
 󱡥,clock remove
 󰅕,clock start
-󰴝,link box variant outline
+󰴝,link box variant outline square
 󰅻,comment account
 󰅽,comment alert
 󱖮,comment bookmark
@@ -8076,7 +8076,7 @@
 󱝫,archive settings
 󱝭,archive star
 󱝯,archive sync
-󱅂,minus box multiple outline
+󱅂,minus box multiple outline square
 󰫓,minus circle multiple outline
 󱑚,minus circle off outline
 󰔜,timer 10
@@ -8135,11 +8135,11 @@
 󰄯,checkbox blank circle
 󱋬,checkbox blank off
 󰄱,checkbox blank outline
-󰄳,checkbox marked circle
-󰄵,checkbox marked outline
+󰄳,checkbox checkmark marked circle
+󰄵,checkbox checkmark marked outline
 󰄶,checkbox multiple blank
-󰄸,checkbox multiple marked
-󰱑,checkbox multiple outline
+󰄸,checkbox checkmark multiple marked
+󰱑,checkbox checkmark multiple outline
 󰉋,folder
 󱜫,tag arrow down
 󱜭,tag arrow left
@@ -8182,7 +8182,7 @@
 󱛭,cookie refresh outline
 󱛙,cookie remove outline
 󱛝,cookie settings outline
-󰱞,close box multiple outline
+󰱞,close box multiple outline square
 󰢃,close circle multiple outline
 󱜟,alarm light off outline
 󰓝,store 24 hour
@@ -8198,7 +8198,7 @@
 󱣑,store remove outline
 󱣓,store search outline
 󱣕,store settings outline
-󰋓,heart box outline
+󰋓,heart box outline square
 󰴔,heart broken outline
 󰥲,heart circle outline
 󱙤,heart cog outline
@@ -8332,9 +8332,9 @@
 󰺊,boom gate arrow down outline
 󰺍,boom gate arrow up outline
 ,git pull request new changes
-󱨗,play box lock open
-󱨙,play box lock outline
-󱏦,play box multiple outline
+󱨗,play box lock open square
+󱨙,play box lock outline square
+󱏦,play box multiple outline square
 󰅱,code not equal variant
 󰍢,message alert
 󱥁,message badge
@@ -8431,21 +8431,21 @@
 󰄽,chevron double left
 󰄾,chevron double right
 󰄿,chevron double up
-󰧖,chevron down box
+󰧖,chevron down box square
 󰬦,chevron down circle
-󰧘,chevron left box
+󰧘,chevron left box square
 󰬨,chevron left circle
-󰧚,chevron right box
+󰧚,chevron right box square
 󰬪,chevron right circle
 󰶹,chevron triple down
 󰶺,chevron triple left
 󰶻,chevron triple right
 󰶼,chevron triple up
-󰧜,chevron up box
+󰧜,chevron up box square
 󰬬,chevron up circle
 ,layout sidebar left off
 ,layout sidebar right off
-󱅃,plus box multiple outline
+󱅃,plus box multiple outline square
 󰐘,plus circle multiple outline
 󰵍,axis x arrow lock
 󰵎,axis x rotate clockwise
@@ -8486,7 +8486,7 @@
 󰺑,chart areaspline variant
 󰝪,chart bar stacked
 󰱐,chart bell curve
-󱕎,chart box outline
+󱕎,chart box outline square
 󰞰,chart donut variant
 󰝫,chart line stacked
 󰞱,chart line variant
@@ -8554,8 +8554,8 @@
 󰃶,calendar today
 󰨳,calendar week
 󰻙,calendar weekend
-󱊆,star box multiple
-󰩴,star box outline
+󱊆,star box multiple square
+󰩴,star box outline square
 󱕪,star check outline
 󰦤,star circle outline
 󱙩,star cog outline
@@ -8621,8 +8621,8 @@
 󰖞,weather windy variant
 󱏙,video 3d off
 󰻑,video 3d variant
-󰠾,video 4k box
-󰃾,video box off
+󰠾,video 4k box square
+󰃾,video box off square
 󱁪,video check outline
 󱔮,video high definition
 󰠿,video input antenna
@@ -8693,7 +8693,7 @@
 󰅍,clipboard text
 󰜚,source commit end local
 󰜜,source commit next local
-󱅅,pencil box multiple outline
+󱅅,pencil box multiple outline square
 ,face frown open
 ,face grin beam
 ,face grin hearts
@@ -8713,7 +8713,7 @@
 ,face sad tear
 ,face smile beam
 ,face smile wink
-󱥭,bookmark box multiple outline
+󱥭,bookmark box multiple outline square
 󱣾,eye arrow left outline
 󱤀,eye arrow right outline
 󱖛,human capacity decrease
@@ -8765,8 +8765,8 @@
 󰽫,music accidental flat
 󰽬,music accidental natural
 󰽭,music accidental sharp
-󰌳,music box multiple
-󰎅,music box outline
+󰌳,music box multiple square
+󰎅,music box outline square
 󰫔,music circle outline
 󰽮,music clef alto
 󰽯,music clef bass
@@ -9065,14 +9065,14 @@
 󰄗,checkbox blank badge outline
 󰄰,checkbox blank circle outline
 󱋭,checkbox blank off outline
-󰄴,checkbox marked circle outline
+󰄴,checkbox checkmark marked circle outline
 󰘻,checkbox multiple blank circle
 󰄷,checkbox multiple blank outline
-󰘽,checkbox multiple marked circle
-󰄹,checkbox multiple marked outline
-󱨘,play box lock open outline
-󰅭,code greater than or equal
-󰅯,code less than or equal
+󰘽,checkbox multiple checkmark marked circle
+󰄹,checkbox multiple checkmark marked outline
+󱨘,play box lock open outline square
+󰅭,code greater than or equal square
+󰅯,code less than or equal square
 󱜬,tag arrow down outline
 󱜮,tag arrow left outline
 󱜰,tag arrow right outline
@@ -9267,13 +9267,13 @@
 󱟨,battery remove
 󱠴,battery sync
 󰂑,battery unknown
-󰧗,chevron down box outline
+󰧗,chevron down box outline square
 󰬧,chevron down circle outline
-󰧙,chevron left box outline
+󰧙,chevron left box outline square
 󰬩,chevron left circle outline
-󰧛,chevron right box outline
+󰧛,chevron right box outline square
 󰬫,chevron right circle outline
-󰧝,chevron up box outline
+󰧝,chevron up box outline square
 󰬭,chevron up circle outline
 󱇁,printer 3d nozzle alert outline
 󱢹,printer 3d nozzle heat outline
@@ -9316,11 +9316,11 @@
 󰓵,table row remove
 󱐪,table split cell
 󰾧,chart bell curve cumulative
-󱕏,chart box plus outline
+󱕏,chart box plus outline square
 󰙭,chart scatter plot hexbin
 󱖶,chart timeline variant shimmer
 󰜞,source commit start next local
-󱊇,star box multiple outline
+󱊇,star box multiple outline square
 󰫣,star four points outline
 󰫥,star three points outline
 󱗒,lock open alert outline
@@ -9525,7 +9525,7 @@
 󰊂,format subscript
 󰊃,format superscript
 󰊄,format text
-󰴑,format textbox
+󰴑,format textbox square
 󰗴,format title
 󰊇,format underline
 󰉌,folder account
@@ -9575,7 +9575,7 @@
 󰹰,microsoft xbox controller view
 󰽩,music accidental double flat
 󰽪,music accidental double sharp
-󰼄,music box multiple outline
+󰼄,music box multiple outline square
 󰗿,music note bluetooth off
 󰽱,music note eighth dotted
 󰽲,music note half dotted
@@ -9645,9 +9645,9 @@
 󱒥,relation one to only one
 󱒩,relation only one to one
 󱒫,relation only one to only one
-󱤧,checkbox marked circle plus outline
+󱤧,checkbox checkmark marked circle plus outline
 󰘼,checkbox multiple blank circle outline
-󰘾,checkbox multiple marked circle outline
+󰘾,checkbox multiple checkmark marked circle outline
 󱣤,map marker account outline
 󰼆,map marker alert outline
 󱋻,map marker check outline
@@ -9666,7 +9666,7 @@
 󱒉,view dashboard variant outline
 󱇚,view grid plus outline
 󰀅,account alert
-󰀆,account box
+󰀆,account box square
 󱋟,account cancel
 󱂗,account cash
 󰀈,account check
@@ -9882,26 +9882,26 @@
 󰝏,microsoft xbox controller battery medium
 󰝐,microsoft xbox controller battery unknown
 󱆂,phone in talk outline
-󰎡,numeric 0 box
-󰽽,numeric 10 box
+󰎡,numeric 0 box square
+󰽽,numeric 10 box square
 󰿬,numeric 10 circle
-󰎤,numeric 1 box
+󰎤,numeric 1 box square
 󰲠,numeric 1 circle
-󰎧,numeric 2 box
+󰎧,numeric 2 box square
 󰲢,numeric 2 circle
-󰎪,numeric 3 box
+󰎪,numeric 3 box square
 󰲤,numeric 3 circle
-󰎭,numeric 4 box
+󰎭,numeric 4 box square
 󰲦,numeric 4 circle
-󰎱,numeric 5 box
+󰎱,numeric 5 box square
 󰲨,numeric 5 circle
-󰎳,numeric 6 box
+󰎳,numeric 6 box square
 󰲪,numeric 6 circle
-󰎶,numeric 7 box
+󰎶,numeric 7 box square
 󰲬,numeric 7 circle
-󰎹,numeric 8 box
+󰎹,numeric 8 box square
 󰲮,numeric 8 circle
-󰎼,numeric 9 box
+󰎼,numeric 9 box square
 󰲰,numeric 9 circle
 󰿮,numeric 9 plus
 󱁒,numeric negative 1
@@ -10194,8 +10194,8 @@
 󰭑,account arrow left
 󰭓,account arrow right
 󱡧,account arrow up
-󰤴,account box multiple
-󰀇,account box outline
+󰤴,account box multiple square
+󰀇,account box outline square
 󱋠,account cancel outline
 󱂘,account cash outline
 󰯢,account check outline
@@ -10258,91 +10258,91 @@
 󱒶,relation zero or one to one or many
 󱒷,relation zero or one to only one
 󱒸,relation zero or one to zero or many
-󰬈,alpha a box
+󰬈,alpha a box square
 󰯬,alpha a circle
-󰬉,alpha b box
+󰬉,alpha b box square
 󰯯,alpha b circle
-󰬊,alpha c box
+󰬊,alpha c box square
 󰯲,alpha c circle
-󰬋,alpha d box
+󰬋,alpha d box square
 󰯵,alpha d circle
-󰬌,alpha e box
+󰬌,alpha e box square
 󰯸,alpha e circle
-󰬍,alpha f box
+󰬍,alpha f box square
 󰯻,alpha f circle
-󰬎,alpha g box
+󰬎,alpha g box square
 󰯾,alpha g circle
-󰬏,alpha h box
+󰬏,alpha h box square
 󰰁,alpha h circle
-󰬐,alpha i box
+󰬐,alpha i box square
 󰰄,alpha i circle
-󰬑,alpha j box
+󰬑,alpha j box square
 󰰇,alpha j circle
-󰬒,alpha k box
+󰬒,alpha k box square
 󰰊,alpha k circle
-󰬓,alpha l box
+󰬓,alpha l box square
 󰰍,alpha l circle
-󰬔,alpha m box
+󰬔,alpha m box square
 󰰐,alpha m circle
-󰬕,alpha n box
+󰬕,alpha n box square
 󰰓,alpha n circle
-󰬖,alpha o box
+󰬖,alpha o box square
 󰰖,alpha o circle
-󰬗,alpha p box
+󰬗,alpha p box square
 󰰙,alpha p circle
-󰬘,alpha q box
+󰬘,alpha q box square
 󰰜,alpha q circle
-󰬙,alpha r box
+󰬙,alpha r box square
 󰰟,alpha r circle
-󰬚,alpha s box
+󰬚,alpha s box square
 󰰢,alpha s circle
-󰬛,alpha t box
+󰬛,alpha t box square
 󰰥,alpha t circle
-󰬜,alpha u box
+󰬜,alpha u box square
 󰰨,alpha u circle
-󰬝,alpha v box
+󰬝,alpha v box square
 󰰫,alpha v circle
-󰬞,alpha w box
+󰬞,alpha w box square
 󰰮,alpha w circle
-󰬟,alpha x box
+󰬟,alpha x box square
 󰰱,alpha x circle
-󰬠,alpha y box
+󰬠,alpha y box square
 󰰴,alpha y circle
-󰬡,alpha z box
+󰬡,alpha z box square
 󰰷,alpha z circle
-󰼎,numeric 0 box multiple
-󰎣,numeric 0 box outline
-󰿪,numeric 10 box multiple
-󰽾,numeric 10 box outline
+󰼎,numeric 0 box multiple square
+󰎣,numeric 0 box outline square
+󰿪,numeric 10 box multiple square
+󰽾,numeric 10 box outline square
 󰿭,numeric 10 circle outline
-󰼏,numeric 1 box multiple
-󰎦,numeric 1 box outline
+󰼏,numeric 1 box multiple square
+󰎦,numeric 1 box outline square
 󰲡,numeric 1 circle outline
-󰼐,numeric 2 box multiple
-󰎩,numeric 2 box outline
+󰼐,numeric 2 box multiple square
+󰎩,numeric 2 box outline square
 󰲣,numeric 2 circle outline
-󰼑,numeric 3 box multiple
-󰎬,numeric 3 box outline
+󰼑,numeric 3 box multiple square
+󰎬,numeric 3 box outline square
 󰲥,numeric 3 circle outline
-󰼒,numeric 4 box multiple
-󰎮,numeric 4 box outline
+󰼒,numeric 4 box multiple square
+󰎮,numeric 4 box outline square
 󰲧,numeric 4 circle outline
-󰼓,numeric 5 box multiple
-󰎰,numeric 5 box outline
+󰼓,numeric 5 box multiple square
+󰎰,numeric 5 box outline square
 󰲩,numeric 5 circle outline
-󰼔,numeric 6 box multiple
-󰎵,numeric 6 box outline
+󰼔,numeric 6 box multiple square
+󰎵,numeric 6 box outline square
 󰲫,numeric 6 circle outline
-󰼕,numeric 7 box multiple
-󰎸,numeric 7 box outline
+󰼕,numeric 7 box multiple square
+󰎸,numeric 7 box outline square
 󰲭,numeric 7 circle outline
-󰼖,numeric 8 box multiple
-󰎻,numeric 8 box outline
+󰼖,numeric 8 box multiple square
+󰎻,numeric 8 box outline square
 󰲯,numeric 8 circle outline
-󰼗,numeric 9 box multiple
-󰎾,numeric 9 box outline
+󰼗,numeric 9 box multiple square
+󰎾,numeric 9 box outline square
 󰲱,numeric 9 circle outline
-󰎿,numeric 9 plus box
+󰎿,numeric 9 plus box square
 󰲲,numeric 9 plus circle
 󱃍,battery alert variant outline
 󱟟,battery arrow down outline
@@ -10385,7 +10385,7 @@
 󰼀,image filter center focus strong outline
 󱀨,file account outline
 󰩌,file alert outline
-󰻬,file cad box
+󰻬,file cad box square
 󰷇,file cancel outline
 󱆇,file certificate outline
 󱧆,file chart check
@@ -10406,19 +10406,19 @@
 󱪟,file document remove
 󰥦,file download outline
 󱇨,file edit outline
-󰈜,file excel box
+󰈜,file excel box square
 󱀭,file excel outline
 󱀮,file export outline
 󰷋,file eye outline
 󰮗,file find outline
-󰵸,file gif box
+󰵸,file gif box square
 󱝲,file image marker
 󱤻,file image minus
 󰺰,file image outline
 󱤽,file image plus
 󱤿,file image remove
 󱀯,file import outline
-󰈥,file jpg box
+󰈥,file jpg box square
 󱆅,file key outline
 󱅸,file link outline
 󱧈,file lock open
@@ -10428,14 +10428,14 @@
 󱀱,file move outline
 󱀲,file multiple outline
 󰸪,file music outline
-󰈦,file pdf box
+󰈦,file pdf box square
 󱀳,file percent outline
 󱅺,file phone outline
 󰻭,file plus outline
-󰸭,file png box
-󰈨,file powerpoint box
+󰸭,file png box square
+󰈨,file powerpoint box square
 󱀵,file powerpoint outline
-󰈩,file presentation box
+󰈩,file presentation box square
 󱀶,file question outline
 󰕁,file refresh outline
 󱀷,file remove outline
@@ -10449,13 +10449,13 @@
 󱀻,file star outline
 󰾵,file swap outline
 󱈗,file sync outline
-󱃡,file table box
+󱃡,file table box square
 󰱿,file table outline
 󱏒,file tree outline
 󱀼,file undo outline
 󰩎,file upload outline
 󰸬,file video outline
-󰈭,file word box
+󰈭,file word box square
 󱀾,file word outline
 󱗖,book open page variant outline
 󱌓,format color marker cancel
@@ -10510,7 +10510,7 @@
 󰦼,arrow decision auto
 󰦾,arrow decision outline
 󰜮,arrow down bold
-󰛀,arrow down box
+󰛀,arrow down box square
 󰳛,arrow down circle
 󱞡,arrow down left
 󱞣,arrow down right
@@ -10526,7 +10526,7 @@
 󱅛,arrow horizontal lock
 󰜱,arrow left bold
 󱞥,arrow left bottom
-󰛁,arrow left box
+󰛁,arrow left box square
 󰳝,arrow left circle
 󰹳,arrow left right
 󰁎,arrow left thick
@@ -10535,7 +10535,7 @@
 󱠿,arrow projectile multiple
 󰜴,arrow right bold
 󱞩,arrow right bottom
-󰛂,arrow right box
+󰛂,arrow right box square
 󰳟,arrow right circle
 󰁕,arrow right thick
 󱦰,arrow right thin
@@ -10545,7 +10545,7 @@
 󰁛,arrow top left
 󰁜,arrow top right
 󰜷,arrow up bold
-󰛃,arrow up box
+󰛃,arrow up box square
 󰳡,arrow up circle
 󰹹,arrow up down
 󱞽,arrow up left
@@ -10557,7 +10557,7 @@
 󰭒,account arrow left outline
 󰭔,account arrow right outline
 󱡪,account arrow up outline
-󱀊,account box multiple outline
+󱀊,account box multiple outline square
 󱟳,account cowboy hat outline
 󱨟,account hard hat outline
 󱥡,account lock open outline
@@ -10569,71 +10569,71 @@
 󱢙,account tie hat outline
 󱌊,account tie voice off
 󱌉,account tie voice outline
-󰎢,numeric 0 box multiple outline
-󰿫,numeric 10 box multiple outline
-󰎥,numeric 1 box multiple outline
-󰎨,numeric 2 box multiple outline
-󰎫,numeric 3 box multiple outline
-󰎲,numeric 4 box multiple outline
-󰎯,numeric 5 box multiple outline
-󰎴,numeric 6 box multiple outline
-󰎷,numeric 7 box multiple outline
-󰎺,numeric 8 box multiple outline
-󰎽,numeric 9 box multiple outline
-󰼘,numeric 9 plus box multiple
-󰏁,numeric 9 plus box outline
+󰎢,numeric 0 box multiple outline square
+󰿫,numeric 10 box multiple outline square
+󰎥,numeric 1 box multiple outline square
+󰎨,numeric 2 box multiple outline square
+󰎫,numeric 3 box multiple outline square
+󰎲,numeric 4 box multiple outline square
+󰎯,numeric 5 box multiple outline square
+󰎴,numeric 6 box multiple outline square
+󰎷,numeric 7 box multiple outline square
+󰎺,numeric 8 box multiple outline square
+󰎽,numeric 9 box multiple outline square
+󰼘,numeric 9 plus box multiple square
+󰏁,numeric 9 plus box outline square
 󰲳,numeric 9 plus circle outline
-󰯫,alpha a box outline
+󰯫,alpha a box outline square
 󰯭,alpha a circle outline
-󰯮,alpha b box outline
+󰯮,alpha b box outline square
 󰯰,alpha b circle outline
-󰯱,alpha c box outline
+󰯱,alpha c box outline square
 󰯳,alpha c circle outline
-󰯴,alpha d box outline
+󰯴,alpha d box outline square
 󰯶,alpha d circle outline
-󰯷,alpha e box outline
+󰯷,alpha e box outline square
 󰯹,alpha e circle outline
-󰯺,alpha f box outline
+󰯺,alpha f box outline square
 󰯼,alpha f circle outline
-󰯽,alpha g box outline
+󰯽,alpha g box outline square
 󰯿,alpha g circle outline
-󰰀,alpha h box outline
+󰰀,alpha h box outline square
 󰰂,alpha h circle outline
-󰰃,alpha i box outline
+󰰃,alpha i box outline square
 󰰅,alpha i circle outline
-󰰆,alpha j box outline
+󰰆,alpha j box outline square
 󰰈,alpha j circle outline
-󰰉,alpha k box outline
+󰰉,alpha k box outline square
 󰰋,alpha k circle outline
-󰰌,alpha l box outline
+󰰌,alpha l box outline square
 󰰎,alpha l circle outline
-󰰏,alpha m box outline
+󰰏,alpha m box outline square
 󰰑,alpha m circle outline
-󰰒,alpha n box outline
+󰰒,alpha n box outline square
 󰰔,alpha n circle outline
-󰰕,alpha o box outline
+󰰕,alpha o box outline square
 󰰗,alpha o circle outline
-󰰘,alpha p box outline
+󰰘,alpha p box outline square
 󰰚,alpha p circle outline
-󰰛,alpha q box outline
+󰰛,alpha q box outline square
 󰰝,alpha q circle outline
-󰰞,alpha r box outline
+󰰞,alpha r box outline square
 󰰠,alpha r circle outline
-󰰡,alpha s box outline
+󰰡,alpha s box outline square
 󰰣,alpha s circle outline
-󰰤,alpha t box outline
+󰰤,alpha t box outline square
 󰰦,alpha t circle outline
-󰰧,alpha u box outline
+󰰧,alpha u box outline square
 󰰩,alpha u circle outline
-󰰪,alpha v box outline
+󰰪,alpha v box outline square
 󰰬,alpha v circle outline
-󰰭,alpha w box outline
+󰰭,alpha w box outline square
 󰰯,alpha w circle outline
-󰰰,alpha x box outline
+󰰰,alpha x box outline square
 󰰲,alpha x circle outline
-󰰳,alpha y box outline
+󰰳,alpha y box outline square
 󰰵,alpha y circle outline
-󰰶,alpha z box outline
+󰰶,alpha z box outline square
 󰰸,alpha z circle outline
 󰾻,format text rotation angle down
 󰾼,format text rotation angle up
@@ -10652,31 +10652,31 @@
 󱔘,file document multiple outline
 󱪞,file document plus outline
 󱪠,file document remove outline
-󱀬,file excel box outline
+󱀬,file excel box outline square
 󱝳,file image marker outline
 󱤼,file image minus outline
 󱤾,file image plus outline
 󱥀,file image remove outline
 󱧉,file lock open outline
-󱀴,file powerpoint box outline
+󱀴,file powerpoint box outline square
 󱨼,file rotate left outline
 󱨾,file rotate right outline
-󱃢,file table box multiple
-󱃤,file table box outline
-󱀽,file word box outline
+󱃢,file table box multiple square
+󱃤,file table box outline square
+󱀽,file word box outline square
 󰦸,arrow bottom left thick
 󱦶,arrow bottom left thin
 󰦺,arrow bottom right thick
 󱦷,arrow bottom right thin
 󰦽,arrow decision auto outline
-󰜯,arrow down bold box
+󰜯,arrow down bold box square
 󰁇,arrow down bold circle
 󰦿,arrow down bold outline
 󰳜,arrow down circle outline
 󰁊,arrow down drop circle
 󱞢,arrow down left bold
 󱞤,arrow down right bold
-󰜲,arrow left bold box
+󰜲,arrow left bold box square
 󰁏,arrow left bold circle
 󰧀,arrow left bold outline
 󱞦,arrow left bottom bold
@@ -10684,7 +10684,7 @@
 󰁒,arrow left drop circle
 󰹴,arrow left right bold
 󱞨,arrow left top bold
-󰜵,arrow right bold box
+󰜵,arrow right bold box square
 󰁖,arrow right bold circle
 󰧂,arrow right bold outline
 󱞪,arrow right bottom bold
@@ -10703,7 +10703,7 @@
 󱞷,arrow u right top
 󱞹,arrow u up left
 󱞻,arrow u up right
-󰜸,arrow up bold box
+󰜸,arrow up bold box square
 󰁟,arrow up bold circle
 󰧇,arrow up bold outline
 󰳢,arrow up circle outline
@@ -10712,15 +10712,15 @@
 󱞾,arrow up left bold
 󱟀,arrow up right bold
 󱌋,account tie voice off outline
-󰏀,numeric 9 plus box multiple outline
+󰏀,numeric 9 plus box multiple outline square
 󱪔,file arrow left right outline
 󱪖,file arrow up down outline
-󱃣,file table box multiple outline
-󱥤,arrow bottom left bold box
+󱃣,file table box multiple outline square
+󱥤,arrow bottom left bold box square
 󰦷,arrow bottom left bold outline
-󱥦,arrow bottom right bold box
+󱥦,arrow bottom right bold box square
 󰦹,arrow bottom right bold outline
-󰜰,arrow down bold box outline
+󰜰,arrow down bold box outline square
 󰁈,arrow down bold circle outline
 󰁉,arrow down bold hexagon outline
 󰁋,arrow down drop circle outline
