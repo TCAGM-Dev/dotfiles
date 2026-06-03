@@ -11,7 +11,7 @@ import "util.js" as Util
 
 Item {
 	id: root
-	property real timeoutMs: 10000
+	property real timeoutSeconds: 10
 
 	NotificationServer {
 		id: server
@@ -178,7 +178,7 @@ Item {
 						Timer {
 							running: notificationItem.modelData.urgency != NotificationUrgency.Critical && !hover.hovered
 
-							interval: root.timeoutMs
+							interval: (notificationItem.modelData.expireTimeout ?? root.timeoutSeconds) * 1000
 
 							onTriggered: notificationItem.modelData.expire()
 						}
