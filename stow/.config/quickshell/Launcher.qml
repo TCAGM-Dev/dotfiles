@@ -59,6 +59,7 @@ Scope {
 		viewEntries: runSearch(launcher.searchText)
 		function runSearch(query: string): list<var> {
 			if (query == "") return []
+			else if (query == "*") return entries
 
 			if (query.startsWith("!")) {
 				const command = query.slice(1)
