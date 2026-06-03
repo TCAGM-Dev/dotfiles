@@ -105,9 +105,11 @@ Item {
 							}
 
 							onDoubleClicked: e => {
-								if (notificationItem.modelData.actions.length > 0 && !actionsListOpener.running) {
+								if (notificationItem.modelData.actions.length > 1 && !actionsListOpener.running) {
 									actionsListOpener.actions = notificationItem.modelData.actions
 									actionsListOpener.running = true
+								} else if (notificationItem.modelData.actions.length == 1) {
+									notificationItem.modelData.actions[0].invoke()
 								}
 							}
 
