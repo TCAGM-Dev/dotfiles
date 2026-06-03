@@ -79,7 +79,7 @@ hl.window_rule({
     immediate = true,
 })
 
-for _, namespace in ipairs({"rofi", "quickshell_launcher"}) do
+for _, namespace in ipairs({"rofi", "quickshell_launcher", "quickshell_notifications"}) do
 	hl.layer_rule({match = {namespace = namespace}, no_anim = true, blur = true})
 end
 

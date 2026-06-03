@@ -2,9 +2,12 @@ pragma ComponentBehavior: Bound
 
 import Quickshell
 import Quickshell.Io
+import Quickshell.Wayland
+import Quickshell.Hyprland
 import Quickshell.Services.Notifications
 import QtQuick
 import QtQuick.Layouts
+import "util.js" as Util
 
 Item {
 	id: root
@@ -43,6 +46,7 @@ Item {
 		model: Quickshell.screens
 
 		delegate: PanelWindow {
+			WlrLayershell.namespace: "quickshell_notifications"
 			required property var modelData
 			screen: modelData
 
@@ -56,9 +60,9 @@ Item {
 			color: "transparent"
 
 			mask: Region {
-				item: notificationColumn
-				radius: 6
+				regions: Util.range(notificationRepeater.count).map(i => notificationRepeater.itemAt(i)?.region).filter(v => v != null) // 💀
 			}
+			HyprlandWindow.visibleMask: this.mask
 
 			ColumnLayout {
 				id: notificationColumn
@@ -70,11 +74,19 @@ Item {
 				spacing: 10
 
 				Repeater {
+					id: notificationRepeater
 					model: server.trackedNotifications
 
 					Rectangle {
 						id: notificationItem
 						required property Notification modelData
+
+						readonly property Region region: notificationRegion
+						Region {
+							id: notificationRegion
+							item: notificationItem
+							radius: notificationItem.radius
+						}
 
 						color: modelData.urgency == NotificationUrgency.Critical ? "#7f570000" : "#80000000"
 						border.color: modelData.urgency == NotificationUrgency.Critical ? "#ff1212" : modelData.urgency == NotificationUrgency.Low ? "#595959" : "white"
