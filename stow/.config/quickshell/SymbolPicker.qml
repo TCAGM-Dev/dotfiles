@@ -12,10 +12,6 @@ LauncherWindow {
 		reader.running = true
 	}
 
-	onIsOpenChanged: () => {
-		if (!this.isOpen) picker.entries = []
-	}
-
 	Process {
 		id: reader
 

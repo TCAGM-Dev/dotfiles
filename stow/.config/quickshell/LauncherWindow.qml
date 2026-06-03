@@ -60,7 +60,10 @@ PanelWindow {
 		if (root.gatherEntries != null) root.entries = root.gatherEntries() ?? root.entries
 		isOpen = true
 	}
-	function close() {isOpen = false}
+	function close() {
+		isOpen = false
+		root.entries = []
+	}
 	visible: isOpen
 
 	readonly property list<int> shortcutNumbers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
