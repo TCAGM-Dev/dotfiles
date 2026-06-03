@@ -155,6 +155,7 @@ Item {
 
 									Layout.fillWidth: true
 									padding: 7
+									elide: Text.ElideRight
 								}
 
 								Text {
@@ -168,7 +169,6 @@ Item {
 									renderType: Text.NativeRendering
 
 									Layout.fillWidth: true
-									Layout.fillHeight: true
 									padding: 7
 									wrapMode: Text.Wrap
 								}
