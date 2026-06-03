@@ -1,7 +1,6 @@
 import Quickshell
 import QtQuick
 import Quickshell.Io
-import "levenshtein.js" as Levenshtein
 
 Scope {
 	SymbolPicker {
@@ -11,10 +10,7 @@ Scope {
 	LauncherWindow {
 		id: launcher
 	
-		property list<var> entries: []
-		beforeOpen: () => gatherEntries()
-		Component.onCompleted: () => gatherEntries() // Fix desktop files not showing up on first open
-		function gatherEntries() {
+		gatherEntries: () => {
 			const result = []
 			const home = Quickshell.env("HOME")
 			
@@ -53,8 +49,7 @@ Scope {
 
 			launcher.entries = result
 		}
-		viewEntries: runSearch(launcher.searchText)
-		function runSearch(query: string): list<var> {
+		overrideEntries: (query) => {
 			if (query == "") return []
 			else if (query == "*") return entries
 
@@ -95,21 +90,6 @@ Scope {
 					{name: `Open "${uri}"`, onSelect: () => Quickshell.execDetached(["xdg-open", uri])},
 				]
 			}
-			
-			query = query.toLowerCase()
-	
-			const queryItems = query.split(" ").filter(v => v.length > 0)
-			const result = query == "" ? entries : entries.filter(entry => {
-				const matcher = (entry.meta == null ? entry.name : `${entry.name} ${entry.meta}`).toLowerCase()
-				return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
-			})
-	
-			for (const entry of result) {
-				entry.distance = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
-			}
-			result.sort((a, b) => a.distance - b.distance)
-	
-			return result
 		}
 	
 		IpcHandler {

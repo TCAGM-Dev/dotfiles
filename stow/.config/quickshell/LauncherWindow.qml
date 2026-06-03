@@ -6,18 +6,38 @@ import Quickshell.Wayland
 import Quickshell.Hyprland
 import QtQuick.Controls
 import QtQuick.Layouts
+import "levenshtein.js" as Levenshtein
 
 PanelWindow {
 	id: root
 	WlrLayershell.namespace: "quickshell_launcher"
 	HyprlandWindow.visibleMask: Region {
-		item: windowFrameRectangle // Limit hyprland  background blur effect to the actually filled part
+		item: windowFrameRectangle // Limit hyprland background blur effect to the actually filled part
 	}
 	exclusionMode: ExclusionMode.Ignore
 
-	required property list<var> viewEntries
-	property var beforeOpen
-	property alias searchText: search.text
+	property var gatherEntries
+	property list<var> entries
+	property var overrideEntries
+	readonly property list<var> viewEntries: (overrideEntries?.(search.text) ?? ((query) => {
+		if (query == "") return entries
+
+		query = query.toLowerCase()
+
+		const queryItems = query.split(" ").filter(v => v.length > 0)
+		const result = entries.filter(entry => {
+			const matcher = (entry.meta == null ? entry.name : `${entry.name} ${entry.meta}`).toLowerCase()
+			return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
+		})
+	
+		const distances = {}
+		for (const entry of result) {
+			distances[entry] = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
+		}
+		result.sort((a, b) => distances[a] - distances[b])
+	
+		return result
+	})(search.text)).slice(0, 30)
 	property bool showIcons: true
 
 	implicitWidth: 600
@@ -37,7 +57,7 @@ PanelWindow {
 	function open() {
 		search.clear()
 		search.forceActiveFocus()
-		root.beforeOpen?.()
+		if (root.gatherEntries != null) root.entries = root.gatherEntries() ?? root.entries
 		isOpen = true
 	}
 	function close() {isOpen = false}

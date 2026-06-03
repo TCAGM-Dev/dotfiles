@@ -1,34 +1,11 @@
 import Quickshell
 import Quickshell.Io
 import QtQml 2.15
-import "levenshtein.js" as Levenshtein
 
 LauncherWindow {
 	id: picker
 
 	showIcons: false
-
-	property list<var> entries: []
-	viewEntries: runSearch(picker.searchText).slice(0, 30)
-	function runSearch(query: string): list<var> {
-		if (query == "") return entries
-
-		query = query.toLowerCase()
-
-		const queryItems = query.split(" ").filter(v => v.length > 0)
-		const result = entries.filter(entry => {
-			const matcher = (entry.meta == null ? entry.name : `${entry.name} ${entry.meta}`).toLowerCase()
-			return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
-		})
-	
-		const distances = {}
-		for (const entry of result) {
-			distances[entry] = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
-		}
-		result.sort((a, b) => distances[a] - distances[b])
-	
-		return result
-	}
 
 	function openPicker(file: string) {
 		reader.filePath = file
