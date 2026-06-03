@@ -1,7 +1,6 @@
 pragma ComponentBehavior: Bound
 
 import Quickshell
-import Quickshell.Io
 import Quickshell.Wayland
 import Quickshell.Hyprland
 import Quickshell.Services.Notifications
@@ -11,7 +10,7 @@ import "util.js" as Util
 
 Item {
 	id: root
-	property real timeoutSeconds: 10
+	property real timeoutMs: 10000
 
 	NotificationServer {
 		id: server
@@ -20,25 +19,6 @@ Item {
 
 		onNotification: notification => {
 			notification.tracked = true
-		}
-	}
-
-	Process {
-		id: actionsListOpener
-
-		running: false
-
-		property list<NotificationAction> actions
-
-		command: ["bash", "-c", `echo -en "${actions.map(a => `${a.identifier}\\0display\\x1f${a.text}`).join("\\n")}" | dmenu`]
-
-		stdout: StdioCollector {
-			onStreamFinished: () => {
-				const identifier = this.text.slice(0, -1)
-				const action = actionsListOpener.actions.find(a => a.identifier == identifier)
-				if (action == null) return
-				action.invoke()
-			}
 		}
 	}
 
@@ -76,114 +56,11 @@ Item {
 				Repeater {
 					id: notificationRepeater
 					model: server.trackedNotifications
-
-					Rectangle {
-						id: notificationItem
+					
+					NotificationComponent {
 						required property Notification modelData
-
-						readonly property Region region: notificationRegion
-						Region {
-							id: notificationRegion
-							item: notificationItem
-							radius: notificationItem.radius
-						}
-
-						color: modelData.urgency == NotificationUrgency.Critical ? "#7f570000" : "#80000000"
-						border.color: modelData.urgency == NotificationUrgency.Critical ? "#ff1212" : modelData.urgency == NotificationUrgency.Low ? "#595959" : "white"
-						radius: 6
-
-						width: parent.width
-						height: notificationContent.height
-
-						Layout.alignment: Qt.AlignRight | Qt.AlignTop
-
-						MouseArea {
-							anchors.fill: parent
-
-							onClicked: e => {
-								if (e.button == Qt.RightButton) notificationItem.modelData.dismiss()
-							}
-
-							onDoubleClicked: e => {
-								if (notificationItem.modelData.actions.length > 1 && !actionsListOpener.running) {
-									actionsListOpener.actions = notificationItem.modelData.actions
-									actionsListOpener.running = true
-								} else if (notificationItem.modelData.actions.length == 1) {
-									notificationItem.modelData.actions[0].invoke()
-								}
-							}
-
-							HoverHandler {
-								id: hover
-								cursorShape: Qt.PointingHandCursor
-							}
-						}
-
-						RowLayout {
-							id: notificationContent
-
-							width: parent.width
-							height: Math.max(image.height, textArea.height)
-
-							spacing: 0
-
-							Image {
-								id: image
-
-								source: notificationItem.modelData.image
-								visible: notificationItem.modelData.image != ""
-
-								Layout.preferredWidth:  100
-								Layout.preferredHeight: 100
-							}
-
-							ColumnLayout {
-								id: textArea
-
-								spacing: -11
-
-								Layout.fillWidth: true
-
-								Text {
-									text: notificationItem.modelData.summary
-									visible: this.text != ""
-
-									color: "white"
-									font.family: "Adwaita Mono"
-									font.pixelSize: 15
-									font.bold: true
-
-									renderType: Text.NativeRendering
-
-									Layout.fillWidth: true
-									padding: 7
-									elide: Text.ElideRight
-								}
-
-								Text {
-									text: notificationItem.modelData.body
-									visible: this.text != ""
-
-									color: "#e0e0e0"
-									font.family: "Adwaita Mono"
-									font.pixelSize: 15
-
-									renderType: Text.NativeRendering
-
-									Layout.fillWidth: true
-									padding: 7
-									wrapMode: Text.Wrap
-								}
-							}
-						}
-
-						Timer {
-							running: notificationItem.modelData.urgency != NotificationUrgency.Critical && !hover.hovered
-
-							interval: (notificationItem.modelData.expireTimeout != -1 ? notificationItem.modelData.expireTimeout : root.timeoutSeconds) * 1000
-
-							onTriggered: notificationItem.modelData.expire()
-						}
+						notification: modelData
+						timeoutMs: modelData.expireTimeout != -1 ? modelData.expireTimeout * 1000 : root.timeoutMs
 					}
 				}
 			}
