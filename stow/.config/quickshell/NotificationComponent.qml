@@ -19,7 +19,6 @@ Rectangle {
 	border.color: notification.urgency == NotificationUrgency.Critical ? "#ff1212" : notification.urgency == NotificationUrgency.Low ? "#595959" : "white"
 	radius: 6
 
-	width: parent.width
 	height: notificationContent.height
 
 	Layout.alignment: Qt.AlignRight | Qt.AlignTop
