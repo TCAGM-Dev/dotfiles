@@ -46,6 +46,7 @@ Scope {
 			// Symbol picker
 			result.push({name: "Nerd Symbol picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/quickshell/symbols/nerd_symbols.txt`)}})
 			result.push({name: "Emoji picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/quickshell/symbols/emojis.txt`)}})
+			result.push({name: "Text face picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/quickshell/symbols/textfaces.txt`)}})
 
 			launcher.entries = result
 		}
