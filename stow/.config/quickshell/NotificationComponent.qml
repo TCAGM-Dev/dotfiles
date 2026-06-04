@@ -46,60 +46,61 @@ Rectangle {
 		}
 	}
 
-	RowLayout {
+	ColumnLayout {
 		id: notificationContent
 
 		width: parent.width
-		height: Math.max(image.height, textArea.height)
 
-		spacing: 0
+		RowLayout {
+			Layout.preferredHeight: Math.max(image.height, textArea.height)
 
-		Image {
-			id: image
+			spacing: 0
 
-			source: root.notification.image
-			visible: root.notification.image != ""
+			Image {
+				id: image
 
-			Layout.preferredWidth:  100
-			Layout.preferredHeight: 100
-		}
+				source: root.notification.image
+				visible: root.notification.image != ""
 
-		ColumnLayout {
-			id: textArea
-
-			spacing: -11
-
-			Layout.fillWidth: true
-
-			Text {
-				text: root.notification.summary
-				visible: this.text != ""
-
-				color: "white"
-				font.family: "Adwaita Mono"
-				font.pixelSize: 15
-				font.bold: true
-
-				renderType: Text.NativeRendering
-
-				Layout.fillWidth: true
-				padding: 7
-				elide: Text.ElideRight
+				Layout.preferredWidth:  100
+				Layout.preferredHeight: 100
 			}
 
-			Text {
-				text: root.notification.body
-				visible: this.text != ""
+			ColumnLayout {
+				id: textArea
 
-				color: "#e0e0e0"
-				font.family: "Adwaita Mono"
-				font.pixelSize: 15
+				spacing: -11
 
-				renderType: Text.NativeRendering
+				Text {
+					text: root.notification.summary
+					visible: this.text != ""
 
-				Layout.fillWidth: true
-				padding: 7
-				wrapMode: Text.Wrap
+					color: "white"
+					font.family: "Adwaita Mono"
+					font.pixelSize: 15
+					font.bold: true
+
+					renderType: Text.NativeRendering
+
+					Layout.fillWidth: true
+					padding: 7
+					elide: Text.ElideRight
+				}
+
+				Text {
+					text: root.notification.body
+					visible: this.text != ""
+
+					color: "#e0e0e0"
+					font.family: "Adwaita Mono"
+					font.pixelSize: 15
+
+					renderType: Text.NativeRendering
+
+					Layout.fillWidth: true
+					padding: 7
+					wrapMode: Text.Wrap
+				}
 			}
 		}
 	}
