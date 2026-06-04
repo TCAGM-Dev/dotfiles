@@ -37,7 +37,7 @@ PanelWindow {
 		result.sort((a, b) => distances[a] - distances[b])
 	
 		return result
-	})(search.text)).slice(0, 30)
+	})(search.text))
 	property bool showIcons: true
 
 	implicitWidth: 600
@@ -103,8 +103,7 @@ PanelWindow {
 
 				Keys.onEscapePressed: root.close()
 				Keys.onDownPressed: () => {
-					const entryItem = entriesRepeater.itemAt(1) ?? entriesRepeater.itemAt(0)
-					if (entryItem != null) entryItem.forceActiveFocus()
+					(entriesList.itemAtIndex(1) ?? entriesList.itemAtIndex(0))?.forceActiveFocus?.()
 				}
 				Keys.onReturnPressed: () => {
 					root.viewEntries[0]?.onSelect?.()
@@ -115,7 +114,7 @@ PanelWindow {
 					const keyNum = event.key - Qt.Key_0
 					if (keyNum < 0 || keyNum >= root.shortcutNumbers.length) return
 					const index = root.shortcutNumbers.indexOf(keyNum)
-					entriesRepeater.itemAt(index).activate()
+					entriesList.itemAtIndex(index).activate()
 					frame.isCtrlPressed = false
 				}
 
@@ -141,15 +140,21 @@ PanelWindow {
 				color: "#595959"
 			}
 
-			Repeater {
-				id: entriesRepeater
+			ListView {
+				id: entriesList
+				width: parent.width
+				height: Math.min(this.contentHeight, 700)
+				clip: true
 				model: root.viewEntries
-				Button {
+				delegate: Button {
 					id: item
 					required property int index
 					required property var modelData
 
-					Keys.onEscapePressed: search.forceActiveFocus()
+					Keys.onEscapePressed: () => {
+						entriesList.currentIndex = 1
+						search.forceActiveFocus()
+					}
 					
 					function activate() {
 						modelData.onSelect()
@@ -159,16 +164,7 @@ PanelWindow {
 					Keys.onReturnPressed: item.activate()
 					Keys.onEnterPressed: item.activate()
 
-					Keys.onUpPressed: () => {
-						const target = entriesRepeater.itemAt(index - 1)
-						if (target != null) target.forceActiveFocus()
-					}
-					Keys.onDownPressed: () => {
-						const target = entriesRepeater.itemAt(index + 1)
-						if (target != null) target.forceActiveFocus()
-					}
-
-					width: parent.width
+					width: ListView.view.width
 					background: Rectangle {
 						visible: parent.activeFocus || item.hovered || (search.activeFocus && item.index == 0)
 						color: "#4d939393"
