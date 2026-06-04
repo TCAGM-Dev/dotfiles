@@ -30,11 +30,11 @@ PanelWindow {
 			return queryItems.some(q => q.includes(matcher) || matcher.includes(q))
 		})
 	
-		const distances = {}
+		const distances = new Map() // Map bc objects only support string keys so object keys get coerced to a string wich is always the same
 		for (const entry of result) {
-			distances[entry] = Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query)))
+			distances.set(entry, Math.min(...(entry.name).toLowerCase().split(" ").map(word => Levenshtein.distance(word, query))))
 		}
-		result.sort((a, b) => distances[a] - distances[b])
+		result.sort((a, b) => distances.get(a) - distances.get(b))
 	
 		return result
 	})(search.text))
