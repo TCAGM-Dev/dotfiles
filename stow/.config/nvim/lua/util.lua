@@ -72,4 +72,17 @@ function util.concatArray(...)
 	return result
 end
 
+---@param haystack string
+---@param needle string
+---@return boolean
+function util.startsWith(haystack, needle)
+	return string.sub(haystack, 1, #needle) == needle
+end
+---@param haystack string
+---@param needle string
+---@return boolean
+function util.endsWith(haystack, needle)
+	return string.sub(haystack, -#needle) == needle
+end
+
 return util
