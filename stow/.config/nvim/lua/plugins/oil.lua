@@ -1,3 +1,5 @@
+local util = require("util")
+
 ---@type Spec
 return {
 	src = "https://github.com/stevearc/oil.nvim",
@@ -12,6 +14,11 @@ return {
 
 		vim.keymap.set({"n"}, "<CA-O>", function()
 			local path = vim.fn.expand("%:h")
+
+			if util.startsWith(path, "term://") then
+				path = vim.fn.getcwd()
+			end
+
 			require("oil").open(path)
 		end)
 	end
