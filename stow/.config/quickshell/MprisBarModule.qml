@@ -25,14 +25,14 @@ BarModule {
 	}
 
 	readonly property list<MprisPlayer> players: Mpris.players.values.filter(player => !module.ignored.includes(player.desktopEntry))
-	readonly property MprisPlayer player: players[0]
+	readonly property var player: players[0]
 
 	visible: player != null
 
 	Timer {
 		id: lengthRefresher
 
-		running: module.player.playbackState == MprisPlaybackState.Playing && !module.monitor.activeWorkspace.hasFullscreen
+		running: module.player?.playbackState == MprisPlaybackState.Playing && !(module.monitor.activeWorkspace?.hasFullscreen ?? false)
 
 		interval: 1000
 		repeat: true
@@ -43,7 +43,7 @@ BarModule {
 	Timer {
 		id: idleCloser
 
-		running: module.player.playbackState != MprisPlaybackState.Playing
+		running: module.player != null && module.player.playbackState != MprisPlaybackState.Playing
 
 		interval: 30000
 		repeat: false
@@ -65,6 +65,7 @@ BarModule {
 		else return `${artist} - ${title}`
 	}
 	function getText(): string {
+		if (player == null) return ""
 		const icon = playerIcons[player.desktopEntry] ?? playerIcons[player.identity.toLowerCase()] ?? playerIcons["default"]
 		if (!open) return icon
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
@@ -79,7 +80,7 @@ BarModule {
 	}
 	text: getText()
 
-	font.italic: player.playbackState == MprisPlaybackState.Paused
+	font.italic: player == null ? false : player.playbackState == MprisPlaybackState.Paused
 
 	onClicked: {
 		if (open) player.togglePlaying()

@@ -4,13 +4,13 @@ BarModule {
 	id: module
 
 	readonly property PwNode sink: Pipewire.defaultAudioSink
-	readonly property PwNodeAudio audio: sink.audio
+	readonly property var audio: sink?.audio
 
 	PwObjectTracker {objects: [module.sink]}
 
 	visible: sink != null && audio != null
 
-	readonly property real volume: audio.volume
+	readonly property real volume: audio?.volume ?? 0
 	function getIcon(icon) {
 		if (Array.isArray(icon)) return icon[Math.round(volume * (icon.length - 1))]
 		return icon
