@@ -100,7 +100,7 @@ Scope {
 				launcher.open()
 			}
 			function close() {
-					launcher.close()
+				launcher.close()
 			}
 		}
 	}
