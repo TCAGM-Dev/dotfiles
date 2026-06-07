@@ -35,9 +35,7 @@ Button {
 
 		onWheel: (event) => module.wheel(event)
 
-		HoverHandler {
-			cursorShape: Qt.PointingHandCursor
-		}
+		cursorShape: Qt.PointingHandCursor
 	}
 
 	contentItem: ColumnLayout {
