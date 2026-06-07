@@ -13,6 +13,7 @@ Variants {
 		required property var modelData
 		screen: modelData
 		readonly property HyprlandMonitor monitor: Hyprland.monitorFor(modelData)
+		visible: !(monitor.activeWorkspace?.hasFullscreen ?? false)
 
 		anchors.left: true
 		anchors.bottom: true
