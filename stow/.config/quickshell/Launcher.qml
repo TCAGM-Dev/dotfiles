@@ -1,6 +1,7 @@
 import Quickshell
 import QtQuick
 import Quickshell.Io
+import Quickshell.Services.UPower
 
 Scope {
 	SymbolPicker {
@@ -39,9 +40,9 @@ Scope {
 			result.push({name: "Shutdown", meta: "power off", onSelect: () => Quickshell.execDetached(["systemctl", "poweroff"])})
 	
 			// Power profiles
-			result.push({display: "Power profile: Ecological", name: "eco mode", onSelect: () => PowerProfile.activeProfile = "power-saver"})
-			result.push({display: "Power profile: Balanced", name: "balanced mode", onSelect: () => PowerProfile.activeProfile = "balanced"})
-			result.push({display: "Power profile: Performance", name: "performance mode", onSelect: () => PowerProfile.activeProfile = "performance"})
+			result.push({display: "Power profile: Ecological", name: "eco mode", onSelect: () => PowerProfiles.profile = PowerProfile.PowerSaver})
+			result.push({display: "Power profile: Balanced", name: "balanced mode", onSelect: () => PowerProfiles.profile = PowerProfile.Balanced})
+			result.push({display: "Power profile: Performance", name: "performance mode", onSelect: () => PowerProfiles.profile = PowerProfile.Performance})
 
 			// Symbol picker
 			result.push({name: "Nerd Symbol picker", onSelect: () => {launcher.close(); picker.openPicker(`${home}/.config/quickshell/symbols/nerd_symbols.txt`)}})
