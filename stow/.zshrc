@@ -26,6 +26,7 @@ chpwd() {
 	prevCwd=$PWD
 }
 chpwd_functions+=chpwd
+chpwd
 
 # User bin folder
 PATH=$PATH:$HOME/.bin
