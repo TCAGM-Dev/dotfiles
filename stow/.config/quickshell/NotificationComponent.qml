@@ -61,6 +61,8 @@ Rectangle {
 				source: root.notification.image
 				visible: root.notification.image != ""
 
+				fillMode: Image.PreserveAspectFit
+
 				Layout.preferredWidth:  100
 				Layout.preferredHeight: 100
 			}
