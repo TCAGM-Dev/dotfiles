@@ -19,6 +19,8 @@ which "uv" &>/dev/null && PATH=$PATH:$HOME/.local/bin
 
 prevCwd=$PWD
 chpwd() {
+	[ $prevCwd = $PWD ] && return # Ignore unnecessary calls
+
 	# Python venv
 	[ -d $prevCwd/.venv ] && which "deactivate" &>/dev/null && deactivate
 	[ -d $PWD/.venv ] && source "$PWD/.venv/bin/activate"
