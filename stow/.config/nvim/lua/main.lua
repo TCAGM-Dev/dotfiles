@@ -65,7 +65,6 @@ require("plugins").load({
 	require("plugins/barbar"),
 	require("plugins/log-highlight"),
 	require("plugins/colorizer"),
-	require("plugins/multicursor"),
 	require("plugins/fzf"),
 	require("plugins/mini-completion"),
 	require("plugins/quicker"),
