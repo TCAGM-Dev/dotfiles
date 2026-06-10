@@ -60,7 +60,7 @@ Item {
 					NotificationComponent {
 						required property Notification modelData
 						notification: modelData
-						timeoutMs: modelData.expireTimeout != -1 ? modelData.expireTimeout * 1000 : root.timeoutMs
+						timeoutMs: modelData.expireTimeout != -1 ? modelData.expireTimeout : root.timeoutMs
 						width: parent.width
 					}
 				}
