@@ -17,6 +17,16 @@ source /usr/share/nvm/init-nvm.sh
 # uv
 which "uv" &>/dev/null && PATH=$PATH:$HOME/.local/bin
 
+prevCwd=$PWD
+chpwd() {
+	# Python venv
+	[ -d $prevCwd/.venv ] && which "deactivate" &>/dev/null && deactivate
+	[ -d $PWD/.venv ] && source "$PWD/.venv/bin/activate"
+
+	prevCwd=$PWD
+}
+chpwd_functions+=chpwd
+
 # User bin folder
 PATH=$PATH:$HOME/.bin
 
