@@ -20,8 +20,9 @@ fi
 
 wl-copy <$FILE
 
-ACTION=$(notify-send -i "$FILE" -w -t 10000 -A "folder=Open folder" -A "open=Open file" "Screenshotted" "$FILE")
+ACTION=$(notify-send -i "$FILE" -w -t 10000 -A "folder=Open folder" -A "open=Open file" -A "delete=Delete file" "Screenshotted" "$FILE")
 case "$ACTION" in
     "folder") xdg-open $FOLDER ;;
     "open") xdg-open $FILE ;;
+	"delete") rm $FILE ;;
 esac
