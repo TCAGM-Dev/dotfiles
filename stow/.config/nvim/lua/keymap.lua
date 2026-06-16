@@ -32,8 +32,8 @@ return {bind = function()
 	vim.keymap.set({"n", "i"}, "<S-Down>", "10<CR>")
 	vim.keymap.set({"n"}, "<S-J>", "10<CR>")
 
-	vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv-gv")
-	vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv-gv")
+	vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
+	vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 	vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 	vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
 end}
