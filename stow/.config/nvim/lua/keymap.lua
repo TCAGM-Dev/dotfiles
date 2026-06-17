@@ -36,4 +36,6 @@ return {bind = function()
 	vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 	vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 	vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
+
+	vim.keymap.set("n", "gq", "<Cmd>Format<CR>")
 end}
