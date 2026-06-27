@@ -30,6 +30,8 @@ Item {
 			required property var modelData
 			screen: modelData
 
+			visible: server.trackedNotifications.values.length > 0
+
 			anchors.right: true
 			anchors.top: true
 			anchors.bottom: true
