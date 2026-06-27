@@ -15,6 +15,8 @@ BarModule {
 		"firefox": "󰈹",
 		"cliamp":  "",
 		"kew":  "",
+		"ratune": "󱝉",
+		"supersonic": "󱝉",
 		"default": "",
 	}
 
