@@ -113,3 +113,19 @@ hl.window_rule({
     center = true,
     size = {"(monitor_w/2)", "(monitor_h/2)"},
 })
+
+hl.window_rule({
+	name = "picture_in_picture",
+	match = {
+		class = "firefox",
+		title = "Picture-in-Picture",
+	},
+
+	float = true,
+	fullscreen_state = "0 0",
+	move = {"monitor_w - window_w - 50", "monitor_h - window_h - 50 - 32"},
+	pin = true,
+	suppress_event = "fullscreen maximize",
+	animation = "slide bottom",
+	opacity = "1.0 override",
+})
