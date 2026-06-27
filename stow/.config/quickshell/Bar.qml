@@ -72,6 +72,7 @@ Variants {
 
 			PipewireBarModule {}
 			BluetoothBarModule {}
+			NetworkBarModule {}
 			ClockBarModule {}
 		}
 	}
