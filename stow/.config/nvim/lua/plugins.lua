@@ -10,7 +10,8 @@ local util = require("util")
 local module = {}
 
 ---@param plugins Spec[]
-function module.load(plugins)
+---@param deleteInactive? boolean Clear files of plugins deemed "inactive" by vim.pack, defaults to `true`
+function module.load(plugins, deleteInactive)
 	local sources = {} ---@type Src[]
 
 	for _, plugin in ipairs(plugins) do
@@ -25,6 +26,15 @@ function module.load(plugins)
 	for _, plugin in ipairs(plugins) do
 		if plugin.config ~= nil then
 			plugin.config()
+		end
+	end
+
+	if deleteInactive == nil then deleteInactive = true end
+	if deleteInactive then
+		local installed = vim.pack.get()
+		local deleteThese = util.arrayFilter(installed, function(p) return not p.active end)
+		if #deleteThese > 0 then
+			vim.pack.del(util.arrayMap(deleteThese, function(p) return p.spec.name end))
 		end
 	end
 end
