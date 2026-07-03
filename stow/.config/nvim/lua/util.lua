@@ -72,6 +72,42 @@ function util.concatArray(...)
 	return result
 end
 
+---@generic From any
+---@generic To any
+---@param arr From[]
+---@param transform fun(from: From): To
+---@return To[]
+function util.arrayMap(arr, transform)
+	local result = {}
+	for i, v in ipairs(arr) do
+		result[i] = transform(v)
+	end
+	return result
+end
+
+---@generic T any
+---@param arr T[]
+---@param predicate fun(v: T): boolean
+---@return T[]
+function util.arrayFilter(arr, predicate)
+	local result = {}
+	for _, v in ipairs(arr) do
+		if predicate(v) then table.insert(result, v) end
+	end
+	return result
+end
+
+---@generic T any
+---@param arr T[]
+---@param value T
+---@return boolean
+function util.arrayContains(arr, value)
+	for _, v in ipairs(arr) do
+		if v == value then return true end
+	end
+	return false
+end
+
 ---@param haystack string
 ---@param needle string
 ---@return boolean
