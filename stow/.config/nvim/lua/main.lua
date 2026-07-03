@@ -51,6 +51,8 @@ for key, value in pairs(require("options")) do
 	vim.opt[key] = value
 end
 
+vim.cmd("colorscheme foolmoonnight")
+
 -- PLUGINS
 --
 -- See `:h :packadd`, `:h vim.pack`
@@ -87,5 +89,3 @@ require("plugins").load({
 })
 
 require("keymap").bind()
-
-vim.cmd("colorscheme foolmoonnight")
