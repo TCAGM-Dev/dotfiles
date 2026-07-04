@@ -7,7 +7,7 @@ BarModule {
 		const networks = device.networks.values.filter(n => n.connected)
 		return acc.concat(networks)
 	}, [])
-	readonly property Network primaryNetwork: connectedNetworks[0] // TODO: Find way to improve this, currently decidec by the order of connectedDevices
+	readonly property Network primaryNetwork: connectedNetworks[0] // TODO: Find way to improve this, currently decided by the order of connectedDevices
 
 	readonly property int connectivity: Networking.connectivity
 
