@@ -28,7 +28,7 @@ BarModule {
 	}
 
 	readonly property list<MprisPlayer> players: Mpris.players.values.filter(player => !module.ignored.includes(player.desktopEntry))
-	readonly property var player: players[0]
+	readonly property var player: players[0] // TODO: Find way to improve this
 
 	visible: player != null
 
