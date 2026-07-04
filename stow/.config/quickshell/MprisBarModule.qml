@@ -1,6 +1,7 @@
 import Quickshell.Services.Mpris
 import Quickshell.Hyprland
 import QtQuick
+import "util.js" as Util
 
 BarModule {
 	id: module
@@ -72,11 +73,11 @@ BarModule {
 		if (!open) return icon
 		const description = getMediaDescription(player.trackArtist, player.trackTitle)
 		const timeString = `[${formatLength(player.position)}/${formatLength(player.length)}]`
-		let result = [icon, description, timeString].filter(v => v != "" && v != null).join(" ")
+		let result = Util.smartJoin([icon, description, timeString], " ")
 		if (module.maxLength != null && result.length > module.maxLength) {
 			const delta = result.length - module.maxLength
 			const shortenedDescription = description.slice(0, -(delta + module.ellipsis.length)).trim() + module.ellipsis
-			result = [icon, shortenedDescription, timeString].filter(v => v != "" && v != null).join(" ")
+			result = Util.smartJoin([icon, description, timeString], " ")
 		}
 		return result
 	}
