@@ -17,6 +17,7 @@ Variants {
 		visible: !(monitor.activeWorkspace?.hasFullscreen ?? false)
 
 		WlrLayershell.layer: WlrLayer.Bottom
+		WlrLayershell.namespace: "quickshell_bar"
 
 		anchors.left: true
 		anchors.bottom: true
