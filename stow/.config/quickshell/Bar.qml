@@ -1,5 +1,6 @@
 import Quickshell
 import Quickshell.Hyprland
+import Quickshell.Wayland
 import QtQuick
 import QtQuick.Layouts
 import QtQuick.Shapes
@@ -14,6 +15,8 @@ Variants {
 		screen: modelData
 		readonly property HyprlandMonitor monitor: Hyprland.monitorFor(modelData)
 		visible: !(monitor.activeWorkspace?.hasFullscreen ?? false)
+
+		WlrLayershell.layer: WlrLayer.Bottom
 
 		anchors.left: true
 		anchors.bottom: true
