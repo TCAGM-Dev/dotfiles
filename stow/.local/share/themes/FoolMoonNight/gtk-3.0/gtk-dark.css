@@ -463,6 +463,7 @@ frame > paned > notebook,
     border: none;
 }
 
+@define-color theme_selected_bg_color rgba(147, 147, 147, 0.3); /* Why the *fuck* is this how you define the selected color and also why won't it allow a variable reference??? I hate this */
 treeview.view header button:not(.titlebutton):not(.flat) {
     border-radius: 0;
     border-top: none;
