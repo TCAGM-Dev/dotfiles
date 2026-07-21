@@ -5,6 +5,7 @@ hyprlock
 hypridle
 kitty
 thunar
+ttf-nerd-fonts-symbols
 btop
 wiremix
 hyprpicker
