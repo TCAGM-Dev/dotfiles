@@ -5,6 +5,7 @@
 LOW_THRESHOLD=15
 BATTERY=/sys/class/power_supply/BAT1
 PREV_CAPACITY_FILE="/tmp/battery_notifier_previous_capacity"
+NOTIFICATION_SOUND="$HOME/.bin/low_battery_notification.mp3"
 
 if [ ! -d "$BATTERY" ]; then
     exit 1 # Stop if on a batteryless device
@@ -21,6 +22,7 @@ while [ true ]; do
     
     if [ "$STATUS" == "Discharging" ] && [ $CAPACITY == $LOW_THRESHOLD ] && [ $CAPACITY != $PREV_CAPACITY ]; then
         notify-send -u critical "My battery is at $CAPACITY%" "Please charge me soon"
+		paplay "$NOTIFICATION_SOUND"
     fi
     sleep 10
 done
