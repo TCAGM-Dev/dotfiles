@@ -4,7 +4,7 @@
 
 LOW_THRESHOLD=15
 BATTERY=/sys/class/power_supply/BAT1
-PREV_CAPACITY_FILE="/tmp/battery_notifier_previous_capacity"
+PREV_CAPACITY_FILE=$(mktemp)
 NOTIFICATION_SOUND="$HOME/.bin/low_battery_notification.mp3"
 
 if [ ! -d "$BATTERY" ]; then
