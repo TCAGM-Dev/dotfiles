@@ -1,0 +1,58 @@
+[mgr]
+cwd = {fg = "white"}
+border_symbol = "┃" # Use actually centered line
+border_style = {fg = "#373737"}
+
+[indicator]
+preview = {underline = false} # Fix it for some reason being underlined by default
+padding = {open = "█", close = "█"}
+
+[tabs]
+active = {bg = "#494949", fg = "white"}
+inactive = {bg = "#2d2c33", fg = "white"}
+sep_inner = {open = "", close = ""}
+sep_outer = {open = "", close = ""}
+
+[status]
+overall = {bg = "#2d2c33", fg = "white"}
+sep_left = {open = "", close = ""}
+sep_right = {close = "", open = ""}
+
+[spot]
+border = {fg = "#494949"}
+title = {fg = "white", bold = true}
+tbl_col = {fg = "#aaaaaa"}
+tbl_cell = {fg = "black", bg = "white"}
+
+[input]
+border = {fg = "#494949"}
+title = {fg = "white", bold = true}
+
+[tasks]
+border = {fg = "#494949"}
+title = {fg = "white", bold = true}
+hovered = {fg = "#aaaaaa", bold = true}
+
+[mode]
+normal_main = {bg = "white", fg = "black"}
+normal_alt = {bg = "#494949", fg = "white"}
+select_main = {bg = "#80bcff", fg = "black"}
+select_alt = {bg = "#494949", fg = "white"}
+unset_main = {bg = "#ffa0e0", fg = "black"} # Figure out where this shows
+unset_alt = {bg = "#494949", fg = "white"}
+
+[filetype]
+rules = [ # Earlier elements have priority
+	# Modifiers
+	{url = "*", is = "orphan", fg = "red"},
+	{url = "*/", is = "orphan", fg = "red"},
+
+	{url = "*", is = "hidden", fg = "#5c6370"},
+	{url = "*/", is = "hidden", fg = "#5c6370"},
+
+	# Inherent colors
+	{mime = "application/{{g,}zip,x-{tar,bzip*,7z-compressed,xz,rar}}", fg = "green"},
+	{url = "*", is = "exec", fg = "cyan"},
+
+	{url = "*/", fg = "blue"}, # All folders
+]

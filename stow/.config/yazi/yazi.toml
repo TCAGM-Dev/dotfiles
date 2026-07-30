@@ -1,0 +1,52 @@
+[mgr]
+sort_by = "natural"
+linemode = "size"
+show_hidden = true # By default
+
+[opener]
+set-wallpaper = [
+	{run = "qs ipc call wallpaper setWallpaper '%s1'", desc = "Set as wallpaper", for = "linux"},
+]
+run = [
+	{run = "'%s1'", desc = "Run"},
+]
+run-java = [
+	{run = "java -j '%s1'", desc = "Run with system Java"}, # TODO: Fix?
+]
+extract-zip = [
+	{run = "unzip %s1 -d \"$(basename --suffix='.zip' -- %s1)\"", desc = "Extract here", for = "linux"},
+]
+
+[[open.prepend_rules]]
+mime = "image/*"
+use = ["open", "exif", "set-wallpaper"]
+[[open.prepend_rules]]
+mime = "application/{pie-,}executable"
+use = ["run"]
+[[open.prepend_rules]]
+mime = "application/java-archive"
+use = ["run-java"]
+[[open.prepend_rules]]
+mime = "application/{g,}zip"
+use = ["extract-zip"]
+
+[plugin]
+previewers = [
+	{url = "*/", run = "folder", sync = true},
+
+	{mime = "text/*", run = "code"},
+	{mime = "application/{x-nd,}json", run = "json"},
+	{mime = "image/{avif,heic,svg+xml}", run = "magick --bg=none"}, # Needs conversion # FIXME: transparency
+	{mime = "image/*", run = "image"},
+	{mime = "video/*", run = "video"},
+	{mime = "application/pdf", run = "pdf"},
+	{mime = "application/{{g,}zip,x-{tar,bzip*,7z-compressed,xz,rar,iso9660-image}}", run = "archive"},
+	{mime = "{font/*,application/{vnd.,}ms-opentype}", run = "font"},
+	{url = "*.ttf", mime = "application/octet-stream", run = "font"},
+
+	{url = "*", run = "file"}, # Fallback
+]
+
+prepend_spotters = [
+	{mime = "audio/*", run = "audio"},
+]

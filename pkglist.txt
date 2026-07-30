@@ -4,8 +4,8 @@ xdg-desktop-portal-gtk
 hyprlock
 hypridle
 kitty
-thunar
 ttf-nerd-fonts-symbols
+yazi
 btop
 wiremix
 hyprpicker

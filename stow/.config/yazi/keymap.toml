@@ -1,0 +1,48 @@
+#:schema https://yazi-rs.github.io/schemas/keymap.json
+
+[[mgr.prepend_keymap]]
+on = "`"
+for = "unix"
+run = "shell \"$SHELL\" --block"
+desc = "Open $SHELL here"
+
+[[pick.prepend_keymap]]
+on = "l"
+run = "close --submit"
+
+[[mgr.prepend_keymap]]
+on = "<C-c>"
+run = "quit"
+[[mgr.prepend_keymap]]
+on = ["t", "d"]
+run = "close"
+
+[[mgr.prepend_keymap]]
+on = "<C-h>"
+run = "tab_switch -1 --relative"
+[[mgr.prepend_keymap]]
+on = "<C-l>"
+run = "tab_switch 1 --relative"
+
+[[mgr.prepend_keymap]]
+on = "<S-j>"
+run = "arrow 10"
+desc = "Quick move down"
+[[mgr.prepend_keymap]]
+on = "<S-k>"
+run = "arrow -10"
+desc = "Quick move up"
+
+[[mgr.prepend_keymap]]
+on = ["g", "r"]
+for = "unix"
+run = "cd /"
+desc = "Go to fs root"
+
+[[help.prepend_keymap]]
+on = "/"
+run = "filter"
+
+[[help.prepend_keymap]]
+on = "q"
+run = "close"
