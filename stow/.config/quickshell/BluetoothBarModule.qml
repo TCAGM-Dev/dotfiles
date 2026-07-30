@@ -1,6 +1,5 @@
 import Quickshell
 import Quickshell.Bluetooth
-import QtQuick.Layouts
 
 BarModule {
 	readonly property int deviceCount: Bluetooth.devices.values.filter(device => device.connected).length
