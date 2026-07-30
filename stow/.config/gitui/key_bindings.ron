@@ -1,0 +1,11 @@
+(
+	move_left: Some((code: Char('h'), modifiers: "")),
+	move_right: Some((code: Char('l'), modifiers: "")),
+	move_up: Some((code: Char('k'), modifiers: "")),
+	move_down: Some((code: Char('j'), modifiers: "")),
+
+	open_help: Some((code: Char('~'), modifiers: "")),
+
+	edit_file: Some((code: Char('o'), modifiers: "")),
+	stage_unstage_item: Some((code: Char(' '), modifiers: "")),
+)
