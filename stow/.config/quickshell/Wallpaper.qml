@@ -39,7 +39,7 @@ Item {
 
 				anchors.fill: parent
 
-				fillMode: FillMode.Cover
+				fillMode: Image.PreserveAspectCrop
 			}
 		}
 	}
