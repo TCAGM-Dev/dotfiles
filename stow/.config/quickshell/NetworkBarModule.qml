@@ -18,7 +18,7 @@ BarModule {
 	readonly property var connectivityData: (() => {
 		const result = new Map()
 
-		result.set(NetworkConnectivity.Portal, {text: "Authenticate"})
+		result.set(NetworkConnectivity.Portal, {icon: "󰤩", text: "Authenticate"})
 		result.set(NetworkConnectivity.Full, {text: primaryNetwork?.name ?? "", icon: (() => {
 			if (primaryNetwork instanceof WifiNetwork) return sampleArray(connectivity == NetworkConnectivity.Full ? ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"] : ["󰤫", "󰤠", "󰤣", "󰤦", "󰤩"], primaryNetwork.signalStrength)
 			return ""
