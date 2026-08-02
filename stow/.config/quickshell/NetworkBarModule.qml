@@ -18,7 +18,7 @@ BarModule {
 	readonly property var connectivityData: (() => {
 		const result = new Map()
 
-		result.set(NetworkConnectivity.Portal, {icon: "󰤩", text: "Authenticate"})
+		result.set(NetworkConnectivity.Portal, {icon: "󰤩", text: "Authenticate", onClicked: () => Quickshell.execDetached(["xdg-open", "http://1.1.1.1"])})
 		result.set(NetworkConnectivity.Full, {text: primaryNetwork?.name ?? "", icon: (() => {
 			if (primaryNetwork instanceof WifiNetwork) return sampleArray(connectivity == NetworkConnectivity.Full ? ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"] : ["󰤫", "󰤠", "󰤣", "󰤦", "󰤩"], primaryNetwork.signalStrength)
 			return ""
@@ -37,5 +37,5 @@ BarModule {
 	text: [currentData.icon, currentData.text].filter(v => v != null).join(" ")
 	color: currentData.color ?? "white"
 
-	onClicked: () => Quickshell.execDetached(["networkmanager_dmenu"])
+	onClicked: currentData.onClicked ?? (() => Quickshell.execDetached(["networkmanager_dmenu"]))
 }
