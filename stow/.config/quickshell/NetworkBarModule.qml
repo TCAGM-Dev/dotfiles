@@ -1,3 +1,4 @@
+import Quickshell
 import Quickshell.Networking
 import QtQuick 2.0
 
@@ -37,5 +38,11 @@ BarModule {
 	text: [currentData.icon, currentData.text].filter(v => v != null).join(" ")
 	color: currentData.color ?? "white"
 
-	onClicked: currentData.onClicked ?? (() => Quickshell.execDetached(["networkmanager_dmenu"]))
+	onClicked: () => {
+		if (currentData.onClicked != null) {
+			currentData.onClicked()
+		} else {
+			Quickshell.execDetached(["networkmanager_dmenu"])
+		}
+	}
 }
