@@ -1,0 +1,64 @@
+{
+  "plugins": {
+    "barbar.nvim": {
+      "rev": "a4bef5b4fc1f064f2f673172252028eae18191c9",
+      "src": "https://github.com/romgrk/barbar.nvim"
+    },
+    "fzf-lua": {
+      "rev": "8969c8c2b668502d54478e46745d6647ff346e15",
+      "src": "https://github.com/ibhagwan/fzf-lua"
+    },
+    "galaxyline.nvim": {
+      "rev": "4d4f5fc8e20a10824117e5beea7ec6e445466a8f",
+      "src": "https://github.com/NTBBloodbath/galaxyline.nvim"
+    },
+    "gitsigns.nvim": {
+      "rev": "8d82c240f190fc33723d48c308ccc1ed8baad69d",
+      "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
+    "image.nvim": {
+      "rev": "da2be65c153ba15a14a342b05591652a6df70d58",
+      "src": "https://github.com/3rd/image.nvim"
+    },
+    "live-share.nvim": {
+      "rev": "83d8091a86ed212a0f38e915db41dfd586664ff1",
+      "src": "https://github.com/azratul/live-share.nvim"
+    },
+    "log-highlight.nvim": {
+      "rev": "098e0193a45bd4c0dfac8cbe72209fe64f105cd5",
+      "src": "https://github.com/fei6409/log-highlight.nvim"
+    },
+    "mini.completion": {
+      "rev": "e934b46f6471a3bd0cd37fc06d0df198b9711882",
+      "src": "https://github.com/nvim-mini/mini.completion"
+    },
+    "nvim-autopairs": {
+      "rev": "7b9923abad60b903ece7c52940e1321d39eccc79",
+      "src": "https://github.com/windwp/nvim-autopairs"
+    },
+    "nvim-colorizer.lua": {
+      "rev": "5cfe7fffbd01e17b3c1e14af85d5febdef88bd8c",
+      "src": "https://github.com/NvChad/nvim-colorizer.lua"
+    },
+    "nvim-lspconfig": {
+      "rev": "4b7fbaa239c5db6b36f424a4521ca9f1a401be33",
+      "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "nvim-web-devicons": {
+      "rev": "4fc505ac7bd7692824a142e96e5f529c133862f8",
+      "src": "https://github.com/nvim-tree/nvim-web-devicons"
+    },
+    "oil.nvim": {
+      "rev": "0fcc83805ad11cf714a949c98c605ed717e0b83e",
+      "src": "https://github.com/stevearc/oil.nvim"
+    },
+    "quicker.nvim": {
+      "rev": "063cc44da1eef8681bbd653b29d3bc961780886a",
+      "src": "https://github.com/stevearc/quicker.nvim"
+    },
+    "transparent.nvim": {
+      "rev": "8ac59883de84e9cd1850ea25cf087031c5ba7d54",
+      "src": "https://github.com/xiyaowong/transparent.nvim"
+    }
+  }
+}
