@@ -17,6 +17,11 @@ source /usr/share/nvm/init-nvm.sh
 # uv
 which "uv" &>/dev/null && PATH=$PATH:$HOME/.local/bin
 
+# Assign $SSH_AUTH_SOCK, fixes some SSH-related issues
+[[ -z $SSH_AUTH_SOCK ]] && for s in $XDG_RUNTIME_DIR/gcr/ssh; do
+	[[ -S $s ]] && export SSH_AUTH_SOCK=$s && break
+done
+
 prevCwd=$PWD
 chpwd() {
 	[ $prevCwd = $PWD ] && return # Ignore unnecessary calls
