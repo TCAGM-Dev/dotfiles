@@ -35,6 +35,18 @@ chpwd() {
 chpwd_functions+=chpwd
 chpwd
 
+# Yazi integration
+which "yazi" &>/dev/null && {
+	function yazi() {
+		local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+		command yazi "$@" --cwd-file="$tmp"
+		IFS= read -r -d '' cwd < "$tmp"
+		[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && cd -- "$cwd"
+		command rm -f -- "$tmp"
+	}
+	alias y=yazi
+}
+
 # User bin folder
 PATH=$PATH:$HOME/.bin
 
