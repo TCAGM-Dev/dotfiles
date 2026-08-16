@@ -3,6 +3,7 @@ return {
 	src = "https://github.com/hrsh7th/nvim-cmp",
 	dependencies = {
 		"https://github.com/hrsh7th/cmp-nvim-lsp",
+		"https://github.com/hrsh7th/cmp-buffer",
 	},
 	config = function()
 		local cmp = require("cmp")
