@@ -68,7 +68,7 @@ require("plugins").load({
 	require("plugins/log-highlight"),
 	require("plugins/colorizer"),
 	require("plugins/fzf"),
-	require("plugins/mini-completion"),
+	require("plugins/completion"),
 	require("plugins/quicker"),
 	require("plugins/lspconfig")({
 		qmlls = {cmd = {"qmlls6"}},
