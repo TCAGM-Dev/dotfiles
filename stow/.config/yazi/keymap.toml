@@ -18,11 +18,13 @@ on = ["t", "d"]
 run = "close"
 
 [[mgr.prepend_keymap]]
-on = "<C-h>"
-run = "tab_switch -1 --relative"
+on = "{"
+run = "tab_swap -1"
+desc = "Move tab left"
 [[mgr.prepend_keymap]]
-on = "<C-l>"
-run = "tab_switch 1 --relative"
+on = "}"
+run = "tab_swap 1"
+desc = "Move tab right"
 
 [[mgr.prepend_keymap]]
 on = "<S-j>"
