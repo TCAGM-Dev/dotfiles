@@ -46,3 +46,7 @@ run = "filter"
 [[help.prepend_keymap]]
 on = "q"
 run = "close"
+
+[[confirm.prepend_keymap]]
+on = " "
+run = "close --submit"
