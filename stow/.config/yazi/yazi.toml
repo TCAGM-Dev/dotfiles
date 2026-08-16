@@ -16,6 +16,9 @@ run-java = [
 extract-zip = [
 	{run = "unzip %s1 -d \"$(basename --suffix='.zip' -- %s1)\"", desc = "Extract here", for = "linux"},
 ]
+edit = [ # Overwrite default
+	{run = "rootDir=$(git rev-parse --show-toplevel) && cd $rootDir && unset rootDir; ${EDITOR:-vi} %s", desc = "$EDITOR", for = "unix", block = true},
+]
 
 [[open.prepend_rules]]
 mime = "image/*"
