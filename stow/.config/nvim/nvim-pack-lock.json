@@ -63,10 +63,6 @@
     "quicker.nvim": {
       "rev": "063cc44da1eef8681bbd653b29d3bc961780886a",
       "src": "https://github.com/stevearc/quicker.nvim"
-    },
-    "transparent.nvim": {
-      "rev": "8ac59883de84e9cd1850ea25cf087031c5ba7d54",
-      "src": "https://github.com/xiyaowong/transparent.nvim"
     }
   }
 }

@@ -62,7 +62,6 @@ vim.cmd("colorscheme foolmoonnight")
 vim.cmd("packadd! nohlsearch")
 
 require("plugins").load({
-	require("plugins/transparent"),
 	require("plugins/gitsigns"),
 	require("plugins/barbar"),
 	require("plugins/log-highlight"),
