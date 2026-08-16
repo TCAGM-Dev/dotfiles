@@ -4,6 +4,10 @@
       "rev": "a4bef5b4fc1f064f2f673172252028eae18191c9",
       "src": "https://github.com/romgrk/barbar.nvim"
     },
+    "cmp-nvim-lsp": {
+      "rev": "cbc7b02bb99fae35cb42f514762b89b5126651ef",
+      "src": "https://github.com/hrsh7th/cmp-nvim-lsp"
+    },
     "fzf-lua": {
       "rev": "8969c8c2b668502d54478e46745d6647ff346e15",
       "src": "https://github.com/ibhagwan/fzf-lua"
@@ -28,13 +32,13 @@
       "rev": "098e0193a45bd4c0dfac8cbe72209fe64f105cd5",
       "src": "https://github.com/fei6409/log-highlight.nvim"
     },
-    "mini.completion": {
-      "rev": "e934b46f6471a3bd0cd37fc06d0df198b9711882",
-      "src": "https://github.com/nvim-mini/mini.completion"
-    },
     "nvim-autopairs": {
       "rev": "7b9923abad60b903ece7c52940e1321d39eccc79",
       "src": "https://github.com/windwp/nvim-autopairs"
+    },
+    "nvim-cmp": {
+      "rev": "2ffe79f1f021def8dd1fcd81deb16f1bb0d989f3",
+      "src": "https://github.com/hrsh7th/nvim-cmp"
     },
     "nvim-colorizer.lua": {
       "rev": "5cfe7fffbd01e17b3c1e14af85d5febdef88bd8c",
