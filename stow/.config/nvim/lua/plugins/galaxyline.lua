@@ -30,7 +30,7 @@ return {
 				local m = vim.fn.mode()
 				local mode = modes[m]
 				vim.api.nvim_set_hl(0, "GalaxyLineMode", {fg = "black", bg = mode.color})
-				vim.api.nvim_set_hl(0, "GalaxyLineModeSeo", {fg = mode.color, bg = nil})
+				vim.api.nvim_set_hl(0, "GalaxyLineModeSep", {fg = mode.color, bg = nil})
 				return mode.text
 			end,
 			highlight = "GalaxyLineMode",
