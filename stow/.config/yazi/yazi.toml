@@ -41,8 +41,11 @@ previewers = [
 	{mime = "application/{x-nd,}json", run = "json"},
 	{mime = "image/{avif,heic,svg+xml}", run = "magick --bg=none"}, # Needs conversion # FIXME: transparency
 	{mime = "image/*", run = "image"},
+	{mime = "audio/flac", run = "faster-piper -- file -b \"$1\" | fold -s -w $w; echo; echo 'Tags:'; metaflac --show-all-tags \"$1\" | sed 's/^/  /'"},
+	{mime = "audio/mpeg", run = "faster-piper -- file -b \"$1\" | fold -s -w $w; echo; echo 'Tags:'; mid3v2 -l \"$1\" | tail -n +2 | sed 's/^/  /'"},
 	{mime = "video/*", run = "video"},
 	{mime = "application/pdf", run = "pdf"},
+	{mime = "application/{g,}zip", run = "faster-piper --format=url -- zipinfo -1 \"$1\""},
 	{mime = "application/{{g,}zip,x-{tar,bzip*,7z-compressed,xz,rar,iso9660-image}}", run = "archive"},
 	{mime = "{font/*,application/{vnd.,}ms-opentype}", run = "font"},
 	{url = "*.ttf", mime = "application/octet-stream", run = "font"},
