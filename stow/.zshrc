@@ -75,6 +75,9 @@ which "sqlite3" &>/dev/null && alias sqlite=sqlite3
 which "fastfetch" &>/dev/null && alias neofetch=fastfetch
 alias ls="ls -Ah --color=always"
 which "docker-compose" &>/dev/null && alias dc="docker-compose"
+which "mktemp" &>/dev/null && cdtemp() {
+	cd $(mktemp -d ${@:1})
+}
 
 which "nvim" &>/dev/null && which "vim" &>/dev/null || alias vim=nvim
 which "vim" &>/dev/null && which "vi" &>/dev/null || alias vi=nvim
