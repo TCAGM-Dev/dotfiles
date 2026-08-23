@@ -61,5 +61,6 @@ prepend_spotters = [
 
 prepend_fetchers = [
 	{url = "local://*",  run = "mime-ext.local",  prio = "high", group = "mime"},
+	{url = "trash://*",  run = "mime-ext.local",  prio = "high", group = "mime"},
 	{url = "remote://*", run = "mime-ext.remote", prio = "high", group = "mime"},
 ]
