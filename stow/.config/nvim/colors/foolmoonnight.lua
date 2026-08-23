@@ -23,7 +23,7 @@ hl("VertSplit", {bg = "#00ff00"})
 hl("TabLine", {link = "StatusLineNC"})
 hl("TabLineFill", {link = "TabLine"})
 hl("TabLineSel", {bg = "#494949"})
-hl("ColorColumn", {bg = "#ff00ff"})
+hl("ColorColumn", {bg = "#171717"})
 hl("SignColumn", {link = "LineNr"})
 hl("FoldColumn", {bg = "#0000ff"})
 hl("Folded", {bg = "#00ffff"})
@@ -69,6 +69,13 @@ hl("@variable.member.lua", {link = "@property.lua"})
 
 -- Syntax: Markdown
 hl("@markup.raw.markdown_inline", {fg = "#dddddd", bg = "#2c2e33", italic = true})
+do
+	local headerStyle = {fg = "#ffffff", bg = "#171717", bold = true}
+	for level = 1, 6 do
+		hl("RenderMarkdownH" .. level, headerStyle)
+		hl("RenderMarkdownH" .. level .. "Bg", {bg = headerStyle.bg})
+	end
+end
 
 -- Syntax: HTML
 hl("htmlEndTag", {link = "htmlTag"})
