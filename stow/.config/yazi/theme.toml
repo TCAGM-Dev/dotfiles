@@ -24,6 +24,11 @@ title = {fg = "white", bold = true}
 tbl_col = {fg = "#aaaaaa"}
 tbl_cell = {fg = "black", bg = "white"}
 
+[pick]
+border = {fg = "#494949"}
+title = {fg = "white", bold = true} # "title" key not supported for some reason # TODO: remove comment when added
+active = {fg = "#aaaaaa", bold = true}
+
 [input]
 border = {fg = "#494949"}
 title = {fg = "white", bold = true}
