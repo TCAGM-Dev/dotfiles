@@ -77,7 +77,7 @@ BarModule {
 		if (module.maxLength != null && result.length > module.maxLength) {
 			const delta = result.length - module.maxLength
 			const shortenedDescription = description.slice(0, -(delta + module.ellipsis.length)).trim() + module.ellipsis
-			result = Util.smartJoin([icon, description, timeString], " ")
+			result = Util.smartJoin([icon, shortenedDescription, timeString], " ")
 		}
 		return result
 	}
