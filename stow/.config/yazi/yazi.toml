@@ -35,6 +35,8 @@ use = ["extract-zip"]
 
 [plugin]
 previewers = [
+	{mime = "vfs/absent", run = "faster-piper -- echo \"File not downloaded, can't preview\" | fold -s -w $w"},
+
 	{url = "*/", run = "folder", sync = true},
 
 	{mime = "text/*", run = "code"},
