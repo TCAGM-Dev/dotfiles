@@ -20,6 +20,10 @@
       "rev": "4d4f5fc8e20a10824117e5beea7ec6e445466a8f",
       "src": "https://github.com/NTBBloodbath/galaxyline.nvim"
     },
+    "git-blame.nvim": {
+      "rev": "5c536e2d4134d064aa3f41575280bc8a2a0e03d7",
+      "src": "https://github.com/f-person/git-blame.nvim"
+    },
     "gitsigns.nvim": {
       "rev": "8d82c240f190fc33723d48c308ccc1ed8baad69d",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
