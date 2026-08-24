@@ -121,4 +121,16 @@ function util.endsWith(haystack, needle)
 	return string.sub(haystack, -#needle) == needle
 end
 
+---@param inputStr string
+---@param sep string
+---@return string[]
+function util.stringSplit(inputStr, sep)
+	if sep == nil then sep = "%s" end
+	local parts = {}
+	for part in inputStr:gmatch("([^" .. sep .. "]+)") do
+		table.insert(parts, part)
+	end
+	return parts
+end
+
 return util
