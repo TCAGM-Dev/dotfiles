@@ -82,6 +82,7 @@ require("plugins").load({
 		basedpyright = {},
 	}),
 	require("plugins/oil"),
+	require("plugins/tui"),
 	require("plugins/image"),
 	require("plugins/autopairs"),
 	require("plugins/galaxyline"),

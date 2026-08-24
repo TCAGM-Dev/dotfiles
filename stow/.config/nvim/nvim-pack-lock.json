@@ -75,6 +75,10 @@
     "render-markdown.nvim": {
       "rev": "4663eb3ecd538bd5062628fb6d95bbe6bdca78f6",
       "src": "https://github.com/MeanderingProgrammer/render-markdown.nvim"
+    },
+    "tui-nvim": {
+      "rev": "2eeff3ac921f53bdb837d23d6e4501d97807994c",
+      "src": "https://github.com/is0n/tui-nvim"
     }
   }
 }
