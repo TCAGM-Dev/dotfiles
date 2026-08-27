@@ -88,6 +88,7 @@ require("plugins").load({
 	require("plugins/galaxyline"),
 	require("plugins/blame"),
 	require("plugins/render-markdown"),
+	require("plugins/inline-diagnostic"),
 })
 
 require("keymap").bind()

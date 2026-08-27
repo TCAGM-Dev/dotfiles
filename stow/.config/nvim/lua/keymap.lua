@@ -19,11 +19,6 @@ return {bind = function()
 	vim.keymap.set({"n"}, "<C-`>", "<Cmd>terminal<CR>")
 
 	vim.keymap.set({"n", "i"}, "<A-Return>", vim.lsp.buf.signature_help)
-	vim.api.nvim_create_autocmd({"CursorHold", "CursorHoldI"}, {
-		callback = function()
-			vim.diagnostic.open_float(nil, {focus = false})
-		end
-	})
 	vim.keymap.set({"n", "i"}, "<C-Return>", vim.lsp.buf.definition)
 	vim.keymap.set({"n", "i"}, "<CA-Return>", vim.lsp.buf.references)
 
