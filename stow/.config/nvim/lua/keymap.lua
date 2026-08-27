@@ -27,10 +27,33 @@ return {bind = function()
 	vim.keymap.set({"n", "i"}, "<S-Down>", "10<CR>")
 	vim.keymap.set({"n"}, "<S-J>", "10<CR>")
 
-	vim.keymap.set("v", "<A-j>", ":m '>+1<CR>gv=gv")
-	vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
-	vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
-	vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
+	vim.api.nvim_create_autocmd({"BufAdd", "VimEnter"}, {callback = function(event) -- Buffer-local logic for 
+		local lastLineMoveEditPosition = nil ---@type number|nil
+
+		local lastEditWasMe = false
+		local function a(cmds)
+			return function()
+				if vim.fn.getpos(".")[2] == lastLineMoveEditPosition then vim.cmd("undojoin") end
+				for i, cmd in ipairs(cmds) do
+					if i > 1 then vim.cmd("undojoin") end
+					vim.cmd(cmd)
+				end
+				lastLineMoveEditPosition = vim.fn.getpos(".")[2]
+				lastEditWasMe = true -- Signal to "TextChanged" autocmd below
+			end
+		end
+
+		local opts = {buf = event.buf}
+		vim.keymap.set("v", "<A-j>", a({"m '>+1", "normal! gv=gv"}), opts)
+		vim.keymap.set("v", "<A-k>", a({"m '<-2", "normal! gv=gv"}), opts)
+		vim.keymap.set("n", "<A-j>", a({"m .+1",  "normal! =="}),    opts)
+		vim.keymap.set("n", "<A-k>", a({"m .-2",  "normal! =="}),    opts)
+
+		vim.api.nvim_create_autocmd("TextChanged", {buf = event.buf, callback = function()
+			if not lastEditWasMe then lastLineMoveEditPosition = nil end -- Clear `lastLineMoveEditPosition` on any other edit
+			lastEditWasMe = false -- Reset
+		end})
+	end})
 
 	vim.keymap.set("n", "gq", "<Cmd>Format<CR>")
 end}
