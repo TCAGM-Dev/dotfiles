@@ -33,7 +33,7 @@ Scope {
 			}
 			
 			// Power options
-			result.push({name: "Lock", onSelect: () => Quickshell.execDetached(["bash", "-c", "playerctl -a pause; hyprlock"])})
+			result.push({name: "Lock", onSelect: () => Quickshell.execDetached(["loginctl", "lock-session"])})
 			result.push({name: "Sleep", meta: "suspend", onSelect: () => Quickshell.execDetached(["systemctl", "sleep"])})
 			result.push({name: "Logout", onSelect: () => Quickshell.execDetached(["bash", "-c", "hyprshutdown && hyprshutdown || hyprctl dispatch exit"])})
 			result.push({name: "Reboot", meta: "restart", onSelect: () => Quickshell.execDetached(["systemctl", "reboot"])})
