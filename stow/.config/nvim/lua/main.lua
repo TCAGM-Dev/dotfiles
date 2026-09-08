@@ -80,6 +80,7 @@ require("plugins").load({
 		docker_language_server = {},
 		sqlls = {},
 		basedpyright = {},
+		gdscript = {},
 	}),
 	require("plugins/oil"),
 	require("plugins/tui"),
