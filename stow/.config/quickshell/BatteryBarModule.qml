@@ -3,6 +3,8 @@ import Quickshell.Services.UPower
 BarModule {
 	readonly property list<string> icons: ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
 	readonly property list<string> iconsCharging: ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+	readonly property string connectedIcon: "" // Used when battery bypass is active (connected at 100%)
+
 	function getIcon(set: list<string>, level: real): string {
 		if (level <= 0) return set[0]
 		if (level >= 1) return set[set.length - 1]
@@ -20,7 +22,7 @@ BarModule {
 	readonly property real percentage: UPower.displayDevice.percentage
 	text: showPower ?
 		`${UPower.displayDevice.changeRate}W 󱐋` :
-		`${Math.round(percentage * 100)}% ${getIcon(UPower.displayDevice.state == UPowerDeviceState.Charging ? iconsCharging : icons, percentage)}`
+		`${Math.round(percentage * 100)}% ${UPower.displayDevice.state == UPowerDeviceState.FullyCharged ? connectedIcon : getIcon(UPower.displayDevice.state == UPowerDeviceState.Charging ? iconsCharging : icons, percentage)}`
 	color: getColor(percentage)
 	
 	onClicked: showPower = !showPower
