@@ -21,6 +21,9 @@ edit = [ # Overwrite default
 ]
 
 [[open.prepend_rules]]
+mime = "image/svg+xml"
+use = ["open", "edit"]
+[[open.prepend_rules]]
 mime = "image/*"
 use = ["open", "exif", "set-wallpaper"]
 [[open.prepend_rules]]
