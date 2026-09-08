@@ -8,6 +8,25 @@ return {
 	config = function()
 		local cmp = require("cmp")
 
+		---@param callback fun(fallback: fun(): nil): nil
+		---@param modes string[]
+		---@param selected boolean Additional filter for whether a completion option is selected
+		local function openedMapping(callback, modes, selected)
+			return cmp.mapping(function(fallback)
+				if cmp.visible() then
+					if selected ~= nil then
+						if (cmp.get_selected_entry() ~= nil) ~= selected then
+							return fallback()
+						end
+
+						return callback(fallback)
+					end
+				else
+					return fallback()
+				end
+			end, modes)
+		end
+
 		cmp.setup({
 			snippet = {
 				expand = function(args)
@@ -21,17 +40,27 @@ return {
 			},
 
 			mapping = cmp.mapping.preset.insert({
-				['<C-b>'] = cmp.mapping.scroll_docs(-4),
-				['<C-f>'] = cmp.mapping.scroll_docs(4),
-				['<C-Space>'] = cmp.mapping.complete(),
-				['<C-e>'] = cmp.mapping.abort(),
-				['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+				["<A-k>"] = cmp.mapping.scroll_docs(-4),
+				["<A-j>"] = cmp.mapping.scroll_docs(4),
+				["<Esc>"] = cmp.mapping.abort(),
+				["<S-Tab>"] = openedMapping(function(fallback)
+					cmp.select_next_item({behavior = cmp.SelectBehavior.Select})
+				end, {"i", "s"}, false),
+				["l"] = openedMapping(function(fallback)
+					cmp.confirm({select = true})
+				end, {"i", "s"}, true),
+				["j"] = openedMapping(function(fallback)
+					cmp.select_next_item({behavior = cmp.SelectBehavior.Select})
+				end, {"i", "s"}, true),
+				["k"] = openedMapping(function(fallback)
+					cmp.select_prev_item({behavior = cmp.SelectBehavior.Select})
+				end, {"i", "s"}, true)
 			}),
 
 			sources = cmp.config.sources({
-				{ name = 'nvim_lsp' },
+				{name = "nvim_lsp"},
 			}, {
-				{ name = 'buffer' },
+				{name = "buffer"},
 			}),
 		})
 	end
