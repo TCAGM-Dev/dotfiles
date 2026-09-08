@@ -7,14 +7,14 @@ return {bind = function()
 	vim.keymap.set("t", "<Esc>", "<C-\\><C-n>")
 
 	-- Map <A-j>, <A-k>, <A-h>, <A-l> to navigate between windows in any modes
-	vim.keymap.set({"t", "i"}, "<A-h>", "<C-\\><C-n><C-w>h")
-	vim.keymap.set({"t", "i"}, "<A-j>", "<C-\\><C-n><C-w>j")
-	vim.keymap.set({"t", "i"}, "<A-k>", "<C-\\><C-n><C-w>k")
-	vim.keymap.set({"t", "i"}, "<A-l>", "<C-\\><C-n><C-w>l")
-	vim.keymap.set({"n"}, "<A-h>", "<C-w>h")
-	vim.keymap.set({"n"}, "<A-j>", "<C-w>j")
-	vim.keymap.set({"n"}, "<A-k>", "<C-w>k")
-	vim.keymap.set({"n"}, "<A-l>", "<C-w>l")
+	vim.keymap.set({"n", "t", "i"}, "<A-h>", "<cmd>wincmd h<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-j>", "<cmd>wincmd j<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-k>", "<cmd>wincmd k<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-l>", "<cmd>wincmd l<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-H>", "<cmd>wincmd H<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-J>", "<cmd>wincmd J<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-K>", "<cmd>wincmd K<CR>")
+	vim.keymap.set({"n", "t", "i"}, "<A-L>", "<cmd>wincmd L<CR>")
 
 	vim.keymap.set({"n"}, "<C-`>", "<Cmd>terminal<CR>")
 
@@ -44,10 +44,10 @@ return {bind = function()
 		end
 
 		local opts = {buf = event.buf}
-		vim.keymap.set("v", "<A-j>", a({"m '>+1", "normal! gv=gv"}), opts)
-		vim.keymap.set("v", "<A-k>", a({"m '<-2", "normal! gv=gv"}), opts)
-		vim.keymap.set("n", "<A-j>", a({"m .+1",  "normal! =="}),    opts)
-		vim.keymap.set("n", "<A-k>", a({"m .-2",  "normal! =="}),    opts)
+		vim.keymap.set("v", "<C-j>", a({"m '>+1", "normal! gv=gv"}), opts)
+		vim.keymap.set("v", "<C-k>", a({"m '<-2", "normal! gv=gv"}), opts)
+		vim.keymap.set("n", "<C-j>", a({"m .+1",  "normal! =="}),    opts)
+		vim.keymap.set("n", "<C-k>", a({"m .-2",  "normal! =="}),    opts)
 
 		vim.api.nvim_create_autocmd("TextChanged", {buf = event.buf, callback = function()
 			if not lastEditWasMe then lastLineMoveEditPosition = nil end -- Clear `lastLineMoveEditPosition` on any other edit
