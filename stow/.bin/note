@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+dir=${NOTE_DIR:-"$(xdg-user-dir DOCUMENTS)/notes"}
+if [ ! -d $dir ]; then
+	mkdir $dir
+fi
+
+$EDITOR "$dir/note_$(date --rfc-3339=date).md"
