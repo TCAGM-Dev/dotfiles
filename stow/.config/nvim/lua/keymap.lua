@@ -27,7 +27,7 @@ return {bind = function()
 	vim.keymap.set({"n", "i"}, "<S-Down>", "10<CR>")
 	vim.keymap.set({"n"}, "<S-J>", "10<CR>")
 
-	vim.api.nvim_create_autocmd({"BufAdd", "VimEnter"}, {callback = function(event) -- Buffer-local logic for 
+	vim.api.nvim_create_autocmd({"BufAdd", "VimEnter"}, {callback = function(event) -- Buffer-local logic for
 		local lastLineMoveEditPosition = nil ---@type number|nil
 
 		local lastEditWasMe = false
