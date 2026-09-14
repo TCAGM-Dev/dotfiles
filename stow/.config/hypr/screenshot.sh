@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 FOLDER=~/images/screenshots
-FILENAME=$(date +"%d-%m-%Y_%H:%M:%S")
+FILENAME=$(date +"%Y-%m-%d_%H:%M:%S")
 if [ $1 == "display" ]; then
     FILE="$FOLDER/$FILENAME.display.png"
 else
