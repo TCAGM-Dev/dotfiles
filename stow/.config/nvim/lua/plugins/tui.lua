@@ -22,9 +22,10 @@ return {
 			tui:new({
 				cmd = "command yazi --chooser-file=" .. temp .. " '" .. path .. "'",
 				on_exit = {function()
-					local files = vim.fn.system("cat " .. temp)
-					for _, file in ipairs(util.stringSplit(files, "\n")) do
-						vim.fn.execute("edit " .. file)
+					for _, filePath in io.lines(temp) do
+						if filePath ~= nil then
+							vim.fn.execute("edit " .. filePath)
+						end
 					end
 				end},
 			})
