@@ -102,20 +102,34 @@ PanelWindow {
 				width: parent.width
 
 				Keys.onEscapePressed: root.close()
-				Keys.onDownPressed: () => {
+				function goDown() {
 					(entriesList.itemAtIndex(1) ?? entriesList.itemAtIndex(0))?.forceActiveFocus?.()
 				}
-				Keys.onReturnPressed: () => {
+				Keys.onDownPressed: this.goDown()
+				function select() {
 					root.viewEntries[0]?.onSelect?.()
 					root.close()
 				}
+				Keys.onReturnPressed: this.select()
 				Keys.onPressed: (event) => {
 					if (!frame.isCtrlPressed) return
+
+					if (event.key == Qt.Key_J) {
+						this.goDown()
+						event.accepted = true
+					} else if (event.key == Qt.Key_L) {
+						this.select()
+						event.accepted = true
+						frame.isCtrlPressed = false
+					}
+
 					const keyNum = event.key - Qt.Key_0
-					if (keyNum < 0 || keyNum >= root.shortcutNumbers.length) return
-					const index = root.shortcutNumbers.indexOf(keyNum)
-					entriesList.itemAtIndex(index).activate()
-					frame.isCtrlPressed = false
+					if (keyNum >= 0 && keyNum < root.shortcutNumbers.length) {
+						const index = root.shortcutNumbers.indexOf(keyNum)
+						entriesList.itemAtIndex(index).activate()
+						event.accepted = true
+						frame.isCtrlPressed = false
+					}
 				}
 
 				background: Rectangle {
@@ -163,6 +177,22 @@ PanelWindow {
 					onClicked: item.activate()
 					Keys.onReturnPressed: item.activate()
 					Keys.onEnterPressed: item.activate()
+					Keys.onPressed: event => {
+						console.log(frame.isCtrlPressed, event.key)
+						if (!frame.isCtrlPressed) return
+
+						if (event.key == Qt.Key_L) {
+							item.activate()
+							event.accepted = true
+							frame.isCtrlPressed = false
+						} else if (event.key == Qt.Key_J) {
+							entriesList.incrementCurrentIndex()
+							event.accepted = true
+						} else if (event.key == Qt.Key_K) {
+							entriesList.decrementCurrentIndex()
+							event.accepted = true
+						}
+					}
 
 					width: ListView.view.width
 					background: Rectangle {
