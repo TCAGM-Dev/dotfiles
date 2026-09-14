@@ -64,6 +64,7 @@ vim.cmd("packadd! nohlsearch")
 require("plugins").load({
 	require("plugins/treesitter"),
 	require("plugins/gitsigns"),
+	require("plugins/git-conflict"),
 	require("plugins/barbar"),
 	require("plugins/log-highlight"),
 	require("plugins/colorizer"),
