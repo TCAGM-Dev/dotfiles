@@ -6,7 +6,7 @@ return {
 	config = function()
 		local tui = require("tui-nvim")
 
-		local temp = vim.fn.system("mktemp '/tmp/tui-nvim.XXXXXX'")
+		local temp = vim.fn.system("mktemp '/tmp/tui-nvim.XXXXXX'"):sub(1, -2)
 
 		tui.setup({
 			temp = temp,
