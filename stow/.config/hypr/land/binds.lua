@@ -28,6 +28,9 @@ hl.bind(mainMod .. " + ALT + S", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + M", hl.dsp.workspace.toggle_special("tray"))
 hl.bind(mainMod .. " + SHIFT + M", hl.dsp.window.move({workspace = "special:tray"})) -- TODO: test
 
+hl.bind(mainMod .. " + bracketleft", hl.dsp.focus({workspace = "-1"}))
+hl.bind(mainMod .. " + bracketright", hl.dsp.focus({workspace = "+1"}))
+
 -- OBS Global hotkeys
 for _, hotkey in ipairs({
 	mainMod .. " + F11",
