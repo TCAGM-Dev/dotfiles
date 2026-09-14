@@ -43,9 +43,16 @@ return {
 				["<A-k>"] = cmp.mapping.scroll_docs(-4),
 				["<A-j>"] = cmp.mapping.scroll_docs(4),
 				["<Esc>"] = cmp.mapping.abort(),
-				["<S-Tab>"] = openedMapping(function(fallback)
-					cmp.select_next_item({behavior = cmp.SelectBehavior.Select})
-				end, {"i", "s"}, false),
+				["<S-Tab>"] = cmp.mapping(function(fallback)
+					if not cmp.visible() then
+						cmp.complete()
+					end
+					if cmp.get_selected_entry() == nil then
+						cmp.select_next_item({behavior = cmp.SelectBehavior.Select})
+					else
+						fallback()
+					end
+				end, {"i", "s"}),
 				["l"] = openedMapping(function(fallback)
 					cmp.confirm({select = true})
 				end, {"i", "s"}, true),
