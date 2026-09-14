@@ -56,4 +56,6 @@ return {bind = function()
 	end})
 
 	vim.keymap.set("n", "gq", "<Cmd>Format<CR>")
+
+	vim.keymap.set("i", "<C-Backspace>", "<Cmd>normal! bdw<CR>")
 end}
