@@ -16,6 +16,7 @@ blueman
 slurp
 sxiv
 mpv
+tree-sitter-cli
 nvim
 libqalculate
 noto-fonts-cjk
