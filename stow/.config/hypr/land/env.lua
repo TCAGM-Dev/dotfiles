@@ -6,3 +6,5 @@ hl.env("HYPRCURSOR_SIZE", "24")
 hl.env("ENABLE_HDR_WSI", "1")
 
 hl.env("EDITOR", "nvim")
+
+hl.env("MANGOHUD", "1")
