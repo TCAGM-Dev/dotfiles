@@ -87,6 +87,10 @@
     "tui-nvim": {
       "rev": "2eeff3ac921f53bdb837d23d6e4501d97807994c",
       "src": "https://github.com/is0n/tui-nvim"
+    },
+    "vim-godot": {
+      "rev": "2cecd0c83a7b3f012142a584d53a3a51be246c8e",
+      "src": "https://github.com/habamax/vim-godot"
     }
   }
 }

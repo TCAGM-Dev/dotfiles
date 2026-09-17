@@ -91,6 +91,7 @@ require("plugins").load({
 	require("plugins/galaxyline"),
 	require("plugins/blame"),
 	require("plugins/render-markdown"),
+	require("plugins/godot"),
 	require("plugins/inline-diagnostic"),
 })
 
