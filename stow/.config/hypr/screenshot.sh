@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-FOLDER=~/images/screenshots
+FOLDER=${SCREENSHOT_DIR:-$(xdg-user-dir PICTURES)/screenshots}
 FILENAME=$(date +"%Y-%m-%d_%H:%M:%S")
 if [ $1 == "display" ]; then
     FILE="$FOLDER/$FILENAME.display.png"
