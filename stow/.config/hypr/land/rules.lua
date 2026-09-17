@@ -87,12 +87,34 @@ end
 -- workspace = special:tray, layout:scrolling, layoutopt:direction:down
 hl.workspace_rule({workspace = "special:tray", layout = "scrolling", layout_opts = {direction = "down"}}) -- TODO: test
 
+-- Popups
+local POPUP_TAG = "popup"
+
+local popup_matchers = {}
+table.insert(popup_matchers, {
+	initial_class = "(Thunar|thunar)",
+	initial_title = "^Rename \".*\"$",
+})
+for _, t in ipairs({
+	"Please Confirm...",
+	"Files have been modified outside Godot",
+	"",
+}) do
+	table.insert(popup_matchers, {
+		initial_class = "^Godot$",
+		initial_title = "^" .. t .. "$",
+	})
+end
+
+for _, matcher in ipairs(popup_matchers) do
+	hl.window_rule({
+		match = matcher,
+
+		tag = POPUP_TAG,
+	})
+end
 hl.window_rule({
-    name = "float_thunar_rename_popup",
-	match = {
-		initial_class = "(Thunar|thunar)",
-		initial_title = "^Rename \".*\"$",
-	},
+	match = {tag = POPUP_TAG},
 
     float = true,
     stay_focused = true,
