@@ -3,7 +3,7 @@ local util = require("util")
 ---@alias Src string
 
 ---@class PluginSpec
----@field src Src[]|Src Plugin source
+---@field src? Src[]|Src Plugin source
 ---@field config? fun(): nil Called after installation, should call setup() or equivalent
 
 local module = {}
@@ -15,7 +15,9 @@ function module.load(plugins, deleteInactive)
 
 	for _, plugin in ipairs(plugins) do
 		local src = plugin.src
-		if type(src) == "string" then
+
+		if src == nil then
+		elseif type(src) == "string" then
 			table.insert(sources, src)
 		else
 			util.insertAll(sources, src)
