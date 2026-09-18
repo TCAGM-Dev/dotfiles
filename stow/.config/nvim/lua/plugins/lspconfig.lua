@@ -1,4 +1,4 @@
-return function(lsps) return { ---@type Spec
+return function(lsps) return { ---@type PluginSpec
 	src = "https://github.com/neovim/nvim-lspconfig",
 	config = function()
 		for name, opts in pairs(lsps) do

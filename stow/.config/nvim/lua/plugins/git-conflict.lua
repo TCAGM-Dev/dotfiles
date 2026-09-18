@@ -1,4 +1,4 @@
----@type Spec
+---@type PluginSpec
 return {
 	src = "https://github.com/akinsho/git-conflict.nvim",
 	config = function()

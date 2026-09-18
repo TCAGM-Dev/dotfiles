@@ -1,4 +1,4 @@
----@type Spec
+---@type PluginSpec
 return {
 	src = "https://github.com/romgrk/barbar.nvim",
 	dependencies = {

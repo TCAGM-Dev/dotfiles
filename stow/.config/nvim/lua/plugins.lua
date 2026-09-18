@@ -2,14 +2,14 @@ local util = require("util")
 
 ---@alias Src string
 
----@class Spec
+---@class PluginSpec
 ---@field src Src Plugin source
 ---@field config? fun(): nil Called after installation, should call setup() or equivalent
 ---@field dependencies? Src[] List of dependency plugins that should be added
 
 local module = {}
 
----@param plugins Spec[]
+---@param plugins PluginSpec[]
 ---@param deleteInactive? boolean Clear files of plugins deemed "inactive" by vim.pack, defaults to `true`
 function module.load(plugins, deleteInactive)
 	local sources = {} ---@type Src[]

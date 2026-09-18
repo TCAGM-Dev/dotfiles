@@ -1,4 +1,4 @@
----@type Spec
+---@type PluginSpec
 return {
 	src = "https://github.com/rachartier/tiny-inline-diagnostic.nvim",
 	config = function()

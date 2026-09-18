@@ -1,6 +1,6 @@
 local util = require("util")
 
----@type Spec
+---@type PluginSpec
 return {
 	src = "https://github.com/is0n/tui-nvim",
 	config = function()
@@ -10,7 +10,7 @@ return {
 			local path = vim.fn.expand("%:p:h")
 
 			if util.startsWith(path, "term://") then
-				path = vim.fn.getcwd()
+				path = vim.fn.getcwd() -- TODO: Somehow open in the terminal's cwd?
 			end
 
 			local temp = vim.fn.system("mktemp '/tmp/tui-nvim.XXXXXX'"):sub(1, -2)

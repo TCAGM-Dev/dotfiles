@@ -1,4 +1,4 @@
----@type Spec
+---@type PluginSpec
 return {
 	src = "https://github.com/ibhagwan/fzf-lua",
 	dependencies = {"https://github.com/nvim-tree/nvim-web-devicons"},

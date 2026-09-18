@@ -1,4 +1,4 @@
----@type Spec
+---@type PluginSpec
 return {
 	src = "xiyaowong/transparent.nvim",
 	config = function()
