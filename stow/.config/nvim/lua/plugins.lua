@@ -3,9 +3,8 @@ local util = require("util")
 ---@alias Src string
 
 ---@class PluginSpec
----@field src Src Plugin source
+---@field src Src[]|Src Plugin source
 ---@field config? fun(): nil Called after installation, should call setup() or equivalent
----@field dependencies? Src[] List of dependency plugins that should be added
 
 local module = {}
 
@@ -15,9 +14,11 @@ function module.load(plugins, deleteInactive)
 	local sources = {} ---@type Src[]
 
 	for _, plugin in ipairs(plugins) do
-		table.insert(sources, plugin.src)
-		if plugin.dependencies ~= nil then
-			util.insertAll(sources, plugin.dependencies)
+		local src = plugin.src
+		if type(src) == "string" then
+			table.insert(sources, src)
+		else
+			util.insertAll(sources, src)
 		end
 	end
 

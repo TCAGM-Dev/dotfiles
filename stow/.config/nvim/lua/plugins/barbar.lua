@@ -1,7 +1,8 @@
 ---@type PluginSpec
 return {
-	src = "https://github.com/romgrk/barbar.nvim",
-	dependencies = {
+	src = {
+		"https://github.com/romgrk/barbar.nvim",
+
 		"https://github.com/nvim-tree/nvim-web-devicons",
 		"https://github.com/lewis6991/gitsigns.nvim",
 	},

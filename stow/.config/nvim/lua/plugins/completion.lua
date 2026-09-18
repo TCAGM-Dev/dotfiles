@@ -1,7 +1,8 @@
 ---@type PluginSpec
 return {
-	src = "https://github.com/hrsh7th/nvim-cmp",
-	dependencies = {
+	src = {
+		"https://github.com/hrsh7th/nvim-cmp",
+
 		"https://github.com/hrsh7th/cmp-nvim-lsp",
 		"https://github.com/hrsh7th/cmp-buffer",
 	},
