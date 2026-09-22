@@ -98,6 +98,9 @@ table.insert(popup_matchers, {
 for _, t in ipairs({
 	"Please Confirm...",
 	"Files have been modified outside Godot",
+	"Create Folder",
+	"Event Configuration for \".*\"",
+	"Change Type of \".*\"",
 	"",
 }) do
 	table.insert(popup_matchers, {
