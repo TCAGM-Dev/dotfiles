@@ -83,6 +83,7 @@ require("plugins").load({
 		sqlls = {},
 		basedpyright = {},
 		gdscript = {},
+		rust_analyzer = {},
 	}),
 	require("plugins/oil"),
 	require("plugins/tui"),
