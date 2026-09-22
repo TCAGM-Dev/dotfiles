@@ -78,6 +78,7 @@ which "docker-compose" &>/dev/null && alias dc="docker-compose"
 which "mktemp" &>/dev/null && cdtemp() {
 	cd $(mktemp -d ${@:1})
 }
+alias open=xdg-open
 
 which "nvim" &>/dev/null && which "vim" &>/dev/null || alias vim=nvim
 which "vim" &>/dev/null && which "vi" &>/dev/null || alias vi=nvim
