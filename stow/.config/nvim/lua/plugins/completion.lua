@@ -62,7 +62,7 @@ return {
 				end, {"i", "s"}, true),
 				["k"] = openedMapping(function(fallback)
 					cmp.select_prev_item({behavior = cmp.SelectBehavior.Select})
-				end, {"i", "s"}, true)
+				end, {"i", "s"}, true),
 			}),
 
 			sources = cmp.config.sources({
