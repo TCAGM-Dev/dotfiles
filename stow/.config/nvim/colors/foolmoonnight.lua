@@ -33,7 +33,7 @@ hl("PmenuSbar", {link = "Pmenu"}) -- Scrollbar background in popup menus
 -- Base syntax
 hl("Boolean", {link = "Number"})
 hl("Character", {link = "String"})
-hl("Comment", {fg = "#5c6370", ctermfg = 59})
+hl("Comment", {fg = "#757c89", ctermfg = 59})
 hl("Conditional", {fg = "#c678dd", ctermfg = 170})
 hl("Constant", {fg = "#56b6c2", ctermfg = 38})
 hl("Debug", {})
