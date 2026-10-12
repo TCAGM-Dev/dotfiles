@@ -76,8 +76,8 @@
 😠,angry face
 🤬,face with symbols on mouth
 😡,pouting face
-☠️,skull and crossbones
 💀,skull
+☠️,skull and crossbones
 😈,smiling face with horns
 🤧,sneezing face
 🤒,face with thermometer
