@@ -25,6 +25,17 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 	end,
 })
 
+vim.api.nvim_create_autocmd("VimEnter", {
+	desc = "cd to git repo root",
+	callback = function()
+		local repo_root = vim.fn.system("git rev-parse --show-toplevel"):sub(1, -2)
+
+		if vim.v.shell_error ~= 0 then return end
+
+		vim.fn.chdir(repo_root)
+	end,
+})
+
 -- USER COMMANDS: DEFINE CUSTOM COMMANDS
 --
 -- See `:h nvim_create_user_command()` and `:h user-commands`
