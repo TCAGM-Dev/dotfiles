@@ -82,3 +82,5 @@ alias open=xdg-open
 
 which "nvim" &>/dev/null && which "vim" &>/dev/null || alias vim=nvim
 which "vim" &>/dev/null && which "vi" &>/dev/null || alias vi=nvim
+
+which "nsxiv" &>/dev/null && which "sxiv" &>/dev/null || alias sxiv=nsxiv

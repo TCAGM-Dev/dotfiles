@@ -14,5 +14,5 @@ ln -s /usr/bin/kitty /usr/bin/xdg-terminal-exec # Make Kitty the XDG default ter
 mkdir $HOME/.bin # Make ~/.bin as defined in .zshrc
 
 # Mime defaults
-xdg-mime default sxiv.desktop image/jpeg image/png image/bmp image/svg+xml
+xdg-mime default nsxiv.desktop image/jpeg image/png image/bmp image/svg+xml
 xdg-mime default mpv.desktop video/x-msvideo video/mp4 vodei/mpeg video/ogg video/webm video/3gpp video/3gpp2

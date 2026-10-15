@@ -14,7 +14,7 @@ zsh
 grim
 blueman
 slurp
-sxiv
+nsxiv
 mpv
 tree-sitter-cli
 nvim
