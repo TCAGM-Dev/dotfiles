@@ -9,7 +9,7 @@ hl.bind(mainMod .. " + C", hl.dsp.window.close("activewindow"), {repeating = tru
 hl.bind(mainMod .. " + ALT + C", hl.dsp.window.kill("activewindow"))
 hl.bind(mainMod .. " + F4", hl.dsp.exec_cmd(apps.powermenu))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(apps.fileManager))
-hl.bind(mainMod .. " + V", hl.dsp.window.float("toggle", "activewindow"))
+hl.bind(mainMod .. " + V", hl.dsp.window.float({window = "activewindow", action = "toggle"}))
 hl.bind(mainMod .. " + P", hl.dsp.exec_cmd(apps.colorpicker))
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.exec_cmd("~/.config/hypr/screenshot.sh"))
 hl.bind(mainMod .. " + SHIFT + ESCAPE", hl.dsp.exec_cmd(apps.terminal .. " " .. apps.top))
